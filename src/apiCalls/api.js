@@ -9,3 +9,8 @@ export const fetchMovieData = async (url) => {
   }
 
 };
+
+
+//.results --array
+//iterate through array
+//
