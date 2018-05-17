@@ -16,7 +16,7 @@ class App extends Component {
     const response = await fetchMovieData(url);
     const results = response.results
 
-    this.props.getMovies(results)
+    this.props.storeMovies(results)
 
   }
   
