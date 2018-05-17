@@ -1,5 +1,5 @@
 import { mockCleanedData } from "../mockData";
-import { getFilms } from './Actions'
+import { getMovies } from './Actions'
 
 describe('Actions', () => {
   describe('GET MOVIE', () => {
@@ -8,7 +8,7 @@ describe('Actions', () => {
         type: 'GET_MOVIES',
         movies: mockCleanedData
       };
-      let actual = getFilms(mockCleanedData);
+      let actual = getMovies(mockCleanedData);
 
       expect(actual).toEqual(expected);
     });

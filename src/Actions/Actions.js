@@ -1,4 +1,4 @@
-export const getFilms = (movies) => ({
+export const getMovies = (movies) => ({
   type: 'GET_MOVIES',
   movies
 });
