@@ -1,6 +1,7 @@
 import React from 'react';
 import { cleanData } from '../../apiCalls/helper';
 import Card from '../Card/Card';
+import './CardHolder.css';
 
 const CardHolder = ({ movies }) => {
   const parsedMovies = cleanData(movies);
@@ -12,7 +13,7 @@ const CardHolder = ({ movies }) => {
   });
 
   return (
-    <div>
+    <div className='Card-container'>
       {movieCards}
     </div>
   );
