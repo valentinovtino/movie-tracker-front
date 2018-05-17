@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { fetchMovieData } from '../../apiCalls/api';
 import './App.css';
+import CardHolderContainer from '../../Containers/CardHolderContainer';
 
 class App extends Component {
   constructor(props) {
@@ -26,7 +27,7 @@ class App extends Component {
         <header className="App-header">
           <h1 className="App-title">Welcome to Movie-Tracker</h1>
         </header>
-
+        <CardHolderContainer />
       </div>
     );
   }

@@ -1,9 +1,10 @@
 import React from 'react';
 import { mockObj } from '../mockData';
 import { mapDispatchToProps } from './AppContainer';
+import { mapStateToProps } from './CardHolderContainer';
 import { getMovies } from '../Actions/Actions';
 
-describe('Container', () => {
+describe('CONTAINERS', () => {
   describe('AppContainer', () => {
     it('calls dispatch with an getMovies action when getMovies is called', () => {
         //mock dispatch fn
@@ -22,4 +23,18 @@ describe('Container', () => {
       expect(dispatch).toHaveBeenCalledWith(actionToDispatch)
     });
   });
+
+  describe('CardHolderContainer', () => {
+    it('should return an array of movies', () => {
+      const mockState = {
+        movies: mockObj.results
+      };
+
+      let expected = mockObj.results 
+
+      const mappedProps = mapStateToProps(mockState).movies
+
+      expect(mappedProps).toEqual(expected)
+    })
+  })
 });
