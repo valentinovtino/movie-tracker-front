@@ -1,26 +1,21 @@
 /* CONTAINER STYLES */
 .Card-container {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-evenly;
+    flex-wrap: wrap;
     padding: 12px;
 }
-
-
 
 /* CARD STYLES */
 .Card {
     border: 1px solid pink;
-    height: fit-content;
     width: 350px;
-    padding: 20px;
-    margin-bottom: 10px;
-
+    margin-bottom: 20px;
 }
 
 .Card img {
-    width: fit-content;
-    height: fit-content;
+    height: 100%;
+    width: 100%;
 }
 
 .flip-container {
@@ -28,8 +23,7 @@
     -moz-perspective: 1000;
     -o-perspective: 1000;
     perspective: 1000;
-  
-      border: 1px solid #ccc;
+    margin-bottom: 20px;
   }
   
       .flip-container:hover .flipper,  
@@ -42,7 +36,7 @@
   
   .flip-container, .front, .back {
       width: 320px;
-      height: 427px;
+      height: 500px;
   }
   
   .flipper {
