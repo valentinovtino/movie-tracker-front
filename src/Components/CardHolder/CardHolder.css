@@ -19,7 +19,8 @@
 }
 
 .Card img {
-    width:150px;
+    width: fit-content;
+    height: fit-content;
 }
 
 .flip-container {
