@@ -33,6 +33,10 @@ class LogInPage extends Component {
         this.setState({
           errorMessage: 'That email has already been taken'
         });
+      } else if (response.ok) {
+        this.setState({
+          errorMessage: ''
+        });
       }
     } 
   }

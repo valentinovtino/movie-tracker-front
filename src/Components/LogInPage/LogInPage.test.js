@@ -15,6 +15,7 @@ describe('LogInPage', () => {
 
   it('should have an initial state of email and password, set to empty strings', () => {
     const expected = {
+      errorMessage: '',
       formState: 'create-user',
       name: '',
       email: '',
@@ -33,6 +34,7 @@ describe('LogInPage', () => {
     };
 
     const expectedState = {
+      errorMessage: '',
       formState: 'create-user',
       name: '',
       email: 'CoolGuy@aol.com',
@@ -72,6 +74,19 @@ describe('LogInPage', () => {
     wrapper.find('button.log-in').simulate('click')
 
     expect(wrapper.find('input').length).toEqual(2)
+  });
+
+  it('should set errorMessage in state if fetch call goes awry', () => {
+    
+    wrapper.setProps({ postUser: jest.fn().mockImplementation(() => {
+      return window.fetch = jest.fn().mockImplementation(() => Promise.resolve({ ok: false }))
+      }) 
+    })
+    wrapper.instance().handleSubmit({preventDefault: jest.fn()})
+    
+    const expected = 'That email has already been taken';
+    
+    expect(wrapper.state().errorMessage).toEqual(expected);
   });
 
 });

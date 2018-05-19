@@ -112,6 +112,12 @@ ReactWrapper {
                                                                         placeholder="Enter a password"
                                                                         value=""
                                                       />
+                                                      <button
+                                                                        type="submit"
+                                                      >
+                                                                        Submit 
+                                                      </button>
+                                                      <p />
                                     </form>
                   </div>
 </div>,
@@ -227,6 +233,12 @@ ReactWrapper {
                                                                 placeholder="Enter a password"
                                                                 value=""
                                                 />
+                                                <button
+                                                                type="submit"
+                                                >
+                                                                Submit 
+                                                </button>
+                                                <p />
                                 </form>
                 </div>
 </div>,
@@ -295,8 +307,8 @@ ReactWrapper {
           "_debugIsCurrentlyTiming": false,
           "_debugOwner": [Circular],
           "_debugSource": Object {
-            "fileName": "/Users/myhomefolder/TURING/mod3/movie-tracker-front/src/Components/LogInPage/LogInPage.js",
-            "lineNumber": 31,
+            "fileName": "/Users/cameronbuscher/Code/turing/mod-3/movie-tracker/movie-tracker-front/src/Components/LogInPage/LogInPage.js",
+            "lineNumber": 47,
           },
           "alternate": null,
           "child": FiberNode {
@@ -304,8 +316,8 @@ ReactWrapper {
             "_debugIsCurrentlyTiming": false,
             "_debugOwner": [Circular],
             "_debugSource": Object {
-              "fileName": "/Users/myhomefolder/TURING/mod3/movie-tracker-front/src/Components/LogInPage/LogInPage.js",
-              "lineNumber": 32,
+              "fileName": "/Users/cameronbuscher/Code/turing/mod-3/movie-tracker/movie-tracker-front/src/Components/LogInPage/LogInPage.js",
+              "lineNumber": 48,
             },
             "alternate": null,
             "child": FiberNode {
@@ -313,8 +325,8 @@ ReactWrapper {
               "_debugIsCurrentlyTiming": false,
               "_debugOwner": [Circular],
               "_debugSource": Object {
-                "fileName": "/Users/myhomefolder/TURING/mod3/movie-tracker-front/src/Components/LogInPage/LogInPage.js",
-                "lineNumber": 33,
+                "fileName": "/Users/cameronbuscher/Code/turing/mod-3/movie-tracker/movie-tracker-front/src/Components/LogInPage/LogInPage.js",
+                "lineNumber": 49,
               },
               "alternate": null,
               "child": null,
@@ -346,8 +358,8 @@ ReactWrapper {
                 "_debugIsCurrentlyTiming": false,
                 "_debugOwner": [Circular],
                 "_debugSource": Object {
-                  "fileName": "/Users/myhomefolder/TURING/mod3/movie-tracker-front/src/Components/LogInPage/LogInPage.js",
-                  "lineNumber": 36,
+                  "fileName": "/Users/cameronbuscher/Code/turing/mod-3/movie-tracker/movie-tracker-front/src/Components/LogInPage/LogInPage.js",
+                  "lineNumber": 52,
                 },
                 "alternate": null,
                 "child": null,
@@ -449,8 +461,8 @@ ReactWrapper {
               "_debugIsCurrentlyTiming": false,
               "_debugOwner": [Circular],
               "_debugSource": Object {
-                "fileName": "/Users/myhomefolder/TURING/mod3/movie-tracker-front/src/Components/LogInPage/LogInPage.js",
-                "lineNumber": 40,
+                "fileName": "/Users/cameronbuscher/Code/turing/mod-3/movie-tracker/movie-tracker-front/src/Components/LogInPage/LogInPage.js",
+                "lineNumber": 56,
               },
               "alternate": null,
               "child": FiberNode {
@@ -458,8 +470,8 @@ ReactWrapper {
                 "_debugIsCurrentlyTiming": false,
                 "_debugOwner": [Circular],
                 "_debugSource": Object {
-                  "fileName": "/Users/myhomefolder/TURING/mod3/movie-tracker-front/src/Components/LogInPage/LogInPage.js",
-                  "lineNumber": 42,
+                  "fileName": "/Users/cameronbuscher/Code/turing/mod-3/movie-tracker/movie-tracker-front/src/Components/LogInPage/LogInPage.js",
+                  "lineNumber": 58,
                 },
                 "alternate": null,
                 "child": null,
@@ -493,8 +505,8 @@ ReactWrapper {
                   "_debugIsCurrentlyTiming": false,
                   "_debugOwner": [Circular],
                   "_debugSource": Object {
-                    "fileName": "/Users/myhomefolder/TURING/mod3/movie-tracker-front/src/Components/LogInPage/LogInPage.js",
-                    "lineNumber": 44,
+                    "fileName": "/Users/cameronbuscher/Code/turing/mod-3/movie-tracker/movie-tracker-front/src/Components/LogInPage/LogInPage.js",
+                    "lineNumber": 60,
                   },
                   "alternate": null,
                   "child": null,
@@ -528,8 +540,8 @@ ReactWrapper {
                     "_debugIsCurrentlyTiming": false,
                     "_debugOwner": [Circular],
                     "_debugSource": Object {
-                      "fileName": "/Users/myhomefolder/TURING/mod3/movie-tracker-front/src/Components/LogInPage/LogInPage.js",
-                      "lineNumber": 45,
+                      "fileName": "/Users/cameronbuscher/Code/turing/mod-3/movie-tracker/movie-tracker-front/src/Components/LogInPage/LogInPage.js",
+                      "lineNumber": 61,
                     },
                     "alternate": null,
                     "child": null,
@@ -558,7 +570,77 @@ ReactWrapper {
                     },
                     "ref": null,
                     "return": [Circular],
-                    "sibling": null,
+                    "sibling": FiberNode {
+                      "_debugID": 14,
+                      "_debugIsCurrentlyTiming": false,
+                      "_debugOwner": [Circular],
+                      "_debugSource": Object {
+                        "fileName": "/Users/cameronbuscher/Code/turing/mod-3/movie-tracker/movie-tracker-front/src/Components/LogInPage/LogInPage.js",
+                        "lineNumber": 62,
+                      },
+                      "alternate": null,
+                      "child": null,
+                      "effectTag": 0,
+                      "expirationTime": 0,
+                      "firstEffect": null,
+                      "index": 3,
+                      "key": null,
+                      "lastEffect": null,
+                      "memoizedProps": Object {
+                        "children": " Submit ",
+                        "type": "submit",
+                      },
+                      "memoizedState": null,
+                      "mode": 0,
+                      "nextEffect": null,
+                      "pendingProps": Object {
+                        "children": " Submit ",
+                        "type": "submit",
+                      },
+                      "ref": null,
+                      "return": [Circular],
+                      "sibling": FiberNode {
+                        "_debugID": 15,
+                        "_debugIsCurrentlyTiming": false,
+                        "_debugOwner": [Circular],
+                        "_debugSource": Object {
+                          "fileName": "/Users/cameronbuscher/Code/turing/mod-3/movie-tracker/movie-tracker-front/src/Components/LogInPage/LogInPage.js",
+                          "lineNumber": 63,
+                        },
+                        "alternate": null,
+                        "child": null,
+                        "effectTag": 0,
+                        "expirationTime": 0,
+                        "firstEffect": null,
+                        "index": 4,
+                        "key": null,
+                        "lastEffect": null,
+                        "memoizedProps": Object {
+                          "children": "",
+                        },
+                        "memoizedState": null,
+                        "mode": 0,
+                        "nextEffect": null,
+                        "pendingProps": Object {
+                          "children": "",
+                        },
+                        "ref": null,
+                        "return": [Circular],
+                        "sibling": null,
+                        "stateNode": <p />,
+                        "tag": 5,
+                        "type": "p",
+                        "updateQueue": null,
+                      },
+                      "stateNode": <button
+                        type="submit"
+>
+                        Submit 
+</button>,
+                      "tag": 5,
+                      "type": "button",
+                      "updateQueue": null,
+                    },
                     "stateNode": <input
                       type="password"
                       name="password"
@@ -618,7 +700,14 @@ ReactWrapper {
                     type="password"
                     value=""
 />,
+                  <button
+                    type="submit"
+>
+                     Submit 
+</button>,
+                  <p />,
                 ],
+                "onSubmit": [Function],
               },
               "memoizedState": null,
               "mode": 0,
@@ -646,7 +735,14 @@ ReactWrapper {
                     type="password"
                     value=""
 />,
+                  <button
+                    type="submit"
+>
+                     Submit 
+</button>,
+                  <p />,
                 ],
+                "onSubmit": [Function],
               },
               "ref": null,
               "return": [Circular],
@@ -670,6 +766,12 @@ ReactWrapper {
                                 placeholder="Enter a password"
                                 value=""
                 />
+                <button
+                                type="submit"
+                >
+                                Submit 
+                </button>
+                <p />
 </form>,
               "tag": 5,
               "type": "form",
@@ -721,7 +823,9 @@ ReactWrapper {
                                 Log In
                 </button>
 </div>,
-              <form>
+              <form
+                onSubmit={[Function]}
+>
                 <input
                                 name="name"
                                 onChange={[Function]}
@@ -743,6 +847,12 @@ ReactWrapper {
                                 type="password"
                                 value=""
                 />
+                <button
+                                type="submit"
+                >
+                                 Submit 
+                </button>
+                <p />
 </form>,
             ],
           },
@@ -769,7 +879,9 @@ ReactWrapper {
                                 Log In
                 </button>
 </div>,
-              <form>
+              <form
+                onSubmit={[Function]}
+>
                 <input
                                 name="name"
                                 onChange={[Function]}
@@ -791,6 +903,12 @@ ReactWrapper {
                                 type="password"
                                 value=""
                 />
+                <button
+                                type="submit"
+                >
+                                 Submit 
+                </button>
+                <p />
 </form>,
             ],
           },
@@ -833,6 +951,12 @@ ReactWrapper {
                                     placeholder="Enter a password"
                                     value=""
                         />
+                        <button
+                                    type="submit"
+                        >
+                                    Submit 
+                        </button>
+                        <p />
             </form>
 </div>,
           "tag": 5,
@@ -848,6 +972,7 @@ ReactWrapper {
         "memoizedProps": Object {},
         "memoizedState": Object {
           "email": "",
+          "errorMessage": "",
           "formState": "create-user",
           "name": "",
           "password": "",
@@ -951,6 +1076,12 @@ ReactWrapper {
                                                                         placeholder="Enter a password"
                                                                         value=""
                                                       />
+                                                      <button
+                                                                        type="submit"
+                                                      >
+                                                                        Submit 
+                                                      </button>
+                                                      <p />
                                     </form>
                   </div>
 </div>,
@@ -1066,6 +1197,12 @@ ReactWrapper {
                                                                 placeholder="Enter a password"
                                                                 value=""
                                                 />
+                                                <button
+                                                                type="submit"
+                                                >
+                                                                Submit 
+                                                </button>
+                                                <p />
                                 </form>
                 </div>
 </div>,
@@ -1136,11 +1273,13 @@ ReactWrapper {
       "_reactInternalInstance": Object {},
       "context": Object {},
       "handleChange": [Function],
+      "handleSubmit": [Function],
       "props": Object {},
       "refs": Object {},
       "requestForm": [Function],
       "state": Object {
         "email": "",
+        "errorMessage": "",
         "formState": "create-user",
         "name": "",
         "password": "",
@@ -1193,6 +1332,12 @@ ReactWrapper {
                         placeholder="Enter a password"
                         value=""
                 />
+                <button
+                        type="submit"
+                >
+                        Submit 
+                </button>
+                <p />
         </form>
 </div>,
       "key": undefined,
@@ -1217,7 +1362,9 @@ ReactWrapper {
                         Log In
             </button>
 </div>,
-          <form>
+          <form
+            onSubmit={[Function]}
+>
             <input
                         name="name"
                         onChange={[Function]}
@@ -1239,6 +1386,12 @@ ReactWrapper {
                         type="password"
                         value=""
             />
+            <button
+                        type="submit"
+            >
+                         Submit 
+            </button>
+            <p />
 </form>,
         ],
       },
@@ -1349,6 +1502,12 @@ ReactWrapper {
                         placeholder="Enter a password"
                         value=""
             />
+            <button
+                        type="submit"
+            >
+                        Submit 
+            </button>
+            <p />
 </form>,
           "key": undefined,
           "nodeType": "host",
@@ -1375,7 +1534,14 @@ ReactWrapper {
                 type="password"
                 value=""
 />,
+              <button
+                type="submit"
+>
+                 Submit 
+</button>,
+              <p />,
             ],
+            "onSubmit": [Function],
           },
           "ref": null,
           "rendered": Array [
@@ -1444,6 +1610,37 @@ ReactWrapper {
                 undefined,
               ],
               "type": "input",
+            },
+            Object {
+              "instance": <button
+                type="submit"
+>
+                Submit 
+</button>,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": " Submit ",
+                "type": "submit",
+              },
+              "ref": null,
+              "rendered": Array [
+                " Submit ",
+              ],
+              "type": "button",
+            },
+            Object {
+              "instance": <p />,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "",
+              },
+              "ref": null,
+              "rendered": Array [
+                "",
+              ],
+              "type": "p",
             },
           ],
           "type": "form",
@@ -1554,6 +1751,12 @@ ReactWrapper {
                                                                                 placeholder="Enter a password"
                                                                                 value=""
                                                             />
+                                                            <button
+                                                                                type="submit"
+                                                            >
+                                                                                Submit 
+                                                            </button>
+                                                            <p />
                                         </form>
                     </div>
 </div>,
@@ -1669,6 +1872,12 @@ ReactWrapper {
                                                                         placeholder="Enter a password"
                                                                         value=""
                                                       />
+                                                      <button
+                                                                        type="submit"
+                                                      >
+                                                                        Submit 
+                                                      </button>
+                                                      <p />
                                     </form>
                   </div>
 </div>,
@@ -1737,8 +1946,8 @@ ReactWrapper {
             "_debugIsCurrentlyTiming": false,
             "_debugOwner": [Circular],
             "_debugSource": Object {
-              "fileName": "/Users/myhomefolder/TURING/mod3/movie-tracker-front/src/Components/LogInPage/LogInPage.js",
-              "lineNumber": 31,
+              "fileName": "/Users/cameronbuscher/Code/turing/mod-3/movie-tracker/movie-tracker-front/src/Components/LogInPage/LogInPage.js",
+              "lineNumber": 47,
             },
             "alternate": null,
             "child": FiberNode {
@@ -1746,8 +1955,8 @@ ReactWrapper {
               "_debugIsCurrentlyTiming": false,
               "_debugOwner": [Circular],
               "_debugSource": Object {
-                "fileName": "/Users/myhomefolder/TURING/mod3/movie-tracker-front/src/Components/LogInPage/LogInPage.js",
-                "lineNumber": 32,
+                "fileName": "/Users/cameronbuscher/Code/turing/mod-3/movie-tracker/movie-tracker-front/src/Components/LogInPage/LogInPage.js",
+                "lineNumber": 48,
               },
               "alternate": null,
               "child": FiberNode {
@@ -1755,8 +1964,8 @@ ReactWrapper {
                 "_debugIsCurrentlyTiming": false,
                 "_debugOwner": [Circular],
                 "_debugSource": Object {
-                  "fileName": "/Users/myhomefolder/TURING/mod3/movie-tracker-front/src/Components/LogInPage/LogInPage.js",
-                  "lineNumber": 33,
+                  "fileName": "/Users/cameronbuscher/Code/turing/mod-3/movie-tracker/movie-tracker-front/src/Components/LogInPage/LogInPage.js",
+                  "lineNumber": 49,
                 },
                 "alternate": null,
                 "child": null,
@@ -1788,8 +1997,8 @@ ReactWrapper {
                   "_debugIsCurrentlyTiming": false,
                   "_debugOwner": [Circular],
                   "_debugSource": Object {
-                    "fileName": "/Users/myhomefolder/TURING/mod3/movie-tracker-front/src/Components/LogInPage/LogInPage.js",
-                    "lineNumber": 36,
+                    "fileName": "/Users/cameronbuscher/Code/turing/mod-3/movie-tracker/movie-tracker-front/src/Components/LogInPage/LogInPage.js",
+                    "lineNumber": 52,
                   },
                   "alternate": null,
                   "child": null,
@@ -1891,8 +2100,8 @@ ReactWrapper {
                 "_debugIsCurrentlyTiming": false,
                 "_debugOwner": [Circular],
                 "_debugSource": Object {
-                  "fileName": "/Users/myhomefolder/TURING/mod3/movie-tracker-front/src/Components/LogInPage/LogInPage.js",
-                  "lineNumber": 40,
+                  "fileName": "/Users/cameronbuscher/Code/turing/mod-3/movie-tracker/movie-tracker-front/src/Components/LogInPage/LogInPage.js",
+                  "lineNumber": 56,
                 },
                 "alternate": null,
                 "child": FiberNode {
@@ -1900,8 +2109,8 @@ ReactWrapper {
                   "_debugIsCurrentlyTiming": false,
                   "_debugOwner": [Circular],
                   "_debugSource": Object {
-                    "fileName": "/Users/myhomefolder/TURING/mod3/movie-tracker-front/src/Components/LogInPage/LogInPage.js",
-                    "lineNumber": 42,
+                    "fileName": "/Users/cameronbuscher/Code/turing/mod-3/movie-tracker/movie-tracker-front/src/Components/LogInPage/LogInPage.js",
+                    "lineNumber": 58,
                   },
                   "alternate": null,
                   "child": null,
@@ -1935,8 +2144,8 @@ ReactWrapper {
                     "_debugIsCurrentlyTiming": false,
                     "_debugOwner": [Circular],
                     "_debugSource": Object {
-                      "fileName": "/Users/myhomefolder/TURING/mod3/movie-tracker-front/src/Components/LogInPage/LogInPage.js",
-                      "lineNumber": 44,
+                      "fileName": "/Users/cameronbuscher/Code/turing/mod-3/movie-tracker/movie-tracker-front/src/Components/LogInPage/LogInPage.js",
+                      "lineNumber": 60,
                     },
                     "alternate": null,
                     "child": null,
@@ -1970,8 +2179,8 @@ ReactWrapper {
                       "_debugIsCurrentlyTiming": false,
                       "_debugOwner": [Circular],
                       "_debugSource": Object {
-                        "fileName": "/Users/myhomefolder/TURING/mod3/movie-tracker-front/src/Components/LogInPage/LogInPage.js",
-                        "lineNumber": 45,
+                        "fileName": "/Users/cameronbuscher/Code/turing/mod-3/movie-tracker/movie-tracker-front/src/Components/LogInPage/LogInPage.js",
+                        "lineNumber": 61,
                       },
                       "alternate": null,
                       "child": null,
@@ -2000,7 +2209,77 @@ ReactWrapper {
                       },
                       "ref": null,
                       "return": [Circular],
-                      "sibling": null,
+                      "sibling": FiberNode {
+                        "_debugID": 14,
+                        "_debugIsCurrentlyTiming": false,
+                        "_debugOwner": [Circular],
+                        "_debugSource": Object {
+                          "fileName": "/Users/cameronbuscher/Code/turing/mod-3/movie-tracker/movie-tracker-front/src/Components/LogInPage/LogInPage.js",
+                          "lineNumber": 62,
+                        },
+                        "alternate": null,
+                        "child": null,
+                        "effectTag": 0,
+                        "expirationTime": 0,
+                        "firstEffect": null,
+                        "index": 3,
+                        "key": null,
+                        "lastEffect": null,
+                        "memoizedProps": Object {
+                          "children": " Submit ",
+                          "type": "submit",
+                        },
+                        "memoizedState": null,
+                        "mode": 0,
+                        "nextEffect": null,
+                        "pendingProps": Object {
+                          "children": " Submit ",
+                          "type": "submit",
+                        },
+                        "ref": null,
+                        "return": [Circular],
+                        "sibling": FiberNode {
+                          "_debugID": 15,
+                          "_debugIsCurrentlyTiming": false,
+                          "_debugOwner": [Circular],
+                          "_debugSource": Object {
+                            "fileName": "/Users/cameronbuscher/Code/turing/mod-3/movie-tracker/movie-tracker-front/src/Components/LogInPage/LogInPage.js",
+                            "lineNumber": 63,
+                          },
+                          "alternate": null,
+                          "child": null,
+                          "effectTag": 0,
+                          "expirationTime": 0,
+                          "firstEffect": null,
+                          "index": 4,
+                          "key": null,
+                          "lastEffect": null,
+                          "memoizedProps": Object {
+                            "children": "",
+                          },
+                          "memoizedState": null,
+                          "mode": 0,
+                          "nextEffect": null,
+                          "pendingProps": Object {
+                            "children": "",
+                          },
+                          "ref": null,
+                          "return": [Circular],
+                          "sibling": null,
+                          "stateNode": <p />,
+                          "tag": 5,
+                          "type": "p",
+                          "updateQueue": null,
+                        },
+                        "stateNode": <button
+                          type="submit"
+>
+                          Submit 
+</button>,
+                        "tag": 5,
+                        "type": "button",
+                        "updateQueue": null,
+                      },
                       "stateNode": <input
                         type="password"
                         name="password"
@@ -2060,7 +2339,14 @@ ReactWrapper {
                       type="password"
                       value=""
 />,
+                    <button
+                      type="submit"
+>
+                       Submit 
+</button>,
+                    <p />,
                   ],
+                  "onSubmit": [Function],
                 },
                 "memoizedState": null,
                 "mode": 0,
@@ -2088,7 +2374,14 @@ ReactWrapper {
                       type="password"
                       value=""
 />,
+                    <button
+                      type="submit"
+>
+                       Submit 
+</button>,
+                    <p />,
                   ],
+                  "onSubmit": [Function],
                 },
                 "ref": null,
                 "return": [Circular],
@@ -2112,6 +2405,12 @@ ReactWrapper {
                                     placeholder="Enter a password"
                                     value=""
                   />
+                  <button
+                                    type="submit"
+                  >
+                                    Submit 
+                  </button>
+                  <p />
 </form>,
                 "tag": 5,
                 "type": "form",
@@ -2163,7 +2462,9 @@ ReactWrapper {
                                     Log In
                   </button>
 </div>,
-                <form>
+                <form
+                  onSubmit={[Function]}
+>
                   <input
                                     name="name"
                                     onChange={[Function]}
@@ -2185,6 +2486,12 @@ ReactWrapper {
                                     type="password"
                                     value=""
                   />
+                  <button
+                                    type="submit"
+                  >
+                                     Submit 
+                  </button>
+                  <p />
 </form>,
               ],
             },
@@ -2211,7 +2518,9 @@ ReactWrapper {
                                     Log In
                   </button>
 </div>,
-                <form>
+                <form
+                  onSubmit={[Function]}
+>
                   <input
                                     name="name"
                                     onChange={[Function]}
@@ -2233,6 +2542,12 @@ ReactWrapper {
                                     type="password"
                                     value=""
                   />
+                  <button
+                                    type="submit"
+                  >
+                                     Submit 
+                  </button>
+                  <p />
 </form>,
               ],
             },
@@ -2275,6 +2590,12 @@ ReactWrapper {
                                           placeholder="Enter a password"
                                           value=""
                             />
+                            <button
+                                          type="submit"
+                            >
+                                          Submit 
+                            </button>
+                            <p />
               </form>
 </div>,
             "tag": 5,
@@ -2290,6 +2611,7 @@ ReactWrapper {
           "memoizedProps": Object {},
           "memoizedState": Object {
             "email": "",
+            "errorMessage": "",
             "formState": "create-user",
             "name": "",
             "password": "",
@@ -2393,6 +2715,12 @@ ReactWrapper {
                                                                                 placeholder="Enter a password"
                                                                                 value=""
                                                             />
+                                                            <button
+                                                                                type="submit"
+                                                            >
+                                                                                Submit 
+                                                            </button>
+                                                            <p />
                                         </form>
                     </div>
 </div>,
@@ -2508,6 +2836,12 @@ ReactWrapper {
                                                                         placeholder="Enter a password"
                                                                         value=""
                                                       />
+                                                      <button
+                                                                        type="submit"
+                                                      >
+                                                                        Submit 
+                                                      </button>
+                                                      <p />
                                     </form>
                   </div>
 </div>,
@@ -2578,11 +2912,13 @@ ReactWrapper {
         "_reactInternalInstance": Object {},
         "context": Object {},
         "handleChange": [Function],
+        "handleSubmit": [Function],
         "props": Object {},
         "refs": Object {},
         "requestForm": [Function],
         "state": Object {
           "email": "",
+          "errorMessage": "",
           "formState": "create-user",
           "name": "",
           "password": "",
@@ -2635,6 +2971,12 @@ ReactWrapper {
                               placeholder="Enter a password"
                               value=""
                     />
+                    <button
+                              type="submit"
+                    >
+                              Submit 
+                    </button>
+                    <p />
           </form>
 </div>,
         "key": undefined,
@@ -2659,7 +3001,9 @@ ReactWrapper {
                             Log In
               </button>
 </div>,
-            <form>
+            <form
+              onSubmit={[Function]}
+>
               <input
                             name="name"
                             onChange={[Function]}
@@ -2681,6 +3025,12 @@ ReactWrapper {
                             type="password"
                             value=""
               />
+              <button
+                            type="submit"
+              >
+                             Submit 
+              </button>
+              <p />
 </form>,
           ],
         },
@@ -2791,6 +3141,12 @@ ReactWrapper {
                             placeholder="Enter a password"
                             value=""
               />
+              <button
+                            type="submit"
+              >
+                            Submit 
+              </button>
+              <p />
 </form>,
             "key": undefined,
             "nodeType": "host",
@@ -2817,7 +3173,14 @@ ReactWrapper {
                   type="password"
                   value=""
 />,
+                <button
+                  type="submit"
+>
+                   Submit 
+</button>,
+                <p />,
               ],
+              "onSubmit": [Function],
             },
             "ref": null,
             "rendered": Array [
@@ -2886,6 +3249,37 @@ ReactWrapper {
                   undefined,
                 ],
                 "type": "input",
+              },
+              Object {
+                "instance": <button
+                  type="submit"
+>
+                  Submit 
+</button>,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": " Submit ",
+                  "type": "submit",
+                },
+                "ref": null,
+                "rendered": Array [
+                  " Submit ",
+                ],
+                "type": "button",
+              },
+              Object {
+                "instance": <p />,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "",
+                },
+                "ref": null,
+                "rendered": Array [
+                  "",
+                ],
+                "type": "p",
               },
             ],
             "type": "form",
