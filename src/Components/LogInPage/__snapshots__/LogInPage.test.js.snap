@@ -76,20 +76,44 @@ ReactWrapper {
               "sibling": null,
               "stateNode": Object {
                 "containerInfo": <div>
-                  <form>
-                                    <input
-                                                      type="text"
-                                                      name="email"
-                                                      placeholder="Enter your email"
-                                                      value=""
-                                    />
-                                    <input
-                                                      type="password"
-                                                      name="password"
-                                                      placeholder="Enter a password"
-                                                      value=""
-                                    />
-                  </form>
+                  <div>
+                                    <div
+                                                      class="form-request"
+                                    >
+                                                      <button
+                                                                        name="create-user"
+                                                                        class="create-user"
+                                                      >
+                                                                        Create Account
+                                                      </button>
+                                                      <button
+                                                                        name="log-in"
+                                                                        class="log-in"
+                                                      >
+                                                                        Log In
+                                                      </button>
+                                    </div>
+                                    <form>
+                                                      <input
+                                                                        type="text"
+                                                                        name="name"
+                                                                        placeholder="Enter your name"
+                                                                        value=""
+                                                      />
+                                                      <input
+                                                                        type="text"
+                                                                        name="email"
+                                                                        placeholder="Enter your email"
+                                                                        value=""
+                                                      />
+                                                      <input
+                                                                        type="password"
+                                                                        name="password"
+                                                                        placeholder="Enter a password"
+                                                                        value=""
+                                                      />
+                                    </form>
+                  </div>
 </div>,
                 "context": Object {},
                 "current": [Circular],
@@ -167,20 +191,44 @@ ReactWrapper {
             "sibling": null,
             "stateNode": Object {
               "containerInfo": <div>
-                <form>
-                                <input
-                                                type="text"
-                                                name="email"
-                                                placeholder="Enter your email"
-                                                value=""
-                                />
-                                <input
-                                                type="password"
-                                                name="password"
-                                                placeholder="Enter a password"
-                                                value=""
-                                />
-                </form>
+                <div>
+                                <div
+                                                class="form-request"
+                                >
+                                                <button
+                                                                name="create-user"
+                                                                class="create-user"
+                                                >
+                                                                Create Account
+                                                </button>
+                                                <button
+                                                                name="log-in"
+                                                                class="log-in"
+                                                >
+                                                                Log In
+                                                </button>
+                                </div>
+                                <form>
+                                                <input
+                                                                type="text"
+                                                                name="name"
+                                                                placeholder="Enter your name"
+                                                                value=""
+                                                />
+                                                <input
+                                                                type="text"
+                                                                name="email"
+                                                                placeholder="Enter your email"
+                                                                value=""
+                                                />
+                                                <input
+                                                                type="password"
+                                                                name="password"
+                                                                placeholder="Enter a password"
+                                                                value=""
+                                                />
+                                </form>
+                </div>
 </div>,
               "context": Object {},
               "current": [Circular],
@@ -247,8 +295,8 @@ ReactWrapper {
           "_debugIsCurrentlyTiming": false,
           "_debugOwner": [Circular],
           "_debugSource": Object {
-            "fileName": "/Users/cameronbuscher/Code/turing/mod-3/movie-tracker/movie-tracker-front/src/Components/LogInPage/LogInPage.js",
-            "lineNumber": 22,
+            "fileName": "/Users/myhomefolder/TURING/mod3/movie-tracker-front/src/Components/LogInPage/LogInPage.js",
+            "lineNumber": 31,
           },
           "alternate": null,
           "child": FiberNode {
@@ -256,11 +304,97 @@ ReactWrapper {
             "_debugIsCurrentlyTiming": false,
             "_debugOwner": [Circular],
             "_debugSource": Object {
-              "fileName": "/Users/cameronbuscher/Code/turing/mod-3/movie-tracker/movie-tracker-front/src/Components/LogInPage/LogInPage.js",
-              "lineNumber": 23,
+              "fileName": "/Users/myhomefolder/TURING/mod3/movie-tracker-front/src/Components/LogInPage/LogInPage.js",
+              "lineNumber": 32,
             },
             "alternate": null,
-            "child": null,
+            "child": FiberNode {
+              "_debugID": 9,
+              "_debugIsCurrentlyTiming": false,
+              "_debugOwner": [Circular],
+              "_debugSource": Object {
+                "fileName": "/Users/myhomefolder/TURING/mod3/movie-tracker-front/src/Components/LogInPage/LogInPage.js",
+                "lineNumber": 33,
+              },
+              "alternate": null,
+              "child": null,
+              "effectTag": 0,
+              "expirationTime": 0,
+              "firstEffect": null,
+              "index": 0,
+              "key": null,
+              "lastEffect": null,
+              "memoizedProps": Object {
+                "children": "Create Account",
+                "className": "create-user",
+                "name": "create-user",
+                "onClick": [Function],
+              },
+              "memoizedState": null,
+              "mode": 0,
+              "nextEffect": null,
+              "pendingProps": Object {
+                "children": "Create Account",
+                "className": "create-user",
+                "name": "create-user",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "return": [Circular],
+              "sibling": FiberNode {
+                "_debugID": 10,
+                "_debugIsCurrentlyTiming": false,
+                "_debugOwner": [Circular],
+                "_debugSource": Object {
+                  "fileName": "/Users/myhomefolder/TURING/mod3/movie-tracker-front/src/Components/LogInPage/LogInPage.js",
+                  "lineNumber": 36,
+                },
+                "alternate": null,
+                "child": null,
+                "effectTag": 0,
+                "expirationTime": 0,
+                "firstEffect": null,
+                "index": 1,
+                "key": null,
+                "lastEffect": null,
+                "memoizedProps": Object {
+                  "children": "Log In",
+                  "className": "log-in",
+                  "name": "log-in",
+                  "onClick": [Function],
+                },
+                "memoizedState": null,
+                "mode": 0,
+                "nextEffect": null,
+                "pendingProps": Object {
+                  "children": "Log In",
+                  "className": "log-in",
+                  "name": "log-in",
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "return": [Circular],
+                "sibling": null,
+                "stateNode": <button
+                  name="log-in"
+                  class="log-in"
+>
+                  Log In
+</button>,
+                "tag": 5,
+                "type": "button",
+                "updateQueue": null,
+              },
+              "stateNode": <button
+                name="create-user"
+                class="create-user"
+>
+                Create Account
+</button>,
+              "tag": 5,
+              "type": "button",
+              "updateQueue": null,
+            },
             "effectTag": 0,
             "expirationTime": 0,
             "firstEffect": null,
@@ -268,21 +402,45 @@ ReactWrapper {
             "key": null,
             "lastEffect": null,
             "memoizedProps": Object {
-              "name": "email",
-              "onChange": [Function],
-              "placeholder": "Enter your email",
-              "type": "text",
-              "value": "",
+              "children": Array [
+                <button
+                  className="create-user"
+                  name="create-user"
+                  onClick={[Function]}
+>
+                  Create Account
+</button>,
+                <button
+                  className="log-in"
+                  name="log-in"
+                  onClick={[Function]}
+>
+                  Log In
+</button>,
+              ],
+              "className": "form-request",
             },
             "memoizedState": null,
             "mode": 0,
             "nextEffect": null,
             "pendingProps": Object {
-              "name": "email",
-              "onChange": [Function],
-              "placeholder": "Enter your email",
-              "type": "text",
-              "value": "",
+              "children": Array [
+                <button
+                  className="create-user"
+                  name="create-user"
+                  onClick={[Function]}
+>
+                  Create Account
+</button>,
+                <button
+                  className="log-in"
+                  name="log-in"
+                  onClick={[Function]}
+>
+                  Log In
+</button>,
+              ],
+              "className": "form-request",
             },
             "ref": null,
             "return": [Circular],
@@ -291,11 +449,146 @@ ReactWrapper {
               "_debugIsCurrentlyTiming": false,
               "_debugOwner": [Circular],
               "_debugSource": Object {
-                "fileName": "/Users/cameronbuscher/Code/turing/mod-3/movie-tracker/movie-tracker-front/src/Components/LogInPage/LogInPage.js",
-                "lineNumber": 24,
+                "fileName": "/Users/myhomefolder/TURING/mod3/movie-tracker-front/src/Components/LogInPage/LogInPage.js",
+                "lineNumber": 40,
               },
               "alternate": null,
-              "child": null,
+              "child": FiberNode {
+                "_debugID": 11,
+                "_debugIsCurrentlyTiming": false,
+                "_debugOwner": [Circular],
+                "_debugSource": Object {
+                  "fileName": "/Users/myhomefolder/TURING/mod3/movie-tracker-front/src/Components/LogInPage/LogInPage.js",
+                  "lineNumber": 42,
+                },
+                "alternate": null,
+                "child": null,
+                "effectTag": 0,
+                "expirationTime": 0,
+                "firstEffect": null,
+                "index": 0,
+                "key": null,
+                "lastEffect": null,
+                "memoizedProps": Object {
+                  "name": "name",
+                  "onChange": [Function],
+                  "placeholder": "Enter your name",
+                  "type": "text",
+                  "value": "",
+                },
+                "memoizedState": null,
+                "mode": 0,
+                "nextEffect": null,
+                "pendingProps": Object {
+                  "name": "name",
+                  "onChange": [Function],
+                  "placeholder": "Enter your name",
+                  "type": "text",
+                  "value": "",
+                },
+                "ref": null,
+                "return": [Circular],
+                "sibling": FiberNode {
+                  "_debugID": 12,
+                  "_debugIsCurrentlyTiming": false,
+                  "_debugOwner": [Circular],
+                  "_debugSource": Object {
+                    "fileName": "/Users/myhomefolder/TURING/mod3/movie-tracker-front/src/Components/LogInPage/LogInPage.js",
+                    "lineNumber": 44,
+                  },
+                  "alternate": null,
+                  "child": null,
+                  "effectTag": 0,
+                  "expirationTime": 0,
+                  "firstEffect": null,
+                  "index": 1,
+                  "key": null,
+                  "lastEffect": null,
+                  "memoizedProps": Object {
+                    "name": "email",
+                    "onChange": [Function],
+                    "placeholder": "Enter your email",
+                    "type": "text",
+                    "value": "",
+                  },
+                  "memoizedState": null,
+                  "mode": 0,
+                  "nextEffect": null,
+                  "pendingProps": Object {
+                    "name": "email",
+                    "onChange": [Function],
+                    "placeholder": "Enter your email",
+                    "type": "text",
+                    "value": "",
+                  },
+                  "ref": null,
+                  "return": [Circular],
+                  "sibling": FiberNode {
+                    "_debugID": 13,
+                    "_debugIsCurrentlyTiming": false,
+                    "_debugOwner": [Circular],
+                    "_debugSource": Object {
+                      "fileName": "/Users/myhomefolder/TURING/mod3/movie-tracker-front/src/Components/LogInPage/LogInPage.js",
+                      "lineNumber": 45,
+                    },
+                    "alternate": null,
+                    "child": null,
+                    "effectTag": 0,
+                    "expirationTime": 0,
+                    "firstEffect": null,
+                    "index": 2,
+                    "key": null,
+                    "lastEffect": null,
+                    "memoizedProps": Object {
+                      "name": "password",
+                      "onChange": [Function],
+                      "placeholder": "Enter a password",
+                      "type": "password",
+                      "value": "",
+                    },
+                    "memoizedState": null,
+                    "mode": 0,
+                    "nextEffect": null,
+                    "pendingProps": Object {
+                      "name": "password",
+                      "onChange": [Function],
+                      "placeholder": "Enter a password",
+                      "type": "password",
+                      "value": "",
+                    },
+                    "ref": null,
+                    "return": [Circular],
+                    "sibling": null,
+                    "stateNode": <input
+                      type="password"
+                      name="password"
+                      placeholder="Enter a password"
+                      value=""
+/>,
+                    "tag": 5,
+                    "type": "input",
+                    "updateQueue": null,
+                  },
+                  "stateNode": <input
+                    type="text"
+                    name="email"
+                    placeholder="Enter your email"
+                    value=""
+/>,
+                  "tag": 5,
+                  "type": "input",
+                  "updateQueue": null,
+                },
+                "stateNode": <input
+                  type="text"
+                  name="name"
+                  placeholder="Enter your name"
+                  value=""
+/>,
+                "tag": 5,
+                "type": "input",
+                "updateQueue": null,
+              },
               "effectTag": 0,
               "expirationTime": 0,
               "firstEffect": null,
@@ -303,43 +596,103 @@ ReactWrapper {
               "key": null,
               "lastEffect": null,
               "memoizedProps": Object {
-                "name": "password",
-                "onChange": [Function],
-                "placeholder": "Enter a password",
-                "type": "password",
-                "value": "",
+                "children": Array [
+                  <input
+                    name="name"
+                    onChange={[Function]}
+                    placeholder="Enter your name"
+                    type="text"
+                    value=""
+/>,
+                  <input
+                    name="email"
+                    onChange={[Function]}
+                    placeholder="Enter your email"
+                    type="text"
+                    value=""
+/>,
+                  <input
+                    name="password"
+                    onChange={[Function]}
+                    placeholder="Enter a password"
+                    type="password"
+                    value=""
+/>,
+                ],
               },
               "memoizedState": null,
               "mode": 0,
               "nextEffect": null,
               "pendingProps": Object {
-                "name": "password",
-                "onChange": [Function],
-                "placeholder": "Enter a password",
-                "type": "password",
-                "value": "",
+                "children": Array [
+                  <input
+                    name="name"
+                    onChange={[Function]}
+                    placeholder="Enter your name"
+                    type="text"
+                    value=""
+/>,
+                  <input
+                    name="email"
+                    onChange={[Function]}
+                    placeholder="Enter your email"
+                    type="text"
+                    value=""
+/>,
+                  <input
+                    name="password"
+                    onChange={[Function]}
+                    placeholder="Enter a password"
+                    type="password"
+                    value=""
+/>,
+                ],
               },
               "ref": null,
               "return": [Circular],
               "sibling": null,
-              "stateNode": <input
-                type="password"
-                name="password"
-                placeholder="Enter a password"
-                value=""
-/>,
+              "stateNode": <form>
+                <input
+                                type="text"
+                                name="name"
+                                placeholder="Enter your name"
+                                value=""
+                />
+                <input
+                                type="text"
+                                name="email"
+                                placeholder="Enter your email"
+                                value=""
+                />
+                <input
+                                type="password"
+                                name="password"
+                                placeholder="Enter a password"
+                                value=""
+                />
+</form>,
               "tag": 5,
-              "type": "input",
+              "type": "form",
               "updateQueue": null,
             },
-            "stateNode": <input
-              type="text"
-              name="email"
-              placeholder="Enter your email"
-              value=""
-/>,
+            "stateNode": <div
+              class="form-request"
+>
+              <button
+                            name="create-user"
+                            class="create-user"
+              >
+                            Create Account
+              </button>
+              <button
+                            name="log-in"
+                            class="log-in"
+              >
+                            Log In
+              </button>
+</div>,
             "tag": 5,
-            "type": "input",
+            "type": "div",
             "updateQueue": null,
           },
           "effectTag": 0,
@@ -350,20 +703,47 @@ ReactWrapper {
           "lastEffect": null,
           "memoizedProps": Object {
             "children": Array [
-              <input
-                name="email"
-                onChange={[Function]}
-                placeholder="Enter your email"
-                type="text"
-                value=""
-/>,
-              <input
-                name="password"
-                onChange={[Function]}
-                placeholder="Enter a password"
-                type="password"
-                value=""
-/>,
+              <div
+                className="form-request"
+>
+                <button
+                                className="create-user"
+                                name="create-user"
+                                onClick={[Function]}
+                >
+                                Create Account
+                </button>
+                <button
+                                className="log-in"
+                                name="log-in"
+                                onClick={[Function]}
+                >
+                                Log In
+                </button>
+</div>,
+              <form>
+                <input
+                                name="name"
+                                onChange={[Function]}
+                                placeholder="Enter your name"
+                                type="text"
+                                value=""
+                />
+                <input
+                                name="email"
+                                onChange={[Function]}
+                                placeholder="Enter your email"
+                                type="text"
+                                value=""
+                />
+                <input
+                                name="password"
+                                onChange={[Function]}
+                                placeholder="Enter a password"
+                                type="password"
+                                value=""
+                />
+</form>,
             ],
           },
           "memoizedState": null,
@@ -371,41 +751,92 @@ ReactWrapper {
           "nextEffect": null,
           "pendingProps": Object {
             "children": Array [
-              <input
-                name="email"
-                onChange={[Function]}
-                placeholder="Enter your email"
-                type="text"
-                value=""
-/>,
-              <input
-                name="password"
-                onChange={[Function]}
-                placeholder="Enter a password"
-                type="password"
-                value=""
-/>,
+              <div
+                className="form-request"
+>
+                <button
+                                className="create-user"
+                                name="create-user"
+                                onClick={[Function]}
+                >
+                                Create Account
+                </button>
+                <button
+                                className="log-in"
+                                name="log-in"
+                                onClick={[Function]}
+                >
+                                Log In
+                </button>
+</div>,
+              <form>
+                <input
+                                name="name"
+                                onChange={[Function]}
+                                placeholder="Enter your name"
+                                type="text"
+                                value=""
+                />
+                <input
+                                name="email"
+                                onChange={[Function]}
+                                placeholder="Enter your email"
+                                type="text"
+                                value=""
+                />
+                <input
+                                name="password"
+                                onChange={[Function]}
+                                placeholder="Enter a password"
+                                type="password"
+                                value=""
+                />
+</form>,
             ],
           },
           "ref": null,
           "return": [Circular],
           "sibling": null,
-          "stateNode": <form>
-            <input
-                        type="text"
-                        name="email"
-                        placeholder="Enter your email"
-                        value=""
-            />
-            <input
-                        type="password"
-                        name="password"
-                        placeholder="Enter a password"
-                        value=""
-            />
-</form>,
+          "stateNode": <div>
+            <div
+                        class="form-request"
+            >
+                        <button
+                                    name="create-user"
+                                    class="create-user"
+                        >
+                                    Create Account
+                        </button>
+                        <button
+                                    name="log-in"
+                                    class="log-in"
+                        >
+                                    Log In
+                        </button>
+            </div>
+            <form>
+                        <input
+                                    type="text"
+                                    name="name"
+                                    placeholder="Enter your name"
+                                    value=""
+                        />
+                        <input
+                                    type="text"
+                                    name="email"
+                                    placeholder="Enter your email"
+                                    value=""
+                        />
+                        <input
+                                    type="password"
+                                    name="password"
+                                    placeholder="Enter a password"
+                                    value=""
+                        />
+            </form>
+</div>,
           "tag": 5,
-          "type": "form",
+          "type": "div",
           "updateQueue": null,
         },
         "effectTag": 1,
@@ -417,6 +848,8 @@ ReactWrapper {
         "memoizedProps": Object {},
         "memoizedState": Object {
           "email": "",
+          "formState": "create-user",
+          "name": "",
           "password": "",
         },
         "mode": 0,
@@ -482,20 +915,44 @@ ReactWrapper {
               "sibling": null,
               "stateNode": Object {
                 "containerInfo": <div>
-                  <form>
-                                    <input
-                                                      type="text"
-                                                      name="email"
-                                                      placeholder="Enter your email"
-                                                      value=""
-                                    />
-                                    <input
-                                                      type="password"
-                                                      name="password"
-                                                      placeholder="Enter a password"
-                                                      value=""
-                                    />
-                  </form>
+                  <div>
+                                    <div
+                                                      class="form-request"
+                                    >
+                                                      <button
+                                                                        name="create-user"
+                                                                        class="create-user"
+                                                      >
+                                                                        Create Account
+                                                      </button>
+                                                      <button
+                                                                        name="log-in"
+                                                                        class="log-in"
+                                                      >
+                                                                        Log In
+                                                      </button>
+                                    </div>
+                                    <form>
+                                                      <input
+                                                                        type="text"
+                                                                        name="name"
+                                                                        placeholder="Enter your name"
+                                                                        value=""
+                                                      />
+                                                      <input
+                                                                        type="text"
+                                                                        name="email"
+                                                                        placeholder="Enter your email"
+                                                                        value=""
+                                                      />
+                                                      <input
+                                                                        type="password"
+                                                                        name="password"
+                                                                        placeholder="Enter a password"
+                                                                        value=""
+                                                      />
+                                    </form>
+                  </div>
 </div>,
                 "context": Object {},
                 "current": [Circular],
@@ -573,20 +1030,44 @@ ReactWrapper {
             "sibling": null,
             "stateNode": Object {
               "containerInfo": <div>
-                <form>
-                                <input
-                                                type="text"
-                                                name="email"
-                                                placeholder="Enter your email"
-                                                value=""
-                                />
-                                <input
-                                                type="password"
-                                                name="password"
-                                                placeholder="Enter a password"
-                                                value=""
-                                />
-                </form>
+                <div>
+                                <div
+                                                class="form-request"
+                                >
+                                                <button
+                                                                name="create-user"
+                                                                class="create-user"
+                                                >
+                                                                Create Account
+                                                </button>
+                                                <button
+                                                                name="log-in"
+                                                                class="log-in"
+                                                >
+                                                                Log In
+                                                </button>
+                                </div>
+                                <form>
+                                                <input
+                                                                type="text"
+                                                                name="name"
+                                                                placeholder="Enter your name"
+                                                                value=""
+                                                />
+                                                <input
+                                                                type="text"
+                                                                name="email"
+                                                                placeholder="Enter your email"
+                                                                value=""
+                                                />
+                                                <input
+                                                                type="password"
+                                                                name="password"
+                                                                placeholder="Enter a password"
+                                                                value=""
+                                                />
+                                </form>
+                </div>
 </div>,
               "context": Object {},
               "current": [Circular],
@@ -657,8 +1138,11 @@ ReactWrapper {
       "handleChange": [Function],
       "props": Object {},
       "refs": Object {},
+      "requestForm": [Function],
       "state": Object {
         "email": "",
+        "formState": "create-user",
+        "name": "",
         "password": "",
       },
       "updater": Object {
@@ -673,88 +1157,299 @@ ReactWrapper {
     "props": Object {},
     "ref": null,
     "rendered": Object {
-      "instance": <form>
-        <input
-                type="text"
-                name="email"
-                placeholder="Enter your email"
-                value=""
-        />
-        <input
-                type="password"
-                name="password"
-                placeholder="Enter a password"
-                value=""
-        />
-</form>,
+      "instance": <div>
+        <div
+                class="form-request"
+        >
+                <button
+                        name="create-user"
+                        class="create-user"
+                >
+                        Create Account
+                </button>
+                <button
+                        name="log-in"
+                        class="log-in"
+                >
+                        Log In
+                </button>
+        </div>
+        <form>
+                <input
+                        type="text"
+                        name="name"
+                        placeholder="Enter your name"
+                        value=""
+                />
+                <input
+                        type="text"
+                        name="email"
+                        placeholder="Enter your email"
+                        value=""
+                />
+                <input
+                        type="password"
+                        name="password"
+                        placeholder="Enter a password"
+                        value=""
+                />
+        </form>
+</div>,
       "key": undefined,
       "nodeType": "host",
       "props": Object {
         "children": Array [
-          <input
-            name="email"
-            onChange={[Function]}
-            placeholder="Enter your email"
-            type="text"
-            value=""
-/>,
-          <input
-            name="password"
-            onChange={[Function]}
-            placeholder="Enter a password"
-            type="password"
-            value=""
-/>,
+          <div
+            className="form-request"
+>
+            <button
+                        className="create-user"
+                        name="create-user"
+                        onClick={[Function]}
+            >
+                        Create Account
+            </button>
+            <button
+                        className="log-in"
+                        name="log-in"
+                        onClick={[Function]}
+            >
+                        Log In
+            </button>
+</div>,
+          <form>
+            <input
+                        name="name"
+                        onChange={[Function]}
+                        placeholder="Enter your name"
+                        type="text"
+                        value=""
+            />
+            <input
+                        name="email"
+                        onChange={[Function]}
+                        placeholder="Enter your email"
+                        type="text"
+                        value=""
+            />
+            <input
+                        name="password"
+                        onChange={[Function]}
+                        placeholder="Enter a password"
+                        type="password"
+                        value=""
+            />
+</form>,
         ],
       },
       "ref": null,
       "rendered": Array [
         Object {
-          "instance": <input
-            type="text"
-            name="email"
-            placeholder="Enter your email"
-            value=""
-/>,
+          "instance": <div
+            class="form-request"
+>
+            <button
+                        name="create-user"
+                        class="create-user"
+            >
+                        Create Account
+            </button>
+            <button
+                        name="log-in"
+                        class="log-in"
+            >
+                        Log In
+            </button>
+</div>,
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "name": "email",
-            "onChange": [Function],
-            "placeholder": "Enter your email",
-            "type": "text",
-            "value": "",
+            "children": Array [
+              <button
+                className="create-user"
+                name="create-user"
+                onClick={[Function]}
+>
+                Create Account
+</button>,
+              <button
+                className="log-in"
+                name="log-in"
+                onClick={[Function]}
+>
+                Log In
+</button>,
+            ],
+            "className": "form-request",
           },
           "ref": null,
           "rendered": Array [
-            undefined,
+            Object {
+              "instance": <button
+                name="create-user"
+                class="create-user"
+>
+                Create Account
+</button>,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Create Account",
+                "className": "create-user",
+                "name": "create-user",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": Array [
+                "Create Account",
+              ],
+              "type": "button",
+            },
+            Object {
+              "instance": <button
+                name="log-in"
+                class="log-in"
+>
+                Log In
+</button>,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Log In",
+                "className": "log-in",
+                "name": "log-in",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": Array [
+                "Log In",
+              ],
+              "type": "button",
+            },
           ],
-          "type": "input",
+          "type": "div",
         },
         Object {
-          "instance": <input
-            type="password"
-            name="password"
-            placeholder="Enter a password"
-            value=""
-/>,
+          "instance": <form>
+            <input
+                        type="text"
+                        name="name"
+                        placeholder="Enter your name"
+                        value=""
+            />
+            <input
+                        type="text"
+                        name="email"
+                        placeholder="Enter your email"
+                        value=""
+            />
+            <input
+                        type="password"
+                        name="password"
+                        placeholder="Enter a password"
+                        value=""
+            />
+</form>,
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "name": "password",
-            "onChange": [Function],
-            "placeholder": "Enter a password",
-            "type": "password",
-            "value": "",
+            "children": Array [
+              <input
+                name="name"
+                onChange={[Function]}
+                placeholder="Enter your name"
+                type="text"
+                value=""
+/>,
+              <input
+                name="email"
+                onChange={[Function]}
+                placeholder="Enter your email"
+                type="text"
+                value=""
+/>,
+              <input
+                name="password"
+                onChange={[Function]}
+                placeholder="Enter a password"
+                type="password"
+                value=""
+/>,
+            ],
           },
           "ref": null,
           "rendered": Array [
-            undefined,
+            Object {
+              "instance": <input
+                type="text"
+                name="name"
+                placeholder="Enter your name"
+                value=""
+/>,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "name": "name",
+                "onChange": [Function],
+                "placeholder": "Enter your name",
+                "type": "text",
+                "value": "",
+              },
+              "ref": null,
+              "rendered": Array [
+                undefined,
+              ],
+              "type": "input",
+            },
+            Object {
+              "instance": <input
+                type="text"
+                name="email"
+                placeholder="Enter your email"
+                value=""
+/>,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "name": "email",
+                "onChange": [Function],
+                "placeholder": "Enter your email",
+                "type": "text",
+                "value": "",
+              },
+              "ref": null,
+              "rendered": Array [
+                undefined,
+              ],
+              "type": "input",
+            },
+            Object {
+              "instance": <input
+                type="password"
+                name="password"
+                placeholder="Enter a password"
+                value=""
+/>,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "name": "password",
+                "onChange": [Function],
+                "placeholder": "Enter a password",
+                "type": "password",
+                "value": "",
+              },
+              "ref": null,
+              "rendered": Array [
+                undefined,
+              ],
+              "type": "input",
+            },
           ],
-          "type": "input",
+          "type": "form",
         },
       ],
-      "type": "form",
+      "type": "div",
     },
     "type": [Function],
   },
@@ -823,20 +1518,44 @@ ReactWrapper {
                 "sibling": null,
                 "stateNode": Object {
                   "containerInfo": <div>
-                    <form>
-                                        <input
-                                                            type="text"
-                                                            name="email"
-                                                            placeholder="Enter your email"
-                                                            value=""
-                                        />
-                                        <input
-                                                            type="password"
-                                                            name="password"
-                                                            placeholder="Enter a password"
-                                                            value=""
-                                        />
-                    </form>
+                    <div>
+                                        <div
+                                                            class="form-request"
+                                        >
+                                                            <button
+                                                                                name="create-user"
+                                                                                class="create-user"
+                                                            >
+                                                                                Create Account
+                                                            </button>
+                                                            <button
+                                                                                name="log-in"
+                                                                                class="log-in"
+                                                            >
+                                                                                Log In
+                                                            </button>
+                                        </div>
+                                        <form>
+                                                            <input
+                                                                                type="text"
+                                                                                name="name"
+                                                                                placeholder="Enter your name"
+                                                                                value=""
+                                                            />
+                                                            <input
+                                                                                type="text"
+                                                                                name="email"
+                                                                                placeholder="Enter your email"
+                                                                                value=""
+                                                            />
+                                                            <input
+                                                                                type="password"
+                                                                                name="password"
+                                                                                placeholder="Enter a password"
+                                                                                value=""
+                                                            />
+                                        </form>
+                    </div>
 </div>,
                   "context": Object {},
                   "current": [Circular],
@@ -914,20 +1633,44 @@ ReactWrapper {
               "sibling": null,
               "stateNode": Object {
                 "containerInfo": <div>
-                  <form>
-                                    <input
-                                                      type="text"
-                                                      name="email"
-                                                      placeholder="Enter your email"
-                                                      value=""
-                                    />
-                                    <input
-                                                      type="password"
-                                                      name="password"
-                                                      placeholder="Enter a password"
-                                                      value=""
-                                    />
-                  </form>
+                  <div>
+                                    <div
+                                                      class="form-request"
+                                    >
+                                                      <button
+                                                                        name="create-user"
+                                                                        class="create-user"
+                                                      >
+                                                                        Create Account
+                                                      </button>
+                                                      <button
+                                                                        name="log-in"
+                                                                        class="log-in"
+                                                      >
+                                                                        Log In
+                                                      </button>
+                                    </div>
+                                    <form>
+                                                      <input
+                                                                        type="text"
+                                                                        name="name"
+                                                                        placeholder="Enter your name"
+                                                                        value=""
+                                                      />
+                                                      <input
+                                                                        type="text"
+                                                                        name="email"
+                                                                        placeholder="Enter your email"
+                                                                        value=""
+                                                      />
+                                                      <input
+                                                                        type="password"
+                                                                        name="password"
+                                                                        placeholder="Enter a password"
+                                                                        value=""
+                                                      />
+                                    </form>
+                  </div>
 </div>,
                 "context": Object {},
                 "current": [Circular],
@@ -994,8 +1737,8 @@ ReactWrapper {
             "_debugIsCurrentlyTiming": false,
             "_debugOwner": [Circular],
             "_debugSource": Object {
-              "fileName": "/Users/cameronbuscher/Code/turing/mod-3/movie-tracker/movie-tracker-front/src/Components/LogInPage/LogInPage.js",
-              "lineNumber": 22,
+              "fileName": "/Users/myhomefolder/TURING/mod3/movie-tracker-front/src/Components/LogInPage/LogInPage.js",
+              "lineNumber": 31,
             },
             "alternate": null,
             "child": FiberNode {
@@ -1003,11 +1746,97 @@ ReactWrapper {
               "_debugIsCurrentlyTiming": false,
               "_debugOwner": [Circular],
               "_debugSource": Object {
-                "fileName": "/Users/cameronbuscher/Code/turing/mod-3/movie-tracker/movie-tracker-front/src/Components/LogInPage/LogInPage.js",
-                "lineNumber": 23,
+                "fileName": "/Users/myhomefolder/TURING/mod3/movie-tracker-front/src/Components/LogInPage/LogInPage.js",
+                "lineNumber": 32,
               },
               "alternate": null,
-              "child": null,
+              "child": FiberNode {
+                "_debugID": 9,
+                "_debugIsCurrentlyTiming": false,
+                "_debugOwner": [Circular],
+                "_debugSource": Object {
+                  "fileName": "/Users/myhomefolder/TURING/mod3/movie-tracker-front/src/Components/LogInPage/LogInPage.js",
+                  "lineNumber": 33,
+                },
+                "alternate": null,
+                "child": null,
+                "effectTag": 0,
+                "expirationTime": 0,
+                "firstEffect": null,
+                "index": 0,
+                "key": null,
+                "lastEffect": null,
+                "memoizedProps": Object {
+                  "children": "Create Account",
+                  "className": "create-user",
+                  "name": "create-user",
+                  "onClick": [Function],
+                },
+                "memoizedState": null,
+                "mode": 0,
+                "nextEffect": null,
+                "pendingProps": Object {
+                  "children": "Create Account",
+                  "className": "create-user",
+                  "name": "create-user",
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "return": [Circular],
+                "sibling": FiberNode {
+                  "_debugID": 10,
+                  "_debugIsCurrentlyTiming": false,
+                  "_debugOwner": [Circular],
+                  "_debugSource": Object {
+                    "fileName": "/Users/myhomefolder/TURING/mod3/movie-tracker-front/src/Components/LogInPage/LogInPage.js",
+                    "lineNumber": 36,
+                  },
+                  "alternate": null,
+                  "child": null,
+                  "effectTag": 0,
+                  "expirationTime": 0,
+                  "firstEffect": null,
+                  "index": 1,
+                  "key": null,
+                  "lastEffect": null,
+                  "memoizedProps": Object {
+                    "children": "Log In",
+                    "className": "log-in",
+                    "name": "log-in",
+                    "onClick": [Function],
+                  },
+                  "memoizedState": null,
+                  "mode": 0,
+                  "nextEffect": null,
+                  "pendingProps": Object {
+                    "children": "Log In",
+                    "className": "log-in",
+                    "name": "log-in",
+                    "onClick": [Function],
+                  },
+                  "ref": null,
+                  "return": [Circular],
+                  "sibling": null,
+                  "stateNode": <button
+                    name="log-in"
+                    class="log-in"
+>
+                    Log In
+</button>,
+                  "tag": 5,
+                  "type": "button",
+                  "updateQueue": null,
+                },
+                "stateNode": <button
+                  name="create-user"
+                  class="create-user"
+>
+                  Create Account
+</button>,
+                "tag": 5,
+                "type": "button",
+                "updateQueue": null,
+              },
               "effectTag": 0,
               "expirationTime": 0,
               "firstEffect": null,
@@ -1015,21 +1844,45 @@ ReactWrapper {
               "key": null,
               "lastEffect": null,
               "memoizedProps": Object {
-                "name": "email",
-                "onChange": [Function],
-                "placeholder": "Enter your email",
-                "type": "text",
-                "value": "",
+                "children": Array [
+                  <button
+                    className="create-user"
+                    name="create-user"
+                    onClick={[Function]}
+>
+                    Create Account
+</button>,
+                  <button
+                    className="log-in"
+                    name="log-in"
+                    onClick={[Function]}
+>
+                    Log In
+</button>,
+                ],
+                "className": "form-request",
               },
               "memoizedState": null,
               "mode": 0,
               "nextEffect": null,
               "pendingProps": Object {
-                "name": "email",
-                "onChange": [Function],
-                "placeholder": "Enter your email",
-                "type": "text",
-                "value": "",
+                "children": Array [
+                  <button
+                    className="create-user"
+                    name="create-user"
+                    onClick={[Function]}
+>
+                    Create Account
+</button>,
+                  <button
+                    className="log-in"
+                    name="log-in"
+                    onClick={[Function]}
+>
+                    Log In
+</button>,
+                ],
+                "className": "form-request",
               },
               "ref": null,
               "return": [Circular],
@@ -1038,11 +1891,146 @@ ReactWrapper {
                 "_debugIsCurrentlyTiming": false,
                 "_debugOwner": [Circular],
                 "_debugSource": Object {
-                  "fileName": "/Users/cameronbuscher/Code/turing/mod-3/movie-tracker/movie-tracker-front/src/Components/LogInPage/LogInPage.js",
-                  "lineNumber": 24,
+                  "fileName": "/Users/myhomefolder/TURING/mod3/movie-tracker-front/src/Components/LogInPage/LogInPage.js",
+                  "lineNumber": 40,
                 },
                 "alternate": null,
-                "child": null,
+                "child": FiberNode {
+                  "_debugID": 11,
+                  "_debugIsCurrentlyTiming": false,
+                  "_debugOwner": [Circular],
+                  "_debugSource": Object {
+                    "fileName": "/Users/myhomefolder/TURING/mod3/movie-tracker-front/src/Components/LogInPage/LogInPage.js",
+                    "lineNumber": 42,
+                  },
+                  "alternate": null,
+                  "child": null,
+                  "effectTag": 0,
+                  "expirationTime": 0,
+                  "firstEffect": null,
+                  "index": 0,
+                  "key": null,
+                  "lastEffect": null,
+                  "memoizedProps": Object {
+                    "name": "name",
+                    "onChange": [Function],
+                    "placeholder": "Enter your name",
+                    "type": "text",
+                    "value": "",
+                  },
+                  "memoizedState": null,
+                  "mode": 0,
+                  "nextEffect": null,
+                  "pendingProps": Object {
+                    "name": "name",
+                    "onChange": [Function],
+                    "placeholder": "Enter your name",
+                    "type": "text",
+                    "value": "",
+                  },
+                  "ref": null,
+                  "return": [Circular],
+                  "sibling": FiberNode {
+                    "_debugID": 12,
+                    "_debugIsCurrentlyTiming": false,
+                    "_debugOwner": [Circular],
+                    "_debugSource": Object {
+                      "fileName": "/Users/myhomefolder/TURING/mod3/movie-tracker-front/src/Components/LogInPage/LogInPage.js",
+                      "lineNumber": 44,
+                    },
+                    "alternate": null,
+                    "child": null,
+                    "effectTag": 0,
+                    "expirationTime": 0,
+                    "firstEffect": null,
+                    "index": 1,
+                    "key": null,
+                    "lastEffect": null,
+                    "memoizedProps": Object {
+                      "name": "email",
+                      "onChange": [Function],
+                      "placeholder": "Enter your email",
+                      "type": "text",
+                      "value": "",
+                    },
+                    "memoizedState": null,
+                    "mode": 0,
+                    "nextEffect": null,
+                    "pendingProps": Object {
+                      "name": "email",
+                      "onChange": [Function],
+                      "placeholder": "Enter your email",
+                      "type": "text",
+                      "value": "",
+                    },
+                    "ref": null,
+                    "return": [Circular],
+                    "sibling": FiberNode {
+                      "_debugID": 13,
+                      "_debugIsCurrentlyTiming": false,
+                      "_debugOwner": [Circular],
+                      "_debugSource": Object {
+                        "fileName": "/Users/myhomefolder/TURING/mod3/movie-tracker-front/src/Components/LogInPage/LogInPage.js",
+                        "lineNumber": 45,
+                      },
+                      "alternate": null,
+                      "child": null,
+                      "effectTag": 0,
+                      "expirationTime": 0,
+                      "firstEffect": null,
+                      "index": 2,
+                      "key": null,
+                      "lastEffect": null,
+                      "memoizedProps": Object {
+                        "name": "password",
+                        "onChange": [Function],
+                        "placeholder": "Enter a password",
+                        "type": "password",
+                        "value": "",
+                      },
+                      "memoizedState": null,
+                      "mode": 0,
+                      "nextEffect": null,
+                      "pendingProps": Object {
+                        "name": "password",
+                        "onChange": [Function],
+                        "placeholder": "Enter a password",
+                        "type": "password",
+                        "value": "",
+                      },
+                      "ref": null,
+                      "return": [Circular],
+                      "sibling": null,
+                      "stateNode": <input
+                        type="password"
+                        name="password"
+                        placeholder="Enter a password"
+                        value=""
+/>,
+                      "tag": 5,
+                      "type": "input",
+                      "updateQueue": null,
+                    },
+                    "stateNode": <input
+                      type="text"
+                      name="email"
+                      placeholder="Enter your email"
+                      value=""
+/>,
+                    "tag": 5,
+                    "type": "input",
+                    "updateQueue": null,
+                  },
+                  "stateNode": <input
+                    type="text"
+                    name="name"
+                    placeholder="Enter your name"
+                    value=""
+/>,
+                  "tag": 5,
+                  "type": "input",
+                  "updateQueue": null,
+                },
                 "effectTag": 0,
                 "expirationTime": 0,
                 "firstEffect": null,
@@ -1050,43 +2038,103 @@ ReactWrapper {
                 "key": null,
                 "lastEffect": null,
                 "memoizedProps": Object {
-                  "name": "password",
-                  "onChange": [Function],
-                  "placeholder": "Enter a password",
-                  "type": "password",
-                  "value": "",
+                  "children": Array [
+                    <input
+                      name="name"
+                      onChange={[Function]}
+                      placeholder="Enter your name"
+                      type="text"
+                      value=""
+/>,
+                    <input
+                      name="email"
+                      onChange={[Function]}
+                      placeholder="Enter your email"
+                      type="text"
+                      value=""
+/>,
+                    <input
+                      name="password"
+                      onChange={[Function]}
+                      placeholder="Enter a password"
+                      type="password"
+                      value=""
+/>,
+                  ],
                 },
                 "memoizedState": null,
                 "mode": 0,
                 "nextEffect": null,
                 "pendingProps": Object {
-                  "name": "password",
-                  "onChange": [Function],
-                  "placeholder": "Enter a password",
-                  "type": "password",
-                  "value": "",
+                  "children": Array [
+                    <input
+                      name="name"
+                      onChange={[Function]}
+                      placeholder="Enter your name"
+                      type="text"
+                      value=""
+/>,
+                    <input
+                      name="email"
+                      onChange={[Function]}
+                      placeholder="Enter your email"
+                      type="text"
+                      value=""
+/>,
+                    <input
+                      name="password"
+                      onChange={[Function]}
+                      placeholder="Enter a password"
+                      type="password"
+                      value=""
+/>,
+                  ],
                 },
                 "ref": null,
                 "return": [Circular],
                 "sibling": null,
-                "stateNode": <input
-                  type="password"
-                  name="password"
-                  placeholder="Enter a password"
-                  value=""
-/>,
+                "stateNode": <form>
+                  <input
+                                    type="text"
+                                    name="name"
+                                    placeholder="Enter your name"
+                                    value=""
+                  />
+                  <input
+                                    type="text"
+                                    name="email"
+                                    placeholder="Enter your email"
+                                    value=""
+                  />
+                  <input
+                                    type="password"
+                                    name="password"
+                                    placeholder="Enter a password"
+                                    value=""
+                  />
+</form>,
                 "tag": 5,
-                "type": "input",
+                "type": "form",
                 "updateQueue": null,
               },
-              "stateNode": <input
-                type="text"
-                name="email"
-                placeholder="Enter your email"
-                value=""
-/>,
+              "stateNode": <div
+                class="form-request"
+>
+                <button
+                                name="create-user"
+                                class="create-user"
+                >
+                                Create Account
+                </button>
+                <button
+                                name="log-in"
+                                class="log-in"
+                >
+                                Log In
+                </button>
+</div>,
               "tag": 5,
-              "type": "input",
+              "type": "div",
               "updateQueue": null,
             },
             "effectTag": 0,
@@ -1097,20 +2145,47 @@ ReactWrapper {
             "lastEffect": null,
             "memoizedProps": Object {
               "children": Array [
-                <input
-                  name="email"
-                  onChange={[Function]}
-                  placeholder="Enter your email"
-                  type="text"
-                  value=""
-/>,
-                <input
-                  name="password"
-                  onChange={[Function]}
-                  placeholder="Enter a password"
-                  type="password"
-                  value=""
-/>,
+                <div
+                  className="form-request"
+>
+                  <button
+                                    className="create-user"
+                                    name="create-user"
+                                    onClick={[Function]}
+                  >
+                                    Create Account
+                  </button>
+                  <button
+                                    className="log-in"
+                                    name="log-in"
+                                    onClick={[Function]}
+                  >
+                                    Log In
+                  </button>
+</div>,
+                <form>
+                  <input
+                                    name="name"
+                                    onChange={[Function]}
+                                    placeholder="Enter your name"
+                                    type="text"
+                                    value=""
+                  />
+                  <input
+                                    name="email"
+                                    onChange={[Function]}
+                                    placeholder="Enter your email"
+                                    type="text"
+                                    value=""
+                  />
+                  <input
+                                    name="password"
+                                    onChange={[Function]}
+                                    placeholder="Enter a password"
+                                    type="password"
+                                    value=""
+                  />
+</form>,
               ],
             },
             "memoizedState": null,
@@ -1118,41 +2193,92 @@ ReactWrapper {
             "nextEffect": null,
             "pendingProps": Object {
               "children": Array [
-                <input
-                  name="email"
-                  onChange={[Function]}
-                  placeholder="Enter your email"
-                  type="text"
-                  value=""
-/>,
-                <input
-                  name="password"
-                  onChange={[Function]}
-                  placeholder="Enter a password"
-                  type="password"
-                  value=""
-/>,
+                <div
+                  className="form-request"
+>
+                  <button
+                                    className="create-user"
+                                    name="create-user"
+                                    onClick={[Function]}
+                  >
+                                    Create Account
+                  </button>
+                  <button
+                                    className="log-in"
+                                    name="log-in"
+                                    onClick={[Function]}
+                  >
+                                    Log In
+                  </button>
+</div>,
+                <form>
+                  <input
+                                    name="name"
+                                    onChange={[Function]}
+                                    placeholder="Enter your name"
+                                    type="text"
+                                    value=""
+                  />
+                  <input
+                                    name="email"
+                                    onChange={[Function]}
+                                    placeholder="Enter your email"
+                                    type="text"
+                                    value=""
+                  />
+                  <input
+                                    name="password"
+                                    onChange={[Function]}
+                                    placeholder="Enter a password"
+                                    type="password"
+                                    value=""
+                  />
+</form>,
               ],
             },
             "ref": null,
             "return": [Circular],
             "sibling": null,
-            "stateNode": <form>
-              <input
-                            type="text"
-                            name="email"
-                            placeholder="Enter your email"
-                            value=""
-              />
-              <input
-                            type="password"
-                            name="password"
-                            placeholder="Enter a password"
-                            value=""
-              />
-</form>,
+            "stateNode": <div>
+              <div
+                            class="form-request"
+              >
+                            <button
+                                          name="create-user"
+                                          class="create-user"
+                            >
+                                          Create Account
+                            </button>
+                            <button
+                                          name="log-in"
+                                          class="log-in"
+                            >
+                                          Log In
+                            </button>
+              </div>
+              <form>
+                            <input
+                                          type="text"
+                                          name="name"
+                                          placeholder="Enter your name"
+                                          value=""
+                            />
+                            <input
+                                          type="text"
+                                          name="email"
+                                          placeholder="Enter your email"
+                                          value=""
+                            />
+                            <input
+                                          type="password"
+                                          name="password"
+                                          placeholder="Enter a password"
+                                          value=""
+                            />
+              </form>
+</div>,
             "tag": 5,
-            "type": "form",
+            "type": "div",
             "updateQueue": null,
           },
           "effectTag": 1,
@@ -1164,6 +2290,8 @@ ReactWrapper {
           "memoizedProps": Object {},
           "memoizedState": Object {
             "email": "",
+            "formState": "create-user",
+            "name": "",
             "password": "",
           },
           "mode": 0,
@@ -1229,20 +2357,44 @@ ReactWrapper {
                 "sibling": null,
                 "stateNode": Object {
                   "containerInfo": <div>
-                    <form>
-                                        <input
-                                                            type="text"
-                                                            name="email"
-                                                            placeholder="Enter your email"
-                                                            value=""
-                                        />
-                                        <input
-                                                            type="password"
-                                                            name="password"
-                                                            placeholder="Enter a password"
-                                                            value=""
-                                        />
-                    </form>
+                    <div>
+                                        <div
+                                                            class="form-request"
+                                        >
+                                                            <button
+                                                                                name="create-user"
+                                                                                class="create-user"
+                                                            >
+                                                                                Create Account
+                                                            </button>
+                                                            <button
+                                                                                name="log-in"
+                                                                                class="log-in"
+                                                            >
+                                                                                Log In
+                                                            </button>
+                                        </div>
+                                        <form>
+                                                            <input
+                                                                                type="text"
+                                                                                name="name"
+                                                                                placeholder="Enter your name"
+                                                                                value=""
+                                                            />
+                                                            <input
+                                                                                type="text"
+                                                                                name="email"
+                                                                                placeholder="Enter your email"
+                                                                                value=""
+                                                            />
+                                                            <input
+                                                                                type="password"
+                                                                                name="password"
+                                                                                placeholder="Enter a password"
+                                                                                value=""
+                                                            />
+                                        </form>
+                    </div>
 </div>,
                   "context": Object {},
                   "current": [Circular],
@@ -1320,20 +2472,44 @@ ReactWrapper {
               "sibling": null,
               "stateNode": Object {
                 "containerInfo": <div>
-                  <form>
-                                    <input
-                                                      type="text"
-                                                      name="email"
-                                                      placeholder="Enter your email"
-                                                      value=""
-                                    />
-                                    <input
-                                                      type="password"
-                                                      name="password"
-                                                      placeholder="Enter a password"
-                                                      value=""
-                                    />
-                  </form>
+                  <div>
+                                    <div
+                                                      class="form-request"
+                                    >
+                                                      <button
+                                                                        name="create-user"
+                                                                        class="create-user"
+                                                      >
+                                                                        Create Account
+                                                      </button>
+                                                      <button
+                                                                        name="log-in"
+                                                                        class="log-in"
+                                                      >
+                                                                        Log In
+                                                      </button>
+                                    </div>
+                                    <form>
+                                                      <input
+                                                                        type="text"
+                                                                        name="name"
+                                                                        placeholder="Enter your name"
+                                                                        value=""
+                                                      />
+                                                      <input
+                                                                        type="text"
+                                                                        name="email"
+                                                                        placeholder="Enter your email"
+                                                                        value=""
+                                                      />
+                                                      <input
+                                                                        type="password"
+                                                                        name="password"
+                                                                        placeholder="Enter a password"
+                                                                        value=""
+                                                      />
+                                    </form>
+                  </div>
 </div>,
                 "context": Object {},
                 "current": [Circular],
@@ -1404,8 +2580,11 @@ ReactWrapper {
         "handleChange": [Function],
         "props": Object {},
         "refs": Object {},
+        "requestForm": [Function],
         "state": Object {
           "email": "",
+          "formState": "create-user",
+          "name": "",
           "password": "",
         },
         "updater": Object {
@@ -1420,88 +2599,299 @@ ReactWrapper {
       "props": Object {},
       "ref": null,
       "rendered": Object {
-        "instance": <form>
-          <input
-                    type="text"
-                    name="email"
-                    placeholder="Enter your email"
-                    value=""
-          />
-          <input
-                    type="password"
-                    name="password"
-                    placeholder="Enter a password"
-                    value=""
-          />
-</form>,
+        "instance": <div>
+          <div
+                    class="form-request"
+          >
+                    <button
+                              name="create-user"
+                              class="create-user"
+                    >
+                              Create Account
+                    </button>
+                    <button
+                              name="log-in"
+                              class="log-in"
+                    >
+                              Log In
+                    </button>
+          </div>
+          <form>
+                    <input
+                              type="text"
+                              name="name"
+                              placeholder="Enter your name"
+                              value=""
+                    />
+                    <input
+                              type="text"
+                              name="email"
+                              placeholder="Enter your email"
+                              value=""
+                    />
+                    <input
+                              type="password"
+                              name="password"
+                              placeholder="Enter a password"
+                              value=""
+                    />
+          </form>
+</div>,
         "key": undefined,
         "nodeType": "host",
         "props": Object {
           "children": Array [
-            <input
-              name="email"
-              onChange={[Function]}
-              placeholder="Enter your email"
-              type="text"
-              value=""
-/>,
-            <input
-              name="password"
-              onChange={[Function]}
-              placeholder="Enter a password"
-              type="password"
-              value=""
-/>,
+            <div
+              className="form-request"
+>
+              <button
+                            className="create-user"
+                            name="create-user"
+                            onClick={[Function]}
+              >
+                            Create Account
+              </button>
+              <button
+                            className="log-in"
+                            name="log-in"
+                            onClick={[Function]}
+              >
+                            Log In
+              </button>
+</div>,
+            <form>
+              <input
+                            name="name"
+                            onChange={[Function]}
+                            placeholder="Enter your name"
+                            type="text"
+                            value=""
+              />
+              <input
+                            name="email"
+                            onChange={[Function]}
+                            placeholder="Enter your email"
+                            type="text"
+                            value=""
+              />
+              <input
+                            name="password"
+                            onChange={[Function]}
+                            placeholder="Enter a password"
+                            type="password"
+                            value=""
+              />
+</form>,
           ],
         },
         "ref": null,
         "rendered": Array [
           Object {
-            "instance": <input
-              type="text"
-              name="email"
-              placeholder="Enter your email"
-              value=""
-/>,
+            "instance": <div
+              class="form-request"
+>
+              <button
+                            name="create-user"
+                            class="create-user"
+              >
+                            Create Account
+              </button>
+              <button
+                            name="log-in"
+                            class="log-in"
+              >
+                            Log In
+              </button>
+</div>,
             "key": undefined,
             "nodeType": "host",
             "props": Object {
-              "name": "email",
-              "onChange": [Function],
-              "placeholder": "Enter your email",
-              "type": "text",
-              "value": "",
+              "children": Array [
+                <button
+                  className="create-user"
+                  name="create-user"
+                  onClick={[Function]}
+>
+                  Create Account
+</button>,
+                <button
+                  className="log-in"
+                  name="log-in"
+                  onClick={[Function]}
+>
+                  Log In
+</button>,
+              ],
+              "className": "form-request",
             },
             "ref": null,
             "rendered": Array [
-              undefined,
+              Object {
+                "instance": <button
+                  name="create-user"
+                  class="create-user"
+>
+                  Create Account
+</button>,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Create Account",
+                  "className": "create-user",
+                  "name": "create-user",
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": Array [
+                  "Create Account",
+                ],
+                "type": "button",
+              },
+              Object {
+                "instance": <button
+                  name="log-in"
+                  class="log-in"
+>
+                  Log In
+</button>,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Log In",
+                  "className": "log-in",
+                  "name": "log-in",
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": Array [
+                  "Log In",
+                ],
+                "type": "button",
+              },
             ],
-            "type": "input",
+            "type": "div",
           },
           Object {
-            "instance": <input
-              type="password"
-              name="password"
-              placeholder="Enter a password"
-              value=""
-/>,
+            "instance": <form>
+              <input
+                            type="text"
+                            name="name"
+                            placeholder="Enter your name"
+                            value=""
+              />
+              <input
+                            type="text"
+                            name="email"
+                            placeholder="Enter your email"
+                            value=""
+              />
+              <input
+                            type="password"
+                            name="password"
+                            placeholder="Enter a password"
+                            value=""
+              />
+</form>,
             "key": undefined,
             "nodeType": "host",
             "props": Object {
-              "name": "password",
-              "onChange": [Function],
-              "placeholder": "Enter a password",
-              "type": "password",
-              "value": "",
+              "children": Array [
+                <input
+                  name="name"
+                  onChange={[Function]}
+                  placeholder="Enter your name"
+                  type="text"
+                  value=""
+/>,
+                <input
+                  name="email"
+                  onChange={[Function]}
+                  placeholder="Enter your email"
+                  type="text"
+                  value=""
+/>,
+                <input
+                  name="password"
+                  onChange={[Function]}
+                  placeholder="Enter a password"
+                  type="password"
+                  value=""
+/>,
+              ],
             },
             "ref": null,
             "rendered": Array [
-              undefined,
+              Object {
+                "instance": <input
+                  type="text"
+                  name="name"
+                  placeholder="Enter your name"
+                  value=""
+/>,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "name": "name",
+                  "onChange": [Function],
+                  "placeholder": "Enter your name",
+                  "type": "text",
+                  "value": "",
+                },
+                "ref": null,
+                "rendered": Array [
+                  undefined,
+                ],
+                "type": "input",
+              },
+              Object {
+                "instance": <input
+                  type="text"
+                  name="email"
+                  placeholder="Enter your email"
+                  value=""
+/>,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "name": "email",
+                  "onChange": [Function],
+                  "placeholder": "Enter your email",
+                  "type": "text",
+                  "value": "",
+                },
+                "ref": null,
+                "rendered": Array [
+                  undefined,
+                ],
+                "type": "input",
+              },
+              Object {
+                "instance": <input
+                  type="password"
+                  name="password"
+                  placeholder="Enter a password"
+                  value=""
+/>,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "name": "password",
+                  "onChange": [Function],
+                  "placeholder": "Enter a password",
+                  "type": "password",
+                  "value": "",
+                },
+                "ref": null,
+                "rendered": Array [
+                  undefined,
+                ],
+                "type": "input",
+              },
             ],
-            "type": "input",
+            "type": "form",
           },
         ],
-        "type": "form",
+        "type": "div",
       },
       "type": [Function],
     },
