@@ -11,24 +11,25 @@ export const createUser = ({ name, email, password, id }) => ({
   id
 });
 
-export const userHasErrored = (bool) => ({
+export const userHasErrored = (bool, error) => ({
   type: 'USER_HAS_ERRORED',
-  userHasErrored: bool
+  userHasErrored: bool,
+  error
 });
 
 export const postUser = (user) => {
   return async (dispatch) => {
-    console.log(user)
     try { 
-      const response = await fetch('http://localhost3000/api/users/new', {
+      const response = await fetch('http://localhost:3000/api/users/new', {
         method: 'POST',
         body: JSON.stringify(user),
         headers: {'content-type': 'application/json'}
-      })
-      const id = await response.json()
-      dispatch(createUser({ ...user, id }))
-    } catch(error) {
-      dispatch(userHasErrored(true))
+      });
+      const id = await response.json();
+      dispatch(createUser({ ...user, id }));
+    } catch (error) {
+      console.log(error)
+      dispatch(userHasErrored(true, Error(error)));
     }
-  }
-}
+  };
+};
