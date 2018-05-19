@@ -25,10 +25,13 @@ export const postUser = (user) => {
         body: JSON.stringify(user),
         headers: {'content-type': 'application/json'}
       });
+      if (!response.ok) {
+        dispatch(userHasErrored(true, response));
+        return response;
+      }
       const id = await response.json();
       dispatch(createUser({ ...user, id }));
     } catch (error) {
-      console.log(error)
       dispatch(userHasErrored(true, Error(error)));
     }
   };

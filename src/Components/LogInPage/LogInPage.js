@@ -5,6 +5,7 @@ class LogInPage extends Component {
     super(props)
     
     this.state = {
+      errorMessage: '',
       formState: 'create-user',
       name: '',
       email: '',
@@ -26,7 +27,14 @@ class LogInPage extends Component {
 
   handleSubmit = (e) => {
     e.preventDefault()
-    this.props.postUser(this.state)
+    if (this.state.formState === 'create-user') {
+      const response = this.props.postUser(this.state)
+      if (!response.ok) {
+        this.setState({
+          errorMessage: 'That email has already been taken'
+        });
+      }
+    } 
   }
 
   render() {
@@ -47,6 +55,7 @@ class LogInPage extends Component {
           <input type='text' name='email' onChange={this.handleChange} placeholder='Enter your email' value={this.state.email}/>
           <input type='password' name='password' onChange={this.handleChange} placeholder='Enter a password' value={this.state.password} />
           <button type='submit'> Submit </button>
+          <p>{this.state.errorMessage}</p>
         </form>
       </div>
     )
