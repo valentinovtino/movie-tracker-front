@@ -1,5 +1,5 @@
 import { mockCleanedData } from "../mockData";
-import { getMovies } from './Actions'
+import { getMovies, createUser } from './Actions';
 
 describe('Actions', () => {
   describe('GET MOVIE', () => {
@@ -13,4 +13,26 @@ describe('Actions', () => {
       expect(actual).toEqual(expected);
     });
   });
+
+  describe('CREATE USER', () => {
+    it('should return an action object', () => {
+      const user = {
+        name: 'Cool Guy',
+        email: 'coolguy@aol.com',
+        password: 'secretlyuncool'
+      }
+
+      let expected = {
+        type: 'CREATE_USER',
+        name: 'Cool Guy',
+        email: 'coolguy@aol.com',
+        password: 'secretlyuncool'
+      }
+
+      let actual = createUser(user)
+
+      expect(actual).toEqual(expected);
+    });
+  });
+
 });
