@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import { fetchMovieData } from '../../apiCalls/api';
 import './App.css';
 import CardHolderContainer from '../../Containers/CardHolderContainer';
+import { NavLink, Route } from 'react-router-dom'
+import LogInPage from '../LogInPage/LogInPage.js'
 
 class App extends Component {
   constructor(props) {
@@ -25,9 +27,11 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <h1 className="App-title">Welcome to Movie-Tracker</h1>
+          <NavLink to="/"><h1 className="App-title">Welcome to Movie-Tracker</h1></NavLink>
+          <NavLink to="/login"><span>Log in</span></NavLink>
+        <LogInPage />
         </header>
-        <CardHolderContainer />
+        <Route exact match='/' component={CardHolderContainer} />
       </div>
     );
   }
