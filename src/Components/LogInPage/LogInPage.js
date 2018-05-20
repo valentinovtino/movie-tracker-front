@@ -5,6 +5,7 @@ class LogInPage extends Component {
     super(props)
     
     this.state = {
+      errorMessage: '',
       formState: 'create-user',
       name: '',
       email: '',
@@ -24,9 +25,14 @@ class LogInPage extends Component {
     this.setState({formState: event.target.name})
   }
 
+  handleSubmit = (e) => {
+    e.preventDefault()
+    if (this.state.formState === 'create-user') {
+      this.props.postUser(this.state);
+    }
+  }
+
   render() {
-    
-      
     return (
       <div>
         <div className='form-request'>
@@ -37,12 +43,14 @@ class LogInPage extends Component {
             Log In
           </button>
         </div>
-        <form >
+        <form onSubmit={this.handleSubmit}>
           { this.state.formState === 'create-user'
             && <input type='text' name='name' onChange={this.handleChange} placeholder='Enter your name' value={this.state.name}/> 
           }
           <input type='text' name='email' onChange={this.handleChange} placeholder='Enter your email' value={this.state.email}/>
           <input type='password' name='password' onChange={this.handleChange} placeholder='Enter a password' value={this.state.password} />
+          <button type='submit'> Submit </button>
+          <p>{this.props.userHasErrored.error}</p>
         </form>
       </div>
     )
