@@ -21,7 +21,7 @@ export const user = (state = {}, action) => {
   }
 }
 
-export const userErrorReceived = (state = false, action) => {
+export const userErrorReceived = (state = {userHasErrored: false, error: ''}, action) => {
   switch (action.type) {
     case 'USER_HAS_ERRORED' :
       return {

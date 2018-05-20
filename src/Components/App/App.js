@@ -17,10 +17,9 @@ class App extends Component {
     const url = 'https://api.themoviedb.org/3/genre/28/movies?api_key=b896e3605c38d8f6ffb3a181d5bb558d&language=en-US&include_adult=false&sort_by=created_at.asc'
 
     const response = await fetchMovieData(url);
-    const results = response.results
+    const results = response.results;
 
-    this.props.storeMovies(results)
-
+    this.props.storeMovies(results);
   }
   
   render() {

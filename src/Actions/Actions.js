@@ -26,13 +26,13 @@ export const postUser = (user) => {
         headers: {'content-type': 'application/json'}
       });
       if (!response.ok) {
-        dispatch(userHasErrored(true, response));
-        return response;
+        return dispatch(userHasErrored(true, 'That email is already linked to an account'));
       }
       const id = await response.json();
       dispatch(createUser({ ...user, id }));
+      dispatch(userHasErrored(false, ''))
     } catch (error) {
-      dispatch(userHasErrored(true, Error(error)));
+      dispatch(userHasErrored(true, error));
     }
   };
 };
