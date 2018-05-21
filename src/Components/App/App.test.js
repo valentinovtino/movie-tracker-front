@@ -25,4 +25,13 @@ describe('App', () => {
     expect(wrapper.find('.log-in-button').length).toEqual(1);
     expect(wrapper.find('.log-out-button').length).toEqual(0);
   });
+
+  // it('should call userLoggedOut callback when button is clicked', () => {
+  //   wrapper = shallow(<App user={{name: 'elvis'}} storeMovies={jest.fn} userLoggedOut={jest.fn()}/>, {disableLifecycleMethods: true})
+
+  //   wrapper.find('.log-out-button').simulate('click')
+
+  //   expect(wrapper.prop('userLoggedOut')).toHaveBeenCalled();
+  // });
+
 });
