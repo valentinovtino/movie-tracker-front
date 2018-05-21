@@ -2,13 +2,15 @@ import React, { Component } from 'react';
 import { fetchMovieData } from '../../apiCalls/api';
 import './App.css';
 import CardHolderContainer from '../../Containers/CardHolderContainer';
-import { NavLink, Route } from 'react-router-dom'
+import { NavLink, Route, Switch } from 'react-router-dom';
+import PropTypes from 'prop-types';
 import LogInPageContainer from '../../Containers/LogInPageContainer';
 
 class App extends Component {
   constructor(props) {
     super(props)
     this.state = {
+      testThis: ''
 
     }
   }
@@ -26,13 +28,15 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <NavLink to="/"><h1 className="App-title">Welcome to Movie-Tracker</h1></NavLink>
-          <NavLink to="/login"><span>Log in</span></NavLink>
-        <LogInPageContainer />
+          <h1 className="App-title">Welcome to Movie-Tracker</h1>
+          <NavLink to='/'>Home</NavLink>
+          <NavLink to='/login'>Log in</NavLink>
         </header>
-        <Route exact match='/' component={CardHolderContainer} />
+        <Route exact path='/' component={CardHolderContainer} />
+        <Route exact path='/login' component={LogInPageContainer} />
       </div>
     );
+
   }
 }
 

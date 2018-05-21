@@ -14,12 +14,13 @@ export const user = (state = {}, action) => {
         name: action.name,
         email: action.email,
         password: action.password,
-        favorites: []
-      }
+        favorites: action.favorites,
+        id: action.id
+      };
     default:
       return state;
   }
-}
+};
 
 export const userErrorReceived = (state = {userHasErrored: false, error: ''}, action) => {
   switch (action.type) {

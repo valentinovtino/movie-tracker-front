@@ -1,5 +1,5 @@
 import React from 'react';
-
+import PropTypes from 'prop-types';
 
 const Card = ({title, averageRating, posterPath, releaseData, overview}) => {
 
@@ -19,8 +19,17 @@ const Card = ({title, averageRating, posterPath, releaseData, overview}) => {
 
         </div>
       </div>
+      
     </div>
   );
+};
+
+Card.propTypes = {
+  title: PropTypes.string, 
+  averageRating: PropTypes.number,
+  posterPath: PropTypes.string,
+  releaseData: PropTypes.string,
+  overview: PropTypes.string
 };
 
 export default Card;

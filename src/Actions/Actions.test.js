@@ -23,7 +23,7 @@ describe('Actions', () => {
         email: 'coolguy@aol.com',
         password: 'secretlyuncool',
         id: null
-      }
+      };
 
       let expected = {
         type: 'CREATE_USER',
@@ -31,9 +31,9 @@ describe('Actions', () => {
         email: 'coolguy@aol.com',
         password: 'secretlyuncool',
         id: null
-      }
+      };
 
-      let actual = createUser(user)
+      let actual = createUser(user);
 
       expect(actual).toEqual(expected);
     });
@@ -44,7 +44,7 @@ describe('Actions', () => {
       let expected = {
         type: 'USER_HAS_ERRORED',
         userHasErrored: true
-      }
+      };
 
       let actual = userHasErrored(true);
 
@@ -54,29 +54,29 @@ describe('Actions', () => {
 
   describe('POST USER', () => {
     let store;
-    const mockStore = configureStore([thunk])
-    const url = 'http://localhost:3000/api/users/new'
+    const mockStore = configureStore([thunk]);
+    const url = 'http://localhost:3000/api/users/new';
+
+    const options = {
+      method: 'POST',
+      body: JSON.stringify(user),
+      headers: {'content-type': 'application/json'}
+    };
 
     const user = {
-        name: 'Cool Guy',
-        email: 'coolguy@aol.com',
-        password: 'secretlyuncool'
-      }
-
-     const options = {
-        method: 'POST',
-        body: JSON.stringify(user),
-        headers: {'content-type': 'application/json'}
-      }
+      name: 'Cool Guy',
+      email: 'coolguy@aol.com',
+      password: 'secretlyuncool'
+    };
 
     beforeEach(() => {
       window.fetch = jest.fn().mockImplementation(() => 
-       Promise.resolve({
-        ok: true,
-        json: () => 
-        Promise.resolve(2)}));
+        Promise.resolve({
+          ok: true,
+          json: () => 
+            Promise.resolve(2)}));
 
-      store = mockStore({})
+      store = mockStore({});
     });
 
     it('calls fetch with the correct data when adding a new user', async () => {
@@ -85,7 +85,7 @@ describe('Actions', () => {
       expect(window.fetch).toHaveBeenCalledWith(url, options);
     });
 
-    it('calls calls createUser and userHasErrored actions if fetch response is ok', async () => {
+    it('calls createUser and userHasErrored actions if fetch response is ok', async () => {
       const expectedActions = await store.dispatch(postUser(user))
         .then(() =>  store.getActions());
 
@@ -93,17 +93,17 @@ describe('Actions', () => {
       expect(expectedActions[1]).toEqual(userHasErrored(false, ''));
     });
 
-    it('calls calls userHasErrored with true if fetch response is not ok', async () => {
+    it('calls userHasErrored with true if fetch response is not ok', async () => {
       window.fetch = jest.fn().mockImplementation(() => 
-       Promise.resolve({
-        ok: false,
-        json: () => 
-        Promise.resolve(2)}))
+        Promise.resolve({
+          ok: false,
+          json: () => 
+            Promise.resolve(2)}));
 
       const expectedActions = await store.dispatch(postUser(user))
         .then(() =>  store.getActions());
 
-      expect(...expectedActions).toEqual(userHasErrored(true, "That email is already linked to an account"))    
+      expect(...expectedActions).toEqual(userHasErrored(true, "That email is already linked to an account"));    
     });
   });
 });
