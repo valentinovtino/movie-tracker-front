@@ -1,31 +1,27 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const Card = ({title, averageRating, posterPath, releaseData, overview}) => {
+const Card = ({movie, addUserFavorite, userID}) => {
   return (
     <div className='flip-container'>
       <div className='flipper'>
         <div className='Card front'>
-          <img src={`https://image.tmdb.org/t/p/w500${posterPath}`} />
+          <img src={`https://image.tmdb.org/t/p/w500${movie.posterPath}`} />
         </div>
         <div className='Card back'>
-          <h1>{title}</h1>
-          <h3>Rating: {averageRating}</h3>
-          <h3>{releaseData}</h3>
-          <p>{overview}</p>
+          <h1>{movie.title}</h1>
+          <h3>Rating: {movie.averageRating}</h3>
+          <button onClick={() => addUserFavorite(movie, userID)}> Add to favorites </button>
+          <h3>{movie.releaseData}</h3>
+          <p>{movie.overview}</p>
         </div>
       </div>
-      
     </div>
   );
 };
 
 Card.propTypes = {
-  title: PropTypes.string, 
-  averageRating: PropTypes.number,
-  posterPath: PropTypes.string,
-  releaseData: PropTypes.string,
-  overview: PropTypes.string
+  movie: PropTypes.object.isRequired
 };
 
 export default Card;
