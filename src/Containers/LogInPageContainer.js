@@ -3,11 +3,11 @@ import { postUser, fetchUser } from '../Actions/Actions';
 import LogInPage from '../Components/LogInPage/LogInPage';
 import { withRouter } from 'react-router'
 
-const mapStateToProps = (state) => ({
+export const mapStateToProps = (state) => ({
   userHasErrored: state.userErrorReceived
 });
 
-const mapDispatchToProps = (dispatch) => ({
+export const mapDispatchToProps = (dispatch) => ({
   postUser: (user) => dispatch(postUser(user)),
   fetchUser: (user) => dispatch(fetchUser(user))
 });
