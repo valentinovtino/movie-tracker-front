@@ -1,6 +1,6 @@
 import { movies, user, userErrorReceived } from './Reducers';
 import { mockObj } from '../mockData';
-import { getMovies, createUser, userHasErrored } from '../Actions/Actions';
+import { getMovies, createUser, userHasErrored, userLoggedOut } from '../Actions/Actions';
 
 describe('Reducers', () => {
   describe('Movies Reducer', () => {
@@ -49,6 +49,21 @@ describe('Reducers', () => {
 
       expect(actual).toEqual(expected);
     })
+
+    it('should return an empty object when it receives the correct action', () => {
+      let mockUser = {
+        formState: 'create-user',
+        name: 'Cool Guy',
+        email: 'coolguy@aol.com',
+        password: 'secretlyuncool'
+      }
+
+      let state = user(undefined, createUser(mockUser));
+
+      let actual = user(state, userLoggedOut());
+
+      expect(actual).toEqual({});
+    });
   });
 
   describe('User Has Errored', () => {

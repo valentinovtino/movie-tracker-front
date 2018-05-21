@@ -1,5 +1,5 @@
 import { mockCleanedData } from "../mockData";
-import { getMovies, createUser, postUser, fetchUser, userHasErrored } from './Actions';
+import { getMovies, createUser, postUser, fetchUser, userHasErrored, userLoggedOut } from './Actions';
 import configureStore from 'redux-mock-store';
 import thunk from 'redux-thunk';
 
@@ -37,6 +37,16 @@ describe('Actions', () => {
       let actual = createUser(user);
 
       expect(actual).toEqual(expected);
+    });
+  });
+
+  describe('USER LOGGED OUT', () => {
+    it('should return its type', () => {
+      let actual = userLoggedOut();
+
+      let expected = {type: 'USER_LOGGED_OUT'}
+
+      expect(actual).toEqual(expected)
     });
   });
 
