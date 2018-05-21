@@ -54,8 +54,10 @@ describe('Reducers', () => {
   describe('User Has Errored', () => {
     it('should return a default of false if there is no given state', () => {
       let actual = userErrorReceived(undefined, {type: '@@INIT'})
+    
+      let expected = {userHasErrored: false, error: ''}
 
-      expect(actual).toEqual(false);
+      expect(actual).toEqual(expected);
     });
 
     ('it should return a boolean', () => {

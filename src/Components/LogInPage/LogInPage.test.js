@@ -6,7 +6,7 @@ describe('LogInPage', () => {
   let wrapper;
 
   beforeEach(() => {
-    wrapper = mount(<LogInPage />);
+    wrapper = mount(<LogInPage userHasErrored={false, ''} postUser={jest.fn} fetchUser={jest.fn} />);
   });
 
   it('matches snapshot', () => {
@@ -15,6 +15,7 @@ describe('LogInPage', () => {
 
   it('should have an initial state of email and password, set to empty strings', () => {
     const expected = {
+      userLoggedIn: false,
       errorMessage: '',
       formState: 'create-user',
       name: '',
@@ -34,6 +35,7 @@ describe('LogInPage', () => {
     };
 
     const expectedState = {
+      userLoggedIn: false,
       errorMessage: '',
       formState: 'create-user',
       name: '',
@@ -76,17 +78,12 @@ describe('LogInPage', () => {
     expect(wrapper.find('input').length).toEqual(2)
   });
 
-  it('should set errorMessage in state if fetch call goes awry', () => {
-    
-    wrapper.setProps({ postUser: jest.fn().mockImplementation(() => {
-      return window.fetch = jest.fn().mockImplementation(() => Promise.resolve({ ok: false }))
-      }) 
-    })
+  it('should change userLoggedIn state to true', () => {
+    wrapper = shallow(<LogInPage userHasErrored={false, ''} postUser={jest.fn} fetchUser={jest.fn}/>)
+
     wrapper.instance().handleSubmit({preventDefault: jest.fn()})
-    
-    const expected = 'That email has already been taken';
-    
-    expect(wrapper.state().errorMessage).toEqual(expected);
+
+    expect(wrapper.state().userLoggedIn).toEqual(true)
   });
 
 });

@@ -1,5 +1,5 @@
 import { mockCleanedData } from "../mockData";
-import { getMovies, createUser, postUser, userHasErrored } from './Actions';
+import { getMovies, createUser, postUser, fetchUser, userHasErrored } from './Actions';
 import configureStore from 'redux-mock-store';
 import thunk from 'redux-thunk';
 
@@ -22,7 +22,7 @@ describe('Actions', () => {
         name: 'Cool Guy',
         email: 'coolguy@aol.com',
         password: 'secretlyuncool',
-        id: null
+        id: null,
       };
 
       let expected = {
@@ -30,7 +30,8 @@ describe('Actions', () => {
         name: 'Cool Guy',
         email: 'coolguy@aol.com',
         password: 'secretlyuncool',
-        id: null
+        id: null,
+        favorites: []
       };
 
       let actual = createUser(user);
@@ -53,21 +54,11 @@ describe('Actions', () => {
   });
 
   describe('POST USER', () => {
-    let store;
     const mockStore = configureStore([thunk]);
-    const url = 'http://localhost:3000/api/users/new';
-
-    const options = {
-      method: 'POST',
-      body: JSON.stringify(user),
-      headers: {'content-type': 'application/json'}
-    };
-
-    const user = {
-      name: 'Cool Guy',
-      email: 'coolguy@aol.com',
-      password: 'secretlyuncool'
-    };
+    let store;
+    let url;
+    let options;
+    let user;
 
     beforeEach(() => {
       window.fetch = jest.fn().mockImplementation(() => 
@@ -77,6 +68,21 @@ describe('Actions', () => {
             Promise.resolve(2)}));
 
       store = mockStore({});
+
+      url = 'http://localhost:3000/api/users/new';
+
+      user = {
+        name: 'Cool Guy',
+        email: 'coolguy@aol.com',
+        password: 'secretlyuncool'
+      };
+
+      options = {
+        method: 'POST',
+        body: JSON.stringify(user),
+        headers: {'content-type': 'application/json'}
+      };
+
     });
 
     it('calls fetch with the correct data when adding a new user', async () => {
@@ -104,6 +110,76 @@ describe('Actions', () => {
         .then(() =>  store.getActions());
 
       expect(...expectedActions).toEqual(userHasErrored(true, "That email is already linked to an account"));    
+    });
+  });
+
+  describe('FETCH USER', () => {
+    const mockStore = configureStore([thunk]);
+    let store;
+    let url;
+    let options;
+    let user;
+    let userDetails;
+
+    beforeEach(() => {
+      userDetails = {
+        data: {
+          name: 'Cool Guy',
+          email: 'coolguy@aol.com',
+          password: 'secretlyuncool',
+          id: 2,
+          favorites: []
+      }}
+
+      window.fetch = jest.fn().mockImplementation(() => 
+        Promise.resolve({
+          ok: true,
+          json: () => 
+            Promise.resolve(userDetails)}));
+
+      store = mockStore({});
+
+      url = 'http://localhost:3000/api/users';
+
+      user = {
+        email: 'coolguy@aol.com',
+        password: 'secretlyuncool'
+      };
+
+
+      options = {
+        method: 'POST',
+        body: JSON.stringify(user),
+        headers: {'content-type': 'application/json'}
+      };
+
+    });
+
+    it('calls fetch with the correct data when adding a new user', async () => {
+      await store.dispatch(fetchUser(user)).then(() => store.getActions());
+
+      expect(window.fetch).toHaveBeenCalledWith(url, options);
+    });
+
+    it('calls createUser and userHasErrored actions if fetch response is ok', async () => {
+      const expectedActions = await store.dispatch(fetchUser(user))
+        .then(() =>  store.getActions());
+
+      expect(expectedActions[0]).toEqual(createUser(userDetails.data));
+      expect(expectedActions[1]).toEqual(userHasErrored(false, ''));
+    });
+
+    it('calls userHasErrored with true if fetch response is not ok', async () => {
+      window.fetch = jest.fn().mockImplementation(() => 
+        Promise.resolve({
+          ok: false,
+          json: () => 
+            Promise.resolve(2)}));
+
+      const expectedActions = await store.dispatch(fetchUser(user))
+        .then(() =>  store.getActions());
+
+      expect(...expectedActions).toEqual(userHasErrored(true, "Email and password do not match"));    
     });
   });
 });
