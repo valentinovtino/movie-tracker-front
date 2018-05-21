@@ -70,9 +70,8 @@ export const fetchUser = (user) => {
 };
 
 export const addFavorite = (movie, user_id) => {
-  console.log(movie)
   return async (dispatch) => {
-    // try {
+    try {
       const movieBody = {
         movie_id: movie.id,
         title: movie.title,
@@ -82,17 +81,19 @@ export const addFavorite = (movie, user_id) => {
         overview: movie.overview, 
         user_id: user_id
       };
-      await fetch('http://localhost:3000/api/users/favorites/new', {
+      const response = await fetch('http://localhost:3000/api/users/favorites/new', {
         method: 'POST',
         body: JSON.stringify(movieBody),
         headers: {
           'content-type': 'application/json'
         },
       });
-      // dispatch(addUserFavorite(movie));
-    // } 
-    // catch (error) {
-    //   dispatch(userHasErrored(true, 'whoops'));
-    // }
+      if (!response.ok) {
+        return dispatch(userHasErrored(true, 'Please log in to save a favorite'));
+      }
+      dispatch(addUserFavorite(movie));
+    } catch (error) {
+      dispatch(userHasErrored(true, 'whoops'));
+    }
   };
 };
