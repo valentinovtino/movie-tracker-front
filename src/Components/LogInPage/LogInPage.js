@@ -5,8 +5,6 @@ class LogInPage extends Component {
   constructor(props) {
     super(props);
     
-    
-
     this.state = {
       userLoggedIn: false,
       errorMessage: '',
@@ -68,6 +66,5 @@ class LogInPage extends Component {
     );
   }
 }
-
 
 export default LogInPage;

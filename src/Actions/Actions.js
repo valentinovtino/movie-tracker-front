@@ -12,6 +12,10 @@ export const createUser = ({ name, email, password, id, favorites }) => ({
   favorites: favorites || []
 });
 
+export const userLoggedOut = () => ({
+  type: 'USER_LOGGED_OUT'
+})
+
 export const userHasErrored = (bool, error) => ({
   type: 'USER_HAS_ERRORED',
   userHasErrored: bool,
