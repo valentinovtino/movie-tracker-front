@@ -14,7 +14,7 @@ export const createUser = ({ name, email, password, id, favorites }) => ({
 
 export const userLoggedOut = () => ({
   type: 'USER_LOGGED_OUT'
-})
+});
 
 export const userHasErrored = (bool, error) => ({
   type: 'USER_HAS_ERRORED',
@@ -54,7 +54,9 @@ export const fetchUser = (user) => {
         return dispatch(userHasErrored(true, 'Email and password do not match'));
       }
       const data = await response.json();
-      dispatch(createUser(data.data));
+      const favoritesResponse = await fetch('http://localhost:3000/api/users/56/favorites');
+      const favorites = await favoritesResponse.json();
+      dispatch(createUser({...data.data, favorites: favorites.data}));
       dispatch(userHasErrored(false, ''));
     } catch (error) {
       dispatch(userHasErrored(true, 'Email and password do not match'));

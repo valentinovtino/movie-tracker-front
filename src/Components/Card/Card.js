@@ -2,9 +2,6 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 const Card = ({title, averageRating, posterPath, releaseData, overview}) => {
-
-
-
   return (
     <div className='flip-container'>
       <div className='flipper'>
@@ -16,7 +13,6 @@ const Card = ({title, averageRating, posterPath, releaseData, overview}) => {
           <h3>Rating: {averageRating}</h3>
           <h3>{releaseData}</h3>
           <p>{overview}</p>
-
         </div>
       </div>
       
