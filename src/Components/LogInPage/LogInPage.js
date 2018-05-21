@@ -49,4 +49,9 @@ class LogInPage extends Component {
   }
 }
 
+LogInPage.propTypes = {
+  handleChange: PropTypes.func.isRequired,
+  requestForm: PropTypes.func.isRequired
+};
+
 export default LogInPage;
