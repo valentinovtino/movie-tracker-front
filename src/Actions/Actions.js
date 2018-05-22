@@ -47,7 +47,7 @@ export const postUser = (user) => {
         return true;
       }
       const id = await response.json();
-      dispatch(createUser({ ...user, id }));
+      await dispatch(createUser({ ...user, id }));
       dispatch(userHasErrored(false, ''));
       return false;
     } catch (error) {
@@ -92,7 +92,7 @@ export const addFavorite = (movie, user_id) => {
         release_date: movie.releaseData,
         vote_average: movie.averageRating,
         overview: movie.overview, 
-        user_id: user_id
+        user_id: user_id.id
       };
       const response = await fetch('http://localhost:3000/api/users/favorites/new', {
         method: 'POST',

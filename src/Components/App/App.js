@@ -2,9 +2,10 @@ import React, { Component } from 'react';
 import { fetchMovieData } from '../../apiCalls/api';
 import './App.css';
 import CardHolderContainer from '../../Containers/CardHolderContainer';
+import LogInPageContainer from '../../Containers/LogInPageContainer';
+import FavoritesDisplayContainer from '../../Containers/FavoritesDisplayContainer';
 import { NavLink, Route, Switch } from 'react-router-dom';
 import PropTypes from 'prop-types';
-import LogInPageContainer from '../../Containers/LogInPageContainer';
 
 class App extends Component {
   constructor(props) {
@@ -34,9 +35,11 @@ class App extends Component {
           <h1 className="App-title">Welcome to Movie-Tracker</h1>
           <NavLink to='/'>Home</NavLink>
           {userLoggedIn}
+          <NavLink className='log-in-button' to='/favorites'>Your Favorites</NavLink>
         </header>
         <Route exact path='/' component={CardHolderContainer} />
         <Route exact path='/login' component={LogInPageContainer} />
+        <Route exact path='/favorites' component={FavoritesDisplayContainer} />
       </div>
     );
 
