@@ -2,9 +2,10 @@ import React, { Component } from 'react';
 import { fetchMovieData } from '../../apiCalls/api';
 import './App.css';
 import CardHolderContainer from '../../Containers/CardHolderContainer';
+import LogInPageContainer from '../../Containers/LogInPageContainer';
+import FavoritesDisplayContainer from '../../Containers/FavoritesDisplayContainer';
 import { NavLink, Route, Switch } from 'react-router-dom';
 import PropTypes from 'prop-types';
-import LogInPageContainer from '../../Containers/LogInPageContainer';
 
 class App extends Component {
   constructor(props) {
@@ -28,6 +29,7 @@ class App extends Component {
     const userLoggedIn = this.props.user.name ? 
       <button className='log-out-button' onClick={this.props.userLoggedOut}>Log Out</button> : 
       <NavLink className='log-in-button' to='/login'>Log in</NavLink>
+      <NavLink className='log-in-button' to='/favorites'>Your Favorites</NavLink>
     return (
       <div className="App">
         <header className="App-header">
@@ -37,6 +39,7 @@ class App extends Component {
         </header>
         <Route exact path='/' component={CardHolderContainer} />
         <Route exact path='/login' component={LogInPageContainer} />
+        <Route exact path='/favorites' component={FavoritesDisplayContainer} />
       </div>
     );
 
