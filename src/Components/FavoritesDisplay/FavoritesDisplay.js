@@ -1,7 +1,7 @@
 import React from 'react';
 import Card from '../Card/Card';
 
-const FavoritesDisplay = (props) => {
+export const FavoritesDisplay = (props) => {
   const parsedMovies = cleanData(props.favorites);
   const cards = parsedMovies.map((movie) => {
     return (
