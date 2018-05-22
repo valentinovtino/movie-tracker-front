@@ -17,9 +17,10 @@ export const user = (state = {}, action) => {
         favorites: action.favorites,
         id: action.id
       };
-
+    case 'ADD_USER_FAVORITE' :
+      return {...state, favorites: [...state.favorites, action.movie]};
     case 'USER_LOGGED_OUT' :
-      return {}
+      return {};
     default:
       return state;
   }
