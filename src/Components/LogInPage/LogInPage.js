@@ -29,19 +29,25 @@ class LogInPage extends Component {
 
   handleSubmit = (e) => {
     e.preventDefault();
+    let didError
     if (this.state.formState === 'create-user') {
-      this.props.postUser(this.state);
+      didError = this.props.postUser(this.state);
     } else {
-      this.props.fetchUser({
+      didError = this.props.fetchUser({
         email: this.state.email, 
         password: this.state.password
       });
     }
-    this.setState({ userLoggedIn: true });    
+    if (!didError) {
+      this.setState({ userLoggedIn: true }); 
+    }   
   }
 
   render() {
-    const loggedInRedirect = this.state.userLoggedIn === true ? <Redirect to='/' /> : <div></div>;
+    const loggedInRedirect = 
+      this.state.userLoggedIn === true ? 
+        <Redirect to='/' /> : 
+        <div></div>;
     return (
       <div>
         <div className='form-request'>

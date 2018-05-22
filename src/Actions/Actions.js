@@ -1,3 +1,5 @@
+import { truncate } from "fs";
+
 export const getMovies = (movies) => ({
   type: 'GET_MOVIES',
   movies
@@ -36,13 +38,16 @@ export const postUser = (user) => {
         headers: {'content-type': 'application/json'}
       });
       if (!response.ok) {
-        return dispatch(userHasErrored(true, 'That email is already linked to an account'));
+        dispatch(userHasErrored(true, 'That email is already linked to an account'));
+        return true;
       }
       const id = await response.json();
       dispatch(createUser({ ...user, id }));
       dispatch(userHasErrored(false, ''));
+      return false;
     } catch (error) {
       dispatch(userHasErrored(true, error));
+      return true;
     }
   };
 };
@@ -56,15 +61,18 @@ export const fetchUser = (user) => {
         headers: { 'content-type': 'application/json' }
       });
       if (!response.ok) {
-        return dispatch(userHasErrored(true, 'Email and password do not match'));
+        dispatch(userHasErrored(true, 'Email and password do not match'));
+        return true;
       }
       const data = await response.json();
       const favoritesResponse = await fetch(`http://localhost:3000/api/users/${data.data.id}/favorites`);
       const favorites = await favoritesResponse.json();
       dispatch(createUser({...data.data, favorites: favorites.data}));
       dispatch(userHasErrored(false, ''));
+      return false;
     } catch (error) {
       dispatch(userHasErrored(true, 'Email and password do not match'));
+      return true;
     }
   };
 };
@@ -89,11 +97,14 @@ export const addFavorite = (movie, user_id) => {
         },
       });
       if (!response.ok) {
-        return dispatch(userHasErrored(true, 'Please log in to save a favorite'));
+        dispatch(userHasErrored(true, 'Please log in to save a favorite'));
+        return true
       }
       dispatch(addUserFavorite(movie));
+      return false
     } catch (error) {
-      dispatch(userHasErrored(true, 'whoops'));
+      dispatch(userHasErrored(true, 'Something went wrong, sorry'));
+      return true
     }
   };
 };
