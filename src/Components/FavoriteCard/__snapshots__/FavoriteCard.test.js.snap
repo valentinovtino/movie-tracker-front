@@ -1,0 +1,3723 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card matches snapshot 1`] = `
+ReactWrapper {
+  "length": 1,
+  Symbol(enzyme.__unrendered__): <FavoriteCard
+    addUserFavorite={[Function]}
+    movie={
+        Object {
+            "average_rating": 5,
+            "overview": "This is a movie...",
+            "poster_path": "/asdlflkj.jpg",
+            "release_date": "2018-05-01",
+            "title": "Movie",
+          }
+    }
+    userID={15}
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__node__): Object {
+    "instance": FavoriteCard {
+      "_reactInternalFiber": FiberNode {
+        "_debugID": 5,
+        "_debugIsCurrentlyTiming": false,
+        "_debugOwner": FiberNode {
+          "_debugID": 4,
+          "_debugIsCurrentlyTiming": false,
+          "_debugOwner": null,
+          "_debugSource": null,
+          "alternate": null,
+          "child": [Circular],
+          "effectTag": 1,
+          "expirationTime": 0,
+          "firstEffect": null,
+          "index": 0,
+          "key": null,
+          "lastEffect": null,
+          "memoizedProps": Object {
+            "Component": [Function],
+            "context": null,
+            "props": Object {
+              "addUserFavorite": [Function],
+              "movie": Object {
+                "average_rating": 5,
+                "overview": "This is a movie...",
+                "poster_path": "/asdlflkj.jpg",
+                "release_date": "2018-05-01",
+                "title": "Movie",
+              },
+              "userID": 15,
+            },
+          },
+          "memoizedState": Object {
+            "context": null,
+            "mount": true,
+            "props": Object {
+              "addUserFavorite": [Function],
+              "movie": Object {
+                "average_rating": 5,
+                "overview": "This is a movie...",
+                "poster_path": "/asdlflkj.jpg",
+                "release_date": "2018-05-01",
+                "title": "Movie",
+              },
+              "userID": 15,
+            },
+          },
+          "mode": 0,
+          "nextEffect": null,
+          "pendingProps": Object {
+            "Component": [Function],
+            "context": null,
+            "props": Object {
+              "addUserFavorite": [Function],
+              "movie": Object {
+                "average_rating": 5,
+                "overview": "This is a movie...",
+                "poster_path": "/asdlflkj.jpg",
+                "release_date": "2018-05-01",
+                "title": "Movie",
+              },
+              "userID": 15,
+            },
+          },
+          "ref": null,
+          "return": FiberNode {
+            "_debugID": 1,
+            "_debugIsCurrentlyTiming": false,
+            "_debugOwner": null,
+            "_debugSource": null,
+            "alternate": FiberNode {
+              "_debugID": 1,
+              "_debugIsCurrentlyTiming": false,
+              "_debugOwner": null,
+              "_debugSource": null,
+              "alternate": [Circular],
+              "child": null,
+              "effectTag": 0,
+              "expirationTime": 1,
+              "firstEffect": null,
+              "index": 0,
+              "key": null,
+              "lastEffect": null,
+              "memoizedProps": null,
+              "memoizedState": null,
+              "mode": 0,
+              "nextEffect": null,
+              "pendingProps": null,
+              "ref": null,
+              "return": null,
+              "sibling": null,
+              "stateNode": Object {
+                "containerInfo": <div>
+                  <div
+                                    class="flip-container"
+                  >
+                                    <div />
+                                    <div
+                                                      class="flipper"
+                                    >
+                                                      <div
+                                                                        class="Card front"
+                                                      >
+                                                                        <img
+                                                                                          src="https://image.tmdb.org/t/p/w500/asdlflkj.jpg"
+                                                                        />
+                                                      </div>
+                                                      <div
+                                                                        class="Card back"
+                                                      >
+                                                                        <h1>
+                                                                                          Movie
+                                                                        </h1>
+                                                                        <h3>
+                                                                                          Rating: 
+                                                                                          5
+                                                                        </h3>
+                                                                        <button>
+                                                                                          Add to favorites 
+                                                                        </button>
+                                                                        <h3>
+                                                                                          2018-05-01
+                                                                        </h3>
+                                                                        <p>
+                                                                                          This is a movie...
+                                                                        </p>
+                                                      </div>
+                                    </div>
+                  </div>
+</div>,
+                "context": Object {},
+                "current": [Circular],
+                "finishedWork": null,
+                "firstBatch": null,
+                "hydrate": false,
+                "nextScheduledRoot": null,
+                "pendingChildren": null,
+                "pendingCommitExpirationTime": 0,
+                "pendingContext": null,
+                "remainingExpirationTime": 0,
+              },
+              "tag": 3,
+              "type": null,
+              "updateQueue": Object {
+                "baseState": null,
+                "callbackList": null,
+                "capturedValues": null,
+                "expirationTime": 1,
+                "first": Object {
+                  "callback": null,
+                  "capturedValue": null,
+                  "expirationTime": 1,
+                  "isForced": false,
+                  "isReplace": false,
+                  "next": null,
+                  "partialState": Object {
+                    "element": <WrapperComponent
+                      Component={[Function]}
+                      context={null}
+                      props={
+                                            Object {
+                                                                  "addUserFavorite": [Function],
+                                                                  "movie": Object {
+                                                                    "average_rating": 5,
+                                                                    "overview": "This is a movie...",
+                                                                    "poster_path": "/asdlflkj.jpg",
+                                                                    "release_date": "2018-05-01",
+                                                                    "title": "Movie",
+                                                                  },
+                                                                  "userID": 15,
+                                                                }
+                      }
+/>,
+                  },
+                },
+                "hasForceUpdate": false,
+                "isInitialized": false,
+                "isProcessing": false,
+                "last": Object {
+                  "callback": null,
+                  "capturedValue": null,
+                  "expirationTime": 1,
+                  "isForced": false,
+                  "isReplace": false,
+                  "next": null,
+                  "partialState": Object {
+                    "element": <WrapperComponent
+                      Component={[Function]}
+                      context={null}
+                      props={
+                                            Object {
+                                                                  "addUserFavorite": [Function],
+                                                                  "movie": Object {
+                                                                    "average_rating": 5,
+                                                                    "overview": "This is a movie...",
+                                                                    "poster_path": "/asdlflkj.jpg",
+                                                                    "release_date": "2018-05-01",
+                                                                    "title": "Movie",
+                                                                  },
+                                                                  "userID": 15,
+                                                                }
+                      }
+/>,
+                  },
+                },
+              },
+            },
+            "child": [Circular],
+            "effectTag": 32,
+            "expirationTime": 0,
+            "firstEffect": [Circular],
+            "index": 0,
+            "key": null,
+            "lastEffect": [Circular],
+            "memoizedProps": null,
+            "memoizedState": Object {
+              "element": <WrapperComponent
+                Component={[Function]}
+                context={null}
+                props={
+                                Object {
+                                                "addUserFavorite": [Function],
+                                                "movie": Object {
+                                                  "average_rating": 5,
+                                                  "overview": "This is a movie...",
+                                                  "poster_path": "/asdlflkj.jpg",
+                                                  "release_date": "2018-05-01",
+                                                  "title": "Movie",
+                                                },
+                                                "userID": 15,
+                                              }
+                }
+/>,
+            },
+            "mode": 0,
+            "nextEffect": null,
+            "pendingProps": null,
+            "ref": null,
+            "return": null,
+            "sibling": null,
+            "stateNode": Object {
+              "containerInfo": <div>
+                <div
+                                class="flip-container"
+                >
+                                <div />
+                                <div
+                                                class="flipper"
+                                >
+                                                <div
+                                                                class="Card front"
+                                                >
+                                                                <img
+                                                                                src="https://image.tmdb.org/t/p/w500/asdlflkj.jpg"
+                                                                />
+                                                </div>
+                                                <div
+                                                                class="Card back"
+                                                >
+                                                                <h1>
+                                                                                Movie
+                                                                </h1>
+                                                                <h3>
+                                                                                Rating: 
+                                                                                5
+                                                                </h3>
+                                                                <button>
+                                                                                Add to favorites 
+                                                                </button>
+                                                                <h3>
+                                                                                2018-05-01
+                                                                </h3>
+                                                                <p>
+                                                                                This is a movie...
+                                                                </p>
+                                                </div>
+                                </div>
+                </div>
+</div>,
+              "context": Object {},
+              "current": [Circular],
+              "finishedWork": null,
+              "firstBatch": null,
+              "hydrate": false,
+              "nextScheduledRoot": null,
+              "pendingChildren": null,
+              "pendingCommitExpirationTime": 0,
+              "pendingContext": null,
+              "remainingExpirationTime": 0,
+            },
+            "tag": 3,
+            "type": null,
+            "updateQueue": Object {
+              "baseState": Object {
+                "element": <WrapperComponent
+                  Component={[Function]}
+                  context={null}
+                  props={
+                                    Object {
+                                                      "addUserFavorite": [Function],
+                                                      "movie": Object {
+                                                        "average_rating": 5,
+                                                        "overview": "This is a movie...",
+                                                        "poster_path": "/asdlflkj.jpg",
+                                                        "release_date": "2018-05-01",
+                                                        "title": "Movie",
+                                                      },
+                                                      "userID": 15,
+                                                    }
+                  }
+/>,
+              },
+              "callbackList": null,
+              "capturedValues": null,
+              "expirationTime": 0,
+              "first": null,
+              "hasForceUpdate": false,
+              "isInitialized": true,
+              "isProcessing": false,
+              "last": null,
+            },
+          },
+          "sibling": null,
+          "stateNode": WrapperComponent {
+            "_reactInternalFiber": [Circular],
+            "_reactInternalInstance": Object {},
+            "context": Object {},
+            "props": Object {
+              "Component": [Function],
+              "context": null,
+              "props": Object {
+                "addUserFavorite": [Function],
+                "movie": Object {
+                  "average_rating": 5,
+                  "overview": "This is a movie...",
+                  "poster_path": "/asdlflkj.jpg",
+                  "release_date": "2018-05-01",
+                  "title": "Movie",
+                },
+                "userID": 15,
+              },
+            },
+            "refs": Object {},
+            "state": Object {
+              "context": null,
+              "mount": true,
+              "props": Object {
+                "addUserFavorite": [Function],
+                "movie": Object {
+                  "average_rating": 5,
+                  "overview": "This is a movie...",
+                  "poster_path": "/asdlflkj.jpg",
+                  "release_date": "2018-05-01",
+                  "title": "Movie",
+                },
+                "userID": 15,
+              },
+            },
+            "updater": Object {
+              "enqueueForceUpdate": [Function],
+              "enqueueReplaceState": [Function],
+              "enqueueSetState": [Function],
+              "isMounted": [Function],
+            },
+          },
+          "tag": 2,
+          "type": [Function],
+          "updateQueue": null,
+        },
+        "_debugSource": null,
+        "alternate": null,
+        "child": FiberNode {
+          "_debugID": 6,
+          "_debugIsCurrentlyTiming": false,
+          "_debugOwner": [Circular],
+          "_debugSource": Object {
+            "fileName": "/Users/myhomefolder/TURING/mod3/movie-tracker-front/src/Components/FavoriteCard/FavoriteCard.js",
+            "lineNumber": 29,
+          },
+          "alternate": null,
+          "child": FiberNode {
+            "_debugID": 7,
+            "_debugIsCurrentlyTiming": false,
+            "_debugOwner": [Circular],
+            "_debugSource": Object {
+              "fileName": "/Users/myhomefolder/TURING/mod3/movie-tracker-front/src/Components/FavoriteCard/FavoriteCard.js",
+              "lineNumber": 26,
+            },
+            "alternate": null,
+            "child": null,
+            "effectTag": 0,
+            "expirationTime": 0,
+            "firstEffect": null,
+            "index": 0,
+            "key": null,
+            "lastEffect": null,
+            "memoizedProps": Object {},
+            "memoizedState": null,
+            "mode": 0,
+            "nextEffect": null,
+            "pendingProps": Object {},
+            "ref": null,
+            "return": [Circular],
+            "sibling": FiberNode {
+              "_debugID": 8,
+              "_debugIsCurrentlyTiming": false,
+              "_debugOwner": [Circular],
+              "_debugSource": Object {
+                "fileName": "/Users/myhomefolder/TURING/mod3/movie-tracker-front/src/Components/FavoriteCard/FavoriteCard.js",
+                "lineNumber": 31,
+              },
+              "alternate": null,
+              "child": FiberNode {
+                "_debugID": 9,
+                "_debugIsCurrentlyTiming": false,
+                "_debugOwner": [Circular],
+                "_debugSource": Object {
+                  "fileName": "/Users/myhomefolder/TURING/mod3/movie-tracker-front/src/Components/FavoriteCard/FavoriteCard.js",
+                  "lineNumber": 32,
+                },
+                "alternate": null,
+                "child": FiberNode {
+                  "_debugID": 11,
+                  "_debugIsCurrentlyTiming": false,
+                  "_debugOwner": [Circular],
+                  "_debugSource": Object {
+                    "fileName": "/Users/myhomefolder/TURING/mod3/movie-tracker-front/src/Components/FavoriteCard/FavoriteCard.js",
+                    "lineNumber": 33,
+                  },
+                  "alternate": null,
+                  "child": null,
+                  "effectTag": 0,
+                  "expirationTime": 0,
+                  "firstEffect": null,
+                  "index": 0,
+                  "key": null,
+                  "lastEffect": null,
+                  "memoizedProps": Object {
+                    "src": "https://image.tmdb.org/t/p/w500/asdlflkj.jpg",
+                  },
+                  "memoizedState": null,
+                  "mode": 0,
+                  "nextEffect": null,
+                  "pendingProps": Object {
+                    "src": "https://image.tmdb.org/t/p/w500/asdlflkj.jpg",
+                  },
+                  "ref": null,
+                  "return": [Circular],
+                  "sibling": null,
+                  "stateNode": <img
+                    src="https://image.tmdb.org/t/p/w500/asdlflkj.jpg"
+/>,
+                  "tag": 5,
+                  "type": "img",
+                  "updateQueue": null,
+                },
+                "effectTag": 0,
+                "expirationTime": 0,
+                "firstEffect": null,
+                "index": 0,
+                "key": null,
+                "lastEffect": null,
+                "memoizedProps": Object {
+                  "children": <img
+                    src="https://image.tmdb.org/t/p/w500/asdlflkj.jpg"
+/>,
+                  "className": "Card front",
+                },
+                "memoizedState": null,
+                "mode": 0,
+                "nextEffect": null,
+                "pendingProps": Object {
+                  "children": <img
+                    src="https://image.tmdb.org/t/p/w500/asdlflkj.jpg"
+/>,
+                  "className": "Card front",
+                },
+                "ref": null,
+                "return": [Circular],
+                "sibling": FiberNode {
+                  "_debugID": 10,
+                  "_debugIsCurrentlyTiming": false,
+                  "_debugOwner": [Circular],
+                  "_debugSource": Object {
+                    "fileName": "/Users/myhomefolder/TURING/mod3/movie-tracker-front/src/Components/FavoriteCard/FavoriteCard.js",
+                    "lineNumber": 35,
+                  },
+                  "alternate": null,
+                  "child": FiberNode {
+                    "_debugID": 12,
+                    "_debugIsCurrentlyTiming": false,
+                    "_debugOwner": [Circular],
+                    "_debugSource": Object {
+                      "fileName": "/Users/myhomefolder/TURING/mod3/movie-tracker-front/src/Components/FavoriteCard/FavoriteCard.js",
+                      "lineNumber": 36,
+                    },
+                    "alternate": null,
+                    "child": null,
+                    "effectTag": 0,
+                    "expirationTime": 0,
+                    "firstEffect": null,
+                    "index": 0,
+                    "key": null,
+                    "lastEffect": null,
+                    "memoizedProps": Object {
+                      "children": "Movie",
+                    },
+                    "memoizedState": null,
+                    "mode": 0,
+                    "nextEffect": null,
+                    "pendingProps": Object {
+                      "children": "Movie",
+                    },
+                    "ref": null,
+                    "return": [Circular],
+                    "sibling": FiberNode {
+                      "_debugID": 13,
+                      "_debugIsCurrentlyTiming": false,
+                      "_debugOwner": [Circular],
+                      "_debugSource": Object {
+                        "fileName": "/Users/myhomefolder/TURING/mod3/movie-tracker-front/src/Components/FavoriteCard/FavoriteCard.js",
+                        "lineNumber": 37,
+                      },
+                      "alternate": null,
+                      "child": FiberNode {
+                        "_debugID": 17,
+                        "_debugIsCurrentlyTiming": false,
+                        "_debugOwner": null,
+                        "_debugSource": null,
+                        "alternate": null,
+                        "child": null,
+                        "effectTag": 0,
+                        "expirationTime": 0,
+                        "firstEffect": null,
+                        "index": 0,
+                        "key": null,
+                        "lastEffect": null,
+                        "memoizedProps": "Rating: ",
+                        "memoizedState": null,
+                        "mode": 0,
+                        "nextEffect": null,
+                        "pendingProps": "Rating: ",
+                        "ref": null,
+                        "return": [Circular],
+                        "sibling": FiberNode {
+                          "_debugID": 18,
+                          "_debugIsCurrentlyTiming": false,
+                          "_debugOwner": null,
+                          "_debugSource": null,
+                          "alternate": null,
+                          "child": null,
+                          "effectTag": 0,
+                          "expirationTime": 0,
+                          "firstEffect": null,
+                          "index": 1,
+                          "key": null,
+                          "lastEffect": null,
+                          "memoizedProps": "5",
+                          "memoizedState": null,
+                          "mode": 0,
+                          "nextEffect": null,
+                          "pendingProps": "5",
+                          "ref": null,
+                          "return": [Circular],
+                          "sibling": null,
+                          "stateNode": 5,
+                          "tag": 6,
+                          "type": null,
+                          "updateQueue": null,
+                        },
+                        "stateNode": Rating: ,
+                        "tag": 6,
+                        "type": null,
+                        "updateQueue": null,
+                      },
+                      "effectTag": 0,
+                      "expirationTime": 0,
+                      "firstEffect": null,
+                      "index": 1,
+                      "key": null,
+                      "lastEffect": null,
+                      "memoizedProps": Object {
+                        "children": Array [
+                          "Rating: ",
+                          5,
+                        ],
+                      },
+                      "memoizedState": null,
+                      "mode": 0,
+                      "nextEffect": null,
+                      "pendingProps": Object {
+                        "children": Array [
+                          "Rating: ",
+                          5,
+                        ],
+                      },
+                      "ref": null,
+                      "return": [Circular],
+                      "sibling": FiberNode {
+                        "_debugID": 14,
+                        "_debugIsCurrentlyTiming": false,
+                        "_debugOwner": [Circular],
+                        "_debugSource": Object {
+                          "fileName": "/Users/myhomefolder/TURING/mod3/movie-tracker-front/src/Components/FavoriteCard/FavoriteCard.js",
+                          "lineNumber": 38,
+                        },
+                        "alternate": null,
+                        "child": null,
+                        "effectTag": 0,
+                        "expirationTime": 0,
+                        "firstEffect": null,
+                        "index": 2,
+                        "key": null,
+                        "lastEffect": null,
+                        "memoizedProps": Object {
+                          "children": " Add to favorites ",
+                          "onClick": [Function],
+                        },
+                        "memoizedState": null,
+                        "mode": 0,
+                        "nextEffect": null,
+                        "pendingProps": Object {
+                          "children": " Add to favorites ",
+                          "onClick": [Function],
+                        },
+                        "ref": null,
+                        "return": [Circular],
+                        "sibling": FiberNode {
+                          "_debugID": 15,
+                          "_debugIsCurrentlyTiming": false,
+                          "_debugOwner": [Circular],
+                          "_debugSource": Object {
+                            "fileName": "/Users/myhomefolder/TURING/mod3/movie-tracker-front/src/Components/FavoriteCard/FavoriteCard.js",
+                            "lineNumber": 39,
+                          },
+                          "alternate": null,
+                          "child": null,
+                          "effectTag": 0,
+                          "expirationTime": 0,
+                          "firstEffect": null,
+                          "index": 3,
+                          "key": null,
+                          "lastEffect": null,
+                          "memoizedProps": Object {
+                            "children": "2018-05-01",
+                          },
+                          "memoizedState": null,
+                          "mode": 0,
+                          "nextEffect": null,
+                          "pendingProps": Object {
+                            "children": "2018-05-01",
+                          },
+                          "ref": null,
+                          "return": [Circular],
+                          "sibling": FiberNode {
+                            "_debugID": 16,
+                            "_debugIsCurrentlyTiming": false,
+                            "_debugOwner": [Circular],
+                            "_debugSource": Object {
+                              "fileName": "/Users/myhomefolder/TURING/mod3/movie-tracker-front/src/Components/FavoriteCard/FavoriteCard.js",
+                              "lineNumber": 40,
+                            },
+                            "alternate": null,
+                            "child": null,
+                            "effectTag": 0,
+                            "expirationTime": 0,
+                            "firstEffect": null,
+                            "index": 4,
+                            "key": null,
+                            "lastEffect": null,
+                            "memoizedProps": Object {
+                              "children": "This is a movie...",
+                            },
+                            "memoizedState": null,
+                            "mode": 0,
+                            "nextEffect": null,
+                            "pendingProps": Object {
+                              "children": "This is a movie...",
+                            },
+                            "ref": null,
+                            "return": [Circular],
+                            "sibling": null,
+                            "stateNode": <p>
+                              This is a movie...
+</p>,
+                            "tag": 5,
+                            "type": "p",
+                            "updateQueue": null,
+                          },
+                          "stateNode": <h3>
+                            2018-05-01
+</h3>,
+                          "tag": 5,
+                          "type": "h3",
+                          "updateQueue": null,
+                        },
+                        "stateNode": <button>
+                          Add to favorites 
+</button>,
+                        "tag": 5,
+                        "type": "button",
+                        "updateQueue": null,
+                      },
+                      "stateNode": <h3>
+                        Rating: 
+                        5
+</h3>,
+                      "tag": 5,
+                      "type": "h3",
+                      "updateQueue": null,
+                    },
+                    "stateNode": <h1>
+                      Movie
+</h1>,
+                    "tag": 5,
+                    "type": "h1",
+                    "updateQueue": null,
+                  },
+                  "effectTag": 0,
+                  "expirationTime": 0,
+                  "firstEffect": null,
+                  "index": 1,
+                  "key": null,
+                  "lastEffect": null,
+                  "memoizedProps": Object {
+                    "children": Array [
+                      <h1>
+                        Movie
+</h1>,
+                      <h3>
+                        Rating: 
+                        5
+</h3>,
+                      <button
+                        onClick={[Function]}
+>
+                         Add to favorites 
+</button>,
+                      <h3>
+                        2018-05-01
+</h3>,
+                      <p>
+                        This is a movie...
+</p>,
+                    ],
+                    "className": "Card back",
+                  },
+                  "memoizedState": null,
+                  "mode": 0,
+                  "nextEffect": null,
+                  "pendingProps": Object {
+                    "children": Array [
+                      <h1>
+                        Movie
+</h1>,
+                      <h3>
+                        Rating: 
+                        5
+</h3>,
+                      <button
+                        onClick={[Function]}
+>
+                         Add to favorites 
+</button>,
+                      <h3>
+                        2018-05-01
+</h3>,
+                      <p>
+                        This is a movie...
+</p>,
+                    ],
+                    "className": "Card back",
+                  },
+                  "ref": null,
+                  "return": [Circular],
+                  "sibling": null,
+                  "stateNode": <div
+                    class="Card back"
+>
+                    <h1>
+                                        Movie
+                    </h1>
+                    <h3>
+                                        Rating: 
+                                        5
+                    </h3>
+                    <button>
+                                        Add to favorites 
+                    </button>
+                    <h3>
+                                        2018-05-01
+                    </h3>
+                    <p>
+                                        This is a movie...
+                    </p>
+</div>,
+                  "tag": 5,
+                  "type": "div",
+                  "updateQueue": null,
+                },
+                "stateNode": <div
+                  class="Card front"
+>
+                  <img
+                                    src="https://image.tmdb.org/t/p/w500/asdlflkj.jpg"
+                  />
+</div>,
+                "tag": 5,
+                "type": "div",
+                "updateQueue": null,
+              },
+              "effectTag": 0,
+              "expirationTime": 0,
+              "firstEffect": null,
+              "index": 1,
+              "key": null,
+              "lastEffect": null,
+              "memoizedProps": Object {
+                "children": Array [
+                  <div
+                    className="Card front"
+>
+                    <img
+                                        src="https://image.tmdb.org/t/p/w500/asdlflkj.jpg"
+                    />
+</div>,
+                  <div
+                    className="Card back"
+>
+                    <h1>
+                                        Movie
+                    </h1>
+                    <h3>
+                                        Rating: 
+                                        5
+                    </h3>
+                    <button
+                                        onClick={[Function]}
+                    >
+                                         Add to favorites 
+                    </button>
+                    <h3>
+                                        2018-05-01
+                    </h3>
+                    <p>
+                                        This is a movie...
+                    </p>
+</div>,
+                ],
+                "className": "flipper",
+              },
+              "memoizedState": null,
+              "mode": 0,
+              "nextEffect": null,
+              "pendingProps": Object {
+                "children": Array [
+                  <div
+                    className="Card front"
+>
+                    <img
+                                        src="https://image.tmdb.org/t/p/w500/asdlflkj.jpg"
+                    />
+</div>,
+                  <div
+                    className="Card back"
+>
+                    <h1>
+                                        Movie
+                    </h1>
+                    <h3>
+                                        Rating: 
+                                        5
+                    </h3>
+                    <button
+                                        onClick={[Function]}
+                    >
+                                         Add to favorites 
+                    </button>
+                    <h3>
+                                        2018-05-01
+                    </h3>
+                    <p>
+                                        This is a movie...
+                    </p>
+</div>,
+                ],
+                "className": "flipper",
+              },
+              "ref": null,
+              "return": [Circular],
+              "sibling": null,
+              "stateNode": <div
+                class="flipper"
+>
+                <div
+                                class="Card front"
+                >
+                                <img
+                                                src="https://image.tmdb.org/t/p/w500/asdlflkj.jpg"
+                                />
+                </div>
+                <div
+                                class="Card back"
+                >
+                                <h1>
+                                                Movie
+                                </h1>
+                                <h3>
+                                                Rating: 
+                                                5
+                                </h3>
+                                <button>
+                                                Add to favorites 
+                                </button>
+                                <h3>
+                                                2018-05-01
+                                </h3>
+                                <p>
+                                                This is a movie...
+                                </p>
+                </div>
+</div>,
+              "tag": 5,
+              "type": "div",
+              "updateQueue": null,
+            },
+            "stateNode": <div />,
+            "tag": 5,
+            "type": "div",
+            "updateQueue": null,
+          },
+          "effectTag": 0,
+          "expirationTime": 0,
+          "firstEffect": null,
+          "index": 0,
+          "key": null,
+          "lastEffect": null,
+          "memoizedProps": Object {
+            "children": Array [
+              <div />,
+              <div
+                className="flipper"
+>
+                <div
+                                className="Card front"
+                >
+                                <img
+                                                src="https://image.tmdb.org/t/p/w500/asdlflkj.jpg"
+                                />
+                </div>
+                <div
+                                className="Card back"
+                >
+                                <h1>
+                                                Movie
+                                </h1>
+                                <h3>
+                                                Rating: 
+                                                5
+                                </h3>
+                                <button
+                                                onClick={[Function]}
+                                >
+                                                 Add to favorites 
+                                </button>
+                                <h3>
+                                                2018-05-01
+                                </h3>
+                                <p>
+                                                This is a movie...
+                                </p>
+                </div>
+</div>,
+            ],
+            "className": "flip-container",
+          },
+          "memoizedState": null,
+          "mode": 0,
+          "nextEffect": null,
+          "pendingProps": Object {
+            "children": Array [
+              <div />,
+              <div
+                className="flipper"
+>
+                <div
+                                className="Card front"
+                >
+                                <img
+                                                src="https://image.tmdb.org/t/p/w500/asdlflkj.jpg"
+                                />
+                </div>
+                <div
+                                className="Card back"
+                >
+                                <h1>
+                                                Movie
+                                </h1>
+                                <h3>
+                                                Rating: 
+                                                5
+                                </h3>
+                                <button
+                                                onClick={[Function]}
+                                >
+                                                 Add to favorites 
+                                </button>
+                                <h3>
+                                                2018-05-01
+                                </h3>
+                                <p>
+                                                This is a movie...
+                                </p>
+                </div>
+</div>,
+            ],
+            "className": "flip-container",
+          },
+          "ref": null,
+          "return": [Circular],
+          "sibling": null,
+          "stateNode": <div
+            class="flip-container"
+>
+            <div />
+            <div
+                        class="flipper"
+            >
+                        <div
+                                    class="Card front"
+                        >
+                                    <img
+                                                src="https://image.tmdb.org/t/p/w500/asdlflkj.jpg"
+                                    />
+                        </div>
+                        <div
+                                    class="Card back"
+                        >
+                                    <h1>
+                                                Movie
+                                    </h1>
+                                    <h3>
+                                                Rating: 
+                                                5
+                                    </h3>
+                                    <button>
+                                                Add to favorites 
+                                    </button>
+                                    <h3>
+                                                2018-05-01
+                                    </h3>
+                                    <p>
+                                                This is a movie...
+                                    </p>
+                        </div>
+            </div>
+</div>,
+          "tag": 5,
+          "type": "div",
+          "updateQueue": null,
+        },
+        "effectTag": 1,
+        "expirationTime": 0,
+        "firstEffect": null,
+        "index": 0,
+        "key": null,
+        "lastEffect": null,
+        "memoizedProps": Object {
+          "addUserFavorite": [Function],
+          "movie": Object {
+            "average_rating": 5,
+            "overview": "This is a movie...",
+            "poster_path": "/asdlflkj.jpg",
+            "release_date": "2018-05-01",
+            "title": "Movie",
+          },
+          "userID": 15,
+        },
+        "memoizedState": Object {
+          "hasErrored": false,
+        },
+        "mode": 0,
+        "nextEffect": null,
+        "pendingProps": Object {
+          "addUserFavorite": [Function],
+          "movie": Object {
+            "average_rating": 5,
+            "overview": "This is a movie...",
+            "poster_path": "/asdlflkj.jpg",
+            "release_date": "2018-05-01",
+            "title": "Movie",
+          },
+          "userID": 15,
+        },
+        "ref": null,
+        "return": FiberNode {
+          "_debugID": 4,
+          "_debugIsCurrentlyTiming": false,
+          "_debugOwner": null,
+          "_debugSource": null,
+          "alternate": null,
+          "child": [Circular],
+          "effectTag": 1,
+          "expirationTime": 0,
+          "firstEffect": null,
+          "index": 0,
+          "key": null,
+          "lastEffect": null,
+          "memoizedProps": Object {
+            "Component": [Function],
+            "context": null,
+            "props": Object {
+              "addUserFavorite": [Function],
+              "movie": Object {
+                "average_rating": 5,
+                "overview": "This is a movie...",
+                "poster_path": "/asdlflkj.jpg",
+                "release_date": "2018-05-01",
+                "title": "Movie",
+              },
+              "userID": 15,
+            },
+          },
+          "memoizedState": Object {
+            "context": null,
+            "mount": true,
+            "props": Object {
+              "addUserFavorite": [Function],
+              "movie": Object {
+                "average_rating": 5,
+                "overview": "This is a movie...",
+                "poster_path": "/asdlflkj.jpg",
+                "release_date": "2018-05-01",
+                "title": "Movie",
+              },
+              "userID": 15,
+            },
+          },
+          "mode": 0,
+          "nextEffect": null,
+          "pendingProps": Object {
+            "Component": [Function],
+            "context": null,
+            "props": Object {
+              "addUserFavorite": [Function],
+              "movie": Object {
+                "average_rating": 5,
+                "overview": "This is a movie...",
+                "poster_path": "/asdlflkj.jpg",
+                "release_date": "2018-05-01",
+                "title": "Movie",
+              },
+              "userID": 15,
+            },
+          },
+          "ref": null,
+          "return": FiberNode {
+            "_debugID": 1,
+            "_debugIsCurrentlyTiming": false,
+            "_debugOwner": null,
+            "_debugSource": null,
+            "alternate": FiberNode {
+              "_debugID": 1,
+              "_debugIsCurrentlyTiming": false,
+              "_debugOwner": null,
+              "_debugSource": null,
+              "alternate": [Circular],
+              "child": null,
+              "effectTag": 0,
+              "expirationTime": 1,
+              "firstEffect": null,
+              "index": 0,
+              "key": null,
+              "lastEffect": null,
+              "memoizedProps": null,
+              "memoizedState": null,
+              "mode": 0,
+              "nextEffect": null,
+              "pendingProps": null,
+              "ref": null,
+              "return": null,
+              "sibling": null,
+              "stateNode": Object {
+                "containerInfo": <div>
+                  <div
+                                    class="flip-container"
+                  >
+                                    <div />
+                                    <div
+                                                      class="flipper"
+                                    >
+                                                      <div
+                                                                        class="Card front"
+                                                      >
+                                                                        <img
+                                                                                          src="https://image.tmdb.org/t/p/w500/asdlflkj.jpg"
+                                                                        />
+                                                      </div>
+                                                      <div
+                                                                        class="Card back"
+                                                      >
+                                                                        <h1>
+                                                                                          Movie
+                                                                        </h1>
+                                                                        <h3>
+                                                                                          Rating: 
+                                                                                          5
+                                                                        </h3>
+                                                                        <button>
+                                                                                          Add to favorites 
+                                                                        </button>
+                                                                        <h3>
+                                                                                          2018-05-01
+                                                                        </h3>
+                                                                        <p>
+                                                                                          This is a movie...
+                                                                        </p>
+                                                      </div>
+                                    </div>
+                  </div>
+</div>,
+                "context": Object {},
+                "current": [Circular],
+                "finishedWork": null,
+                "firstBatch": null,
+                "hydrate": false,
+                "nextScheduledRoot": null,
+                "pendingChildren": null,
+                "pendingCommitExpirationTime": 0,
+                "pendingContext": null,
+                "remainingExpirationTime": 0,
+              },
+              "tag": 3,
+              "type": null,
+              "updateQueue": Object {
+                "baseState": null,
+                "callbackList": null,
+                "capturedValues": null,
+                "expirationTime": 1,
+                "first": Object {
+                  "callback": null,
+                  "capturedValue": null,
+                  "expirationTime": 1,
+                  "isForced": false,
+                  "isReplace": false,
+                  "next": null,
+                  "partialState": Object {
+                    "element": <WrapperComponent
+                      Component={[Function]}
+                      context={null}
+                      props={
+                                            Object {
+                                                                  "addUserFavorite": [Function],
+                                                                  "movie": Object {
+                                                                    "average_rating": 5,
+                                                                    "overview": "This is a movie...",
+                                                                    "poster_path": "/asdlflkj.jpg",
+                                                                    "release_date": "2018-05-01",
+                                                                    "title": "Movie",
+                                                                  },
+                                                                  "userID": 15,
+                                                                }
+                      }
+/>,
+                  },
+                },
+                "hasForceUpdate": false,
+                "isInitialized": false,
+                "isProcessing": false,
+                "last": Object {
+                  "callback": null,
+                  "capturedValue": null,
+                  "expirationTime": 1,
+                  "isForced": false,
+                  "isReplace": false,
+                  "next": null,
+                  "partialState": Object {
+                    "element": <WrapperComponent
+                      Component={[Function]}
+                      context={null}
+                      props={
+                                            Object {
+                                                                  "addUserFavorite": [Function],
+                                                                  "movie": Object {
+                                                                    "average_rating": 5,
+                                                                    "overview": "This is a movie...",
+                                                                    "poster_path": "/asdlflkj.jpg",
+                                                                    "release_date": "2018-05-01",
+                                                                    "title": "Movie",
+                                                                  },
+                                                                  "userID": 15,
+                                                                }
+                      }
+/>,
+                  },
+                },
+              },
+            },
+            "child": [Circular],
+            "effectTag": 32,
+            "expirationTime": 0,
+            "firstEffect": [Circular],
+            "index": 0,
+            "key": null,
+            "lastEffect": [Circular],
+            "memoizedProps": null,
+            "memoizedState": Object {
+              "element": <WrapperComponent
+                Component={[Function]}
+                context={null}
+                props={
+                                Object {
+                                                "addUserFavorite": [Function],
+                                                "movie": Object {
+                                                  "average_rating": 5,
+                                                  "overview": "This is a movie...",
+                                                  "poster_path": "/asdlflkj.jpg",
+                                                  "release_date": "2018-05-01",
+                                                  "title": "Movie",
+                                                },
+                                                "userID": 15,
+                                              }
+                }
+/>,
+            },
+            "mode": 0,
+            "nextEffect": null,
+            "pendingProps": null,
+            "ref": null,
+            "return": null,
+            "sibling": null,
+            "stateNode": Object {
+              "containerInfo": <div>
+                <div
+                                class="flip-container"
+                >
+                                <div />
+                                <div
+                                                class="flipper"
+                                >
+                                                <div
+                                                                class="Card front"
+                                                >
+                                                                <img
+                                                                                src="https://image.tmdb.org/t/p/w500/asdlflkj.jpg"
+                                                                />
+                                                </div>
+                                                <div
+                                                                class="Card back"
+                                                >
+                                                                <h1>
+                                                                                Movie
+                                                                </h1>
+                                                                <h3>
+                                                                                Rating: 
+                                                                                5
+                                                                </h3>
+                                                                <button>
+                                                                                Add to favorites 
+                                                                </button>
+                                                                <h3>
+                                                                                2018-05-01
+                                                                </h3>
+                                                                <p>
+                                                                                This is a movie...
+                                                                </p>
+                                                </div>
+                                </div>
+                </div>
+</div>,
+              "context": Object {},
+              "current": [Circular],
+              "finishedWork": null,
+              "firstBatch": null,
+              "hydrate": false,
+              "nextScheduledRoot": null,
+              "pendingChildren": null,
+              "pendingCommitExpirationTime": 0,
+              "pendingContext": null,
+              "remainingExpirationTime": 0,
+            },
+            "tag": 3,
+            "type": null,
+            "updateQueue": Object {
+              "baseState": Object {
+                "element": <WrapperComponent
+                  Component={[Function]}
+                  context={null}
+                  props={
+                                    Object {
+                                                      "addUserFavorite": [Function],
+                                                      "movie": Object {
+                                                        "average_rating": 5,
+                                                        "overview": "This is a movie...",
+                                                        "poster_path": "/asdlflkj.jpg",
+                                                        "release_date": "2018-05-01",
+                                                        "title": "Movie",
+                                                      },
+                                                      "userID": 15,
+                                                    }
+                  }
+/>,
+              },
+              "callbackList": null,
+              "capturedValues": null,
+              "expirationTime": 0,
+              "first": null,
+              "hasForceUpdate": false,
+              "isInitialized": true,
+              "isProcessing": false,
+              "last": null,
+            },
+          },
+          "sibling": null,
+          "stateNode": WrapperComponent {
+            "_reactInternalFiber": [Circular],
+            "_reactInternalInstance": Object {},
+            "context": Object {},
+            "props": Object {
+              "Component": [Function],
+              "context": null,
+              "props": Object {
+                "addUserFavorite": [Function],
+                "movie": Object {
+                  "average_rating": 5,
+                  "overview": "This is a movie...",
+                  "poster_path": "/asdlflkj.jpg",
+                  "release_date": "2018-05-01",
+                  "title": "Movie",
+                },
+                "userID": 15,
+              },
+            },
+            "refs": Object {},
+            "state": Object {
+              "context": null,
+              "mount": true,
+              "props": Object {
+                "addUserFavorite": [Function],
+                "movie": Object {
+                  "average_rating": 5,
+                  "overview": "This is a movie...",
+                  "poster_path": "/asdlflkj.jpg",
+                  "release_date": "2018-05-01",
+                  "title": "Movie",
+                },
+                "userID": 15,
+              },
+            },
+            "updater": Object {
+              "enqueueForceUpdate": [Function],
+              "enqueueReplaceState": [Function],
+              "enqueueSetState": [Function],
+              "isMounted": [Function],
+            },
+          },
+          "tag": 2,
+          "type": [Function],
+          "updateQueue": null,
+        },
+        "sibling": null,
+        "stateNode": [Circular],
+        "tag": 2,
+        "type": [Function],
+        "updateQueue": null,
+      },
+      "_reactInternalInstance": Object {},
+      "context": Object {},
+      "handleFavorite": [Function],
+      "props": Object {
+        "addUserFavorite": [Function],
+        "movie": Object {
+          "average_rating": 5,
+          "overview": "This is a movie...",
+          "poster_path": "/asdlflkj.jpg",
+          "release_date": "2018-05-01",
+          "title": "Movie",
+        },
+        "userID": 15,
+      },
+      "refs": Object {},
+      "state": Object {
+        "hasErrored": false,
+      },
+      "updater": Object {
+        "enqueueForceUpdate": [Function],
+        "enqueueReplaceState": [Function],
+        "enqueueSetState": [Function],
+        "isMounted": [Function],
+      },
+    },
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "addUserFavorite": [Function],
+      "movie": Object {
+        "average_rating": 5,
+        "overview": "This is a movie...",
+        "poster_path": "/asdlflkj.jpg",
+        "release_date": "2018-05-01",
+        "title": "Movie",
+      },
+      "userID": 15,
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": <div
+        class="flip-container"
+>
+        <div />
+        <div
+                class="flipper"
+        >
+                <div
+                        class="Card front"
+                >
+                        <img
+                                src="https://image.tmdb.org/t/p/w500/asdlflkj.jpg"
+                        />
+                </div>
+                <div
+                        class="Card back"
+                >
+                        <h1>
+                                Movie
+                        </h1>
+                        <h3>
+                                Rating: 
+                                5
+                        </h3>
+                        <button>
+                                Add to favorites 
+                        </button>
+                        <h3>
+                                2018-05-01
+                        </h3>
+                        <p>
+                                This is a movie...
+                        </p>
+                </div>
+        </div>
+</div>,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div />,
+          <div
+            className="flipper"
+>
+            <div
+                        className="Card front"
+            >
+                        <img
+                                    src="https://image.tmdb.org/t/p/w500/asdlflkj.jpg"
+                        />
+            </div>
+            <div
+                        className="Card back"
+            >
+                        <h1>
+                                    Movie
+                        </h1>
+                        <h3>
+                                    Rating: 
+                                    5
+                        </h3>
+                        <button
+                                    onClick={[Function]}
+                        >
+                                     Add to favorites 
+                        </button>
+                        <h3>
+                                    2018-05-01
+                        </h3>
+                        <p>
+                                    This is a movie...
+                        </p>
+            </div>
+</div>,
+        ],
+        "className": "flip-container",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": <div />,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {},
+          "ref": null,
+          "rendered": Array [
+            undefined,
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": <div
+            class="flipper"
+>
+            <div
+                        class="Card front"
+            >
+                        <img
+                                    src="https://image.tmdb.org/t/p/w500/asdlflkj.jpg"
+                        />
+            </div>
+            <div
+                        class="Card back"
+            >
+                        <h1>
+                                    Movie
+                        </h1>
+                        <h3>
+                                    Rating: 
+                                    5
+                        </h3>
+                        <button>
+                                    Add to favorites 
+                        </button>
+                        <h3>
+                                    2018-05-01
+                        </h3>
+                        <p>
+                                    This is a movie...
+                        </p>
+            </div>
+</div>,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="Card front"
+>
+                <img
+                                src="https://image.tmdb.org/t/p/w500/asdlflkj.jpg"
+                />
+</div>,
+              <div
+                className="Card back"
+>
+                <h1>
+                                Movie
+                </h1>
+                <h3>
+                                Rating: 
+                                5
+                </h3>
+                <button
+                                onClick={[Function]}
+                >
+                                 Add to favorites 
+                </button>
+                <h3>
+                                2018-05-01
+                </h3>
+                <p>
+                                This is a movie...
+                </p>
+</div>,
+            ],
+            "className": "flipper",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": <div
+                class="Card front"
+>
+                <img
+                                src="https://image.tmdb.org/t/p/w500/asdlflkj.jpg"
+                />
+</div>,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <img
+                  src="https://image.tmdb.org/t/p/w500/asdlflkj.jpg"
+/>,
+                "className": "Card front",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": <img
+                    src="https://image.tmdb.org/t/p/w500/asdlflkj.jpg"
+/>,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "src": "https://image.tmdb.org/t/p/w500/asdlflkj.jpg",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    undefined,
+                  ],
+                  "type": "img",
+                },
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": <div
+                class="Card back"
+>
+                <h1>
+                                Movie
+                </h1>
+                <h3>
+                                Rating: 
+                                5
+                </h3>
+                <button>
+                                Add to favorites 
+                </button>
+                <h3>
+                                2018-05-01
+                </h3>
+                <p>
+                                This is a movie...
+                </p>
+</div>,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <h1>
+                    Movie
+</h1>,
+                  <h3>
+                    Rating: 
+                    5
+</h3>,
+                  <button
+                    onClick={[Function]}
+>
+                     Add to favorites 
+</button>,
+                  <h3>
+                    2018-05-01
+</h3>,
+                  <p>
+                    This is a movie...
+</p>,
+                ],
+                "className": "Card back",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": <h1>
+                    Movie
+</h1>,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Movie",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    "Movie",
+                  ],
+                  "type": "h1",
+                },
+                Object {
+                  "instance": <h3>
+                    Rating: 
+                    5
+</h3>,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      "Rating: ",
+                      5,
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    "Rating: ",
+                    "5",
+                  ],
+                  "type": "h3",
+                },
+                Object {
+                  "instance": <button>
+                    Add to favorites 
+</button>,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": " Add to favorites ",
+                    "onClick": [Function],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    " Add to favorites ",
+                  ],
+                  "type": "button",
+                },
+                Object {
+                  "instance": <h3>
+                    2018-05-01
+</h3>,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "2018-05-01",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    "2018-05-01",
+                  ],
+                  "type": "h3",
+                },
+                Object {
+                  "instance": <p>
+                    This is a movie...
+</p>,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "This is a movie...",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    "This is a movie...",
+                  ],
+                  "type": "p",
+                },
+              ],
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": FavoriteCard {
+        "_reactInternalFiber": FiberNode {
+          "_debugID": 5,
+          "_debugIsCurrentlyTiming": false,
+          "_debugOwner": FiberNode {
+            "_debugID": 4,
+            "_debugIsCurrentlyTiming": false,
+            "_debugOwner": null,
+            "_debugSource": null,
+            "alternate": null,
+            "child": [Circular],
+            "effectTag": 1,
+            "expirationTime": 0,
+            "firstEffect": null,
+            "index": 0,
+            "key": null,
+            "lastEffect": null,
+            "memoizedProps": Object {
+              "Component": [Function],
+              "context": null,
+              "props": Object {
+                "addUserFavorite": [Function],
+                "movie": Object {
+                  "average_rating": 5,
+                  "overview": "This is a movie...",
+                  "poster_path": "/asdlflkj.jpg",
+                  "release_date": "2018-05-01",
+                  "title": "Movie",
+                },
+                "userID": 15,
+              },
+            },
+            "memoizedState": Object {
+              "context": null,
+              "mount": true,
+              "props": Object {
+                "addUserFavorite": [Function],
+                "movie": Object {
+                  "average_rating": 5,
+                  "overview": "This is a movie...",
+                  "poster_path": "/asdlflkj.jpg",
+                  "release_date": "2018-05-01",
+                  "title": "Movie",
+                },
+                "userID": 15,
+              },
+            },
+            "mode": 0,
+            "nextEffect": null,
+            "pendingProps": Object {
+              "Component": [Function],
+              "context": null,
+              "props": Object {
+                "addUserFavorite": [Function],
+                "movie": Object {
+                  "average_rating": 5,
+                  "overview": "This is a movie...",
+                  "poster_path": "/asdlflkj.jpg",
+                  "release_date": "2018-05-01",
+                  "title": "Movie",
+                },
+                "userID": 15,
+              },
+            },
+            "ref": null,
+            "return": FiberNode {
+              "_debugID": 1,
+              "_debugIsCurrentlyTiming": false,
+              "_debugOwner": null,
+              "_debugSource": null,
+              "alternate": FiberNode {
+                "_debugID": 1,
+                "_debugIsCurrentlyTiming": false,
+                "_debugOwner": null,
+                "_debugSource": null,
+                "alternate": [Circular],
+                "child": null,
+                "effectTag": 0,
+                "expirationTime": 1,
+                "firstEffect": null,
+                "index": 0,
+                "key": null,
+                "lastEffect": null,
+                "memoizedProps": null,
+                "memoizedState": null,
+                "mode": 0,
+                "nextEffect": null,
+                "pendingProps": null,
+                "ref": null,
+                "return": null,
+                "sibling": null,
+                "stateNode": Object {
+                  "containerInfo": <div>
+                    <div
+                                        class="flip-container"
+                    >
+                                        <div />
+                                        <div
+                                                            class="flipper"
+                                        >
+                                                            <div
+                                                                                class="Card front"
+                                                            >
+                                                                                <img
+                                                                                                    src="https://image.tmdb.org/t/p/w500/asdlflkj.jpg"
+                                                                                />
+                                                            </div>
+                                                            <div
+                                                                                class="Card back"
+                                                            >
+                                                                                <h1>
+                                                                                                    Movie
+                                                                                </h1>
+                                                                                <h3>
+                                                                                                    Rating: 
+                                                                                                    5
+                                                                                </h3>
+                                                                                <button>
+                                                                                                    Add to favorites 
+                                                                                </button>
+                                                                                <h3>
+                                                                                                    2018-05-01
+                                                                                </h3>
+                                                                                <p>
+                                                                                                    This is a movie...
+                                                                                </p>
+                                                            </div>
+                                        </div>
+                    </div>
+</div>,
+                  "context": Object {},
+                  "current": [Circular],
+                  "finishedWork": null,
+                  "firstBatch": null,
+                  "hydrate": false,
+                  "nextScheduledRoot": null,
+                  "pendingChildren": null,
+                  "pendingCommitExpirationTime": 0,
+                  "pendingContext": null,
+                  "remainingExpirationTime": 0,
+                },
+                "tag": 3,
+                "type": null,
+                "updateQueue": Object {
+                  "baseState": null,
+                  "callbackList": null,
+                  "capturedValues": null,
+                  "expirationTime": 1,
+                  "first": Object {
+                    "callback": null,
+                    "capturedValue": null,
+                    "expirationTime": 1,
+                    "isForced": false,
+                    "isReplace": false,
+                    "next": null,
+                    "partialState": Object {
+                      "element": <WrapperComponent
+                        Component={[Function]}
+                        context={null}
+                        props={
+                                                Object {
+                                                                        "addUserFavorite": [Function],
+                                                                        "movie": Object {
+                                                                          "average_rating": 5,
+                                                                          "overview": "This is a movie...",
+                                                                          "poster_path": "/asdlflkj.jpg",
+                                                                          "release_date": "2018-05-01",
+                                                                          "title": "Movie",
+                                                                        },
+                                                                        "userID": 15,
+                                                                      }
+                        }
+/>,
+                    },
+                  },
+                  "hasForceUpdate": false,
+                  "isInitialized": false,
+                  "isProcessing": false,
+                  "last": Object {
+                    "callback": null,
+                    "capturedValue": null,
+                    "expirationTime": 1,
+                    "isForced": false,
+                    "isReplace": false,
+                    "next": null,
+                    "partialState": Object {
+                      "element": <WrapperComponent
+                        Component={[Function]}
+                        context={null}
+                        props={
+                                                Object {
+                                                                        "addUserFavorite": [Function],
+                                                                        "movie": Object {
+                                                                          "average_rating": 5,
+                                                                          "overview": "This is a movie...",
+                                                                          "poster_path": "/asdlflkj.jpg",
+                                                                          "release_date": "2018-05-01",
+                                                                          "title": "Movie",
+                                                                        },
+                                                                        "userID": 15,
+                                                                      }
+                        }
+/>,
+                    },
+                  },
+                },
+              },
+              "child": [Circular],
+              "effectTag": 32,
+              "expirationTime": 0,
+              "firstEffect": [Circular],
+              "index": 0,
+              "key": null,
+              "lastEffect": [Circular],
+              "memoizedProps": null,
+              "memoizedState": Object {
+                "element": <WrapperComponent
+                  Component={[Function]}
+                  context={null}
+                  props={
+                                    Object {
+                                                      "addUserFavorite": [Function],
+                                                      "movie": Object {
+                                                        "average_rating": 5,
+                                                        "overview": "This is a movie...",
+                                                        "poster_path": "/asdlflkj.jpg",
+                                                        "release_date": "2018-05-01",
+                                                        "title": "Movie",
+                                                      },
+                                                      "userID": 15,
+                                                    }
+                  }
+/>,
+              },
+              "mode": 0,
+              "nextEffect": null,
+              "pendingProps": null,
+              "ref": null,
+              "return": null,
+              "sibling": null,
+              "stateNode": Object {
+                "containerInfo": <div>
+                  <div
+                                    class="flip-container"
+                  >
+                                    <div />
+                                    <div
+                                                      class="flipper"
+                                    >
+                                                      <div
+                                                                        class="Card front"
+                                                      >
+                                                                        <img
+                                                                                          src="https://image.tmdb.org/t/p/w500/asdlflkj.jpg"
+                                                                        />
+                                                      </div>
+                                                      <div
+                                                                        class="Card back"
+                                                      >
+                                                                        <h1>
+                                                                                          Movie
+                                                                        </h1>
+                                                                        <h3>
+                                                                                          Rating: 
+                                                                                          5
+                                                                        </h3>
+                                                                        <button>
+                                                                                          Add to favorites 
+                                                                        </button>
+                                                                        <h3>
+                                                                                          2018-05-01
+                                                                        </h3>
+                                                                        <p>
+                                                                                          This is a movie...
+                                                                        </p>
+                                                      </div>
+                                    </div>
+                  </div>
+</div>,
+                "context": Object {},
+                "current": [Circular],
+                "finishedWork": null,
+                "firstBatch": null,
+                "hydrate": false,
+                "nextScheduledRoot": null,
+                "pendingChildren": null,
+                "pendingCommitExpirationTime": 0,
+                "pendingContext": null,
+                "remainingExpirationTime": 0,
+              },
+              "tag": 3,
+              "type": null,
+              "updateQueue": Object {
+                "baseState": Object {
+                  "element": <WrapperComponent
+                    Component={[Function]}
+                    context={null}
+                    props={
+                                        Object {
+                                                            "addUserFavorite": [Function],
+                                                            "movie": Object {
+                                                              "average_rating": 5,
+                                                              "overview": "This is a movie...",
+                                                              "poster_path": "/asdlflkj.jpg",
+                                                              "release_date": "2018-05-01",
+                                                              "title": "Movie",
+                                                            },
+                                                            "userID": 15,
+                                                          }
+                    }
+/>,
+                },
+                "callbackList": null,
+                "capturedValues": null,
+                "expirationTime": 0,
+                "first": null,
+                "hasForceUpdate": false,
+                "isInitialized": true,
+                "isProcessing": false,
+                "last": null,
+              },
+            },
+            "sibling": null,
+            "stateNode": WrapperComponent {
+              "_reactInternalFiber": [Circular],
+              "_reactInternalInstance": Object {},
+              "context": Object {},
+              "props": Object {
+                "Component": [Function],
+                "context": null,
+                "props": Object {
+                  "addUserFavorite": [Function],
+                  "movie": Object {
+                    "average_rating": 5,
+                    "overview": "This is a movie...",
+                    "poster_path": "/asdlflkj.jpg",
+                    "release_date": "2018-05-01",
+                    "title": "Movie",
+                  },
+                  "userID": 15,
+                },
+              },
+              "refs": Object {},
+              "state": Object {
+                "context": null,
+                "mount": true,
+                "props": Object {
+                  "addUserFavorite": [Function],
+                  "movie": Object {
+                    "average_rating": 5,
+                    "overview": "This is a movie...",
+                    "poster_path": "/asdlflkj.jpg",
+                    "release_date": "2018-05-01",
+                    "title": "Movie",
+                  },
+                  "userID": 15,
+                },
+              },
+              "updater": Object {
+                "enqueueForceUpdate": [Function],
+                "enqueueReplaceState": [Function],
+                "enqueueSetState": [Function],
+                "isMounted": [Function],
+              },
+            },
+            "tag": 2,
+            "type": [Function],
+            "updateQueue": null,
+          },
+          "_debugSource": null,
+          "alternate": null,
+          "child": FiberNode {
+            "_debugID": 6,
+            "_debugIsCurrentlyTiming": false,
+            "_debugOwner": [Circular],
+            "_debugSource": Object {
+              "fileName": "/Users/myhomefolder/TURING/mod3/movie-tracker-front/src/Components/FavoriteCard/FavoriteCard.js",
+              "lineNumber": 29,
+            },
+            "alternate": null,
+            "child": FiberNode {
+              "_debugID": 7,
+              "_debugIsCurrentlyTiming": false,
+              "_debugOwner": [Circular],
+              "_debugSource": Object {
+                "fileName": "/Users/myhomefolder/TURING/mod3/movie-tracker-front/src/Components/FavoriteCard/FavoriteCard.js",
+                "lineNumber": 26,
+              },
+              "alternate": null,
+              "child": null,
+              "effectTag": 0,
+              "expirationTime": 0,
+              "firstEffect": null,
+              "index": 0,
+              "key": null,
+              "lastEffect": null,
+              "memoizedProps": Object {},
+              "memoizedState": null,
+              "mode": 0,
+              "nextEffect": null,
+              "pendingProps": Object {},
+              "ref": null,
+              "return": [Circular],
+              "sibling": FiberNode {
+                "_debugID": 8,
+                "_debugIsCurrentlyTiming": false,
+                "_debugOwner": [Circular],
+                "_debugSource": Object {
+                  "fileName": "/Users/myhomefolder/TURING/mod3/movie-tracker-front/src/Components/FavoriteCard/FavoriteCard.js",
+                  "lineNumber": 31,
+                },
+                "alternate": null,
+                "child": FiberNode {
+                  "_debugID": 9,
+                  "_debugIsCurrentlyTiming": false,
+                  "_debugOwner": [Circular],
+                  "_debugSource": Object {
+                    "fileName": "/Users/myhomefolder/TURING/mod3/movie-tracker-front/src/Components/FavoriteCard/FavoriteCard.js",
+                    "lineNumber": 32,
+                  },
+                  "alternate": null,
+                  "child": FiberNode {
+                    "_debugID": 11,
+                    "_debugIsCurrentlyTiming": false,
+                    "_debugOwner": [Circular],
+                    "_debugSource": Object {
+                      "fileName": "/Users/myhomefolder/TURING/mod3/movie-tracker-front/src/Components/FavoriteCard/FavoriteCard.js",
+                      "lineNumber": 33,
+                    },
+                    "alternate": null,
+                    "child": null,
+                    "effectTag": 0,
+                    "expirationTime": 0,
+                    "firstEffect": null,
+                    "index": 0,
+                    "key": null,
+                    "lastEffect": null,
+                    "memoizedProps": Object {
+                      "src": "https://image.tmdb.org/t/p/w500/asdlflkj.jpg",
+                    },
+                    "memoizedState": null,
+                    "mode": 0,
+                    "nextEffect": null,
+                    "pendingProps": Object {
+                      "src": "https://image.tmdb.org/t/p/w500/asdlflkj.jpg",
+                    },
+                    "ref": null,
+                    "return": [Circular],
+                    "sibling": null,
+                    "stateNode": <img
+                      src="https://image.tmdb.org/t/p/w500/asdlflkj.jpg"
+/>,
+                    "tag": 5,
+                    "type": "img",
+                    "updateQueue": null,
+                  },
+                  "effectTag": 0,
+                  "expirationTime": 0,
+                  "firstEffect": null,
+                  "index": 0,
+                  "key": null,
+                  "lastEffect": null,
+                  "memoizedProps": Object {
+                    "children": <img
+                      src="https://image.tmdb.org/t/p/w500/asdlflkj.jpg"
+/>,
+                    "className": "Card front",
+                  },
+                  "memoizedState": null,
+                  "mode": 0,
+                  "nextEffect": null,
+                  "pendingProps": Object {
+                    "children": <img
+                      src="https://image.tmdb.org/t/p/w500/asdlflkj.jpg"
+/>,
+                    "className": "Card front",
+                  },
+                  "ref": null,
+                  "return": [Circular],
+                  "sibling": FiberNode {
+                    "_debugID": 10,
+                    "_debugIsCurrentlyTiming": false,
+                    "_debugOwner": [Circular],
+                    "_debugSource": Object {
+                      "fileName": "/Users/myhomefolder/TURING/mod3/movie-tracker-front/src/Components/FavoriteCard/FavoriteCard.js",
+                      "lineNumber": 35,
+                    },
+                    "alternate": null,
+                    "child": FiberNode {
+                      "_debugID": 12,
+                      "_debugIsCurrentlyTiming": false,
+                      "_debugOwner": [Circular],
+                      "_debugSource": Object {
+                        "fileName": "/Users/myhomefolder/TURING/mod3/movie-tracker-front/src/Components/FavoriteCard/FavoriteCard.js",
+                        "lineNumber": 36,
+                      },
+                      "alternate": null,
+                      "child": null,
+                      "effectTag": 0,
+                      "expirationTime": 0,
+                      "firstEffect": null,
+                      "index": 0,
+                      "key": null,
+                      "lastEffect": null,
+                      "memoizedProps": Object {
+                        "children": "Movie",
+                      },
+                      "memoizedState": null,
+                      "mode": 0,
+                      "nextEffect": null,
+                      "pendingProps": Object {
+                        "children": "Movie",
+                      },
+                      "ref": null,
+                      "return": [Circular],
+                      "sibling": FiberNode {
+                        "_debugID": 13,
+                        "_debugIsCurrentlyTiming": false,
+                        "_debugOwner": [Circular],
+                        "_debugSource": Object {
+                          "fileName": "/Users/myhomefolder/TURING/mod3/movie-tracker-front/src/Components/FavoriteCard/FavoriteCard.js",
+                          "lineNumber": 37,
+                        },
+                        "alternate": null,
+                        "child": FiberNode {
+                          "_debugID": 17,
+                          "_debugIsCurrentlyTiming": false,
+                          "_debugOwner": null,
+                          "_debugSource": null,
+                          "alternate": null,
+                          "child": null,
+                          "effectTag": 0,
+                          "expirationTime": 0,
+                          "firstEffect": null,
+                          "index": 0,
+                          "key": null,
+                          "lastEffect": null,
+                          "memoizedProps": "Rating: ",
+                          "memoizedState": null,
+                          "mode": 0,
+                          "nextEffect": null,
+                          "pendingProps": "Rating: ",
+                          "ref": null,
+                          "return": [Circular],
+                          "sibling": FiberNode {
+                            "_debugID": 18,
+                            "_debugIsCurrentlyTiming": false,
+                            "_debugOwner": null,
+                            "_debugSource": null,
+                            "alternate": null,
+                            "child": null,
+                            "effectTag": 0,
+                            "expirationTime": 0,
+                            "firstEffect": null,
+                            "index": 1,
+                            "key": null,
+                            "lastEffect": null,
+                            "memoizedProps": "5",
+                            "memoizedState": null,
+                            "mode": 0,
+                            "nextEffect": null,
+                            "pendingProps": "5",
+                            "ref": null,
+                            "return": [Circular],
+                            "sibling": null,
+                            "stateNode": 5,
+                            "tag": 6,
+                            "type": null,
+                            "updateQueue": null,
+                          },
+                          "stateNode": Rating: ,
+                          "tag": 6,
+                          "type": null,
+                          "updateQueue": null,
+                        },
+                        "effectTag": 0,
+                        "expirationTime": 0,
+                        "firstEffect": null,
+                        "index": 1,
+                        "key": null,
+                        "lastEffect": null,
+                        "memoizedProps": Object {
+                          "children": Array [
+                            "Rating: ",
+                            5,
+                          ],
+                        },
+                        "memoizedState": null,
+                        "mode": 0,
+                        "nextEffect": null,
+                        "pendingProps": Object {
+                          "children": Array [
+                            "Rating: ",
+                            5,
+                          ],
+                        },
+                        "ref": null,
+                        "return": [Circular],
+                        "sibling": FiberNode {
+                          "_debugID": 14,
+                          "_debugIsCurrentlyTiming": false,
+                          "_debugOwner": [Circular],
+                          "_debugSource": Object {
+                            "fileName": "/Users/myhomefolder/TURING/mod3/movie-tracker-front/src/Components/FavoriteCard/FavoriteCard.js",
+                            "lineNumber": 38,
+                          },
+                          "alternate": null,
+                          "child": null,
+                          "effectTag": 0,
+                          "expirationTime": 0,
+                          "firstEffect": null,
+                          "index": 2,
+                          "key": null,
+                          "lastEffect": null,
+                          "memoizedProps": Object {
+                            "children": " Add to favorites ",
+                            "onClick": [Function],
+                          },
+                          "memoizedState": null,
+                          "mode": 0,
+                          "nextEffect": null,
+                          "pendingProps": Object {
+                            "children": " Add to favorites ",
+                            "onClick": [Function],
+                          },
+                          "ref": null,
+                          "return": [Circular],
+                          "sibling": FiberNode {
+                            "_debugID": 15,
+                            "_debugIsCurrentlyTiming": false,
+                            "_debugOwner": [Circular],
+                            "_debugSource": Object {
+                              "fileName": "/Users/myhomefolder/TURING/mod3/movie-tracker-front/src/Components/FavoriteCard/FavoriteCard.js",
+                              "lineNumber": 39,
+                            },
+                            "alternate": null,
+                            "child": null,
+                            "effectTag": 0,
+                            "expirationTime": 0,
+                            "firstEffect": null,
+                            "index": 3,
+                            "key": null,
+                            "lastEffect": null,
+                            "memoizedProps": Object {
+                              "children": "2018-05-01",
+                            },
+                            "memoizedState": null,
+                            "mode": 0,
+                            "nextEffect": null,
+                            "pendingProps": Object {
+                              "children": "2018-05-01",
+                            },
+                            "ref": null,
+                            "return": [Circular],
+                            "sibling": FiberNode {
+                              "_debugID": 16,
+                              "_debugIsCurrentlyTiming": false,
+                              "_debugOwner": [Circular],
+                              "_debugSource": Object {
+                                "fileName": "/Users/myhomefolder/TURING/mod3/movie-tracker-front/src/Components/FavoriteCard/FavoriteCard.js",
+                                "lineNumber": 40,
+                              },
+                              "alternate": null,
+                              "child": null,
+                              "effectTag": 0,
+                              "expirationTime": 0,
+                              "firstEffect": null,
+                              "index": 4,
+                              "key": null,
+                              "lastEffect": null,
+                              "memoizedProps": Object {
+                                "children": "This is a movie...",
+                              },
+                              "memoizedState": null,
+                              "mode": 0,
+                              "nextEffect": null,
+                              "pendingProps": Object {
+                                "children": "This is a movie...",
+                              },
+                              "ref": null,
+                              "return": [Circular],
+                              "sibling": null,
+                              "stateNode": <p>
+                                This is a movie...
+</p>,
+                              "tag": 5,
+                              "type": "p",
+                              "updateQueue": null,
+                            },
+                            "stateNode": <h3>
+                              2018-05-01
+</h3>,
+                            "tag": 5,
+                            "type": "h3",
+                            "updateQueue": null,
+                          },
+                          "stateNode": <button>
+                            Add to favorites 
+</button>,
+                          "tag": 5,
+                          "type": "button",
+                          "updateQueue": null,
+                        },
+                        "stateNode": <h3>
+                          Rating: 
+                          5
+</h3>,
+                        "tag": 5,
+                        "type": "h3",
+                        "updateQueue": null,
+                      },
+                      "stateNode": <h1>
+                        Movie
+</h1>,
+                      "tag": 5,
+                      "type": "h1",
+                      "updateQueue": null,
+                    },
+                    "effectTag": 0,
+                    "expirationTime": 0,
+                    "firstEffect": null,
+                    "index": 1,
+                    "key": null,
+                    "lastEffect": null,
+                    "memoizedProps": Object {
+                      "children": Array [
+                        <h1>
+                          Movie
+</h1>,
+                        <h3>
+                          Rating: 
+                          5
+</h3>,
+                        <button
+                          onClick={[Function]}
+>
+                           Add to favorites 
+</button>,
+                        <h3>
+                          2018-05-01
+</h3>,
+                        <p>
+                          This is a movie...
+</p>,
+                      ],
+                      "className": "Card back",
+                    },
+                    "memoizedState": null,
+                    "mode": 0,
+                    "nextEffect": null,
+                    "pendingProps": Object {
+                      "children": Array [
+                        <h1>
+                          Movie
+</h1>,
+                        <h3>
+                          Rating: 
+                          5
+</h3>,
+                        <button
+                          onClick={[Function]}
+>
+                           Add to favorites 
+</button>,
+                        <h3>
+                          2018-05-01
+</h3>,
+                        <p>
+                          This is a movie...
+</p>,
+                      ],
+                      "className": "Card back",
+                    },
+                    "ref": null,
+                    "return": [Circular],
+                    "sibling": null,
+                    "stateNode": <div
+                      class="Card back"
+>
+                      <h1>
+                                            Movie
+                      </h1>
+                      <h3>
+                                            Rating: 
+                                            5
+                      </h3>
+                      <button>
+                                            Add to favorites 
+                      </button>
+                      <h3>
+                                            2018-05-01
+                      </h3>
+                      <p>
+                                            This is a movie...
+                      </p>
+</div>,
+                    "tag": 5,
+                    "type": "div",
+                    "updateQueue": null,
+                  },
+                  "stateNode": <div
+                    class="Card front"
+>
+                    <img
+                                        src="https://image.tmdb.org/t/p/w500/asdlflkj.jpg"
+                    />
+</div>,
+                  "tag": 5,
+                  "type": "div",
+                  "updateQueue": null,
+                },
+                "effectTag": 0,
+                "expirationTime": 0,
+                "firstEffect": null,
+                "index": 1,
+                "key": null,
+                "lastEffect": null,
+                "memoizedProps": Object {
+                  "children": Array [
+                    <div
+                      className="Card front"
+>
+                      <img
+                                            src="https://image.tmdb.org/t/p/w500/asdlflkj.jpg"
+                      />
+</div>,
+                    <div
+                      className="Card back"
+>
+                      <h1>
+                                            Movie
+                      </h1>
+                      <h3>
+                                            Rating: 
+                                            5
+                      </h3>
+                      <button
+                                            onClick={[Function]}
+                      >
+                                             Add to favorites 
+                      </button>
+                      <h3>
+                                            2018-05-01
+                      </h3>
+                      <p>
+                                            This is a movie...
+                      </p>
+</div>,
+                  ],
+                  "className": "flipper",
+                },
+                "memoizedState": null,
+                "mode": 0,
+                "nextEffect": null,
+                "pendingProps": Object {
+                  "children": Array [
+                    <div
+                      className="Card front"
+>
+                      <img
+                                            src="https://image.tmdb.org/t/p/w500/asdlflkj.jpg"
+                      />
+</div>,
+                    <div
+                      className="Card back"
+>
+                      <h1>
+                                            Movie
+                      </h1>
+                      <h3>
+                                            Rating: 
+                                            5
+                      </h3>
+                      <button
+                                            onClick={[Function]}
+                      >
+                                             Add to favorites 
+                      </button>
+                      <h3>
+                                            2018-05-01
+                      </h3>
+                      <p>
+                                            This is a movie...
+                      </p>
+</div>,
+                  ],
+                  "className": "flipper",
+                },
+                "ref": null,
+                "return": [Circular],
+                "sibling": null,
+                "stateNode": <div
+                  class="flipper"
+>
+                  <div
+                                    class="Card front"
+                  >
+                                    <img
+                                                      src="https://image.tmdb.org/t/p/w500/asdlflkj.jpg"
+                                    />
+                  </div>
+                  <div
+                                    class="Card back"
+                  >
+                                    <h1>
+                                                      Movie
+                                    </h1>
+                                    <h3>
+                                                      Rating: 
+                                                      5
+                                    </h3>
+                                    <button>
+                                                      Add to favorites 
+                                    </button>
+                                    <h3>
+                                                      2018-05-01
+                                    </h3>
+                                    <p>
+                                                      This is a movie...
+                                    </p>
+                  </div>
+</div>,
+                "tag": 5,
+                "type": "div",
+                "updateQueue": null,
+              },
+              "stateNode": <div />,
+              "tag": 5,
+              "type": "div",
+              "updateQueue": null,
+            },
+            "effectTag": 0,
+            "expirationTime": 0,
+            "firstEffect": null,
+            "index": 0,
+            "key": null,
+            "lastEffect": null,
+            "memoizedProps": Object {
+              "children": Array [
+                <div />,
+                <div
+                  className="flipper"
+>
+                  <div
+                                    className="Card front"
+                  >
+                                    <img
+                                                      src="https://image.tmdb.org/t/p/w500/asdlflkj.jpg"
+                                    />
+                  </div>
+                  <div
+                                    className="Card back"
+                  >
+                                    <h1>
+                                                      Movie
+                                    </h1>
+                                    <h3>
+                                                      Rating: 
+                                                      5
+                                    </h3>
+                                    <button
+                                                      onClick={[Function]}
+                                    >
+                                                       Add to favorites 
+                                    </button>
+                                    <h3>
+                                                      2018-05-01
+                                    </h3>
+                                    <p>
+                                                      This is a movie...
+                                    </p>
+                  </div>
+</div>,
+              ],
+              "className": "flip-container",
+            },
+            "memoizedState": null,
+            "mode": 0,
+            "nextEffect": null,
+            "pendingProps": Object {
+              "children": Array [
+                <div />,
+                <div
+                  className="flipper"
+>
+                  <div
+                                    className="Card front"
+                  >
+                                    <img
+                                                      src="https://image.tmdb.org/t/p/w500/asdlflkj.jpg"
+                                    />
+                  </div>
+                  <div
+                                    className="Card back"
+                  >
+                                    <h1>
+                                                      Movie
+                                    </h1>
+                                    <h3>
+                                                      Rating: 
+                                                      5
+                                    </h3>
+                                    <button
+                                                      onClick={[Function]}
+                                    >
+                                                       Add to favorites 
+                                    </button>
+                                    <h3>
+                                                      2018-05-01
+                                    </h3>
+                                    <p>
+                                                      This is a movie...
+                                    </p>
+                  </div>
+</div>,
+              ],
+              "className": "flip-container",
+            },
+            "ref": null,
+            "return": [Circular],
+            "sibling": null,
+            "stateNode": <div
+              class="flip-container"
+>
+              <div />
+              <div
+                            class="flipper"
+              >
+                            <div
+                                          class="Card front"
+                            >
+                                          <img
+                                                        src="https://image.tmdb.org/t/p/w500/asdlflkj.jpg"
+                                          />
+                            </div>
+                            <div
+                                          class="Card back"
+                            >
+                                          <h1>
+                                                        Movie
+                                          </h1>
+                                          <h3>
+                                                        Rating: 
+                                                        5
+                                          </h3>
+                                          <button>
+                                                        Add to favorites 
+                                          </button>
+                                          <h3>
+                                                        2018-05-01
+                                          </h3>
+                                          <p>
+                                                        This is a movie...
+                                          </p>
+                            </div>
+              </div>
+</div>,
+            "tag": 5,
+            "type": "div",
+            "updateQueue": null,
+          },
+          "effectTag": 1,
+          "expirationTime": 0,
+          "firstEffect": null,
+          "index": 0,
+          "key": null,
+          "lastEffect": null,
+          "memoizedProps": Object {
+            "addUserFavorite": [Function],
+            "movie": Object {
+              "average_rating": 5,
+              "overview": "This is a movie...",
+              "poster_path": "/asdlflkj.jpg",
+              "release_date": "2018-05-01",
+              "title": "Movie",
+            },
+            "userID": 15,
+          },
+          "memoizedState": Object {
+            "hasErrored": false,
+          },
+          "mode": 0,
+          "nextEffect": null,
+          "pendingProps": Object {
+            "addUserFavorite": [Function],
+            "movie": Object {
+              "average_rating": 5,
+              "overview": "This is a movie...",
+              "poster_path": "/asdlflkj.jpg",
+              "release_date": "2018-05-01",
+              "title": "Movie",
+            },
+            "userID": 15,
+          },
+          "ref": null,
+          "return": FiberNode {
+            "_debugID": 4,
+            "_debugIsCurrentlyTiming": false,
+            "_debugOwner": null,
+            "_debugSource": null,
+            "alternate": null,
+            "child": [Circular],
+            "effectTag": 1,
+            "expirationTime": 0,
+            "firstEffect": null,
+            "index": 0,
+            "key": null,
+            "lastEffect": null,
+            "memoizedProps": Object {
+              "Component": [Function],
+              "context": null,
+              "props": Object {
+                "addUserFavorite": [Function],
+                "movie": Object {
+                  "average_rating": 5,
+                  "overview": "This is a movie...",
+                  "poster_path": "/asdlflkj.jpg",
+                  "release_date": "2018-05-01",
+                  "title": "Movie",
+                },
+                "userID": 15,
+              },
+            },
+            "memoizedState": Object {
+              "context": null,
+              "mount": true,
+              "props": Object {
+                "addUserFavorite": [Function],
+                "movie": Object {
+                  "average_rating": 5,
+                  "overview": "This is a movie...",
+                  "poster_path": "/asdlflkj.jpg",
+                  "release_date": "2018-05-01",
+                  "title": "Movie",
+                },
+                "userID": 15,
+              },
+            },
+            "mode": 0,
+            "nextEffect": null,
+            "pendingProps": Object {
+              "Component": [Function],
+              "context": null,
+              "props": Object {
+                "addUserFavorite": [Function],
+                "movie": Object {
+                  "average_rating": 5,
+                  "overview": "This is a movie...",
+                  "poster_path": "/asdlflkj.jpg",
+                  "release_date": "2018-05-01",
+                  "title": "Movie",
+                },
+                "userID": 15,
+              },
+            },
+            "ref": null,
+            "return": FiberNode {
+              "_debugID": 1,
+              "_debugIsCurrentlyTiming": false,
+              "_debugOwner": null,
+              "_debugSource": null,
+              "alternate": FiberNode {
+                "_debugID": 1,
+                "_debugIsCurrentlyTiming": false,
+                "_debugOwner": null,
+                "_debugSource": null,
+                "alternate": [Circular],
+                "child": null,
+                "effectTag": 0,
+                "expirationTime": 1,
+                "firstEffect": null,
+                "index": 0,
+                "key": null,
+                "lastEffect": null,
+                "memoizedProps": null,
+                "memoizedState": null,
+                "mode": 0,
+                "nextEffect": null,
+                "pendingProps": null,
+                "ref": null,
+                "return": null,
+                "sibling": null,
+                "stateNode": Object {
+                  "containerInfo": <div>
+                    <div
+                                        class="flip-container"
+                    >
+                                        <div />
+                                        <div
+                                                            class="flipper"
+                                        >
+                                                            <div
+                                                                                class="Card front"
+                                                            >
+                                                                                <img
+                                                                                                    src="https://image.tmdb.org/t/p/w500/asdlflkj.jpg"
+                                                                                />
+                                                            </div>
+                                                            <div
+                                                                                class="Card back"
+                                                            >
+                                                                                <h1>
+                                                                                                    Movie
+                                                                                </h1>
+                                                                                <h3>
+                                                                                                    Rating: 
+                                                                                                    5
+                                                                                </h3>
+                                                                                <button>
+                                                                                                    Add to favorites 
+                                                                                </button>
+                                                                                <h3>
+                                                                                                    2018-05-01
+                                                                                </h3>
+                                                                                <p>
+                                                                                                    This is a movie...
+                                                                                </p>
+                                                            </div>
+                                        </div>
+                    </div>
+</div>,
+                  "context": Object {},
+                  "current": [Circular],
+                  "finishedWork": null,
+                  "firstBatch": null,
+                  "hydrate": false,
+                  "nextScheduledRoot": null,
+                  "pendingChildren": null,
+                  "pendingCommitExpirationTime": 0,
+                  "pendingContext": null,
+                  "remainingExpirationTime": 0,
+                },
+                "tag": 3,
+                "type": null,
+                "updateQueue": Object {
+                  "baseState": null,
+                  "callbackList": null,
+                  "capturedValues": null,
+                  "expirationTime": 1,
+                  "first": Object {
+                    "callback": null,
+                    "capturedValue": null,
+                    "expirationTime": 1,
+                    "isForced": false,
+                    "isReplace": false,
+                    "next": null,
+                    "partialState": Object {
+                      "element": <WrapperComponent
+                        Component={[Function]}
+                        context={null}
+                        props={
+                                                Object {
+                                                                        "addUserFavorite": [Function],
+                                                                        "movie": Object {
+                                                                          "average_rating": 5,
+                                                                          "overview": "This is a movie...",
+                                                                          "poster_path": "/asdlflkj.jpg",
+                                                                          "release_date": "2018-05-01",
+                                                                          "title": "Movie",
+                                                                        },
+                                                                        "userID": 15,
+                                                                      }
+                        }
+/>,
+                    },
+                  },
+                  "hasForceUpdate": false,
+                  "isInitialized": false,
+                  "isProcessing": false,
+                  "last": Object {
+                    "callback": null,
+                    "capturedValue": null,
+                    "expirationTime": 1,
+                    "isForced": false,
+                    "isReplace": false,
+                    "next": null,
+                    "partialState": Object {
+                      "element": <WrapperComponent
+                        Component={[Function]}
+                        context={null}
+                        props={
+                                                Object {
+                                                                        "addUserFavorite": [Function],
+                                                                        "movie": Object {
+                                                                          "average_rating": 5,
+                                                                          "overview": "This is a movie...",
+                                                                          "poster_path": "/asdlflkj.jpg",
+                                                                          "release_date": "2018-05-01",
+                                                                          "title": "Movie",
+                                                                        },
+                                                                        "userID": 15,
+                                                                      }
+                        }
+/>,
+                    },
+                  },
+                },
+              },
+              "child": [Circular],
+              "effectTag": 32,
+              "expirationTime": 0,
+              "firstEffect": [Circular],
+              "index": 0,
+              "key": null,
+              "lastEffect": [Circular],
+              "memoizedProps": null,
+              "memoizedState": Object {
+                "element": <WrapperComponent
+                  Component={[Function]}
+                  context={null}
+                  props={
+                                    Object {
+                                                      "addUserFavorite": [Function],
+                                                      "movie": Object {
+                                                        "average_rating": 5,
+                                                        "overview": "This is a movie...",
+                                                        "poster_path": "/asdlflkj.jpg",
+                                                        "release_date": "2018-05-01",
+                                                        "title": "Movie",
+                                                      },
+                                                      "userID": 15,
+                                                    }
+                  }
+/>,
+              },
+              "mode": 0,
+              "nextEffect": null,
+              "pendingProps": null,
+              "ref": null,
+              "return": null,
+              "sibling": null,
+              "stateNode": Object {
+                "containerInfo": <div>
+                  <div
+                                    class="flip-container"
+                  >
+                                    <div />
+                                    <div
+                                                      class="flipper"
+                                    >
+                                                      <div
+                                                                        class="Card front"
+                                                      >
+                                                                        <img
+                                                                                          src="https://image.tmdb.org/t/p/w500/asdlflkj.jpg"
+                                                                        />
+                                                      </div>
+                                                      <div
+                                                                        class="Card back"
+                                                      >
+                                                                        <h1>
+                                                                                          Movie
+                                                                        </h1>
+                                                                        <h3>
+                                                                                          Rating: 
+                                                                                          5
+                                                                        </h3>
+                                                                        <button>
+                                                                                          Add to favorites 
+                                                                        </button>
+                                                                        <h3>
+                                                                                          2018-05-01
+                                                                        </h3>
+                                                                        <p>
+                                                                                          This is a movie...
+                                                                        </p>
+                                                      </div>
+                                    </div>
+                  </div>
+</div>,
+                "context": Object {},
+                "current": [Circular],
+                "finishedWork": null,
+                "firstBatch": null,
+                "hydrate": false,
+                "nextScheduledRoot": null,
+                "pendingChildren": null,
+                "pendingCommitExpirationTime": 0,
+                "pendingContext": null,
+                "remainingExpirationTime": 0,
+              },
+              "tag": 3,
+              "type": null,
+              "updateQueue": Object {
+                "baseState": Object {
+                  "element": <WrapperComponent
+                    Component={[Function]}
+                    context={null}
+                    props={
+                                        Object {
+                                                            "addUserFavorite": [Function],
+                                                            "movie": Object {
+                                                              "average_rating": 5,
+                                                              "overview": "This is a movie...",
+                                                              "poster_path": "/asdlflkj.jpg",
+                                                              "release_date": "2018-05-01",
+                                                              "title": "Movie",
+                                                            },
+                                                            "userID": 15,
+                                                          }
+                    }
+/>,
+                },
+                "callbackList": null,
+                "capturedValues": null,
+                "expirationTime": 0,
+                "first": null,
+                "hasForceUpdate": false,
+                "isInitialized": true,
+                "isProcessing": false,
+                "last": null,
+              },
+            },
+            "sibling": null,
+            "stateNode": WrapperComponent {
+              "_reactInternalFiber": [Circular],
+              "_reactInternalInstance": Object {},
+              "context": Object {},
+              "props": Object {
+                "Component": [Function],
+                "context": null,
+                "props": Object {
+                  "addUserFavorite": [Function],
+                  "movie": Object {
+                    "average_rating": 5,
+                    "overview": "This is a movie...",
+                    "poster_path": "/asdlflkj.jpg",
+                    "release_date": "2018-05-01",
+                    "title": "Movie",
+                  },
+                  "userID": 15,
+                },
+              },
+              "refs": Object {},
+              "state": Object {
+                "context": null,
+                "mount": true,
+                "props": Object {
+                  "addUserFavorite": [Function],
+                  "movie": Object {
+                    "average_rating": 5,
+                    "overview": "This is a movie...",
+                    "poster_path": "/asdlflkj.jpg",
+                    "release_date": "2018-05-01",
+                    "title": "Movie",
+                  },
+                  "userID": 15,
+                },
+              },
+              "updater": Object {
+                "enqueueForceUpdate": [Function],
+                "enqueueReplaceState": [Function],
+                "enqueueSetState": [Function],
+                "isMounted": [Function],
+              },
+            },
+            "tag": 2,
+            "type": [Function],
+            "updateQueue": null,
+          },
+          "sibling": null,
+          "stateNode": [Circular],
+          "tag": 2,
+          "type": [Function],
+          "updateQueue": null,
+        },
+        "_reactInternalInstance": Object {},
+        "context": Object {},
+        "handleFavorite": [Function],
+        "props": Object {
+          "addUserFavorite": [Function],
+          "movie": Object {
+            "average_rating": 5,
+            "overview": "This is a movie...",
+            "poster_path": "/asdlflkj.jpg",
+            "release_date": "2018-05-01",
+            "title": "Movie",
+          },
+          "userID": 15,
+        },
+        "refs": Object {},
+        "state": Object {
+          "hasErrored": false,
+        },
+        "updater": Object {
+          "enqueueForceUpdate": [Function],
+          "enqueueReplaceState": [Function],
+          "enqueueSetState": [Function],
+          "isMounted": [Function],
+        },
+      },
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "addUserFavorite": [Function],
+        "movie": Object {
+          "average_rating": 5,
+          "overview": "This is a movie...",
+          "poster_path": "/asdlflkj.jpg",
+          "release_date": "2018-05-01",
+          "title": "Movie",
+        },
+        "userID": 15,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": <div
+          class="flip-container"
+>
+          <div />
+          <div
+                    class="flipper"
+          >
+                    <div
+                              class="Card front"
+                    >
+                              <img
+                                        src="https://image.tmdb.org/t/p/w500/asdlflkj.jpg"
+                              />
+                    </div>
+                    <div
+                              class="Card back"
+                    >
+                              <h1>
+                                        Movie
+                              </h1>
+                              <h3>
+                                        Rating: 
+                                        5
+                              </h3>
+                              <button>
+                                        Add to favorites 
+                              </button>
+                              <h3>
+                                        2018-05-01
+                              </h3>
+                              <p>
+                                        This is a movie...
+                              </p>
+                    </div>
+          </div>
+</div>,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div />,
+            <div
+              className="flipper"
+>
+              <div
+                            className="Card front"
+              >
+                            <img
+                                          src="https://image.tmdb.org/t/p/w500/asdlflkj.jpg"
+                            />
+              </div>
+              <div
+                            className="Card back"
+              >
+                            <h1>
+                                          Movie
+                            </h1>
+                            <h3>
+                                          Rating: 
+                                          5
+                            </h3>
+                            <button
+                                          onClick={[Function]}
+                            >
+                                           Add to favorites 
+                            </button>
+                            <h3>
+                                          2018-05-01
+                            </h3>
+                            <p>
+                                          This is a movie...
+                            </p>
+              </div>
+</div>,
+          ],
+          "className": "flip-container",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": <div />,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {},
+            "ref": null,
+            "rendered": Array [
+              undefined,
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": <div
+              class="flipper"
+>
+              <div
+                            class="Card front"
+              >
+                            <img
+                                          src="https://image.tmdb.org/t/p/w500/asdlflkj.jpg"
+                            />
+              </div>
+              <div
+                            class="Card back"
+              >
+                            <h1>
+                                          Movie
+                            </h1>
+                            <h3>
+                                          Rating: 
+                                          5
+                            </h3>
+                            <button>
+                                          Add to favorites 
+                            </button>
+                            <h3>
+                                          2018-05-01
+                            </h3>
+                            <p>
+                                          This is a movie...
+                            </p>
+              </div>
+</div>,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <div
+                  className="Card front"
+>
+                  <img
+                                    src="https://image.tmdb.org/t/p/w500/asdlflkj.jpg"
+                  />
+</div>,
+                <div
+                  className="Card back"
+>
+                  <h1>
+                                    Movie
+                  </h1>
+                  <h3>
+                                    Rating: 
+                                    5
+                  </h3>
+                  <button
+                                    onClick={[Function]}
+                  >
+                                     Add to favorites 
+                  </button>
+                  <h3>
+                                    2018-05-01
+                  </h3>
+                  <p>
+                                    This is a movie...
+                  </p>
+</div>,
+              ],
+              "className": "flipper",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": <div
+                  class="Card front"
+>
+                  <img
+                                    src="https://image.tmdb.org/t/p/w500/asdlflkj.jpg"
+                  />
+</div>,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <img
+                    src="https://image.tmdb.org/t/p/w500/asdlflkj.jpg"
+/>,
+                  "className": "Card front",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": <img
+                      src="https://image.tmdb.org/t/p/w500/asdlflkj.jpg"
+/>,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "src": "https://image.tmdb.org/t/p/w500/asdlflkj.jpg",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      undefined,
+                    ],
+                    "type": "img",
+                  },
+                ],
+                "type": "div",
+              },
+              Object {
+                "instance": <div
+                  class="Card back"
+>
+                  <h1>
+                                    Movie
+                  </h1>
+                  <h3>
+                                    Rating: 
+                                    5
+                  </h3>
+                  <button>
+                                    Add to favorites 
+                  </button>
+                  <h3>
+                                    2018-05-01
+                  </h3>
+                  <p>
+                                    This is a movie...
+                  </p>
+</div>,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <h1>
+                      Movie
+</h1>,
+                    <h3>
+                      Rating: 
+                      5
+</h3>,
+                    <button
+                      onClick={[Function]}
+>
+                       Add to favorites 
+</button>,
+                    <h3>
+                      2018-05-01
+</h3>,
+                    <p>
+                      This is a movie...
+</p>,
+                  ],
+                  "className": "Card back",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": <h1>
+                      Movie
+</h1>,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Movie",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      "Movie",
+                    ],
+                    "type": "h1",
+                  },
+                  Object {
+                    "instance": <h3>
+                      Rating: 
+                      5
+</h3>,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        "Rating: ",
+                        5,
+                      ],
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      "Rating: ",
+                      "5",
+                    ],
+                    "type": "h3",
+                  },
+                  Object {
+                    "instance": <button>
+                      Add to favorites 
+</button>,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": " Add to favorites ",
+                      "onClick": [Function],
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      " Add to favorites ",
+                    ],
+                    "type": "button",
+                  },
+                  Object {
+                    "instance": <h3>
+                      2018-05-01
+</h3>,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "2018-05-01",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      "2018-05-01",
+                    ],
+                    "type": "h3",
+                  },
+                  Object {
+                    "instance": <p>
+                      This is a movie...
+</p>,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "This is a movie...",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      "This is a movie...",
+                    ],
+                    "type": "p",
+                  },
+                ],
+                "type": "div",
+              },
+            ],
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
