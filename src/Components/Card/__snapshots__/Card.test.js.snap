@@ -4,7 +4,11 @@ exports[`Card should render a card 1`] = `
 ShallowWrapper {
   "length": 1,
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <Card />,
+  Symbol(enzyme.__unrendered__): <Card
+    addUserFavorite={[Function]}
+    movie={Object {}}
+    userID={undefined}
+/>,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
@@ -17,164 +21,9 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "host",
     "props": Object {
-      "children": <div
-        className="flipper"
->
+      "children": Array [
+        <div />,
         <div
-                className="Card front"
-        >
-                <img
-                        src="https://image.tmdb.org/t/p/w500undefined"
-                />
-        </div>
-        <div
-                className="Card back"
-        >
-                <h1 />
-                <h3>
-                        Rating: 
-                </h3>
-                <h3 />
-                <p />
-        </div>
-</div>,
-      "className": "flip-container",
-    },
-    "ref": null,
-    "rendered": Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "host",
-      "props": Object {
-        "children": Array [
-          <div
-            className="Card front"
->
-            <img
-                        src="https://image.tmdb.org/t/p/w500undefined"
-            />
-</div>,
-          <div
-            className="Card back"
->
-            <h1 />
-            <h3>
-                        Rating: 
-            </h3>
-            <h3 />
-            <p />
-</div>,
-        ],
-        "className": "flipper",
-      },
-      "ref": null,
-      "rendered": Array [
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": <img
-              src="https://image.tmdb.org/t/p/w500undefined"
-/>,
-            "className": "Card front",
-          },
-          "ref": null,
-          "rendered": Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "src": "https://image.tmdb.org/t/p/w500undefined",
-            },
-            "ref": null,
-            "rendered": null,
-            "type": "img",
-          },
-          "type": "div",
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": Array [
-              <h1 />,
-              <h3>
-                Rating: 
-</h3>,
-              <h3 />,
-              <p />,
-            ],
-            "className": "Card back",
-          },
-          "ref": null,
-          "rendered": Array [
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": undefined,
-              },
-              "ref": null,
-              "rendered": null,
-              "type": "h1",
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": Array [
-                  "Rating: ",
-                  undefined,
-                ],
-              },
-              "ref": null,
-              "rendered": Array [
-                "Rating: ",
-                undefined,
-              ],
-              "type": "h3",
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": undefined,
-              },
-              "ref": null,
-              "rendered": null,
-              "type": "h3",
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": undefined,
-              },
-              "ref": null,
-              "rendered": null,
-              "type": "p",
-            },
-          ],
-          "type": "div",
-        },
-      ],
-      "type": "div",
-    },
-    "type": "div",
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "host",
-      "props": Object {
-        "children": <div
           className="flipper"
 >
           <div
@@ -191,14 +40,30 @@ ShallowWrapper {
                     <h3>
                               Rating: 
                     </h3>
+                    <button
+                              onClick={[Function]}
+                    >
+                               Add to favorites 
+                    </button>
                     <h3 />
                     <p />
           </div>
 </div>,
-        "className": "flip-container",
+      ],
+      "className": "flip-container",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {},
+        "ref": null,
+        "rendered": null,
+        "type": "div",
       },
-      "ref": null,
-      "rendered": Object {
+      Object {
         "instance": null,
         "key": undefined,
         "nodeType": "host",
@@ -218,6 +83,11 @@ ShallowWrapper {
               <h3>
                             Rating: 
               </h3>
+              <button
+                            onClick={[Function]}
+              >
+                             Add to favorites 
+              </button>
               <h3 />
               <p />
 </div>,
@@ -260,6 +130,11 @@ ShallowWrapper {
                 <h3>
                   Rating: 
 </h3>,
+                <button
+                  onClick={[Function]}
+>
+                   Add to favorites 
+</button>,
                 <h3 />,
                 <p />,
               ],
@@ -300,6 +175,18 @@ ShallowWrapper {
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
+                  "children": " Add to favorites ",
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": " Add to favorites ",
+                "type": "button",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
                   "children": undefined,
                 },
                 "ref": null,
@@ -323,6 +210,205 @@ ShallowWrapper {
         ],
         "type": "div",
       },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div />,
+          <div
+            className="flipper"
+>
+            <div
+                        className="Card front"
+            >
+                        <img
+                                    src="https://image.tmdb.org/t/p/w500undefined"
+                        />
+            </div>
+            <div
+                        className="Card back"
+            >
+                        <h1 />
+                        <h3>
+                                    Rating: 
+                        </h3>
+                        <button
+                                    onClick={[Function]}
+                        >
+                                     Add to favorites 
+                        </button>
+                        <h3 />
+                        <p />
+            </div>
+</div>,
+        ],
+        "className": "flip-container",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="Card front"
+>
+                <img
+                                src="https://image.tmdb.org/t/p/w500undefined"
+                />
+</div>,
+              <div
+                className="Card back"
+>
+                <h1 />
+                <h3>
+                                Rating: 
+                </h3>
+                <button
+                                onClick={[Function]}
+                >
+                                 Add to favorites 
+                </button>
+                <h3 />
+                <p />
+</div>,
+            ],
+            "className": "flipper",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <img
+                  src="https://image.tmdb.org/t/p/w500undefined"
+/>,
+                "className": "Card front",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "src": "https://image.tmdb.org/t/p/w500undefined",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "img",
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <h1 />,
+                  <h3>
+                    Rating: 
+</h3>,
+                  <button
+                    onClick={[Function]}
+>
+                     Add to favorites 
+</button>,
+                  <h3 />,
+                  <p />,
+                ],
+                "className": "Card back",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": undefined,
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "h1",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      "Rating: ",
+                      undefined,
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    "Rating: ",
+                    undefined,
+                  ],
+                  "type": "h3",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": " Add to favorites ",
+                    "onClick": [Function],
+                  },
+                  "ref": null,
+                  "rendered": " Add to favorites ",
+                  "type": "button",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": undefined,
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "h3",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": undefined,
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "p",
+                },
+              ],
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+      ],
       "type": "div",
     },
   ],
