@@ -29,13 +29,13 @@ class App extends Component {
     const userLoggedIn = this.props.user.name ? 
       <button className='log-out-button' onClick={this.props.userLoggedOut}>Log Out</button> : 
       <NavLink className='log-in-button' to='/login'>Log in</NavLink>
-      <NavLink className='log-in-button' to='/favorites'>Your Favorites</NavLink>
     return (
       <div className="App">
         <header className="App-header">
           <h1 className="App-title">Welcome to Movie-Tracker</h1>
           <NavLink to='/'>Home</NavLink>
           {userLoggedIn}
+          <NavLink className='log-in-button' to='/favorites'>Your Favorites</NavLink>
         </header>
         <Route exact path='/' component={CardHolderContainer} />
         <Route exact path='/login' component={LogInPageContainer} />
