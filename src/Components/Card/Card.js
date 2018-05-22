@@ -10,6 +10,7 @@ class Card extends Component {
       hasErrored: false
     }
   }
+  
   handleFavorite = () => {  
     if (!this.props.userID) {
       this.setState({ hasErrored: true })

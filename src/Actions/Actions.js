@@ -14,10 +14,15 @@ export const createUser = ({ name, email, password, id, favorites }) => ({
   favorites: favorites || []
 });
 
-export const addUserFavorite = (movie) => {
+export const addUserFavorite = (movie) => ({
   type: 'ADD_USER_FAVORITE',
-  movie;
-};
+  movie
+})
+
+export const removeUserFavorite = (movieID) => ({
+  type: 'REMOVE_USER_FAVORITE',
+  movieID
+})
 
 export const userLoggedOut = () => ({
   type: 'USER_LOGGED_OUT'

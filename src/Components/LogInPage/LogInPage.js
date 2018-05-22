@@ -27,13 +27,13 @@ class LogInPage extends Component {
     this.setState({formState: event.target.name});
   }
 
-  handleSubmit = (e) => {
+  handleSubmit = async (e) => {
     e.preventDefault();
     let didError
     if (this.state.formState === 'create-user') {
-      didError = this.props.postUser(this.state);
+      didError = await this.props.postUser(this.state);
     } else {
-      didError = this.props.fetchUser({
+      didError = await this.props.fetchUser({
         email: this.state.email, 
         password: this.state.password
       });
