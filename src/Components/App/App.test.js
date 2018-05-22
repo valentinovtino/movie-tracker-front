@@ -6,9 +6,10 @@ import { shallow, mount } from 'enzyme';
 
 describe('App', () => {
   let wrapper;
+  let mockUserLoggedOut = jest.fn();
 
   beforeEach(() => {
-    wrapper = shallow(<App user={{}} storeMovies={jest.fn} userLoggedOut={jest.fn}/>, {disableLifecycleMethods: true})
+    wrapper = shallow(<App user={{}} storeMovies={jest.fn} userLoggedOut={mockUserLoggedOut}/>, {disableLifecycleMethods: true})
   });
 
   it('matches snapshot', () => {
@@ -16,9 +17,10 @@ describe('App', () => {
   });
 
   it('should render Log Out button if there is a user', () => {
-    wrapper = shallow(<App user={{name: 'elvis'}} storeMovies={jest.fn} userLoggedOut={jest.fn}/>, {disableLifecycleMethods: true})
+    wrapper = shallow(<App user={{name: 'elvis'}} storeMovies={jest.fn} userLoggedOut={mockUserLoggedOut}/>, {disableLifecycleMethods: true})
 
     expect(wrapper.find('.log-out-button').length).toEqual(1);
+    expect(wrapper.find('.log-in-button').length).toEqual(0);
   });
 
   it('should render Log In button if there is no user', () => {
@@ -26,12 +28,24 @@ describe('App', () => {
     expect(wrapper.find('.log-out-button').length).toEqual(0);
   });
 
-  // it('should call userLoggedOut callback when button is clicked', () => {
-  //   wrapper = shallow(<App user={{name: 'elvis'}} storeMovies={jest.fn} userLoggedOut={jest.fn()}/>, {disableLifecycleMethods: true})
+  it('should call userLoggedOut callback when button is clicked', () => {
+    wrapper = shallow(<App user={{name: 'elvis'}} storeMovies={jest.fn} userLoggedOut={mockUserLoggedOut}/>, {disableLifecycleMethods: true})
 
-  //   wrapper.find('.log-out-button').simulate('click')
+    wrapper.find('.log-out-button').simulate('click');
 
-  //   expect(wrapper.prop('userLoggedOut')).toHaveBeenCalled();
-  // });
+    expect(mockUserLoggedOut).toHaveBeenCalled();
+  });
 
 });
+
+
+
+
+
+
+
+
+
+
+
+
