@@ -369,17 +369,19 @@ ReactWrapper {
           "_debugIsCurrentlyTiming": false,
           "_debugOwner": [Circular],
           "_debugSource": Object {
+
             "fileName": "/Users/valentinovalentin/turing/theMod3/movie-tracker/client-side-movie-tracker/src/Components/LogInPage/LogInPage.js",
             "lineNumber": 53,
-          },
+
           "alternate": null,
           "child": FiberNode {
             "_debugID": 7,
             "_debugIsCurrentlyTiming": false,
             "_debugOwner": [Circular],
             "_debugSource": Object {
+
               "fileName": "/Users/valentinovalentin/turing/theMod3/movie-tracker/client-side-movie-tracker/src/Components/LogInPage/LogInPage.js",
-              "lineNumber": 54,
+
             },
             "alternate": null,
             "child": FiberNode {
@@ -387,8 +389,10 @@ ReactWrapper {
               "_debugIsCurrentlyTiming": false,
               "_debugOwner": [Circular],
               "_debugSource": Object {
+
                 "fileName": "/Users/valentinovalentin/turing/theMod3/movie-tracker/client-side-movie-tracker/src/Components/LogInPage/LogInPage.js",
                 "lineNumber": 55,
+
               },
               "alternate": null,
               "child": null,
@@ -420,8 +424,10 @@ ReactWrapper {
                 "_debugIsCurrentlyTiming": false,
                 "_debugOwner": [Circular],
                 "_debugSource": Object {
+
                   "fileName": "/Users/valentinovalentin/turing/theMod3/movie-tracker/client-side-movie-tracker/src/Components/LogInPage/LogInPage.js",
                   "lineNumber": 58,
+
                 },
                 "alternate": null,
                 "child": null,
@@ -523,8 +529,10 @@ ReactWrapper {
               "_debugIsCurrentlyTiming": false,
               "_debugOwner": [Circular],
               "_debugSource": Object {
+
                 "fileName": "/Users/valentinovalentin/turing/theMod3/movie-tracker/client-side-movie-tracker/src/Components/LogInPage/LogInPage.js",
                 "lineNumber": 62,
+
               },
               "alternate": null,
               "child": FiberNode {
@@ -532,8 +540,10 @@ ReactWrapper {
                 "_debugIsCurrentlyTiming": false,
                 "_debugOwner": [Circular],
                 "_debugSource": Object {
+
                   "fileName": "/Users/valentinovalentin/turing/theMod3/movie-tracker/client-side-movie-tracker/src/Components/LogInPage/LogInPage.js",
                   "lineNumber": 64,
+
                 },
                 "alternate": null,
                 "child": null,
@@ -569,8 +579,10 @@ ReactWrapper {
                   "_debugIsCurrentlyTiming": false,
                   "_debugOwner": [Circular],
                   "_debugSource": Object {
+
                     "fileName": "/Users/valentinovalentin/turing/theMod3/movie-tracker/client-side-movie-tracker/src/Components/LogInPage/LogInPage.js",
                     "lineNumber": 66,
+
                   },
                   "alternate": null,
                   "child": null,
@@ -606,8 +618,10 @@ ReactWrapper {
                     "_debugIsCurrentlyTiming": false,
                     "_debugOwner": [Circular],
                     "_debugSource": Object {
+
                       "fileName": "/Users/valentinovalentin/turing/theMod3/movie-tracker/client-side-movie-tracker/src/Components/LogInPage/LogInPage.js",
                       "lineNumber": 67,
+
                     },
                     "alternate": null,
                     "child": null,
@@ -643,8 +657,10 @@ ReactWrapper {
                       "_debugIsCurrentlyTiming": false,
                       "_debugOwner": [Circular],
                       "_debugSource": Object {
+
                         "fileName": "/Users/valentinovalentin/turing/theMod3/movie-tracker/client-side-movie-tracker/src/Components/LogInPage/LogInPage.js",
                         "lineNumber": 68,
+
                       },
                       "alternate": null,
                       "child": null,
@@ -674,8 +690,9 @@ ReactWrapper {
                         "_debugIsCurrentlyTiming": false,
                         "_debugOwner": [Circular],
                         "_debugSource": Object {
+
                           "fileName": "/Users/valentinovalentin/turing/theMod3/movie-tracker/client-side-movie-tracker/src/Components/LogInPage/LogInPage.js",
-                          "lineNumber": 69,
+
                         },
                         "alternate": null,
                         "child": null,
@@ -700,9 +717,10 @@ ReactWrapper {
                           "_debugID": 16,
                           "_debugIsCurrentlyTiming": false,
                           "_debugOwner": [Circular],
-                          "_debugSource": Object {
+
                             "fileName": "/Users/valentinovalentin/turing/theMod3/movie-tracker/client-side-movie-tracker/src/Components/LogInPage/LogInPage.js",
                             "lineNumber": 51,
+
                           },
                           "alternate": null,
                           "child": null,
@@ -2265,8 +2283,10 @@ ReactWrapper {
             "_debugIsCurrentlyTiming": false,
             "_debugOwner": [Circular],
             "_debugSource": Object {
+
               "fileName": "/Users/valentinovalentin/turing/theMod3/movie-tracker/client-side-movie-tracker/src/Components/LogInPage/LogInPage.js",
               "lineNumber": 53,
+
             },
             "alternate": null,
             "child": FiberNode {
@@ -2274,8 +2294,10 @@ ReactWrapper {
               "_debugIsCurrentlyTiming": false,
               "_debugOwner": [Circular],
               "_debugSource": Object {
+
                 "fileName": "/Users/valentinovalentin/turing/theMod3/movie-tracker/client-side-movie-tracker/src/Components/LogInPage/LogInPage.js",
                 "lineNumber": 54,
+
               },
               "alternate": null,
               "child": FiberNode {
@@ -2283,8 +2305,9 @@ ReactWrapper {
                 "_debugIsCurrentlyTiming": false,
                 "_debugOwner": [Circular],
                 "_debugSource": Object {
+
                   "fileName": "/Users/valentinovalentin/turing/theMod3/movie-tracker/client-side-movie-tracker/src/Components/LogInPage/LogInPage.js",
-                  "lineNumber": 55,
+
                 },
                 "alternate": null,
                 "child": null,
@@ -2317,7 +2340,7 @@ ReactWrapper {
                   "_debugOwner": [Circular],
                   "_debugSource": Object {
                     "fileName": "/Users/valentinovalentin/turing/theMod3/movie-tracker/client-side-movie-tracker/src/Components/LogInPage/LogInPage.js",
-                    "lineNumber": 58,
+
                   },
                   "alternate": null,
                   "child": null,
@@ -2418,18 +2441,20 @@ ReactWrapper {
                 "_debugID": 8,
                 "_debugIsCurrentlyTiming": false,
                 "_debugOwner": [Circular],
-                "_debugSource": Object {
+
                   "fileName": "/Users/valentinovalentin/turing/theMod3/movie-tracker/client-side-movie-tracker/src/Components/LogInPage/LogInPage.js",
                   "lineNumber": 62,
+
                 },
                 "alternate": null,
                 "child": FiberNode {
                   "_debugID": 11,
                   "_debugIsCurrentlyTiming": false,
                   "_debugOwner": [Circular],
-                  "_debugSource": Object {
+
                     "fileName": "/Users/valentinovalentin/turing/theMod3/movie-tracker/client-side-movie-tracker/src/Components/LogInPage/LogInPage.js",
                     "lineNumber": 64,
+
                   },
                   "alternate": null,
                   "child": null,
@@ -2465,8 +2490,10 @@ ReactWrapper {
                     "_debugIsCurrentlyTiming": false,
                     "_debugOwner": [Circular],
                     "_debugSource": Object {
+
                       "fileName": "/Users/valentinovalentin/turing/theMod3/movie-tracker/client-side-movie-tracker/src/Components/LogInPage/LogInPage.js",
                       "lineNumber": 66,
+
                     },
                     "alternate": null,
                     "child": null,
@@ -2502,8 +2529,10 @@ ReactWrapper {
                       "_debugIsCurrentlyTiming": false,
                       "_debugOwner": [Circular],
                       "_debugSource": Object {
+
                         "fileName": "/Users/valentinovalentin/turing/theMod3/movie-tracker/client-side-movie-tracker/src/Components/LogInPage/LogInPage.js",
                         "lineNumber": 67,
+
                       },
                       "alternate": null,
                       "child": null,
@@ -2541,6 +2570,7 @@ ReactWrapper {
                         "_debugSource": Object {
                           "fileName": "/Users/valentinovalentin/turing/theMod3/movie-tracker/client-side-movie-tracker/src/Components/LogInPage/LogInPage.js",
                           "lineNumber": 68,
+
                         },
                         "alternate": null,
                         "child": null,
@@ -2570,8 +2600,10 @@ ReactWrapper {
                           "_debugIsCurrentlyTiming": false,
                           "_debugOwner": [Circular],
                           "_debugSource": Object {
+
                             "fileName": "/Users/valentinovalentin/turing/theMod3/movie-tracker/client-side-movie-tracker/src/Components/LogInPage/LogInPage.js",
                             "lineNumber": 69,
+
                           },
                           "alternate": null,
                           "child": null,
@@ -2596,9 +2628,10 @@ ReactWrapper {
                             "_debugID": 16,
                             "_debugIsCurrentlyTiming": false,
                             "_debugOwner": [Circular],
-                            "_debugSource": Object {
+
                               "fileName": "/Users/valentinovalentin/turing/theMod3/movie-tracker/client-side-movie-tracker/src/Components/LogInPage/LogInPage.js",
                               "lineNumber": 51,
+
                             },
                             "alternate": null,
                             "child": null,

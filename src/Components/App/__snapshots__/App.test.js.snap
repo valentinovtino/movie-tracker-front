@@ -68,12 +68,32 @@ ShallowWrapper {
           <NavLink
                     activeClassName="active"
                     ariaCurrent="true"
+
                     className="log-in-button nav-btn"
+
                     to="/favorites"
           >
                     Your Favorites
           </NavLink>
+
 </div>,
+</header>,
+        <Route
+          component={[Function]}
+          exact={true}
+          path="/"
+/>,
+        <Route
+          component={[Function]}
+          exact={true}
+          path="/login"
+/>,
+        <Route
+          component={[Function]}
+          exact={true}
+          path="/favorites"
+/>,
+
       ],
       "className": "App",
     },
@@ -190,6 +210,7 @@ ShallowWrapper {
               activeClassName="active"
               ariaCurrent="true"
               className="log-in-button nav-btn"
+
               to="/favorites"
 >
               Your Favorites
@@ -244,8 +265,36 @@ ShallowWrapper {
             "rendered": "Your Favorites",
             "type": [Function],
           },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "activeClassName": "active",
+              "ariaCurrent": "true",
+              "children": "Your Favorites",
+              "className": "log-in-button",
+              "to": "/favorites",
+            },
+            "ref": null,
+            "rendered": "Your Favorites",
+            "type": [Function],
+          },
         ],
         "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "component": [Function],
+          "exact": true,
+          "path": "/favorites",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
       },
     ],
     "type": "div",
@@ -303,12 +352,33 @@ ShallowWrapper {
             <NavLink
                         activeClassName="active"
                         ariaCurrent="true"
+
                         className="log-in-button nav-btn"
+
                         to="/favorites"
             >
                         Your Favorites
             </NavLink>
+
 </div>,
+
+</header>,
+          <Route
+            component={[Function]}
+            exact={true}
+            path="/"
+/>,
+          <Route
+            component={[Function]}
+            exact={true}
+            path="/login"
+/>,
+          <Route
+            component={[Function]}
+            exact={true}
+            path="/favorites"
+/>,
+
         ],
         "className": "App",
       },
@@ -424,7 +494,9 @@ ShallowWrapper {
               <NavLink
                 activeClassName="active"
                 ariaCurrent="true"
+
                 className="log-in-button nav-btn"
+
                 to="/favorites"
 >
                 Your Favorites
@@ -479,8 +551,36 @@ ShallowWrapper {
               "rendered": "Your Favorites",
               "type": [Function],
             },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "activeClassName": "active",
+                "ariaCurrent": "true",
+                "children": "Your Favorites",
+                "className": "log-in-button",
+                "to": "/favorites",
+              },
+              "ref": null,
+              "rendered": "Your Favorites",
+              "type": [Function],
+            },
           ],
           "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "component": [Function],
+            "exact": true,
+            "path": "/favorites",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
         },
       ],
       "type": "div",
