@@ -126,12 +126,9 @@ export const removeFavorite = (movie, user_id) => {
         overview: movie.overview, 
         user_id: user_id.id
       };
-      const response = await fetch('http://localhost:3000/api/users/favorites/new', {
+      const response = await fetch('http://localhost:3000/api/users/favorites/8675309', {
         method: 'DELETE',
         body: JSON.stringify(movieBody),
-        headers: {
-          'content-type': 'application/json'
-        },
       });
       if (!response.ok) {
         dispatch(userHasErrored(true, 'Please log in to save a favorite'));
