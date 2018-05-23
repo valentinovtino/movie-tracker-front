@@ -44,4 +44,10 @@ class App extends Component {
   }
 }
 
+App.propTypes = {
+  user: PropTypes.object,
+  storeMovies: PropTypes.func,
+  userLoggedOut: PropTypes.func
+};
+
 export default App;
