@@ -4,7 +4,7 @@ This project is working off the The Movie DB API. The idea of the project is to 
 
 ### *Example* 
 
-![main screen](./src/images/login.png)
+![login screen](./src/images/login.png)
 
 ![main screen](./src/images/mainpage.png)
 
