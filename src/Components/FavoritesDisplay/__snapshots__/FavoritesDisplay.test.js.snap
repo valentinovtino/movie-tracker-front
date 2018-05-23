@@ -34,6 +34,7 @@ ShallowWrapper {
                               "movie": "Move",
                             }
           }
+          removeUserFavorite={undefined}
           userID={null}
 />,
       ],
@@ -50,6 +51,7 @@ ShallowWrapper {
           "movie": Object {
             "movie": "Move",
           },
+          "removeUserFavorite": undefined,
           "userID": null,
         },
         "ref": null,
@@ -73,6 +75,7 @@ ShallowWrapper {
                                     "movie": "Move",
                                   }
             }
+            removeUserFavorite={undefined}
             userID={null}
 />,
         ],
@@ -89,6 +92,7 @@ ShallowWrapper {
             "movie": Object {
               "movie": "Move",
             },
+            "removeUserFavorite": undefined,
             "userID": null,
           },
           "ref": null,

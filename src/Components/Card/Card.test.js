@@ -38,7 +38,7 @@ describe('Card', () => {
   });
 
   it('should call addUserFavorite if handleFavorite is called and there is a user', () => {
-     wrapper = shallow(<Card addUserFavorite={mockFunction} movie={mockMovie} userID={15} />);
+    wrapper = shallow(<Card addUserFavorite={mockFunction} movie={mockMovie} userID={15} />);
 
     wrapper.instance().handleFavorite();
 

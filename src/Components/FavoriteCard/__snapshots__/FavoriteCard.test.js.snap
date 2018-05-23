@@ -135,20 +135,30 @@ ReactWrapper {
                                                       <div
                                                                         class="Card back"
                                                       >
-                                                                        <h1>
+                                                                        <h1
+                                                                                          class="font"
+                                                                        >
                                                                                           Movie
                                                                         </h1>
-                                                                        <h3>
+                                                                        <h3
+                                                                                          class="font"
+                                                                        >
                                                                                           Rating: 
                                                                                           5
                                                                         </h3>
-                                                                        <button>
-                                                                                          Add to favorites 
+                                                                        <button
+                                                                                          class="font"
+                                                                        >
+                                                                                          Remove from favorites 
                                                                         </button>
-                                                                        <h3>
+                                                                        <h3
+                                                                                          class="font"
+                                                                        >
                                                                                           2018-05-01
                                                                         </h3>
-                                                                        <p>
+                                                                        <p
+                                                                                          class="font"
+                                                                        >
                                                                                           This is a movie...
                                                                         </p>
                                                       </div>
@@ -284,20 +294,30 @@ ReactWrapper {
                                                 <div
                                                                 class="Card back"
                                                 >
-                                                                <h1>
+                                                                <h1
+                                                                                class="font"
+                                                                >
                                                                                 Movie
                                                                 </h1>
-                                                                <h3>
+                                                                <h3
+                                                                                class="font"
+                                                                >
                                                                                 Rating: 
                                                                                 5
                                                                 </h3>
-                                                                <button>
-                                                                                Add to favorites 
+                                                                <button
+                                                                                class="font"
+                                                                >
+                                                                                Remove from favorites 
                                                                 </button>
-                                                                <h3>
+                                                                <h3
+                                                                                class="font"
+                                                                >
                                                                                 2018-05-01
                                                                 </h3>
-                                                                <p>
+                                                                <p
+                                                                                class="font"
+                                                                >
                                                                                 This is a movie...
                                                                 </p>
                                                 </div>
@@ -401,8 +421,8 @@ ReactWrapper {
           "_debugIsCurrentlyTiming": false,
           "_debugOwner": [Circular],
           "_debugSource": Object {
-            "fileName": "/Users/myhomefolder/TURING/mod3/movie-tracker-front/src/Components/FavoriteCard/FavoriteCard.js",
-            "lineNumber": 29,
+            "fileName": "/Users/cameronbuscher/Code/turing/mod-3/movie-tracker/movie-tracker-front/src/Components/FavoriteCard/FavoriteCard.js",
+            "lineNumber": 25,
           },
           "alternate": null,
           "child": FiberNode {
@@ -410,8 +430,8 @@ ReactWrapper {
             "_debugIsCurrentlyTiming": false,
             "_debugOwner": [Circular],
             "_debugSource": Object {
-              "fileName": "/Users/myhomefolder/TURING/mod3/movie-tracker-front/src/Components/FavoriteCard/FavoriteCard.js",
-              "lineNumber": 26,
+              "fileName": "/Users/cameronbuscher/Code/turing/mod-3/movie-tracker/movie-tracker-front/src/Components/FavoriteCard/FavoriteCard.js",
+              "lineNumber": 22,
             },
             "alternate": null,
             "child": null,
@@ -433,8 +453,8 @@ ReactWrapper {
               "_debugIsCurrentlyTiming": false,
               "_debugOwner": [Circular],
               "_debugSource": Object {
-                "fileName": "/Users/myhomefolder/TURING/mod3/movie-tracker-front/src/Components/FavoriteCard/FavoriteCard.js",
-                "lineNumber": 31,
+                "fileName": "/Users/cameronbuscher/Code/turing/mod-3/movie-tracker/movie-tracker-front/src/Components/FavoriteCard/FavoriteCard.js",
+                "lineNumber": 27,
               },
               "alternate": null,
               "child": FiberNode {
@@ -442,8 +462,8 @@ ReactWrapper {
                 "_debugIsCurrentlyTiming": false,
                 "_debugOwner": [Circular],
                 "_debugSource": Object {
-                  "fileName": "/Users/myhomefolder/TURING/mod3/movie-tracker-front/src/Components/FavoriteCard/FavoriteCard.js",
-                  "lineNumber": 32,
+                  "fileName": "/Users/cameronbuscher/Code/turing/mod-3/movie-tracker/movie-tracker-front/src/Components/FavoriteCard/FavoriteCard.js",
+                  "lineNumber": 28,
                 },
                 "alternate": null,
                 "child": FiberNode {
@@ -451,8 +471,8 @@ ReactWrapper {
                   "_debugIsCurrentlyTiming": false,
                   "_debugOwner": [Circular],
                   "_debugSource": Object {
-                    "fileName": "/Users/myhomefolder/TURING/mod3/movie-tracker-front/src/Components/FavoriteCard/FavoriteCard.js",
-                    "lineNumber": 33,
+                    "fileName": "/Users/cameronbuscher/Code/turing/mod-3/movie-tracker/movie-tracker-front/src/Components/FavoriteCard/FavoriteCard.js",
+                    "lineNumber": 29,
                   },
                   "alternate": null,
                   "child": null,
@@ -509,8 +529,8 @@ ReactWrapper {
                   "_debugIsCurrentlyTiming": false,
                   "_debugOwner": [Circular],
                   "_debugSource": Object {
-                    "fileName": "/Users/myhomefolder/TURING/mod3/movie-tracker-front/src/Components/FavoriteCard/FavoriteCard.js",
-                    "lineNumber": 35,
+                    "fileName": "/Users/cameronbuscher/Code/turing/mod-3/movie-tracker/movie-tracker-front/src/Components/FavoriteCard/FavoriteCard.js",
+                    "lineNumber": 31,
                   },
                   "alternate": null,
                   "child": FiberNode {
@@ -518,8 +538,8 @@ ReactWrapper {
                     "_debugIsCurrentlyTiming": false,
                     "_debugOwner": [Circular],
                     "_debugSource": Object {
-                      "fileName": "/Users/myhomefolder/TURING/mod3/movie-tracker-front/src/Components/FavoriteCard/FavoriteCard.js",
-                      "lineNumber": 36,
+                      "fileName": "/Users/cameronbuscher/Code/turing/mod-3/movie-tracker/movie-tracker-front/src/Components/FavoriteCard/FavoriteCard.js",
+                      "lineNumber": 32,
                     },
                     "alternate": null,
                     "child": null,
@@ -531,12 +551,14 @@ ReactWrapper {
                     "lastEffect": null,
                     "memoizedProps": Object {
                       "children": "Movie",
+                      "className": "font",
                     },
                     "memoizedState": null,
                     "mode": 0,
                     "nextEffect": null,
                     "pendingProps": Object {
                       "children": "Movie",
+                      "className": "font",
                     },
                     "ref": null,
                     "return": [Circular],
@@ -545,8 +567,8 @@ ReactWrapper {
                       "_debugIsCurrentlyTiming": false,
                       "_debugOwner": [Circular],
                       "_debugSource": Object {
-                        "fileName": "/Users/myhomefolder/TURING/mod3/movie-tracker-front/src/Components/FavoriteCard/FavoriteCard.js",
-                        "lineNumber": 37,
+                        "fileName": "/Users/cameronbuscher/Code/turing/mod-3/movie-tracker/movie-tracker-front/src/Components/FavoriteCard/FavoriteCard.js",
+                        "lineNumber": 33,
                       },
                       "alternate": null,
                       "child": FiberNode {
@@ -611,6 +633,7 @@ ReactWrapper {
                           "Rating: ",
                           5,
                         ],
+                        "className": "font",
                       },
                       "memoizedState": null,
                       "mode": 0,
@@ -620,6 +643,7 @@ ReactWrapper {
                           "Rating: ",
                           5,
                         ],
+                        "className": "font",
                       },
                       "ref": null,
                       "return": [Circular],
@@ -628,8 +652,8 @@ ReactWrapper {
                         "_debugIsCurrentlyTiming": false,
                         "_debugOwner": [Circular],
                         "_debugSource": Object {
-                          "fileName": "/Users/myhomefolder/TURING/mod3/movie-tracker-front/src/Components/FavoriteCard/FavoriteCard.js",
-                          "lineNumber": 38,
+                          "fileName": "/Users/cameronbuscher/Code/turing/mod-3/movie-tracker/movie-tracker-front/src/Components/FavoriteCard/FavoriteCard.js",
+                          "lineNumber": 34,
                         },
                         "alternate": null,
                         "child": null,
@@ -640,14 +664,16 @@ ReactWrapper {
                         "key": null,
                         "lastEffect": null,
                         "memoizedProps": Object {
-                          "children": " Add to favorites ",
+                          "children": " Remove from favorites ",
+                          "className": "font",
                           "onClick": [Function],
                         },
                         "memoizedState": null,
                         "mode": 0,
                         "nextEffect": null,
                         "pendingProps": Object {
-                          "children": " Add to favorites ",
+                          "children": " Remove from favorites ",
+                          "className": "font",
                           "onClick": [Function],
                         },
                         "ref": null,
@@ -657,8 +683,8 @@ ReactWrapper {
                           "_debugIsCurrentlyTiming": false,
                           "_debugOwner": [Circular],
                           "_debugSource": Object {
-                            "fileName": "/Users/myhomefolder/TURING/mod3/movie-tracker-front/src/Components/FavoriteCard/FavoriteCard.js",
-                            "lineNumber": 39,
+                            "fileName": "/Users/cameronbuscher/Code/turing/mod-3/movie-tracker/movie-tracker-front/src/Components/FavoriteCard/FavoriteCard.js",
+                            "lineNumber": 35,
                           },
                           "alternate": null,
                           "child": null,
@@ -670,12 +696,14 @@ ReactWrapper {
                           "lastEffect": null,
                           "memoizedProps": Object {
                             "children": "2018-05-01",
+                            "className": "font",
                           },
                           "memoizedState": null,
                           "mode": 0,
                           "nextEffect": null,
                           "pendingProps": Object {
                             "children": "2018-05-01",
+                            "className": "font",
                           },
                           "ref": null,
                           "return": [Circular],
@@ -684,8 +712,8 @@ ReactWrapper {
                             "_debugIsCurrentlyTiming": false,
                             "_debugOwner": [Circular],
                             "_debugSource": Object {
-                              "fileName": "/Users/myhomefolder/TURING/mod3/movie-tracker-front/src/Components/FavoriteCard/FavoriteCard.js",
-                              "lineNumber": 40,
+                              "fileName": "/Users/cameronbuscher/Code/turing/mod-3/movie-tracker/movie-tracker-front/src/Components/FavoriteCard/FavoriteCard.js",
+                              "lineNumber": 36,
                             },
                             "alternate": null,
                             "child": null,
@@ -697,38 +725,48 @@ ReactWrapper {
                             "lastEffect": null,
                             "memoizedProps": Object {
                               "children": "This is a movie...",
+                              "className": "font",
                             },
                             "memoizedState": null,
                             "mode": 0,
                             "nextEffect": null,
                             "pendingProps": Object {
                               "children": "This is a movie...",
+                              "className": "font",
                             },
                             "ref": null,
                             "return": [Circular],
                             "sibling": null,
-                            "stateNode": <p>
+                            "stateNode": <p
+                              class="font"
+>
                               This is a movie...
 </p>,
                             "tag": 5,
                             "type": "p",
                             "updateQueue": null,
                           },
-                          "stateNode": <h3>
+                          "stateNode": <h3
+                            class="font"
+>
                             2018-05-01
 </h3>,
                           "tag": 5,
                           "type": "h3",
                           "updateQueue": null,
                         },
-                        "stateNode": <button>
-                          Add to favorites 
+                        "stateNode": <button
+                          class="font"
+>
+                          Remove from favorites 
 </button>,
                         "tag": 5,
                         "type": "button",
                         "updateQueue": null,
                       },
-                      "stateNode": <h3>
+                      "stateNode": <h3
+                        class="font"
+>
                         Rating: 
                         5
 </h3>,
@@ -736,7 +774,9 @@ ReactWrapper {
                       "type": "h3",
                       "updateQueue": null,
                     },
-                    "stateNode": <h1>
+                    "stateNode": <h1
+                      class="font"
+>
                       Movie
 </h1>,
                     "tag": 5,
@@ -751,22 +791,31 @@ ReactWrapper {
                   "lastEffect": null,
                   "memoizedProps": Object {
                     "children": Array [
-                      <h1>
+                      <h1
+                        className="font"
+>
                         Movie
 </h1>,
-                      <h3>
+                      <h3
+                        className="font"
+>
                         Rating: 
                         5
 </h3>,
                       <button
+                        className="font"
                         onClick={[Function]}
 >
-                         Add to favorites 
+                         Remove from favorites 
 </button>,
-                      <h3>
+                      <h3
+                        className="font"
+>
                         2018-05-01
 </h3>,
-                      <p>
+                      <p
+                        className="font"
+>
                         This is a movie...
 </p>,
                     ],
@@ -777,22 +826,31 @@ ReactWrapper {
                   "nextEffect": null,
                   "pendingProps": Object {
                     "children": Array [
-                      <h1>
+                      <h1
+                        className="font"
+>
                         Movie
 </h1>,
-                      <h3>
+                      <h3
+                        className="font"
+>
                         Rating: 
                         5
 </h3>,
                       <button
+                        className="font"
                         onClick={[Function]}
 >
-                         Add to favorites 
+                         Remove from favorites 
 </button>,
-                      <h3>
+                      <h3
+                        className="font"
+>
                         2018-05-01
 </h3>,
-                      <p>
+                      <p
+                        className="font"
+>
                         This is a movie...
 </p>,
                     ],
@@ -804,20 +862,30 @@ ReactWrapper {
                   "stateNode": <div
                     class="Card back"
 >
-                    <h1>
+                    <h1
+                                        class="font"
+                    >
                                         Movie
                     </h1>
-                    <h3>
+                    <h3
+                                        class="font"
+                    >
                                         Rating: 
                                         5
                     </h3>
-                    <button>
-                                        Add to favorites 
+                    <button
+                                        class="font"
+                    >
+                                        Remove from favorites 
                     </button>
-                    <h3>
+                    <h3
+                                        class="font"
+                    >
                                         2018-05-01
                     </h3>
-                    <p>
+                    <p
+                                        class="font"
+                    >
                                         This is a movie...
                     </p>
 </div>,
@@ -854,22 +922,31 @@ ReactWrapper {
                   <div
                     className="Card back"
 >
-                    <h1>
+                    <h1
+                                        className="font"
+                    >
                                         Movie
                     </h1>
-                    <h3>
+                    <h3
+                                        className="font"
+                    >
                                         Rating: 
                                         5
                     </h3>
                     <button
+                                        className="font"
                                         onClick={[Function]}
                     >
-                                         Add to favorites 
+                                         Remove from favorites 
                     </button>
-                    <h3>
+                    <h3
+                                        className="font"
+                    >
                                         2018-05-01
                     </h3>
-                    <p>
+                    <p
+                                        className="font"
+                    >
                                         This is a movie...
                     </p>
 </div>,
@@ -891,22 +968,31 @@ ReactWrapper {
                   <div
                     className="Card back"
 >
-                    <h1>
+                    <h1
+                                        className="font"
+                    >
                                         Movie
                     </h1>
-                    <h3>
+                    <h3
+                                        className="font"
+                    >
                                         Rating: 
                                         5
                     </h3>
                     <button
+                                        className="font"
                                         onClick={[Function]}
                     >
-                                         Add to favorites 
+                                         Remove from favorites 
                     </button>
-                    <h3>
+                    <h3
+                                        className="font"
+                    >
                                         2018-05-01
                     </h3>
-                    <p>
+                    <p
+                                        className="font"
+                    >
                                         This is a movie...
                     </p>
 </div>,
@@ -929,20 +1015,30 @@ ReactWrapper {
                 <div
                                 class="Card back"
                 >
-                                <h1>
+                                <h1
+                                                class="font"
+                                >
                                                 Movie
                                 </h1>
-                                <h3>
+                                <h3
+                                                class="font"
+                                >
                                                 Rating: 
                                                 5
                                 </h3>
-                                <button>
-                                                Add to favorites 
+                                <button
+                                                class="font"
+                                >
+                                                Remove from favorites 
                                 </button>
-                                <h3>
+                                <h3
+                                                class="font"
+                                >
                                                 2018-05-01
                                 </h3>
-                                <p>
+                                <p
+                                                class="font"
+                                >
                                                 This is a movie...
                                 </p>
                 </div>
@@ -978,22 +1074,31 @@ ReactWrapper {
                 <div
                                 className="Card back"
                 >
-                                <h1>
+                                <h1
+                                                className="font"
+                                >
                                                 Movie
                                 </h1>
-                                <h3>
+                                <h3
+                                                className="font"
+                                >
                                                 Rating: 
                                                 5
                                 </h3>
                                 <button
+                                                className="font"
                                                 onClick={[Function]}
                                 >
-                                                 Add to favorites 
+                                                 Remove from favorites 
                                 </button>
-                                <h3>
+                                <h3
+                                                className="font"
+                                >
                                                 2018-05-01
                                 </h3>
-                                <p>
+                                <p
+                                                className="font"
+                                >
                                                 This is a movie...
                                 </p>
                 </div>
@@ -1020,22 +1125,31 @@ ReactWrapper {
                 <div
                                 className="Card back"
                 >
-                                <h1>
+                                <h1
+                                                className="font"
+                                >
                                                 Movie
                                 </h1>
-                                <h3>
+                                <h3
+                                                className="font"
+                                >
                                                 Rating: 
                                                 5
                                 </h3>
                                 <button
+                                                className="font"
                                                 onClick={[Function]}
                                 >
-                                                 Add to favorites 
+                                                 Remove from favorites 
                                 </button>
-                                <h3>
+                                <h3
+                                                className="font"
+                                >
                                                 2018-05-01
                                 </h3>
-                                <p>
+                                <p
+                                                className="font"
+                                >
                                                 This is a movie...
                                 </p>
                 </div>
@@ -1063,20 +1177,30 @@ ReactWrapper {
                         <div
                                     class="Card back"
                         >
-                                    <h1>
+                                    <h1
+                                                class="font"
+                                    >
                                                 Movie
                                     </h1>
-                                    <h3>
+                                    <h3
+                                                class="font"
+                                    >
                                                 Rating: 
                                                 5
                                     </h3>
-                                    <button>
-                                                Add to favorites 
+                                    <button
+                                                class="font"
+                                    >
+                                                Remove from favorites 
                                     </button>
-                                    <h3>
+                                    <h3
+                                                class="font"
+                                    >
                                                 2018-05-01
                                     </h3>
-                                    <p>
+                                    <p
+                                                class="font"
+                                    >
                                                 This is a movie...
                                     </p>
                         </div>
@@ -1226,20 +1350,30 @@ ReactWrapper {
                                                       <div
                                                                         class="Card back"
                                                       >
-                                                                        <h1>
+                                                                        <h1
+                                                                                          class="font"
+                                                                        >
                                                                                           Movie
                                                                         </h1>
-                                                                        <h3>
+                                                                        <h3
+                                                                                          class="font"
+                                                                        >
                                                                                           Rating: 
                                                                                           5
                                                                         </h3>
-                                                                        <button>
-                                                                                          Add to favorites 
+                                                                        <button
+                                                                                          class="font"
+                                                                        >
+                                                                                          Remove from favorites 
                                                                         </button>
-                                                                        <h3>
+                                                                        <h3
+                                                                                          class="font"
+                                                                        >
                                                                                           2018-05-01
                                                                         </h3>
-                                                                        <p>
+                                                                        <p
+                                                                                          class="font"
+                                                                        >
                                                                                           This is a movie...
                                                                         </p>
                                                       </div>
@@ -1375,20 +1509,30 @@ ReactWrapper {
                                                 <div
                                                                 class="Card back"
                                                 >
-                                                                <h1>
+                                                                <h1
+                                                                                class="font"
+                                                                >
                                                                                 Movie
                                                                 </h1>
-                                                                <h3>
+                                                                <h3
+                                                                                class="font"
+                                                                >
                                                                                 Rating: 
                                                                                 5
                                                                 </h3>
-                                                                <button>
-                                                                                Add to favorites 
+                                                                <button
+                                                                                class="font"
+                                                                >
+                                                                                Remove from favorites 
                                                                 </button>
-                                                                <h3>
+                                                                <h3
+                                                                                class="font"
+                                                                >
                                                                                 2018-05-01
                                                                 </h3>
-                                                                <p>
+                                                                <p
+                                                                                class="font"
+                                                                >
                                                                                 This is a movie...
                                                                 </p>
                                                 </div>
@@ -1548,20 +1692,30 @@ ReactWrapper {
                 <div
                         class="Card back"
                 >
-                        <h1>
+                        <h1
+                                class="font"
+                        >
                                 Movie
                         </h1>
-                        <h3>
+                        <h3
+                                class="font"
+                        >
                                 Rating: 
                                 5
                         </h3>
-                        <button>
-                                Add to favorites 
+                        <button
+                                class="font"
+                        >
+                                Remove from favorites 
                         </button>
-                        <h3>
+                        <h3
+                                class="font"
+                        >
                                 2018-05-01
                         </h3>
-                        <p>
+                        <p
+                                class="font"
+                        >
                                 This is a movie...
                         </p>
                 </div>
@@ -1585,22 +1739,31 @@ ReactWrapper {
             <div
                         className="Card back"
             >
-                        <h1>
+                        <h1
+                                    className="font"
+                        >
                                     Movie
                         </h1>
-                        <h3>
+                        <h3
+                                    className="font"
+                        >
                                     Rating: 
                                     5
                         </h3>
                         <button
+                                    className="font"
                                     onClick={[Function]}
                         >
-                                     Add to favorites 
+                                     Remove from favorites 
                         </button>
-                        <h3>
+                        <h3
+                                    className="font"
+                        >
                                     2018-05-01
                         </h3>
-                        <p>
+                        <p
+                                    className="font"
+                        >
                                     This is a movie...
                         </p>
             </div>
@@ -1635,20 +1798,30 @@ ReactWrapper {
             <div
                         class="Card back"
             >
-                        <h1>
+                        <h1
+                                    class="font"
+                        >
                                     Movie
                         </h1>
-                        <h3>
+                        <h3
+                                    class="font"
+                        >
                                     Rating: 
                                     5
                         </h3>
-                        <button>
-                                    Add to favorites 
+                        <button
+                                    class="font"
+                        >
+                                    Remove from favorites 
                         </button>
-                        <h3>
+                        <h3
+                                    class="font"
+                        >
                                     2018-05-01
                         </h3>
-                        <p>
+                        <p
+                                    class="font"
+                        >
                                     This is a movie...
                         </p>
             </div>
@@ -1667,22 +1840,31 @@ ReactWrapper {
               <div
                 className="Card back"
 >
-                <h1>
+                <h1
+                                className="font"
+                >
                                 Movie
                 </h1>
-                <h3>
+                <h3
+                                className="font"
+                >
                                 Rating: 
                                 5
                 </h3>
                 <button
+                                className="font"
                                 onClick={[Function]}
                 >
-                                 Add to favorites 
+                                 Remove from favorites 
                 </button>
-                <h3>
+                <h3
+                                className="font"
+                >
                                 2018-05-01
                 </h3>
-                <p>
+                <p
+                                className="font"
+                >
                                 This is a movie...
                 </p>
 </div>,
@@ -1731,20 +1913,30 @@ ReactWrapper {
               "instance": <div
                 class="Card back"
 >
-                <h1>
+                <h1
+                                class="font"
+                >
                                 Movie
                 </h1>
-                <h3>
+                <h3
+                                class="font"
+                >
                                 Rating: 
                                 5
                 </h3>
-                <button>
-                                Add to favorites 
+                <button
+                                class="font"
+                >
+                                Remove from favorites 
                 </button>
-                <h3>
+                <h3
+                                class="font"
+                >
                                 2018-05-01
                 </h3>
-                <p>
+                <p
+                                class="font"
+                >
                                 This is a movie...
                 </p>
 </div>,
@@ -1752,22 +1944,31 @@ ReactWrapper {
               "nodeType": "host",
               "props": Object {
                 "children": Array [
-                  <h1>
+                  <h1
+                    className="font"
+>
                     Movie
 </h1>,
-                  <h3>
+                  <h3
+                    className="font"
+>
                     Rating: 
                     5
 </h3>,
                   <button
+                    className="font"
                     onClick={[Function]}
 >
-                     Add to favorites 
+                     Remove from favorites 
 </button>,
-                  <h3>
+                  <h3
+                    className="font"
+>
                     2018-05-01
 </h3>,
-                  <p>
+                  <p
+                    className="font"
+>
                     This is a movie...
 </p>,
                 ],
@@ -1776,13 +1977,16 @@ ReactWrapper {
               "ref": null,
               "rendered": Array [
                 Object {
-                  "instance": <h1>
+                  "instance": <h1
+                    class="font"
+>
                     Movie
 </h1>,
                   "key": undefined,
                   "nodeType": "host",
                   "props": Object {
                     "children": "Movie",
+                    "className": "font",
                   },
                   "ref": null,
                   "rendered": Array [
@@ -1791,7 +1995,9 @@ ReactWrapper {
                   "type": "h1",
                 },
                 Object {
-                  "instance": <h3>
+                  "instance": <h3
+                    class="font"
+>
                     Rating: 
                     5
 </h3>,
@@ -1802,6 +2008,7 @@ ReactWrapper {
                       "Rating: ",
                       5,
                     ],
+                    "className": "font",
                   },
                   "ref": null,
                   "rendered": Array [
@@ -1811,29 +2018,35 @@ ReactWrapper {
                   "type": "h3",
                 },
                 Object {
-                  "instance": <button>
-                    Add to favorites 
+                  "instance": <button
+                    class="font"
+>
+                    Remove from favorites 
 </button>,
                   "key": undefined,
                   "nodeType": "host",
                   "props": Object {
-                    "children": " Add to favorites ",
+                    "children": " Remove from favorites ",
+                    "className": "font",
                     "onClick": [Function],
                   },
                   "ref": null,
                   "rendered": Array [
-                    " Add to favorites ",
+                    " Remove from favorites ",
                   ],
                   "type": "button",
                 },
                 Object {
-                  "instance": <h3>
+                  "instance": <h3
+                    class="font"
+>
                     2018-05-01
 </h3>,
                   "key": undefined,
                   "nodeType": "host",
                   "props": Object {
                     "children": "2018-05-01",
+                    "className": "font",
                   },
                   "ref": null,
                   "rendered": Array [
@@ -1842,13 +2055,16 @@ ReactWrapper {
                   "type": "h3",
                 },
                 Object {
-                  "instance": <p>
+                  "instance": <p
+                    class="font"
+>
                     This is a movie...
 </p>,
                   "key": undefined,
                   "nodeType": "host",
                   "props": Object {
                     "children": "This is a movie...",
+                    "className": "font",
                   },
                   "ref": null,
                   "rendered": Array [
@@ -1979,20 +2195,30 @@ ReactWrapper {
                                                             <div
                                                                                 class="Card back"
                                                             >
-                                                                                <h1>
+                                                                                <h1
+                                                                                                    class="font"
+                                                                                >
                                                                                                     Movie
                                                                                 </h1>
-                                                                                <h3>
+                                                                                <h3
+                                                                                                    class="font"
+                                                                                >
                                                                                                     Rating: 
                                                                                                     5
                                                                                 </h3>
-                                                                                <button>
-                                                                                                    Add to favorites 
+                                                                                <button
+                                                                                                    class="font"
+                                                                                >
+                                                                                                    Remove from favorites 
                                                                                 </button>
-                                                                                <h3>
+                                                                                <h3
+                                                                                                    class="font"
+                                                                                >
                                                                                                     2018-05-01
                                                                                 </h3>
-                                                                                <p>
+                                                                                <p
+                                                                                                    class="font"
+                                                                                >
                                                                                                     This is a movie...
                                                                                 </p>
                                                             </div>
@@ -2128,20 +2354,30 @@ ReactWrapper {
                                                       <div
                                                                         class="Card back"
                                                       >
-                                                                        <h1>
+                                                                        <h1
+                                                                                          class="font"
+                                                                        >
                                                                                           Movie
                                                                         </h1>
-                                                                        <h3>
+                                                                        <h3
+                                                                                          class="font"
+                                                                        >
                                                                                           Rating: 
                                                                                           5
                                                                         </h3>
-                                                                        <button>
-                                                                                          Add to favorites 
+                                                                        <button
+                                                                                          class="font"
+                                                                        >
+                                                                                          Remove from favorites 
                                                                         </button>
-                                                                        <h3>
+                                                                        <h3
+                                                                                          class="font"
+                                                                        >
                                                                                           2018-05-01
                                                                         </h3>
-                                                                        <p>
+                                                                        <p
+                                                                                          class="font"
+                                                                        >
                                                                                           This is a movie...
                                                                         </p>
                                                       </div>
@@ -2245,8 +2481,8 @@ ReactWrapper {
             "_debugIsCurrentlyTiming": false,
             "_debugOwner": [Circular],
             "_debugSource": Object {
-              "fileName": "/Users/myhomefolder/TURING/mod3/movie-tracker-front/src/Components/FavoriteCard/FavoriteCard.js",
-              "lineNumber": 29,
+              "fileName": "/Users/cameronbuscher/Code/turing/mod-3/movie-tracker/movie-tracker-front/src/Components/FavoriteCard/FavoriteCard.js",
+              "lineNumber": 25,
             },
             "alternate": null,
             "child": FiberNode {
@@ -2254,8 +2490,8 @@ ReactWrapper {
               "_debugIsCurrentlyTiming": false,
               "_debugOwner": [Circular],
               "_debugSource": Object {
-                "fileName": "/Users/myhomefolder/TURING/mod3/movie-tracker-front/src/Components/FavoriteCard/FavoriteCard.js",
-                "lineNumber": 26,
+                "fileName": "/Users/cameronbuscher/Code/turing/mod-3/movie-tracker/movie-tracker-front/src/Components/FavoriteCard/FavoriteCard.js",
+                "lineNumber": 22,
               },
               "alternate": null,
               "child": null,
@@ -2277,8 +2513,8 @@ ReactWrapper {
                 "_debugIsCurrentlyTiming": false,
                 "_debugOwner": [Circular],
                 "_debugSource": Object {
-                  "fileName": "/Users/myhomefolder/TURING/mod3/movie-tracker-front/src/Components/FavoriteCard/FavoriteCard.js",
-                  "lineNumber": 31,
+                  "fileName": "/Users/cameronbuscher/Code/turing/mod-3/movie-tracker/movie-tracker-front/src/Components/FavoriteCard/FavoriteCard.js",
+                  "lineNumber": 27,
                 },
                 "alternate": null,
                 "child": FiberNode {
@@ -2286,8 +2522,8 @@ ReactWrapper {
                   "_debugIsCurrentlyTiming": false,
                   "_debugOwner": [Circular],
                   "_debugSource": Object {
-                    "fileName": "/Users/myhomefolder/TURING/mod3/movie-tracker-front/src/Components/FavoriteCard/FavoriteCard.js",
-                    "lineNumber": 32,
+                    "fileName": "/Users/cameronbuscher/Code/turing/mod-3/movie-tracker/movie-tracker-front/src/Components/FavoriteCard/FavoriteCard.js",
+                    "lineNumber": 28,
                   },
                   "alternate": null,
                   "child": FiberNode {
@@ -2295,8 +2531,8 @@ ReactWrapper {
                     "_debugIsCurrentlyTiming": false,
                     "_debugOwner": [Circular],
                     "_debugSource": Object {
-                      "fileName": "/Users/myhomefolder/TURING/mod3/movie-tracker-front/src/Components/FavoriteCard/FavoriteCard.js",
-                      "lineNumber": 33,
+                      "fileName": "/Users/cameronbuscher/Code/turing/mod-3/movie-tracker/movie-tracker-front/src/Components/FavoriteCard/FavoriteCard.js",
+                      "lineNumber": 29,
                     },
                     "alternate": null,
                     "child": null,
@@ -2353,8 +2589,8 @@ ReactWrapper {
                     "_debugIsCurrentlyTiming": false,
                     "_debugOwner": [Circular],
                     "_debugSource": Object {
-                      "fileName": "/Users/myhomefolder/TURING/mod3/movie-tracker-front/src/Components/FavoriteCard/FavoriteCard.js",
-                      "lineNumber": 35,
+                      "fileName": "/Users/cameronbuscher/Code/turing/mod-3/movie-tracker/movie-tracker-front/src/Components/FavoriteCard/FavoriteCard.js",
+                      "lineNumber": 31,
                     },
                     "alternate": null,
                     "child": FiberNode {
@@ -2362,8 +2598,8 @@ ReactWrapper {
                       "_debugIsCurrentlyTiming": false,
                       "_debugOwner": [Circular],
                       "_debugSource": Object {
-                        "fileName": "/Users/myhomefolder/TURING/mod3/movie-tracker-front/src/Components/FavoriteCard/FavoriteCard.js",
-                        "lineNumber": 36,
+                        "fileName": "/Users/cameronbuscher/Code/turing/mod-3/movie-tracker/movie-tracker-front/src/Components/FavoriteCard/FavoriteCard.js",
+                        "lineNumber": 32,
                       },
                       "alternate": null,
                       "child": null,
@@ -2375,12 +2611,14 @@ ReactWrapper {
                       "lastEffect": null,
                       "memoizedProps": Object {
                         "children": "Movie",
+                        "className": "font",
                       },
                       "memoizedState": null,
                       "mode": 0,
                       "nextEffect": null,
                       "pendingProps": Object {
                         "children": "Movie",
+                        "className": "font",
                       },
                       "ref": null,
                       "return": [Circular],
@@ -2389,8 +2627,8 @@ ReactWrapper {
                         "_debugIsCurrentlyTiming": false,
                         "_debugOwner": [Circular],
                         "_debugSource": Object {
-                          "fileName": "/Users/myhomefolder/TURING/mod3/movie-tracker-front/src/Components/FavoriteCard/FavoriteCard.js",
-                          "lineNumber": 37,
+                          "fileName": "/Users/cameronbuscher/Code/turing/mod-3/movie-tracker/movie-tracker-front/src/Components/FavoriteCard/FavoriteCard.js",
+                          "lineNumber": 33,
                         },
                         "alternate": null,
                         "child": FiberNode {
@@ -2455,6 +2693,7 @@ ReactWrapper {
                             "Rating: ",
                             5,
                           ],
+                          "className": "font",
                         },
                         "memoizedState": null,
                         "mode": 0,
@@ -2464,6 +2703,7 @@ ReactWrapper {
                             "Rating: ",
                             5,
                           ],
+                          "className": "font",
                         },
                         "ref": null,
                         "return": [Circular],
@@ -2472,8 +2712,8 @@ ReactWrapper {
                           "_debugIsCurrentlyTiming": false,
                           "_debugOwner": [Circular],
                           "_debugSource": Object {
-                            "fileName": "/Users/myhomefolder/TURING/mod3/movie-tracker-front/src/Components/FavoriteCard/FavoriteCard.js",
-                            "lineNumber": 38,
+                            "fileName": "/Users/cameronbuscher/Code/turing/mod-3/movie-tracker/movie-tracker-front/src/Components/FavoriteCard/FavoriteCard.js",
+                            "lineNumber": 34,
                           },
                           "alternate": null,
                           "child": null,
@@ -2484,14 +2724,16 @@ ReactWrapper {
                           "key": null,
                           "lastEffect": null,
                           "memoizedProps": Object {
-                            "children": " Add to favorites ",
+                            "children": " Remove from favorites ",
+                            "className": "font",
                             "onClick": [Function],
                           },
                           "memoizedState": null,
                           "mode": 0,
                           "nextEffect": null,
                           "pendingProps": Object {
-                            "children": " Add to favorites ",
+                            "children": " Remove from favorites ",
+                            "className": "font",
                             "onClick": [Function],
                           },
                           "ref": null,
@@ -2501,8 +2743,8 @@ ReactWrapper {
                             "_debugIsCurrentlyTiming": false,
                             "_debugOwner": [Circular],
                             "_debugSource": Object {
-                              "fileName": "/Users/myhomefolder/TURING/mod3/movie-tracker-front/src/Components/FavoriteCard/FavoriteCard.js",
-                              "lineNumber": 39,
+                              "fileName": "/Users/cameronbuscher/Code/turing/mod-3/movie-tracker/movie-tracker-front/src/Components/FavoriteCard/FavoriteCard.js",
+                              "lineNumber": 35,
                             },
                             "alternate": null,
                             "child": null,
@@ -2514,12 +2756,14 @@ ReactWrapper {
                             "lastEffect": null,
                             "memoizedProps": Object {
                               "children": "2018-05-01",
+                              "className": "font",
                             },
                             "memoizedState": null,
                             "mode": 0,
                             "nextEffect": null,
                             "pendingProps": Object {
                               "children": "2018-05-01",
+                              "className": "font",
                             },
                             "ref": null,
                             "return": [Circular],
@@ -2528,8 +2772,8 @@ ReactWrapper {
                               "_debugIsCurrentlyTiming": false,
                               "_debugOwner": [Circular],
                               "_debugSource": Object {
-                                "fileName": "/Users/myhomefolder/TURING/mod3/movie-tracker-front/src/Components/FavoriteCard/FavoriteCard.js",
-                                "lineNumber": 40,
+                                "fileName": "/Users/cameronbuscher/Code/turing/mod-3/movie-tracker/movie-tracker-front/src/Components/FavoriteCard/FavoriteCard.js",
+                                "lineNumber": 36,
                               },
                               "alternate": null,
                               "child": null,
@@ -2541,38 +2785,48 @@ ReactWrapper {
                               "lastEffect": null,
                               "memoizedProps": Object {
                                 "children": "This is a movie...",
+                                "className": "font",
                               },
                               "memoizedState": null,
                               "mode": 0,
                               "nextEffect": null,
                               "pendingProps": Object {
                                 "children": "This is a movie...",
+                                "className": "font",
                               },
                               "ref": null,
                               "return": [Circular],
                               "sibling": null,
-                              "stateNode": <p>
+                              "stateNode": <p
+                                class="font"
+>
                                 This is a movie...
 </p>,
                               "tag": 5,
                               "type": "p",
                               "updateQueue": null,
                             },
-                            "stateNode": <h3>
+                            "stateNode": <h3
+                              class="font"
+>
                               2018-05-01
 </h3>,
                             "tag": 5,
                             "type": "h3",
                             "updateQueue": null,
                           },
-                          "stateNode": <button>
-                            Add to favorites 
+                          "stateNode": <button
+                            class="font"
+>
+                            Remove from favorites 
 </button>,
                           "tag": 5,
                           "type": "button",
                           "updateQueue": null,
                         },
-                        "stateNode": <h3>
+                        "stateNode": <h3
+                          class="font"
+>
                           Rating: 
                           5
 </h3>,
@@ -2580,7 +2834,9 @@ ReactWrapper {
                         "type": "h3",
                         "updateQueue": null,
                       },
-                      "stateNode": <h1>
+                      "stateNode": <h1
+                        class="font"
+>
                         Movie
 </h1>,
                       "tag": 5,
@@ -2595,22 +2851,31 @@ ReactWrapper {
                     "lastEffect": null,
                     "memoizedProps": Object {
                       "children": Array [
-                        <h1>
+                        <h1
+                          className="font"
+>
                           Movie
 </h1>,
-                        <h3>
+                        <h3
+                          className="font"
+>
                           Rating: 
                           5
 </h3>,
                         <button
+                          className="font"
                           onClick={[Function]}
 >
-                           Add to favorites 
+                           Remove from favorites 
 </button>,
-                        <h3>
+                        <h3
+                          className="font"
+>
                           2018-05-01
 </h3>,
-                        <p>
+                        <p
+                          className="font"
+>
                           This is a movie...
 </p>,
                       ],
@@ -2621,22 +2886,31 @@ ReactWrapper {
                     "nextEffect": null,
                     "pendingProps": Object {
                       "children": Array [
-                        <h1>
+                        <h1
+                          className="font"
+>
                           Movie
 </h1>,
-                        <h3>
+                        <h3
+                          className="font"
+>
                           Rating: 
                           5
 </h3>,
                         <button
+                          className="font"
                           onClick={[Function]}
 >
-                           Add to favorites 
+                           Remove from favorites 
 </button>,
-                        <h3>
+                        <h3
+                          className="font"
+>
                           2018-05-01
 </h3>,
-                        <p>
+                        <p
+                          className="font"
+>
                           This is a movie...
 </p>,
                       ],
@@ -2648,20 +2922,30 @@ ReactWrapper {
                     "stateNode": <div
                       class="Card back"
 >
-                      <h1>
+                      <h1
+                                            class="font"
+                      >
                                             Movie
                       </h1>
-                      <h3>
+                      <h3
+                                            class="font"
+                      >
                                             Rating: 
                                             5
                       </h3>
-                      <button>
-                                            Add to favorites 
+                      <button
+                                            class="font"
+                      >
+                                            Remove from favorites 
                       </button>
-                      <h3>
+                      <h3
+                                            class="font"
+                      >
                                             2018-05-01
                       </h3>
-                      <p>
+                      <p
+                                            class="font"
+                      >
                                             This is a movie...
                       </p>
 </div>,
@@ -2698,22 +2982,31 @@ ReactWrapper {
                     <div
                       className="Card back"
 >
-                      <h1>
+                      <h1
+                                            className="font"
+                      >
                                             Movie
                       </h1>
-                      <h3>
+                      <h3
+                                            className="font"
+                      >
                                             Rating: 
                                             5
                       </h3>
                       <button
+                                            className="font"
                                             onClick={[Function]}
                       >
-                                             Add to favorites 
+                                             Remove from favorites 
                       </button>
-                      <h3>
+                      <h3
+                                            className="font"
+                      >
                                             2018-05-01
                       </h3>
-                      <p>
+                      <p
+                                            className="font"
+                      >
                                             This is a movie...
                       </p>
 </div>,
@@ -2735,22 +3028,31 @@ ReactWrapper {
                     <div
                       className="Card back"
 >
-                      <h1>
+                      <h1
+                                            className="font"
+                      >
                                             Movie
                       </h1>
-                      <h3>
+                      <h3
+                                            className="font"
+                      >
                                             Rating: 
                                             5
                       </h3>
                       <button
+                                            className="font"
                                             onClick={[Function]}
                       >
-                                             Add to favorites 
+                                             Remove from favorites 
                       </button>
-                      <h3>
+                      <h3
+                                            className="font"
+                      >
                                             2018-05-01
                       </h3>
-                      <p>
+                      <p
+                                            className="font"
+                      >
                                             This is a movie...
                       </p>
 </div>,
@@ -2773,20 +3075,30 @@ ReactWrapper {
                   <div
                                     class="Card back"
                   >
-                                    <h1>
+                                    <h1
+                                                      class="font"
+                                    >
                                                       Movie
                                     </h1>
-                                    <h3>
+                                    <h3
+                                                      class="font"
+                                    >
                                                       Rating: 
                                                       5
                                     </h3>
-                                    <button>
-                                                      Add to favorites 
+                                    <button
+                                                      class="font"
+                                    >
+                                                      Remove from favorites 
                                     </button>
-                                    <h3>
+                                    <h3
+                                                      class="font"
+                                    >
                                                       2018-05-01
                                     </h3>
-                                    <p>
+                                    <p
+                                                      class="font"
+                                    >
                                                       This is a movie...
                                     </p>
                   </div>
@@ -2822,22 +3134,31 @@ ReactWrapper {
                   <div
                                     className="Card back"
                   >
-                                    <h1>
+                                    <h1
+                                                      className="font"
+                                    >
                                                       Movie
                                     </h1>
-                                    <h3>
+                                    <h3
+                                                      className="font"
+                                    >
                                                       Rating: 
                                                       5
                                     </h3>
                                     <button
+                                                      className="font"
                                                       onClick={[Function]}
                                     >
-                                                       Add to favorites 
+                                                       Remove from favorites 
                                     </button>
-                                    <h3>
+                                    <h3
+                                                      className="font"
+                                    >
                                                       2018-05-01
                                     </h3>
-                                    <p>
+                                    <p
+                                                      className="font"
+                                    >
                                                       This is a movie...
                                     </p>
                   </div>
@@ -2864,22 +3185,31 @@ ReactWrapper {
                   <div
                                     className="Card back"
                   >
-                                    <h1>
+                                    <h1
+                                                      className="font"
+                                    >
                                                       Movie
                                     </h1>
-                                    <h3>
+                                    <h3
+                                                      className="font"
+                                    >
                                                       Rating: 
                                                       5
                                     </h3>
                                     <button
+                                                      className="font"
                                                       onClick={[Function]}
                                     >
-                                                       Add to favorites 
+                                                       Remove from favorites 
                                     </button>
-                                    <h3>
+                                    <h3
+                                                      className="font"
+                                    >
                                                       2018-05-01
                                     </h3>
-                                    <p>
+                                    <p
+                                                      className="font"
+                                    >
                                                       This is a movie...
                                     </p>
                   </div>
@@ -2907,20 +3237,30 @@ ReactWrapper {
                             <div
                                           class="Card back"
                             >
-                                          <h1>
+                                          <h1
+                                                        class="font"
+                                          >
                                                         Movie
                                           </h1>
-                                          <h3>
+                                          <h3
+                                                        class="font"
+                                          >
                                                         Rating: 
                                                         5
                                           </h3>
-                                          <button>
-                                                        Add to favorites 
+                                          <button
+                                                        class="font"
+                                          >
+                                                        Remove from favorites 
                                           </button>
-                                          <h3>
+                                          <h3
+                                                        class="font"
+                                          >
                                                         2018-05-01
                                           </h3>
-                                          <p>
+                                          <p
+                                                        class="font"
+                                          >
                                                         This is a movie...
                                           </p>
                             </div>
@@ -3070,20 +3410,30 @@ ReactWrapper {
                                                             <div
                                                                                 class="Card back"
                                                             >
-                                                                                <h1>
+                                                                                <h1
+                                                                                                    class="font"
+                                                                                >
                                                                                                     Movie
                                                                                 </h1>
-                                                                                <h3>
+                                                                                <h3
+                                                                                                    class="font"
+                                                                                >
                                                                                                     Rating: 
                                                                                                     5
                                                                                 </h3>
-                                                                                <button>
-                                                                                                    Add to favorites 
+                                                                                <button
+                                                                                                    class="font"
+                                                                                >
+                                                                                                    Remove from favorites 
                                                                                 </button>
-                                                                                <h3>
+                                                                                <h3
+                                                                                                    class="font"
+                                                                                >
                                                                                                     2018-05-01
                                                                                 </h3>
-                                                                                <p>
+                                                                                <p
+                                                                                                    class="font"
+                                                                                >
                                                                                                     This is a movie...
                                                                                 </p>
                                                             </div>
@@ -3219,20 +3569,30 @@ ReactWrapper {
                                                       <div
                                                                         class="Card back"
                                                       >
-                                                                        <h1>
+                                                                        <h1
+                                                                                          class="font"
+                                                                        >
                                                                                           Movie
                                                                         </h1>
-                                                                        <h3>
+                                                                        <h3
+                                                                                          class="font"
+                                                                        >
                                                                                           Rating: 
                                                                                           5
                                                                         </h3>
-                                                                        <button>
-                                                                                          Add to favorites 
+                                                                        <button
+                                                                                          class="font"
+                                                                        >
+                                                                                          Remove from favorites 
                                                                         </button>
-                                                                        <h3>
+                                                                        <h3
+                                                                                          class="font"
+                                                                        >
                                                                                           2018-05-01
                                                                         </h3>
-                                                                        <p>
+                                                                        <p
+                                                                                          class="font"
+                                                                        >
                                                                                           This is a movie...
                                                                         </p>
                                                       </div>
@@ -3392,20 +3752,30 @@ ReactWrapper {
                     <div
                               class="Card back"
                     >
-                              <h1>
+                              <h1
+                                        class="font"
+                              >
                                         Movie
                               </h1>
-                              <h3>
+                              <h3
+                                        class="font"
+                              >
                                         Rating: 
                                         5
                               </h3>
-                              <button>
-                                        Add to favorites 
+                              <button
+                                        class="font"
+                              >
+                                        Remove from favorites 
                               </button>
-                              <h3>
+                              <h3
+                                        class="font"
+                              >
                                         2018-05-01
                               </h3>
-                              <p>
+                              <p
+                                        class="font"
+                              >
                                         This is a movie...
                               </p>
                     </div>
@@ -3429,22 +3799,31 @@ ReactWrapper {
               <div
                             className="Card back"
               >
-                            <h1>
+                            <h1
+                                          className="font"
+                            >
                                           Movie
                             </h1>
-                            <h3>
+                            <h3
+                                          className="font"
+                            >
                                           Rating: 
                                           5
                             </h3>
                             <button
+                                          className="font"
                                           onClick={[Function]}
                             >
-                                           Add to favorites 
+                                           Remove from favorites 
                             </button>
-                            <h3>
+                            <h3
+                                          className="font"
+                            >
                                           2018-05-01
                             </h3>
-                            <p>
+                            <p
+                                          className="font"
+                            >
                                           This is a movie...
                             </p>
               </div>
@@ -3479,20 +3858,30 @@ ReactWrapper {
               <div
                             class="Card back"
               >
-                            <h1>
+                            <h1
+                                          class="font"
+                            >
                                           Movie
                             </h1>
-                            <h3>
+                            <h3
+                                          class="font"
+                            >
                                           Rating: 
                                           5
                             </h3>
-                            <button>
-                                          Add to favorites 
+                            <button
+                                          class="font"
+                            >
+                                          Remove from favorites 
                             </button>
-                            <h3>
+                            <h3
+                                          class="font"
+                            >
                                           2018-05-01
                             </h3>
-                            <p>
+                            <p
+                                          class="font"
+                            >
                                           This is a movie...
                             </p>
               </div>
@@ -3511,22 +3900,31 @@ ReactWrapper {
                 <div
                   className="Card back"
 >
-                  <h1>
+                  <h1
+                                    className="font"
+                  >
                                     Movie
                   </h1>
-                  <h3>
+                  <h3
+                                    className="font"
+                  >
                                     Rating: 
                                     5
                   </h3>
                   <button
+                                    className="font"
                                     onClick={[Function]}
                   >
-                                     Add to favorites 
+                                     Remove from favorites 
                   </button>
-                  <h3>
+                  <h3
+                                    className="font"
+                  >
                                     2018-05-01
                   </h3>
-                  <p>
+                  <p
+                                    className="font"
+                  >
                                     This is a movie...
                   </p>
 </div>,
@@ -3575,20 +3973,30 @@ ReactWrapper {
                 "instance": <div
                   class="Card back"
 >
-                  <h1>
+                  <h1
+                                    class="font"
+                  >
                                     Movie
                   </h1>
-                  <h3>
+                  <h3
+                                    class="font"
+                  >
                                     Rating: 
                                     5
                   </h3>
-                  <button>
-                                    Add to favorites 
+                  <button
+                                    class="font"
+                  >
+                                    Remove from favorites 
                   </button>
-                  <h3>
+                  <h3
+                                    class="font"
+                  >
                                     2018-05-01
                   </h3>
-                  <p>
+                  <p
+                                    class="font"
+                  >
                                     This is a movie...
                   </p>
 </div>,
@@ -3596,22 +4004,31 @@ ReactWrapper {
                 "nodeType": "host",
                 "props": Object {
                   "children": Array [
-                    <h1>
+                    <h1
+                      className="font"
+>
                       Movie
 </h1>,
-                    <h3>
+                    <h3
+                      className="font"
+>
                       Rating: 
                       5
 </h3>,
                     <button
+                      className="font"
                       onClick={[Function]}
 >
-                       Add to favorites 
+                       Remove from favorites 
 </button>,
-                    <h3>
+                    <h3
+                      className="font"
+>
                       2018-05-01
 </h3>,
-                    <p>
+                    <p
+                      className="font"
+>
                       This is a movie...
 </p>,
                   ],
@@ -3620,13 +4037,16 @@ ReactWrapper {
                 "ref": null,
                 "rendered": Array [
                   Object {
-                    "instance": <h1>
+                    "instance": <h1
+                      class="font"
+>
                       Movie
 </h1>,
                     "key": undefined,
                     "nodeType": "host",
                     "props": Object {
                       "children": "Movie",
+                      "className": "font",
                     },
                     "ref": null,
                     "rendered": Array [
@@ -3635,7 +4055,9 @@ ReactWrapper {
                     "type": "h1",
                   },
                   Object {
-                    "instance": <h3>
+                    "instance": <h3
+                      class="font"
+>
                       Rating: 
                       5
 </h3>,
@@ -3646,6 +4068,7 @@ ReactWrapper {
                         "Rating: ",
                         5,
                       ],
+                      "className": "font",
                     },
                     "ref": null,
                     "rendered": Array [
@@ -3655,29 +4078,35 @@ ReactWrapper {
                     "type": "h3",
                   },
                   Object {
-                    "instance": <button>
-                      Add to favorites 
+                    "instance": <button
+                      class="font"
+>
+                      Remove from favorites 
 </button>,
                     "key": undefined,
                     "nodeType": "host",
                     "props": Object {
-                      "children": " Add to favorites ",
+                      "children": " Remove from favorites ",
+                      "className": "font",
                       "onClick": [Function],
                     },
                     "ref": null,
                     "rendered": Array [
-                      " Add to favorites ",
+                      " Remove from favorites ",
                     ],
                     "type": "button",
                   },
                   Object {
-                    "instance": <h3>
+                    "instance": <h3
+                      class="font"
+>
                       2018-05-01
 </h3>,
                     "key": undefined,
                     "nodeType": "host",
                     "props": Object {
                       "children": "2018-05-01",
+                      "className": "font",
                     },
                     "ref": null,
                     "rendered": Array [
@@ -3686,13 +4115,16 @@ ReactWrapper {
                     "type": "h3",
                   },
                   Object {
-                    "instance": <p>
+                    "instance": <p
+                      class="font"
+>
                       This is a movie...
 </p>,
                     "key": undefined,
                     "nodeType": "host",
                     "props": Object {
                       "children": "This is a movie...",
+                      "className": "font",
                     },
                     "ref": null,
                     "rendered": Array [
