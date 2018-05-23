@@ -71,20 +71,57 @@ describe('LogInPage', () => {
     expect(wrapper.find('input').length).toEqual(3)
   });
 
-  it('should render 3 inputs when Log In button is clicked', () => {
+  it('should render 2 inputs when Log In button is clicked', () => {
 
     wrapper.find('button.log-in').simulate('click')
 
     expect(wrapper.find('input').length).toEqual(2)
   });
 
-  it('should change userLoggedIn state to true', () => {
-    wrapper = shallow(<LogInPage userHasErrored={false, ''} postUser={jest.fn} fetchUser={jest.fn}/>)
+  describe('HANDLE_SUBMIT', () => {
+    let mockPostUser;
+    let mockFetchUser
+    let wrapper;
 
-    wrapper.instance().handleSubmit({preventDefault: jest.fn()})
+    beforeEach(() => {
+      mockPostUser = jest.fn().mockImplementation(() => false);
+      mockFetchUser = jest.fn().mockImplementation(()=> false);
 
-    expect(wrapper.state().userLoggedIn).toEqual(true)
+      wrapper = shallow(<LogInPage userHasErrored={false, ''} postUser={mockPostUser} fetchUser={mockFetchUser}/>);
+    });
+
+    it('should change userLoggedIn state to true if there was no error when handleSubmiti is called', async () => {
+      await wrapper.instance().handleSubmit({preventDefault: jest.fn()});
+
+      expect(wrapper.state('userLoggedIn')).toEqual(true);
+    });
+
+    it('should call postUser with the correct params if formState state is "create-user"', async () => {
+      let expected = wrapper.state()
+      expect(wrapper.state('formState')).toBe('create-user')
+
+      await wrapper.instance().handleSubmit({preventDefault: jest.fn()});
+
+      expect(mockPostUser).toHaveBeenCalledWith(expected);
+    });
+
+    it('should call fetchUser with the correct params if fomrState state is "log-in"', async () => {
+      let expected = {email: 'coolGuy@aol.com', password: 'secretlyNotCool'}
+      wrapper.setState({
+        userLoggedIn: false,
+        errorMessage: '',
+        formState: 'log-in',
+        name: 'Cool Guy',
+        email: 'coolGuy@aol.com',
+        password: 'secretlyNotCool'
+      });
+
+      await wrapper.instance().handleSubmit({preventDefault: jest.fn()});
+
+      expect(mockFetchUser).toHaveBeenCalledWith(expected)
+    });
   });
+
 
 });
 
