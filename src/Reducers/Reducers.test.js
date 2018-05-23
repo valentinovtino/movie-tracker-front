@@ -75,10 +75,10 @@ describe('Reducers', () => {
       expect(actual).toEqual(expected);
     });
 
-    ('it should return a boolean', () => {
+    it('it should return an error object', () => {
       let actual = userErrorReceived(undefined, userHasErrored(true));
 
-      expected(actual).toEqual(true);
+      expect(actual).toEqual({ "error": undefined, "userHasErrored": true});
     });
   });
 
