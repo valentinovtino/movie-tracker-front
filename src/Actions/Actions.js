@@ -19,9 +19,9 @@ export const addUserFavorite = (movie) => ({
   movie
 })
 
-export const removeUserFavorite = (movieID) => ({
+export const removeUserFavorite = (movie_id) => ({
   type: 'REMOVE_USER_FAVORITE',
-  movieID
+  movie_id
 })
 
 export const userLoggedOut = () => ({
@@ -92,7 +92,7 @@ export const addFavorite = (movie, user_id) => {
         release_date: movie.releaseData,
         vote_average: movie.averageRating,
         overview: movie.overview, 
-        user_id: user_id.id
+        user_id: user_id
       };
       const response = await fetch('http://localhost:3000/api/users/favorites/new', {
         method: 'POST',
@@ -106,6 +106,25 @@ export const addFavorite = (movie, user_id) => {
         return true
       }
       dispatch(addUserFavorite(movie));
+      return false
+    } catch (error) {
+      dispatch(userHasErrored(true, 'Something went wrong, sorry'));
+      return true
+    }
+  };
+};
+
+export const removeFavorite = (movie, user_id) => {
+  return async (dispatch) => {
+    try {
+      const response = await fetch(`http://localhost:3000/api/users/${user_id}/favorites/${movie.movie_id}`, {
+        method: 'DELETE'
+      });
+      if (!response.ok) {
+        dispatch(userHasErrored(true, 'Please log in to save a favorite'));
+        return true
+      }
+      dispatch(removeUserFavorite(movie.movie_id));
       return false
     } catch (error) {
       dispatch(userHasErrored(true, 'Something went wrong, sorry'));

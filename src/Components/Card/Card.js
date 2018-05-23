@@ -12,11 +12,12 @@ class Card extends Component {
   }
   
   handleFavorite = () => {  
+    console.log(this.props.userID)
     if (!this.props.userID) {
       this.setState({ hasErrored: true })
     } else {
       this.props.addUserFavorite(this.props.movie, this.props.userID);
-    }
+    } 
   };
 
   render () {
@@ -25,6 +26,7 @@ class Card extends Component {
         <Redirect to='/login' /> :
         <div></div>;
 
+    
     return (
       <div className='flip-container'>
         {errorRedirect}
@@ -33,11 +35,11 @@ class Card extends Component {
             <img src={`https://image.tmdb.org/t/p/w500${this.props.movie.posterPath}`} />
           </div>
           <div className='Card back'>
-            <h1>{this.props.movie.title}</h1>
-            <h3>Rating: {this.props.movie.averageRating}</h3>
-            <button onClick={this.handleFavorite}> Add to favorites </button>
-            <h3>{this.props.movie.releaseData}</h3>
-            <p>{this.props.movie.overview}</p>
+            <h1 className='font'>{this.props.movie.title}</h1>
+            <h3 className='font'>Rating: {this.props.movie.averageRating}</h3>
+            <button className='font' onClick={this.handleFavorite}> Add to favorites </button>
+            <h3 className='font'>{this.props.movie.releaseData}</h3>
+            <p className='font'>{this.props.movie.overview}</p>
           </div>
         </div>
       </div>

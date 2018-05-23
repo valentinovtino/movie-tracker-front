@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Redirect } from 'react-router-dom';
+import './LoginPage.css';
 
 class LogInPage extends Component {
   constructor(props) {
@@ -51,20 +52,20 @@ class LogInPage extends Component {
     return (
       <div>
         <div className='form-request'>
-          <button name='create-user' className='create-user' onClick={this.requestForm}>
+          <button name='create-user' className='create-user button' onClick={this.requestForm}>
             Create Account
           </button>
-          <button name='log-in' className='log-in' onClick={this.requestForm}>
+          <button name='log-in' className='log-in button' onClick={this.requestForm}>
             Log In
           </button>
         </div>
-        <form onSubmit={this.handleSubmit}>
+        <form className='form-container' onSubmit={this.handleSubmit}>
           { this.state.formState === 'create-user'
-            && <input type='text' name='name' onChange={this.handleChange} placeholder='Enter your name' value={this.state.name}/> 
+            && <input className='input' type='text' name='name' onChange={this.handleChange} placeholder='Enter your name' value={this.state.name}/> 
           }
-          <input type='text' name='email' onChange={this.handleChange} placeholder='Enter your email' value={this.state.email}/>
-          <input type='password' name='password' onChange={this.handleChange} placeholder='Enter a password' value={this.state.password} />
-          <button type='submit'> Submit </button>
+          <input className='input' type='text' name='email' onChange={this.handleChange} placeholder='Enter your email' value={this.state.email}/>
+          <input className='input' type='password' name='password' onChange={this.handleChange} placeholder='Enter a password' value={this.state.password} />
+          <button className='submit-btn' type='submit'> Submit </button>
           <p>{this.props.userHasErrored.error}</p>
           {loggedInRedirect}
         </form>

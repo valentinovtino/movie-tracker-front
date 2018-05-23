@@ -28,11 +28,31 @@ ShallowWrapper {
           <h1
                     className="App-title"
           >
-                    Welcome to Movie-Tracker
+                    MOVIE - TRACKER
           </h1>
+          <Route
+                    component={[Function]}
+                    exact={true}
+                    path="/"
+          />
+          <Route
+                    component={[Function]}
+                    exact={true}
+                    path="/login"
+          />
+          <Route
+                    component={[Function]}
+                    exact={true}
+                    path="/favorites"
+          />
+</header>,
+        <div
+          className="nav-container"
+>
           <NavLink
                     activeClassName="active"
                     ariaCurrent="true"
+                    className="nav-btn"
                     to="/"
           >
                     Home
@@ -40,7 +60,7 @@ ShallowWrapper {
           <NavLink
                     activeClassName="active"
                     ariaCurrent="true"
-                    className="log-in-button"
+                    className="log-in-button nav-btn"
                     to="/login"
           >
                     Log in
@@ -48,11 +68,15 @@ ShallowWrapper {
           <NavLink
                     activeClassName="active"
                     ariaCurrent="true"
-                    className="log-in-button"
+
+                    className="log-in-button nav-btn"
+
                     to="/favorites"
           >
                     Your Favorites
           </NavLink>
+
+</div>,
 </header>,
         <Route
           component={[Function]}
@@ -69,6 +93,7 @@ ShallowWrapper {
           exact={true}
           path="/favorites"
 />,
+
       ],
       "className": "App",
     },
@@ -83,31 +108,23 @@ ShallowWrapper {
             <h1
               className="App-title"
 >
-              Welcome to Movie-Tracker
+              MOVIE - TRACKER
 </h1>,
-            <NavLink
-              activeClassName="active"
-              ariaCurrent="true"
-              to="/"
->
-              Home
-</NavLink>,
-            <NavLink
-              activeClassName="active"
-              ariaCurrent="true"
-              className="log-in-button"
-              to="/login"
->
-              Log in
-</NavLink>,
-            <NavLink
-              activeClassName="active"
-              ariaCurrent="true"
-              className="log-in-button"
-              to="/favorites"
->
-              Your Favorites
-</NavLink>,
+            <Route
+              component={[Function]}
+              exact={true}
+              path="/"
+/>,
+            <Route
+              component={[Function]}
+              exact={true}
+              path="/login"
+/>,
+            <Route
+              component={[Function]}
+              exact={true}
+              path="/favorites"
+/>,
           ],
           "className": "App-header",
         },
@@ -118,13 +135,91 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "host",
             "props": Object {
-              "children": "Welcome to Movie-Tracker",
+              "children": "MOVIE - TRACKER",
               "className": "App-title",
             },
             "ref": null,
-            "rendered": "Welcome to Movie-Tracker",
+            "rendered": "MOVIE - TRACKER",
             "type": "h1",
           },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "component": [Function],
+              "exact": true,
+              "path": "/",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "component": [Function],
+              "exact": true,
+              "path": "/login",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "component": [Function],
+              "exact": true,
+              "path": "/favorites",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": "header",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <NavLink
+              activeClassName="active"
+              ariaCurrent="true"
+              className="nav-btn"
+              to="/"
+>
+              Home
+</NavLink>,
+            <NavLink
+              activeClassName="active"
+              ariaCurrent="true"
+              className="log-in-button nav-btn"
+              to="/login"
+>
+              Log in
+</NavLink>,
+            <NavLink
+              activeClassName="active"
+              ariaCurrent="true"
+              className="log-in-button nav-btn"
+
+              to="/favorites"
+>
+              Your Favorites
+</NavLink>,
+          ],
+          "className": "nav-container",
+        },
+        "ref": null,
+        "rendered": Array [
           Object {
             "instance": null,
             "key": undefined,
@@ -133,6 +228,7 @@ ShallowWrapper {
               "activeClassName": "active",
               "ariaCurrent": "true",
               "children": "Home",
+              "className": "nav-btn",
               "to": "/",
             },
             "ref": null,
@@ -147,11 +243,26 @@ ShallowWrapper {
               "activeClassName": "active",
               "ariaCurrent": "true",
               "children": "Log in",
-              "className": "log-in-button",
+              "className": "log-in-button nav-btn",
               "to": "/login",
             },
             "ref": null,
             "rendered": "Log in",
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "activeClassName": "active",
+              "ariaCurrent": "true",
+              "children": "Your Favorites",
+              "className": "log-in-button nav-btn",
+              "to": "/favorites",
+            },
+            "ref": null,
+            "rendered": "Your Favorites",
             "type": [Function],
           },
           Object {
@@ -170,33 +281,7 @@ ShallowWrapper {
             "type": [Function],
           },
         ],
-        "type": "header",
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "class",
-        "props": Object {
-          "component": [Function],
-          "exact": true,
-          "path": "/",
-        },
-        "ref": null,
-        "rendered": null,
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "class",
-        "props": Object {
-          "component": [Function],
-          "exact": true,
-          "path": "/login",
-        },
-        "ref": null,
-        "rendered": null,
-        "type": [Function],
+        "type": "div",
       },
       Object {
         "instance": null,
@@ -227,11 +312,31 @@ ShallowWrapper {
             <h1
                         className="App-title"
             >
-                        Welcome to Movie-Tracker
+                        MOVIE - TRACKER
             </h1>
+            <Route
+                        component={[Function]}
+                        exact={true}
+                        path="/"
+            />
+            <Route
+                        component={[Function]}
+                        exact={true}
+                        path="/login"
+            />
+            <Route
+                        component={[Function]}
+                        exact={true}
+                        path="/favorites"
+            />
+</header>,
+          <div
+            className="nav-container"
+>
             <NavLink
                         activeClassName="active"
                         ariaCurrent="true"
+                        className="nav-btn"
                         to="/"
             >
                         Home
@@ -239,7 +344,7 @@ ShallowWrapper {
             <NavLink
                         activeClassName="active"
                         ariaCurrent="true"
-                        className="log-in-button"
+                        className="log-in-button nav-btn"
                         to="/login"
             >
                         Log in
@@ -247,11 +352,16 @@ ShallowWrapper {
             <NavLink
                         activeClassName="active"
                         ariaCurrent="true"
-                        className="log-in-button"
+
+                        className="log-in-button nav-btn"
+
                         to="/favorites"
             >
                         Your Favorites
             </NavLink>
+
+</div>,
+
 </header>,
           <Route
             component={[Function]}
@@ -268,6 +378,7 @@ ShallowWrapper {
             exact={true}
             path="/favorites"
 />,
+
         ],
         "className": "App",
       },
@@ -282,31 +393,23 @@ ShallowWrapper {
               <h1
                 className="App-title"
 >
-                Welcome to Movie-Tracker
+                MOVIE - TRACKER
 </h1>,
-              <NavLink
-                activeClassName="active"
-                ariaCurrent="true"
-                to="/"
->
-                Home
-</NavLink>,
-              <NavLink
-                activeClassName="active"
-                ariaCurrent="true"
-                className="log-in-button"
-                to="/login"
->
-                Log in
-</NavLink>,
-              <NavLink
-                activeClassName="active"
-                ariaCurrent="true"
-                className="log-in-button"
-                to="/favorites"
->
-                Your Favorites
-</NavLink>,
+              <Route
+                component={[Function]}
+                exact={true}
+                path="/"
+/>,
+              <Route
+                component={[Function]}
+                exact={true}
+                path="/login"
+/>,
+              <Route
+                component={[Function]}
+                exact={true}
+                path="/favorites"
+/>,
             ],
             "className": "App-header",
           },
@@ -317,13 +420,92 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "host",
               "props": Object {
-                "children": "Welcome to Movie-Tracker",
+                "children": "MOVIE - TRACKER",
                 "className": "App-title",
               },
               "ref": null,
-              "rendered": "Welcome to Movie-Tracker",
+              "rendered": "MOVIE - TRACKER",
               "type": "h1",
             },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "component": [Function],
+                "exact": true,
+                "path": "/",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "component": [Function],
+                "exact": true,
+                "path": "/login",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "component": [Function],
+                "exact": true,
+                "path": "/favorites",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": "header",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <NavLink
+                activeClassName="active"
+                ariaCurrent="true"
+                className="nav-btn"
+                to="/"
+>
+                Home
+</NavLink>,
+              <NavLink
+                activeClassName="active"
+                ariaCurrent="true"
+                className="log-in-button nav-btn"
+                to="/login"
+>
+                Log in
+</NavLink>,
+              <NavLink
+                activeClassName="active"
+                ariaCurrent="true"
+
+                className="log-in-button nav-btn"
+
+                to="/favorites"
+>
+                Your Favorites
+</NavLink>,
+            ],
+            "className": "nav-container",
+          },
+          "ref": null,
+          "rendered": Array [
             Object {
               "instance": null,
               "key": undefined,
@@ -332,6 +514,7 @@ ShallowWrapper {
                 "activeClassName": "active",
                 "ariaCurrent": "true",
                 "children": "Home",
+                "className": "nav-btn",
                 "to": "/",
               },
               "ref": null,
@@ -346,11 +529,26 @@ ShallowWrapper {
                 "activeClassName": "active",
                 "ariaCurrent": "true",
                 "children": "Log in",
-                "className": "log-in-button",
+                "className": "log-in-button nav-btn",
                 "to": "/login",
               },
               "ref": null,
               "rendered": "Log in",
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "activeClassName": "active",
+                "ariaCurrent": "true",
+                "children": "Your Favorites",
+                "className": "log-in-button nav-btn",
+                "to": "/favorites",
+              },
+              "ref": null,
+              "rendered": "Your Favorites",
               "type": [Function],
             },
             Object {
@@ -369,33 +567,7 @@ ShallowWrapper {
               "type": [Function],
             },
           ],
-          "type": "header",
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {
-            "component": [Function],
-            "exact": true,
-            "path": "/",
-          },
-          "ref": null,
-          "rendered": null,
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {
-            "component": [Function],
-            "exact": true,
-            "path": "/login",
-          },
-          "ref": null,
-          "rendered": null,
-          "type": [Function],
+          "type": "div",
         },
         Object {
           "instance": null,

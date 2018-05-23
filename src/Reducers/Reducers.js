@@ -19,6 +19,9 @@ export const user = (state = {}, action) => {
       };
     case 'ADD_USER_FAVORITE' :
       return {...state, favorites: [...state.favorites, action.movie]};
+    case 'REMOVE_USER_FAVORITE' :
+      const newState = {...state, favorites: state.favorites.filter(currentMovie => currentMovie.movie_id !== action.movie_id)};
+      return newState;
     case 'USER_LOGGED_OUT' :
       return {};
     default:

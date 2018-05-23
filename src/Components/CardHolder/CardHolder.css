@@ -4,13 +4,18 @@
     justify-content: space-evenly;
     flex-wrap: wrap;
     padding: 12px;
+    margin-top: 166px
 }
 
 /* CARD STYLES */
 .Card {
-    border: 1px solid pink;
+    border: 1px solid black;
     width: 350px;
     margin-bottom: 20px;
+}
+
+.font {
+    color: black;
 }
 
 .Card img {
