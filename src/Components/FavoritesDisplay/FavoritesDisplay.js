@@ -13,6 +13,7 @@ export const FavoritesDisplay = (props) => {
             key={movie.id} 
             addUserFavorite={props.addUserFavorite} 
             userID={props.user_ID}
+            removeUserFavorite={props.removeUserFavorite}
           />
         );
       });

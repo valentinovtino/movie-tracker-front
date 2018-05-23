@@ -98,37 +98,43 @@ ReactWrapper {
                                     >
                                                       <button
                                                                         name="create-user"
-                                                                        class="create-user"
+                                                                        class="create-user button"
                                                       >
                                                                         Create Account
                                                       </button>
                                                       <button
                                                                         name="log-in"
-                                                                        class="log-in"
+                                                                        class="log-in button"
                                                       >
                                                                         Log In
                                                       </button>
                                     </div>
-                                    <form>
+                                    <form
+                                                      class="form-container"
+                                    >
                                                       <input
+                                                                        class="input"
                                                                         type="text"
                                                                         name="name"
                                                                         placeholder="Enter your name"
                                                                         value=""
                                                       />
                                                       <input
+                                                                        class="input"
                                                                         type="text"
                                                                         name="email"
                                                                         placeholder="Enter your email"
                                                                         value=""
                                                       />
                                                       <input
+                                                                        class="input"
                                                                         type="password"
                                                                         name="password"
                                                                         placeholder="Enter a password"
                                                                         value=""
                                                       />
                                                       <button
+                                                                        class="button"
                                                                         type="submit"
                                                       >
                                                                         Submit 
@@ -238,37 +244,43 @@ ReactWrapper {
                                 >
                                                 <button
                                                                 name="create-user"
-                                                                class="create-user"
+                                                                class="create-user button"
                                                 >
                                                                 Create Account
                                                 </button>
                                                 <button
                                                                 name="log-in"
-                                                                class="log-in"
+                                                                class="log-in button"
                                                 >
                                                                 Log In
                                                 </button>
                                 </div>
-                                <form>
+                                <form
+                                                class="form-container"
+                                >
                                                 <input
+                                                                class="input"
                                                                 type="text"
                                                                 name="name"
                                                                 placeholder="Enter your name"
                                                                 value=""
                                                 />
                                                 <input
+                                                                class="input"
                                                                 type="text"
                                                                 name="email"
                                                                 placeholder="Enter your email"
                                                                 value=""
                                                 />
                                                 <input
+                                                                class="input"
                                                                 type="password"
                                                                 name="password"
                                                                 placeholder="Enter a password"
                                                                 value=""
                                                 />
                                                 <button
+                                                                class="button"
                                                                 type="submit"
                                                 >
                                                                 Submit 
@@ -357,8 +369,8 @@ ReactWrapper {
           "_debugIsCurrentlyTiming": false,
           "_debugOwner": [Circular],
           "_debugSource": Object {
-            "fileName": "/Users/myhomefolder/TURING/mod3/movie-tracker-front/src/Components/LogInPage/LogInPage.js",
-            "lineNumber": 46,
+            "fileName": "/Users/cameronbuscher/Code/turing/mod-3/movie-tracker/movie-tracker-front/src/Components/LogInPage/LogInPage.js",
+            "lineNumber": 53,
           },
           "alternate": null,
           "child": FiberNode {
@@ -366,8 +378,8 @@ ReactWrapper {
             "_debugIsCurrentlyTiming": false,
             "_debugOwner": [Circular],
             "_debugSource": Object {
-              "fileName": "/Users/myhomefolder/TURING/mod3/movie-tracker-front/src/Components/LogInPage/LogInPage.js",
-              "lineNumber": 47,
+              "fileName": "/Users/cameronbuscher/Code/turing/mod-3/movie-tracker/movie-tracker-front/src/Components/LogInPage/LogInPage.js",
+              "lineNumber": 54,
             },
             "alternate": null,
             "child": FiberNode {
@@ -375,8 +387,8 @@ ReactWrapper {
               "_debugIsCurrentlyTiming": false,
               "_debugOwner": [Circular],
               "_debugSource": Object {
-                "fileName": "/Users/myhomefolder/TURING/mod3/movie-tracker-front/src/Components/LogInPage/LogInPage.js",
-                "lineNumber": 48,
+                "fileName": "/Users/cameronbuscher/Code/turing/mod-3/movie-tracker/movie-tracker-front/src/Components/LogInPage/LogInPage.js",
+                "lineNumber": 55,
               },
               "alternate": null,
               "child": null,
@@ -388,7 +400,7 @@ ReactWrapper {
               "lastEffect": null,
               "memoizedProps": Object {
                 "children": "Create Account",
-                "className": "create-user",
+                "className": "create-user button",
                 "name": "create-user",
                 "onClick": [Function],
               },
@@ -397,7 +409,7 @@ ReactWrapper {
               "nextEffect": null,
               "pendingProps": Object {
                 "children": "Create Account",
-                "className": "create-user",
+                "className": "create-user button",
                 "name": "create-user",
                 "onClick": [Function],
               },
@@ -408,8 +420,8 @@ ReactWrapper {
                 "_debugIsCurrentlyTiming": false,
                 "_debugOwner": [Circular],
                 "_debugSource": Object {
-                  "fileName": "/Users/myhomefolder/TURING/mod3/movie-tracker-front/src/Components/LogInPage/LogInPage.js",
-                  "lineNumber": 51,
+                  "fileName": "/Users/cameronbuscher/Code/turing/mod-3/movie-tracker/movie-tracker-front/src/Components/LogInPage/LogInPage.js",
+                  "lineNumber": 58,
                 },
                 "alternate": null,
                 "child": null,
@@ -421,7 +433,7 @@ ReactWrapper {
                 "lastEffect": null,
                 "memoizedProps": Object {
                   "children": "Log In",
-                  "className": "log-in",
+                  "className": "log-in button",
                   "name": "log-in",
                   "onClick": [Function],
                 },
@@ -430,7 +442,7 @@ ReactWrapper {
                 "nextEffect": null,
                 "pendingProps": Object {
                   "children": "Log In",
-                  "className": "log-in",
+                  "className": "log-in button",
                   "name": "log-in",
                   "onClick": [Function],
                 },
@@ -439,7 +451,7 @@ ReactWrapper {
                 "sibling": null,
                 "stateNode": <button
                   name="log-in"
-                  class="log-in"
+                  class="log-in button"
 >
                   Log In
 </button>,
@@ -449,7 +461,7 @@ ReactWrapper {
               },
               "stateNode": <button
                 name="create-user"
-                class="create-user"
+                class="create-user button"
 >
                 Create Account
 </button>,
@@ -466,14 +478,14 @@ ReactWrapper {
             "memoizedProps": Object {
               "children": Array [
                 <button
-                  className="create-user"
+                  className="create-user button"
                   name="create-user"
                   onClick={[Function]}
 >
                   Create Account
 </button>,
                 <button
-                  className="log-in"
+                  className="log-in button"
                   name="log-in"
                   onClick={[Function]}
 >
@@ -488,14 +500,14 @@ ReactWrapper {
             "pendingProps": Object {
               "children": Array [
                 <button
-                  className="create-user"
+                  className="create-user button"
                   name="create-user"
                   onClick={[Function]}
 >
                   Create Account
 </button>,
                 <button
-                  className="log-in"
+                  className="log-in button"
                   name="log-in"
                   onClick={[Function]}
 >
@@ -511,8 +523,8 @@ ReactWrapper {
               "_debugIsCurrentlyTiming": false,
               "_debugOwner": [Circular],
               "_debugSource": Object {
-                "fileName": "/Users/myhomefolder/TURING/mod3/movie-tracker-front/src/Components/LogInPage/LogInPage.js",
-                "lineNumber": 55,
+                "fileName": "/Users/cameronbuscher/Code/turing/mod-3/movie-tracker/movie-tracker-front/src/Components/LogInPage/LogInPage.js",
+                "lineNumber": 62,
               },
               "alternate": null,
               "child": FiberNode {
@@ -520,8 +532,8 @@ ReactWrapper {
                 "_debugIsCurrentlyTiming": false,
                 "_debugOwner": [Circular],
                 "_debugSource": Object {
-                  "fileName": "/Users/myhomefolder/TURING/mod3/movie-tracker-front/src/Components/LogInPage/LogInPage.js",
-                  "lineNumber": 57,
+                  "fileName": "/Users/cameronbuscher/Code/turing/mod-3/movie-tracker/movie-tracker-front/src/Components/LogInPage/LogInPage.js",
+                  "lineNumber": 64,
                 },
                 "alternate": null,
                 "child": null,
@@ -532,6 +544,7 @@ ReactWrapper {
                 "key": null,
                 "lastEffect": null,
                 "memoizedProps": Object {
+                  "className": "input",
                   "name": "name",
                   "onChange": [Function],
                   "placeholder": "Enter your name",
@@ -542,6 +555,7 @@ ReactWrapper {
                 "mode": 0,
                 "nextEffect": null,
                 "pendingProps": Object {
+                  "className": "input",
                   "name": "name",
                   "onChange": [Function],
                   "placeholder": "Enter your name",
@@ -555,8 +569,8 @@ ReactWrapper {
                   "_debugIsCurrentlyTiming": false,
                   "_debugOwner": [Circular],
                   "_debugSource": Object {
-                    "fileName": "/Users/myhomefolder/TURING/mod3/movie-tracker-front/src/Components/LogInPage/LogInPage.js",
-                    "lineNumber": 59,
+                    "fileName": "/Users/cameronbuscher/Code/turing/mod-3/movie-tracker/movie-tracker-front/src/Components/LogInPage/LogInPage.js",
+                    "lineNumber": 66,
                   },
                   "alternate": null,
                   "child": null,
@@ -567,6 +581,7 @@ ReactWrapper {
                   "key": null,
                   "lastEffect": null,
                   "memoizedProps": Object {
+                    "className": "input",
                     "name": "email",
                     "onChange": [Function],
                     "placeholder": "Enter your email",
@@ -577,6 +592,7 @@ ReactWrapper {
                   "mode": 0,
                   "nextEffect": null,
                   "pendingProps": Object {
+                    "className": "input",
                     "name": "email",
                     "onChange": [Function],
                     "placeholder": "Enter your email",
@@ -590,8 +606,8 @@ ReactWrapper {
                     "_debugIsCurrentlyTiming": false,
                     "_debugOwner": [Circular],
                     "_debugSource": Object {
-                      "fileName": "/Users/myhomefolder/TURING/mod3/movie-tracker-front/src/Components/LogInPage/LogInPage.js",
-                      "lineNumber": 60,
+                      "fileName": "/Users/cameronbuscher/Code/turing/mod-3/movie-tracker/movie-tracker-front/src/Components/LogInPage/LogInPage.js",
+                      "lineNumber": 67,
                     },
                     "alternate": null,
                     "child": null,
@@ -602,6 +618,7 @@ ReactWrapper {
                     "key": null,
                     "lastEffect": null,
                     "memoizedProps": Object {
+                      "className": "input",
                       "name": "password",
                       "onChange": [Function],
                       "placeholder": "Enter a password",
@@ -612,6 +629,7 @@ ReactWrapper {
                     "mode": 0,
                     "nextEffect": null,
                     "pendingProps": Object {
+                      "className": "input",
                       "name": "password",
                       "onChange": [Function],
                       "placeholder": "Enter a password",
@@ -625,8 +643,8 @@ ReactWrapper {
                       "_debugIsCurrentlyTiming": false,
                       "_debugOwner": [Circular],
                       "_debugSource": Object {
-                        "fileName": "/Users/myhomefolder/TURING/mod3/movie-tracker-front/src/Components/LogInPage/LogInPage.js",
-                        "lineNumber": 61,
+                        "fileName": "/Users/cameronbuscher/Code/turing/mod-3/movie-tracker/movie-tracker-front/src/Components/LogInPage/LogInPage.js",
+                        "lineNumber": 68,
                       },
                       "alternate": null,
                       "child": null,
@@ -638,6 +656,7 @@ ReactWrapper {
                       "lastEffect": null,
                       "memoizedProps": Object {
                         "children": " Submit ",
+                        "className": "button",
                         "type": "submit",
                       },
                       "memoizedState": null,
@@ -645,6 +664,7 @@ ReactWrapper {
                       "nextEffect": null,
                       "pendingProps": Object {
                         "children": " Submit ",
+                        "className": "button",
                         "type": "submit",
                       },
                       "ref": null,
@@ -654,8 +674,8 @@ ReactWrapper {
                         "_debugIsCurrentlyTiming": false,
                         "_debugOwner": [Circular],
                         "_debugSource": Object {
-                          "fileName": "/Users/myhomefolder/TURING/mod3/movie-tracker-front/src/Components/LogInPage/LogInPage.js",
-                          "lineNumber": 62,
+                          "fileName": "/Users/cameronbuscher/Code/turing/mod-3/movie-tracker/movie-tracker-front/src/Components/LogInPage/LogInPage.js",
+                          "lineNumber": 69,
                         },
                         "alternate": null,
                         "child": null,
@@ -681,8 +701,8 @@ ReactWrapper {
                           "_debugIsCurrentlyTiming": false,
                           "_debugOwner": [Circular],
                           "_debugSource": Object {
-                            "fileName": "/Users/myhomefolder/TURING/mod3/movie-tracker-front/src/Components/LogInPage/LogInPage.js",
-                            "lineNumber": 44,
+                            "fileName": "/Users/cameronbuscher/Code/turing/mod-3/movie-tracker/movie-tracker-front/src/Components/LogInPage/LogInPage.js",
+                            "lineNumber": 51,
                           },
                           "alternate": null,
                           "child": null,
@@ -711,6 +731,7 @@ ReactWrapper {
                         "updateQueue": null,
                       },
                       "stateNode": <button
+                        class="button"
                         type="submit"
 >
                         Submit 
@@ -720,6 +741,7 @@ ReactWrapper {
                       "updateQueue": null,
                     },
                     "stateNode": <input
+                      class="input"
                       type="password"
                       name="password"
                       placeholder="Enter a password"
@@ -730,6 +752,7 @@ ReactWrapper {
                     "updateQueue": null,
                   },
                   "stateNode": <input
+                    class="input"
                     type="text"
                     name="email"
                     placeholder="Enter your email"
@@ -740,6 +763,7 @@ ReactWrapper {
                   "updateQueue": null,
                 },
                 "stateNode": <input
+                  class="input"
                   type="text"
                   name="name"
                   placeholder="Enter your name"
@@ -758,6 +782,7 @@ ReactWrapper {
               "memoizedProps": Object {
                 "children": Array [
                   <input
+                    className="input"
                     name="name"
                     onChange={[Function]}
                     placeholder="Enter your name"
@@ -765,6 +790,7 @@ ReactWrapper {
                     value=""
 />,
                   <input
+                    className="input"
                     name="email"
                     onChange={[Function]}
                     placeholder="Enter your email"
@@ -772,6 +798,7 @@ ReactWrapper {
                     value=""
 />,
                   <input
+                    className="input"
                     name="password"
                     onChange={[Function]}
                     placeholder="Enter a password"
@@ -779,6 +806,7 @@ ReactWrapper {
                     value=""
 />,
                   <button
+                    className="button"
                     type="submit"
 >
                      Submit 
@@ -786,6 +814,7 @@ ReactWrapper {
                   <p />,
                   <div />,
                 ],
+                "className": "form-container",
                 "onSubmit": [Function],
               },
               "memoizedState": null,
@@ -794,6 +823,7 @@ ReactWrapper {
               "pendingProps": Object {
                 "children": Array [
                   <input
+                    className="input"
                     name="name"
                     onChange={[Function]}
                     placeholder="Enter your name"
@@ -801,6 +831,7 @@ ReactWrapper {
                     value=""
 />,
                   <input
+                    className="input"
                     name="email"
                     onChange={[Function]}
                     placeholder="Enter your email"
@@ -808,6 +839,7 @@ ReactWrapper {
                     value=""
 />,
                   <input
+                    className="input"
                     name="password"
                     onChange={[Function]}
                     placeholder="Enter a password"
@@ -815,6 +847,7 @@ ReactWrapper {
                     value=""
 />,
                   <button
+                    className="button"
                     type="submit"
 >
                      Submit 
@@ -822,31 +855,38 @@ ReactWrapper {
                   <p />,
                   <div />,
                 ],
+                "className": "form-container",
                 "onSubmit": [Function],
               },
               "ref": null,
               "return": [Circular],
               "sibling": null,
-              "stateNode": <form>
+              "stateNode": <form
+                class="form-container"
+>
                 <input
+                                class="input"
                                 type="text"
                                 name="name"
                                 placeholder="Enter your name"
                                 value=""
                 />
                 <input
+                                class="input"
                                 type="text"
                                 name="email"
                                 placeholder="Enter your email"
                                 value=""
                 />
                 <input
+                                class="input"
                                 type="password"
                                 name="password"
                                 placeholder="Enter a password"
                                 value=""
                 />
                 <button
+                                class="button"
                                 type="submit"
                 >
                                 Submit 
@@ -863,13 +903,13 @@ ReactWrapper {
 >
               <button
                             name="create-user"
-                            class="create-user"
+                            class="create-user button"
               >
                             Create Account
               </button>
               <button
                             name="log-in"
-                            class="log-in"
+                            class="log-in button"
               >
                             Log In
               </button>
@@ -890,14 +930,14 @@ ReactWrapper {
                 className="form-request"
 >
                 <button
-                                className="create-user"
+                                className="create-user button"
                                 name="create-user"
                                 onClick={[Function]}
                 >
                                 Create Account
                 </button>
                 <button
-                                className="log-in"
+                                className="log-in button"
                                 name="log-in"
                                 onClick={[Function]}
                 >
@@ -905,9 +945,11 @@ ReactWrapper {
                 </button>
 </div>,
               <form
+                className="form-container"
                 onSubmit={[Function]}
 >
                 <input
+                                className="input"
                                 name="name"
                                 onChange={[Function]}
                                 placeholder="Enter your name"
@@ -915,6 +957,7 @@ ReactWrapper {
                                 value=""
                 />
                 <input
+                                className="input"
                                 name="email"
                                 onChange={[Function]}
                                 placeholder="Enter your email"
@@ -922,6 +965,7 @@ ReactWrapper {
                                 value=""
                 />
                 <input
+                                className="input"
                                 name="password"
                                 onChange={[Function]}
                                 placeholder="Enter a password"
@@ -929,6 +973,7 @@ ReactWrapper {
                                 value=""
                 />
                 <button
+                                className="button"
                                 type="submit"
                 >
                                  Submit 
@@ -947,14 +992,14 @@ ReactWrapper {
                 className="form-request"
 >
                 <button
-                                className="create-user"
+                                className="create-user button"
                                 name="create-user"
                                 onClick={[Function]}
                 >
                                 Create Account
                 </button>
                 <button
-                                className="log-in"
+                                className="log-in button"
                                 name="log-in"
                                 onClick={[Function]}
                 >
@@ -962,9 +1007,11 @@ ReactWrapper {
                 </button>
 </div>,
               <form
+                className="form-container"
                 onSubmit={[Function]}
 >
                 <input
+                                className="input"
                                 name="name"
                                 onChange={[Function]}
                                 placeholder="Enter your name"
@@ -972,6 +1019,7 @@ ReactWrapper {
                                 value=""
                 />
                 <input
+                                className="input"
                                 name="email"
                                 onChange={[Function]}
                                 placeholder="Enter your email"
@@ -979,6 +1027,7 @@ ReactWrapper {
                                 value=""
                 />
                 <input
+                                className="input"
                                 name="password"
                                 onChange={[Function]}
                                 placeholder="Enter a password"
@@ -986,6 +1035,7 @@ ReactWrapper {
                                 value=""
                 />
                 <button
+                                className="button"
                                 type="submit"
                 >
                                  Submit 
@@ -1004,37 +1054,43 @@ ReactWrapper {
             >
                         <button
                                     name="create-user"
-                                    class="create-user"
+                                    class="create-user button"
                         >
                                     Create Account
                         </button>
                         <button
                                     name="log-in"
-                                    class="log-in"
+                                    class="log-in button"
                         >
                                     Log In
                         </button>
             </div>
-            <form>
+            <form
+                        class="form-container"
+            >
                         <input
+                                    class="input"
                                     type="text"
                                     name="name"
                                     placeholder="Enter your name"
                                     value=""
                         />
                         <input
+                                    class="input"
                                     type="text"
                                     name="email"
                                     placeholder="Enter your email"
                                     value=""
                         />
                         <input
+                                    class="input"
                                     type="password"
                                     name="password"
                                     placeholder="Enter a password"
                                     value=""
                         />
                         <button
+                                    class="button"
                                     type="submit"
                         >
                                     Submit 
@@ -1151,37 +1207,43 @@ ReactWrapper {
                                     >
                                                       <button
                                                                         name="create-user"
-                                                                        class="create-user"
+                                                                        class="create-user button"
                                                       >
                                                                         Create Account
                                                       </button>
                                                       <button
                                                                         name="log-in"
-                                                                        class="log-in"
+                                                                        class="log-in button"
                                                       >
                                                                         Log In
                                                       </button>
                                     </div>
-                                    <form>
+                                    <form
+                                                      class="form-container"
+                                    >
                                                       <input
+                                                                        class="input"
                                                                         type="text"
                                                                         name="name"
                                                                         placeholder="Enter your name"
                                                                         value=""
                                                       />
                                                       <input
+                                                                        class="input"
                                                                         type="text"
                                                                         name="email"
                                                                         placeholder="Enter your email"
                                                                         value=""
                                                       />
                                                       <input
+                                                                        class="input"
                                                                         type="password"
                                                                         name="password"
                                                                         placeholder="Enter a password"
                                                                         value=""
                                                       />
                                                       <button
+                                                                        class="button"
                                                                         type="submit"
                                                       >
                                                                         Submit 
@@ -1291,37 +1353,43 @@ ReactWrapper {
                                 >
                                                 <button
                                                                 name="create-user"
-                                                                class="create-user"
+                                                                class="create-user button"
                                                 >
                                                                 Create Account
                                                 </button>
                                                 <button
                                                                 name="log-in"
-                                                                class="log-in"
+                                                                class="log-in button"
                                                 >
                                                                 Log In
                                                 </button>
                                 </div>
-                                <form>
+                                <form
+                                                class="form-container"
+                                >
                                                 <input
+                                                                class="input"
                                                                 type="text"
                                                                 name="name"
                                                                 placeholder="Enter your name"
                                                                 value=""
                                                 />
                                                 <input
+                                                                class="input"
                                                                 type="text"
                                                                 name="email"
                                                                 placeholder="Enter your email"
                                                                 value=""
                                                 />
                                                 <input
+                                                                class="input"
                                                                 type="password"
                                                                 name="password"
                                                                 placeholder="Enter a password"
                                                                 value=""
                                                 />
                                                 <button
+                                                                class="button"
                                                                 type="submit"
                                                 >
                                                                 Submit 
@@ -1450,37 +1518,43 @@ ReactWrapper {
         >
                 <button
                         name="create-user"
-                        class="create-user"
+                        class="create-user button"
                 >
                         Create Account
                 </button>
                 <button
                         name="log-in"
-                        class="log-in"
+                        class="log-in button"
                 >
                         Log In
                 </button>
         </div>
-        <form>
+        <form
+                class="form-container"
+        >
                 <input
+                        class="input"
                         type="text"
                         name="name"
                         placeholder="Enter your name"
                         value=""
                 />
                 <input
+                        class="input"
                         type="text"
                         name="email"
                         placeholder="Enter your email"
                         value=""
                 />
                 <input
+                        class="input"
                         type="password"
                         name="password"
                         placeholder="Enter a password"
                         value=""
                 />
                 <button
+                        class="button"
                         type="submit"
                 >
                         Submit 
@@ -1497,14 +1571,14 @@ ReactWrapper {
             className="form-request"
 >
             <button
-                        className="create-user"
+                        className="create-user button"
                         name="create-user"
                         onClick={[Function]}
             >
                         Create Account
             </button>
             <button
-                        className="log-in"
+                        className="log-in button"
                         name="log-in"
                         onClick={[Function]}
             >
@@ -1512,9 +1586,11 @@ ReactWrapper {
             </button>
 </div>,
           <form
+            className="form-container"
             onSubmit={[Function]}
 >
             <input
+                        className="input"
                         name="name"
                         onChange={[Function]}
                         placeholder="Enter your name"
@@ -1522,6 +1598,7 @@ ReactWrapper {
                         value=""
             />
             <input
+                        className="input"
                         name="email"
                         onChange={[Function]}
                         placeholder="Enter your email"
@@ -1529,6 +1606,7 @@ ReactWrapper {
                         value=""
             />
             <input
+                        className="input"
                         name="password"
                         onChange={[Function]}
                         placeholder="Enter a password"
@@ -1536,6 +1614,7 @@ ReactWrapper {
                         value=""
             />
             <button
+                        className="button"
                         type="submit"
             >
                          Submit 
@@ -1553,13 +1632,13 @@ ReactWrapper {
 >
             <button
                         name="create-user"
-                        class="create-user"
+                        class="create-user button"
             >
                         Create Account
             </button>
             <button
                         name="log-in"
-                        class="log-in"
+                        class="log-in button"
             >
                         Log In
             </button>
@@ -1569,14 +1648,14 @@ ReactWrapper {
           "props": Object {
             "children": Array [
               <button
-                className="create-user"
+                className="create-user button"
                 name="create-user"
                 onClick={[Function]}
 >
                 Create Account
 </button>,
               <button
-                className="log-in"
+                className="log-in button"
                 name="log-in"
                 onClick={[Function]}
 >
@@ -1590,7 +1669,7 @@ ReactWrapper {
             Object {
               "instance": <button
                 name="create-user"
-                class="create-user"
+                class="create-user button"
 >
                 Create Account
 </button>,
@@ -1598,7 +1677,7 @@ ReactWrapper {
               "nodeType": "host",
               "props": Object {
                 "children": "Create Account",
-                "className": "create-user",
+                "className": "create-user button",
                 "name": "create-user",
                 "onClick": [Function],
               },
@@ -1611,7 +1690,7 @@ ReactWrapper {
             Object {
               "instance": <button
                 name="log-in"
-                class="log-in"
+                class="log-in button"
 >
                 Log In
 </button>,
@@ -1619,7 +1698,7 @@ ReactWrapper {
               "nodeType": "host",
               "props": Object {
                 "children": "Log In",
-                "className": "log-in",
+                "className": "log-in button",
                 "name": "log-in",
                 "onClick": [Function],
               },
@@ -1633,26 +1712,32 @@ ReactWrapper {
           "type": "div",
         },
         Object {
-          "instance": <form>
+          "instance": <form
+            class="form-container"
+>
             <input
+                        class="input"
                         type="text"
                         name="name"
                         placeholder="Enter your name"
                         value=""
             />
             <input
+                        class="input"
                         type="text"
                         name="email"
                         placeholder="Enter your email"
                         value=""
             />
             <input
+                        class="input"
                         type="password"
                         name="password"
                         placeholder="Enter a password"
                         value=""
             />
             <button
+                        class="button"
                         type="submit"
             >
                         Submit 
@@ -1665,6 +1750,7 @@ ReactWrapper {
           "props": Object {
             "children": Array [
               <input
+                className="input"
                 name="name"
                 onChange={[Function]}
                 placeholder="Enter your name"
@@ -1672,6 +1758,7 @@ ReactWrapper {
                 value=""
 />,
               <input
+                className="input"
                 name="email"
                 onChange={[Function]}
                 placeholder="Enter your email"
@@ -1679,6 +1766,7 @@ ReactWrapper {
                 value=""
 />,
               <input
+                className="input"
                 name="password"
                 onChange={[Function]}
                 placeholder="Enter a password"
@@ -1686,6 +1774,7 @@ ReactWrapper {
                 value=""
 />,
               <button
+                className="button"
                 type="submit"
 >
                  Submit 
@@ -1693,12 +1782,14 @@ ReactWrapper {
               <p />,
               <div />,
             ],
+            "className": "form-container",
             "onSubmit": [Function],
           },
           "ref": null,
           "rendered": Array [
             Object {
               "instance": <input
+                class="input"
                 type="text"
                 name="name"
                 placeholder="Enter your name"
@@ -1707,6 +1798,7 @@ ReactWrapper {
               "key": undefined,
               "nodeType": "host",
               "props": Object {
+                "className": "input",
                 "name": "name",
                 "onChange": [Function],
                 "placeholder": "Enter your name",
@@ -1721,6 +1813,7 @@ ReactWrapper {
             },
             Object {
               "instance": <input
+                class="input"
                 type="text"
                 name="email"
                 placeholder="Enter your email"
@@ -1729,6 +1822,7 @@ ReactWrapper {
               "key": undefined,
               "nodeType": "host",
               "props": Object {
+                "className": "input",
                 "name": "email",
                 "onChange": [Function],
                 "placeholder": "Enter your email",
@@ -1743,6 +1837,7 @@ ReactWrapper {
             },
             Object {
               "instance": <input
+                class="input"
                 type="password"
                 name="password"
                 placeholder="Enter a password"
@@ -1751,6 +1846,7 @@ ReactWrapper {
               "key": undefined,
               "nodeType": "host",
               "props": Object {
+                "className": "input",
                 "name": "password",
                 "onChange": [Function],
                 "placeholder": "Enter a password",
@@ -1765,6 +1861,7 @@ ReactWrapper {
             },
             Object {
               "instance": <button
+                class="button"
                 type="submit"
 >
                 Submit 
@@ -1773,6 +1870,7 @@ ReactWrapper {
               "nodeType": "host",
               "props": Object {
                 "children": " Submit ",
+                "className": "button",
                 "type": "submit",
               },
               "ref": null,
@@ -1896,37 +1994,43 @@ ReactWrapper {
                                         >
                                                             <button
                                                                                 name="create-user"
-                                                                                class="create-user"
+                                                                                class="create-user button"
                                                             >
                                                                                 Create Account
                                                             </button>
                                                             <button
                                                                                 name="log-in"
-                                                                                class="log-in"
+                                                                                class="log-in button"
                                                             >
                                                                                 Log In
                                                             </button>
                                         </div>
-                                        <form>
+                                        <form
+                                                            class="form-container"
+                                        >
                                                             <input
+                                                                                class="input"
                                                                                 type="text"
                                                                                 name="name"
                                                                                 placeholder="Enter your name"
                                                                                 value=""
                                                             />
                                                             <input
+                                                                                class="input"
                                                                                 type="text"
                                                                                 name="email"
                                                                                 placeholder="Enter your email"
                                                                                 value=""
                                                             />
                                                             <input
+                                                                                class="input"
                                                                                 type="password"
                                                                                 name="password"
                                                                                 placeholder="Enter a password"
                                                                                 value=""
                                                             />
                                                             <button
+                                                                                class="button"
                                                                                 type="submit"
                                                             >
                                                                                 Submit 
@@ -2036,37 +2140,43 @@ ReactWrapper {
                                     >
                                                       <button
                                                                         name="create-user"
-                                                                        class="create-user"
+                                                                        class="create-user button"
                                                       >
                                                                         Create Account
                                                       </button>
                                                       <button
                                                                         name="log-in"
-                                                                        class="log-in"
+                                                                        class="log-in button"
                                                       >
                                                                         Log In
                                                       </button>
                                     </div>
-                                    <form>
+                                    <form
+                                                      class="form-container"
+                                    >
                                                       <input
+                                                                        class="input"
                                                                         type="text"
                                                                         name="name"
                                                                         placeholder="Enter your name"
                                                                         value=""
                                                       />
                                                       <input
+                                                                        class="input"
                                                                         type="text"
                                                                         name="email"
                                                                         placeholder="Enter your email"
                                                                         value=""
                                                       />
                                                       <input
+                                                                        class="input"
                                                                         type="password"
                                                                         name="password"
                                                                         placeholder="Enter a password"
                                                                         value=""
                                                       />
                                                       <button
+                                                                        class="button"
                                                                         type="submit"
                                                       >
                                                                         Submit 
@@ -2155,8 +2265,8 @@ ReactWrapper {
             "_debugIsCurrentlyTiming": false,
             "_debugOwner": [Circular],
             "_debugSource": Object {
-              "fileName": "/Users/myhomefolder/TURING/mod3/movie-tracker-front/src/Components/LogInPage/LogInPage.js",
-              "lineNumber": 46,
+              "fileName": "/Users/cameronbuscher/Code/turing/mod-3/movie-tracker/movie-tracker-front/src/Components/LogInPage/LogInPage.js",
+              "lineNumber": 53,
             },
             "alternate": null,
             "child": FiberNode {
@@ -2164,8 +2274,8 @@ ReactWrapper {
               "_debugIsCurrentlyTiming": false,
               "_debugOwner": [Circular],
               "_debugSource": Object {
-                "fileName": "/Users/myhomefolder/TURING/mod3/movie-tracker-front/src/Components/LogInPage/LogInPage.js",
-                "lineNumber": 47,
+                "fileName": "/Users/cameronbuscher/Code/turing/mod-3/movie-tracker/movie-tracker-front/src/Components/LogInPage/LogInPage.js",
+                "lineNumber": 54,
               },
               "alternate": null,
               "child": FiberNode {
@@ -2173,8 +2283,8 @@ ReactWrapper {
                 "_debugIsCurrentlyTiming": false,
                 "_debugOwner": [Circular],
                 "_debugSource": Object {
-                  "fileName": "/Users/myhomefolder/TURING/mod3/movie-tracker-front/src/Components/LogInPage/LogInPage.js",
-                  "lineNumber": 48,
+                  "fileName": "/Users/cameronbuscher/Code/turing/mod-3/movie-tracker/movie-tracker-front/src/Components/LogInPage/LogInPage.js",
+                  "lineNumber": 55,
                 },
                 "alternate": null,
                 "child": null,
@@ -2186,7 +2296,7 @@ ReactWrapper {
                 "lastEffect": null,
                 "memoizedProps": Object {
                   "children": "Create Account",
-                  "className": "create-user",
+                  "className": "create-user button",
                   "name": "create-user",
                   "onClick": [Function],
                 },
@@ -2195,7 +2305,7 @@ ReactWrapper {
                 "nextEffect": null,
                 "pendingProps": Object {
                   "children": "Create Account",
-                  "className": "create-user",
+                  "className": "create-user button",
                   "name": "create-user",
                   "onClick": [Function],
                 },
@@ -2206,8 +2316,8 @@ ReactWrapper {
                   "_debugIsCurrentlyTiming": false,
                   "_debugOwner": [Circular],
                   "_debugSource": Object {
-                    "fileName": "/Users/myhomefolder/TURING/mod3/movie-tracker-front/src/Components/LogInPage/LogInPage.js",
-                    "lineNumber": 51,
+                    "fileName": "/Users/cameronbuscher/Code/turing/mod-3/movie-tracker/movie-tracker-front/src/Components/LogInPage/LogInPage.js",
+                    "lineNumber": 58,
                   },
                   "alternate": null,
                   "child": null,
@@ -2219,7 +2329,7 @@ ReactWrapper {
                   "lastEffect": null,
                   "memoizedProps": Object {
                     "children": "Log In",
-                    "className": "log-in",
+                    "className": "log-in button",
                     "name": "log-in",
                     "onClick": [Function],
                   },
@@ -2228,7 +2338,7 @@ ReactWrapper {
                   "nextEffect": null,
                   "pendingProps": Object {
                     "children": "Log In",
-                    "className": "log-in",
+                    "className": "log-in button",
                     "name": "log-in",
                     "onClick": [Function],
                   },
@@ -2237,7 +2347,7 @@ ReactWrapper {
                   "sibling": null,
                   "stateNode": <button
                     name="log-in"
-                    class="log-in"
+                    class="log-in button"
 >
                     Log In
 </button>,
@@ -2247,7 +2357,7 @@ ReactWrapper {
                 },
                 "stateNode": <button
                   name="create-user"
-                  class="create-user"
+                  class="create-user button"
 >
                   Create Account
 </button>,
@@ -2264,14 +2374,14 @@ ReactWrapper {
               "memoizedProps": Object {
                 "children": Array [
                   <button
-                    className="create-user"
+                    className="create-user button"
                     name="create-user"
                     onClick={[Function]}
 >
                     Create Account
 </button>,
                   <button
-                    className="log-in"
+                    className="log-in button"
                     name="log-in"
                     onClick={[Function]}
 >
@@ -2286,14 +2396,14 @@ ReactWrapper {
               "pendingProps": Object {
                 "children": Array [
                   <button
-                    className="create-user"
+                    className="create-user button"
                     name="create-user"
                     onClick={[Function]}
 >
                     Create Account
 </button>,
                   <button
-                    className="log-in"
+                    className="log-in button"
                     name="log-in"
                     onClick={[Function]}
 >
@@ -2309,8 +2419,8 @@ ReactWrapper {
                 "_debugIsCurrentlyTiming": false,
                 "_debugOwner": [Circular],
                 "_debugSource": Object {
-                  "fileName": "/Users/myhomefolder/TURING/mod3/movie-tracker-front/src/Components/LogInPage/LogInPage.js",
-                  "lineNumber": 55,
+                  "fileName": "/Users/cameronbuscher/Code/turing/mod-3/movie-tracker/movie-tracker-front/src/Components/LogInPage/LogInPage.js",
+                  "lineNumber": 62,
                 },
                 "alternate": null,
                 "child": FiberNode {
@@ -2318,8 +2428,8 @@ ReactWrapper {
                   "_debugIsCurrentlyTiming": false,
                   "_debugOwner": [Circular],
                   "_debugSource": Object {
-                    "fileName": "/Users/myhomefolder/TURING/mod3/movie-tracker-front/src/Components/LogInPage/LogInPage.js",
-                    "lineNumber": 57,
+                    "fileName": "/Users/cameronbuscher/Code/turing/mod-3/movie-tracker/movie-tracker-front/src/Components/LogInPage/LogInPage.js",
+                    "lineNumber": 64,
                   },
                   "alternate": null,
                   "child": null,
@@ -2330,6 +2440,7 @@ ReactWrapper {
                   "key": null,
                   "lastEffect": null,
                   "memoizedProps": Object {
+                    "className": "input",
                     "name": "name",
                     "onChange": [Function],
                     "placeholder": "Enter your name",
@@ -2340,6 +2451,7 @@ ReactWrapper {
                   "mode": 0,
                   "nextEffect": null,
                   "pendingProps": Object {
+                    "className": "input",
                     "name": "name",
                     "onChange": [Function],
                     "placeholder": "Enter your name",
@@ -2353,8 +2465,8 @@ ReactWrapper {
                     "_debugIsCurrentlyTiming": false,
                     "_debugOwner": [Circular],
                     "_debugSource": Object {
-                      "fileName": "/Users/myhomefolder/TURING/mod3/movie-tracker-front/src/Components/LogInPage/LogInPage.js",
-                      "lineNumber": 59,
+                      "fileName": "/Users/cameronbuscher/Code/turing/mod-3/movie-tracker/movie-tracker-front/src/Components/LogInPage/LogInPage.js",
+                      "lineNumber": 66,
                     },
                     "alternate": null,
                     "child": null,
@@ -2365,6 +2477,7 @@ ReactWrapper {
                     "key": null,
                     "lastEffect": null,
                     "memoizedProps": Object {
+                      "className": "input",
                       "name": "email",
                       "onChange": [Function],
                       "placeholder": "Enter your email",
@@ -2375,6 +2488,7 @@ ReactWrapper {
                     "mode": 0,
                     "nextEffect": null,
                     "pendingProps": Object {
+                      "className": "input",
                       "name": "email",
                       "onChange": [Function],
                       "placeholder": "Enter your email",
@@ -2388,8 +2502,8 @@ ReactWrapper {
                       "_debugIsCurrentlyTiming": false,
                       "_debugOwner": [Circular],
                       "_debugSource": Object {
-                        "fileName": "/Users/myhomefolder/TURING/mod3/movie-tracker-front/src/Components/LogInPage/LogInPage.js",
-                        "lineNumber": 60,
+                        "fileName": "/Users/cameronbuscher/Code/turing/mod-3/movie-tracker/movie-tracker-front/src/Components/LogInPage/LogInPage.js",
+                        "lineNumber": 67,
                       },
                       "alternate": null,
                       "child": null,
@@ -2400,6 +2514,7 @@ ReactWrapper {
                       "key": null,
                       "lastEffect": null,
                       "memoizedProps": Object {
+                        "className": "input",
                         "name": "password",
                         "onChange": [Function],
                         "placeholder": "Enter a password",
@@ -2410,6 +2525,7 @@ ReactWrapper {
                       "mode": 0,
                       "nextEffect": null,
                       "pendingProps": Object {
+                        "className": "input",
                         "name": "password",
                         "onChange": [Function],
                         "placeholder": "Enter a password",
@@ -2423,8 +2539,8 @@ ReactWrapper {
                         "_debugIsCurrentlyTiming": false,
                         "_debugOwner": [Circular],
                         "_debugSource": Object {
-                          "fileName": "/Users/myhomefolder/TURING/mod3/movie-tracker-front/src/Components/LogInPage/LogInPage.js",
-                          "lineNumber": 61,
+                          "fileName": "/Users/cameronbuscher/Code/turing/mod-3/movie-tracker/movie-tracker-front/src/Components/LogInPage/LogInPage.js",
+                          "lineNumber": 68,
                         },
                         "alternate": null,
                         "child": null,
@@ -2436,6 +2552,7 @@ ReactWrapper {
                         "lastEffect": null,
                         "memoizedProps": Object {
                           "children": " Submit ",
+                          "className": "button",
                           "type": "submit",
                         },
                         "memoizedState": null,
@@ -2443,6 +2560,7 @@ ReactWrapper {
                         "nextEffect": null,
                         "pendingProps": Object {
                           "children": " Submit ",
+                          "className": "button",
                           "type": "submit",
                         },
                         "ref": null,
@@ -2452,8 +2570,8 @@ ReactWrapper {
                           "_debugIsCurrentlyTiming": false,
                           "_debugOwner": [Circular],
                           "_debugSource": Object {
-                            "fileName": "/Users/myhomefolder/TURING/mod3/movie-tracker-front/src/Components/LogInPage/LogInPage.js",
-                            "lineNumber": 62,
+                            "fileName": "/Users/cameronbuscher/Code/turing/mod-3/movie-tracker/movie-tracker-front/src/Components/LogInPage/LogInPage.js",
+                            "lineNumber": 69,
                           },
                           "alternate": null,
                           "child": null,
@@ -2479,8 +2597,8 @@ ReactWrapper {
                             "_debugIsCurrentlyTiming": false,
                             "_debugOwner": [Circular],
                             "_debugSource": Object {
-                              "fileName": "/Users/myhomefolder/TURING/mod3/movie-tracker-front/src/Components/LogInPage/LogInPage.js",
-                              "lineNumber": 44,
+                              "fileName": "/Users/cameronbuscher/Code/turing/mod-3/movie-tracker/movie-tracker-front/src/Components/LogInPage/LogInPage.js",
+                              "lineNumber": 51,
                             },
                             "alternate": null,
                             "child": null,
@@ -2509,6 +2627,7 @@ ReactWrapper {
                           "updateQueue": null,
                         },
                         "stateNode": <button
+                          class="button"
                           type="submit"
 >
                           Submit 
@@ -2518,6 +2637,7 @@ ReactWrapper {
                         "updateQueue": null,
                       },
                       "stateNode": <input
+                        class="input"
                         type="password"
                         name="password"
                         placeholder="Enter a password"
@@ -2528,6 +2648,7 @@ ReactWrapper {
                       "updateQueue": null,
                     },
                     "stateNode": <input
+                      class="input"
                       type="text"
                       name="email"
                       placeholder="Enter your email"
@@ -2538,6 +2659,7 @@ ReactWrapper {
                     "updateQueue": null,
                   },
                   "stateNode": <input
+                    class="input"
                     type="text"
                     name="name"
                     placeholder="Enter your name"
@@ -2556,6 +2678,7 @@ ReactWrapper {
                 "memoizedProps": Object {
                   "children": Array [
                     <input
+                      className="input"
                       name="name"
                       onChange={[Function]}
                       placeholder="Enter your name"
@@ -2563,6 +2686,7 @@ ReactWrapper {
                       value=""
 />,
                     <input
+                      className="input"
                       name="email"
                       onChange={[Function]}
                       placeholder="Enter your email"
@@ -2570,6 +2694,7 @@ ReactWrapper {
                       value=""
 />,
                     <input
+                      className="input"
                       name="password"
                       onChange={[Function]}
                       placeholder="Enter a password"
@@ -2577,6 +2702,7 @@ ReactWrapper {
                       value=""
 />,
                     <button
+                      className="button"
                       type="submit"
 >
                        Submit 
@@ -2584,6 +2710,7 @@ ReactWrapper {
                     <p />,
                     <div />,
                   ],
+                  "className": "form-container",
                   "onSubmit": [Function],
                 },
                 "memoizedState": null,
@@ -2592,6 +2719,7 @@ ReactWrapper {
                 "pendingProps": Object {
                   "children": Array [
                     <input
+                      className="input"
                       name="name"
                       onChange={[Function]}
                       placeholder="Enter your name"
@@ -2599,6 +2727,7 @@ ReactWrapper {
                       value=""
 />,
                     <input
+                      className="input"
                       name="email"
                       onChange={[Function]}
                       placeholder="Enter your email"
@@ -2606,6 +2735,7 @@ ReactWrapper {
                       value=""
 />,
                     <input
+                      className="input"
                       name="password"
                       onChange={[Function]}
                       placeholder="Enter a password"
@@ -2613,6 +2743,7 @@ ReactWrapper {
                       value=""
 />,
                     <button
+                      className="button"
                       type="submit"
 >
                        Submit 
@@ -2620,31 +2751,38 @@ ReactWrapper {
                     <p />,
                     <div />,
                   ],
+                  "className": "form-container",
                   "onSubmit": [Function],
                 },
                 "ref": null,
                 "return": [Circular],
                 "sibling": null,
-                "stateNode": <form>
+                "stateNode": <form
+                  class="form-container"
+>
                   <input
+                                    class="input"
                                     type="text"
                                     name="name"
                                     placeholder="Enter your name"
                                     value=""
                   />
                   <input
+                                    class="input"
                                     type="text"
                                     name="email"
                                     placeholder="Enter your email"
                                     value=""
                   />
                   <input
+                                    class="input"
                                     type="password"
                                     name="password"
                                     placeholder="Enter a password"
                                     value=""
                   />
                   <button
+                                    class="button"
                                     type="submit"
                   >
                                     Submit 
@@ -2661,13 +2799,13 @@ ReactWrapper {
 >
                 <button
                                 name="create-user"
-                                class="create-user"
+                                class="create-user button"
                 >
                                 Create Account
                 </button>
                 <button
                                 name="log-in"
-                                class="log-in"
+                                class="log-in button"
                 >
                                 Log In
                 </button>
@@ -2688,14 +2826,14 @@ ReactWrapper {
                   className="form-request"
 >
                   <button
-                                    className="create-user"
+                                    className="create-user button"
                                     name="create-user"
                                     onClick={[Function]}
                   >
                                     Create Account
                   </button>
                   <button
-                                    className="log-in"
+                                    className="log-in button"
                                     name="log-in"
                                     onClick={[Function]}
                   >
@@ -2703,9 +2841,11 @@ ReactWrapper {
                   </button>
 </div>,
                 <form
+                  className="form-container"
                   onSubmit={[Function]}
 >
                   <input
+                                    className="input"
                                     name="name"
                                     onChange={[Function]}
                                     placeholder="Enter your name"
@@ -2713,6 +2853,7 @@ ReactWrapper {
                                     value=""
                   />
                   <input
+                                    className="input"
                                     name="email"
                                     onChange={[Function]}
                                     placeholder="Enter your email"
@@ -2720,6 +2861,7 @@ ReactWrapper {
                                     value=""
                   />
                   <input
+                                    className="input"
                                     name="password"
                                     onChange={[Function]}
                                     placeholder="Enter a password"
@@ -2727,6 +2869,7 @@ ReactWrapper {
                                     value=""
                   />
                   <button
+                                    className="button"
                                     type="submit"
                   >
                                      Submit 
@@ -2745,14 +2888,14 @@ ReactWrapper {
                   className="form-request"
 >
                   <button
-                                    className="create-user"
+                                    className="create-user button"
                                     name="create-user"
                                     onClick={[Function]}
                   >
                                     Create Account
                   </button>
                   <button
-                                    className="log-in"
+                                    className="log-in button"
                                     name="log-in"
                                     onClick={[Function]}
                   >
@@ -2760,9 +2903,11 @@ ReactWrapper {
                   </button>
 </div>,
                 <form
+                  className="form-container"
                   onSubmit={[Function]}
 >
                   <input
+                                    className="input"
                                     name="name"
                                     onChange={[Function]}
                                     placeholder="Enter your name"
@@ -2770,6 +2915,7 @@ ReactWrapper {
                                     value=""
                   />
                   <input
+                                    className="input"
                                     name="email"
                                     onChange={[Function]}
                                     placeholder="Enter your email"
@@ -2777,6 +2923,7 @@ ReactWrapper {
                                     value=""
                   />
                   <input
+                                    className="input"
                                     name="password"
                                     onChange={[Function]}
                                     placeholder="Enter a password"
@@ -2784,6 +2931,7 @@ ReactWrapper {
                                     value=""
                   />
                   <button
+                                    className="button"
                                     type="submit"
                   >
                                      Submit 
@@ -2802,37 +2950,43 @@ ReactWrapper {
               >
                             <button
                                           name="create-user"
-                                          class="create-user"
+                                          class="create-user button"
                             >
                                           Create Account
                             </button>
                             <button
                                           name="log-in"
-                                          class="log-in"
+                                          class="log-in button"
                             >
                                           Log In
                             </button>
               </div>
-              <form>
+              <form
+                            class="form-container"
+              >
                             <input
+                                          class="input"
                                           type="text"
                                           name="name"
                                           placeholder="Enter your name"
                                           value=""
                             />
                             <input
+                                          class="input"
                                           type="text"
                                           name="email"
                                           placeholder="Enter your email"
                                           value=""
                             />
                             <input
+                                          class="input"
                                           type="password"
                                           name="password"
                                           placeholder="Enter a password"
                                           value=""
                             />
                             <button
+                                          class="button"
                                           type="submit"
                             >
                                           Submit 
@@ -2949,37 +3103,43 @@ ReactWrapper {
                                         >
                                                             <button
                                                                                 name="create-user"
-                                                                                class="create-user"
+                                                                                class="create-user button"
                                                             >
                                                                                 Create Account
                                                             </button>
                                                             <button
                                                                                 name="log-in"
-                                                                                class="log-in"
+                                                                                class="log-in button"
                                                             >
                                                                                 Log In
                                                             </button>
                                         </div>
-                                        <form>
+                                        <form
+                                                            class="form-container"
+                                        >
                                                             <input
+                                                                                class="input"
                                                                                 type="text"
                                                                                 name="name"
                                                                                 placeholder="Enter your name"
                                                                                 value=""
                                                             />
                                                             <input
+                                                                                class="input"
                                                                                 type="text"
                                                                                 name="email"
                                                                                 placeholder="Enter your email"
                                                                                 value=""
                                                             />
                                                             <input
+                                                                                class="input"
                                                                                 type="password"
                                                                                 name="password"
                                                                                 placeholder="Enter a password"
                                                                                 value=""
                                                             />
                                                             <button
+                                                                                class="button"
                                                                                 type="submit"
                                                             >
                                                                                 Submit 
@@ -3089,37 +3249,43 @@ ReactWrapper {
                                     >
                                                       <button
                                                                         name="create-user"
-                                                                        class="create-user"
+                                                                        class="create-user button"
                                                       >
                                                                         Create Account
                                                       </button>
                                                       <button
                                                                         name="log-in"
-                                                                        class="log-in"
+                                                                        class="log-in button"
                                                       >
                                                                         Log In
                                                       </button>
                                     </div>
-                                    <form>
+                                    <form
+                                                      class="form-container"
+                                    >
                                                       <input
+                                                                        class="input"
                                                                         type="text"
                                                                         name="name"
                                                                         placeholder="Enter your name"
                                                                         value=""
                                                       />
                                                       <input
+                                                                        class="input"
                                                                         type="text"
                                                                         name="email"
                                                                         placeholder="Enter your email"
                                                                         value=""
                                                       />
                                                       <input
+                                                                        class="input"
                                                                         type="password"
                                                                         name="password"
                                                                         placeholder="Enter a password"
                                                                         value=""
                                                       />
                                                       <button
+                                                                        class="button"
                                                                         type="submit"
                                                       >
                                                                         Submit 
@@ -3248,37 +3414,43 @@ ReactWrapper {
           >
                     <button
                               name="create-user"
-                              class="create-user"
+                              class="create-user button"
                     >
                               Create Account
                     </button>
                     <button
                               name="log-in"
-                              class="log-in"
+                              class="log-in button"
                     >
                               Log In
                     </button>
           </div>
-          <form>
+          <form
+                    class="form-container"
+          >
                     <input
+                              class="input"
                               type="text"
                               name="name"
                               placeholder="Enter your name"
                               value=""
                     />
                     <input
+                              class="input"
                               type="text"
                               name="email"
                               placeholder="Enter your email"
                               value=""
                     />
                     <input
+                              class="input"
                               type="password"
                               name="password"
                               placeholder="Enter a password"
                               value=""
                     />
                     <button
+                              class="button"
                               type="submit"
                     >
                               Submit 
@@ -3295,14 +3467,14 @@ ReactWrapper {
               className="form-request"
 >
               <button
-                            className="create-user"
+                            className="create-user button"
                             name="create-user"
                             onClick={[Function]}
               >
                             Create Account
               </button>
               <button
-                            className="log-in"
+                            className="log-in button"
                             name="log-in"
                             onClick={[Function]}
               >
@@ -3310,9 +3482,11 @@ ReactWrapper {
               </button>
 </div>,
             <form
+              className="form-container"
               onSubmit={[Function]}
 >
               <input
+                            className="input"
                             name="name"
                             onChange={[Function]}
                             placeholder="Enter your name"
@@ -3320,6 +3494,7 @@ ReactWrapper {
                             value=""
               />
               <input
+                            className="input"
                             name="email"
                             onChange={[Function]}
                             placeholder="Enter your email"
@@ -3327,6 +3502,7 @@ ReactWrapper {
                             value=""
               />
               <input
+                            className="input"
                             name="password"
                             onChange={[Function]}
                             placeholder="Enter a password"
@@ -3334,6 +3510,7 @@ ReactWrapper {
                             value=""
               />
               <button
+                            className="button"
                             type="submit"
               >
                              Submit 
@@ -3351,13 +3528,13 @@ ReactWrapper {
 >
               <button
                             name="create-user"
-                            class="create-user"
+                            class="create-user button"
               >
                             Create Account
               </button>
               <button
                             name="log-in"
-                            class="log-in"
+                            class="log-in button"
               >
                             Log In
               </button>
@@ -3367,14 +3544,14 @@ ReactWrapper {
             "props": Object {
               "children": Array [
                 <button
-                  className="create-user"
+                  className="create-user button"
                   name="create-user"
                   onClick={[Function]}
 >
                   Create Account
 </button>,
                 <button
-                  className="log-in"
+                  className="log-in button"
                   name="log-in"
                   onClick={[Function]}
 >
@@ -3388,7 +3565,7 @@ ReactWrapper {
               Object {
                 "instance": <button
                   name="create-user"
-                  class="create-user"
+                  class="create-user button"
 >
                   Create Account
 </button>,
@@ -3396,7 +3573,7 @@ ReactWrapper {
                 "nodeType": "host",
                 "props": Object {
                   "children": "Create Account",
-                  "className": "create-user",
+                  "className": "create-user button",
                   "name": "create-user",
                   "onClick": [Function],
                 },
@@ -3409,7 +3586,7 @@ ReactWrapper {
               Object {
                 "instance": <button
                   name="log-in"
-                  class="log-in"
+                  class="log-in button"
 >
                   Log In
 </button>,
@@ -3417,7 +3594,7 @@ ReactWrapper {
                 "nodeType": "host",
                 "props": Object {
                   "children": "Log In",
-                  "className": "log-in",
+                  "className": "log-in button",
                   "name": "log-in",
                   "onClick": [Function],
                 },
@@ -3431,26 +3608,32 @@ ReactWrapper {
             "type": "div",
           },
           Object {
-            "instance": <form>
+            "instance": <form
+              class="form-container"
+>
               <input
+                            class="input"
                             type="text"
                             name="name"
                             placeholder="Enter your name"
                             value=""
               />
               <input
+                            class="input"
                             type="text"
                             name="email"
                             placeholder="Enter your email"
                             value=""
               />
               <input
+                            class="input"
                             type="password"
                             name="password"
                             placeholder="Enter a password"
                             value=""
               />
               <button
+                            class="button"
                             type="submit"
               >
                             Submit 
@@ -3463,6 +3646,7 @@ ReactWrapper {
             "props": Object {
               "children": Array [
                 <input
+                  className="input"
                   name="name"
                   onChange={[Function]}
                   placeholder="Enter your name"
@@ -3470,6 +3654,7 @@ ReactWrapper {
                   value=""
 />,
                 <input
+                  className="input"
                   name="email"
                   onChange={[Function]}
                   placeholder="Enter your email"
@@ -3477,6 +3662,7 @@ ReactWrapper {
                   value=""
 />,
                 <input
+                  className="input"
                   name="password"
                   onChange={[Function]}
                   placeholder="Enter a password"
@@ -3484,6 +3670,7 @@ ReactWrapper {
                   value=""
 />,
                 <button
+                  className="button"
                   type="submit"
 >
                    Submit 
@@ -3491,12 +3678,14 @@ ReactWrapper {
                 <p />,
                 <div />,
               ],
+              "className": "form-container",
               "onSubmit": [Function],
             },
             "ref": null,
             "rendered": Array [
               Object {
                 "instance": <input
+                  class="input"
                   type="text"
                   name="name"
                   placeholder="Enter your name"
@@ -3505,6 +3694,7 @@ ReactWrapper {
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
+                  "className": "input",
                   "name": "name",
                   "onChange": [Function],
                   "placeholder": "Enter your name",
@@ -3519,6 +3709,7 @@ ReactWrapper {
               },
               Object {
                 "instance": <input
+                  class="input"
                   type="text"
                   name="email"
                   placeholder="Enter your email"
@@ -3527,6 +3718,7 @@ ReactWrapper {
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
+                  "className": "input",
                   "name": "email",
                   "onChange": [Function],
                   "placeholder": "Enter your email",
@@ -3541,6 +3733,7 @@ ReactWrapper {
               },
               Object {
                 "instance": <input
+                  class="input"
                   type="password"
                   name="password"
                   placeholder="Enter a password"
@@ -3549,6 +3742,7 @@ ReactWrapper {
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
+                  "className": "input",
                   "name": "password",
                   "onChange": [Function],
                   "placeholder": "Enter a password",
@@ -3563,6 +3757,7 @@ ReactWrapper {
               },
               Object {
                 "instance": <button
+                  class="button"
                   type="submit"
 >
                   Submit 
@@ -3571,6 +3766,7 @@ ReactWrapper {
                 "nodeType": "host",
                 "props": Object {
                   "children": " Submit ",
+                  "className": "button",
                   "type": "submit",
                 },
                 "ref": null,

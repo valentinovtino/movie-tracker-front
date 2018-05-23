@@ -92,7 +92,7 @@ export const addFavorite = (movie, user_id) => {
         release_date: movie.releaseData,
         vote_average: movie.averageRating,
         overview: movie.overview, 
-        user_id: user_id.id
+        user_id: user_id
       };
       const response = await fetch('http://localhost:3000/api/users/favorites/new', {
         method: 'POST',
@@ -117,18 +117,8 @@ export const addFavorite = (movie, user_id) => {
 export const removeFavorite = (movie, user_id) => {
   return async (dispatch) => {
     try {
-      const movieBody = {
-        movie_id: movie.id,
-        title: movie.title,
-        poster_path: movie.posterPath,
-        release_date: movie.releaseData,
-        vote_average: movie.averageRating,
-        overview: movie.overview, 
-        user_id: user_id.id
-      };
-      const response = await fetch('http://localhost:3000/api/users/favorites/8675309', {
-        method: 'DELETE',
-        body: JSON.stringify(movieBody),
+      const response = await fetch(`http://localhost:3000/api/users/${user_id}/favorites/${movie.movie_id}`, {
+        method: 'DELETE'
       });
       if (!response.ok) {
         dispatch(userHasErrored(true, 'Please log in to save a favorite'));
