@@ -256,7 +256,7 @@ describe('Actions', () => {
         overview: 'A movie...'
       }
 
-      user_id = 5
+      user_id = {id: 5}
 
       movieBody = {
         movie_id: 1234,
@@ -282,7 +282,7 @@ describe('Actions', () => {
 
     });
 
-    it('calls fetch with the correct data when adding a favorite', async () => {
+    it.only('calls fetch with the correct data when adding a favorite', async () => {
       await store.dispatch(actions.addFavorite(movie, user_id)).then(() => store.getActions());
 
       expect(window.fetch).toHaveBeenCalledWith(url, options);

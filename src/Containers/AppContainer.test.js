@@ -20,7 +20,7 @@ describe('AppContainer', () => {
       expect(dispatch).toHaveBeenCalledWith(actionToDispatch)
     });
 
-  it('should reset state values when userLoggedOut is called', () => {
+  it('calls dispatch with a userLoggedOut action', () => {
     const dispatch = jest.fn()
 
     const actionToDispatch = userLoggedOut()

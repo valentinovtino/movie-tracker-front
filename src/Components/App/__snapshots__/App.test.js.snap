@@ -45,6 +45,14 @@ ShallowWrapper {
           >
                     Log in
           </NavLink>
+          <NavLink
+                    activeClassName="active"
+                    ariaCurrent="true"
+                    className="log-in-button"
+                    to="/favorites"
+          >
+                    Your Favorites
+          </NavLink>
 </header>,
         <Route
           component={[Function]}
@@ -55,6 +63,11 @@ ShallowWrapper {
           component={[Function]}
           exact={true}
           path="/login"
+/>,
+        <Route
+          component={[Function]}
+          exact={true}
+          path="/favorites"
 />,
       ],
       "className": "App",
@@ -86,6 +99,14 @@ ShallowWrapper {
               to="/login"
 >
               Log in
+</NavLink>,
+            <NavLink
+              activeClassName="active"
+              ariaCurrent="true"
+              className="log-in-button"
+              to="/favorites"
+>
+              Your Favorites
 </NavLink>,
           ],
           "className": "App-header",
@@ -133,6 +154,21 @@ ShallowWrapper {
             "rendered": "Log in",
             "type": [Function],
           },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "activeClassName": "active",
+              "ariaCurrent": "true",
+              "children": "Your Favorites",
+              "className": "log-in-button",
+              "to": "/favorites",
+            },
+            "ref": null,
+            "rendered": "Your Favorites",
+            "type": [Function],
+          },
         ],
         "type": "header",
       },
@@ -157,6 +193,19 @@ ShallowWrapper {
           "component": [Function],
           "exact": true,
           "path": "/login",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "component": [Function],
+          "exact": true,
+          "path": "/favorites",
         },
         "ref": null,
         "rendered": null,
@@ -195,6 +244,14 @@ ShallowWrapper {
             >
                         Log in
             </NavLink>
+            <NavLink
+                        activeClassName="active"
+                        ariaCurrent="true"
+                        className="log-in-button"
+                        to="/favorites"
+            >
+                        Your Favorites
+            </NavLink>
 </header>,
           <Route
             component={[Function]}
@@ -205,6 +262,11 @@ ShallowWrapper {
             component={[Function]}
             exact={true}
             path="/login"
+/>,
+          <Route
+            component={[Function]}
+            exact={true}
+            path="/favorites"
 />,
         ],
         "className": "App",
@@ -236,6 +298,14 @@ ShallowWrapper {
                 to="/login"
 >
                 Log in
+</NavLink>,
+              <NavLink
+                activeClassName="active"
+                ariaCurrent="true"
+                className="log-in-button"
+                to="/favorites"
+>
+                Your Favorites
 </NavLink>,
             ],
             "className": "App-header",
@@ -283,6 +353,21 @@ ShallowWrapper {
               "rendered": "Log in",
               "type": [Function],
             },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "activeClassName": "active",
+                "ariaCurrent": "true",
+                "children": "Your Favorites",
+                "className": "log-in-button",
+                "to": "/favorites",
+              },
+              "ref": null,
+              "rendered": "Your Favorites",
+              "type": [Function],
+            },
           ],
           "type": "header",
         },
@@ -307,6 +392,19 @@ ShallowWrapper {
             "component": [Function],
             "exact": true,
             "path": "/login",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "component": [Function],
+            "exact": true,
+            "path": "/favorites",
           },
           "ref": null,
           "rendered": null,
