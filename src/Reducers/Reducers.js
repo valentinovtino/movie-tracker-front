@@ -19,7 +19,12 @@ export const user = (state = {}, action) => {
         id: action.id
       };
     case 'ADD_USER_FAVORITE' :
-      return {...state, favorites: [...state.favorites, action.movie]};
+      const isDuplicate = state.favorites.find(movie => movie.title === action.movie.title);
+      if(!isDuplicate) {
+        return {...state, favorites: [...state.favorites, action.movie]};
+      } else {
+        return state
+      }
     case 'REMOVE_USER_FAVORITE' :
       newState = {...state, favorites: state.favorites.filter(currentMovie => currentMovie.movie_id !== action.movie_id)};
       return newState;

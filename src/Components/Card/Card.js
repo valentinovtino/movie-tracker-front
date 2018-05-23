@@ -31,7 +31,7 @@ class Card extends Component {
         {errorRedirect}
         <div className='flipper'>
           <div className='Card front'>
-            <img src={`https://image.tmdb.org/t/p/w500${this.props.movie.posterPath}`} />
+            <img src={`https://image.tmdb.org/t/p/w500${this.props.movie.poster_path}`} />
           </div>
           <div className='Card back'>
             <h1 className='font'>{this.props.movie.title}</h1>
