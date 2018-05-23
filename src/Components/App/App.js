@@ -4,20 +4,16 @@ import './App.css';
 import CardHolderContainer from '../../Containers/CardHolderContainer';
 import LogInPageContainer from '../../Containers/LogInPageContainer';
 import FavoritesDisplayContainer from '../../Containers/FavoritesDisplayContainer';
-import { NavLink, Route, Switch } from 'react-router-dom';
+import { NavLink, Route } from 'react-router-dom';
 import PropTypes from 'prop-types';
 
 class App extends Component {
   constructor(props) {
-    super(props)
-    this.state = {
-      testThis: ''
-
-    }
+    super(props);
   }
 
   async componentDidMount() {
-    const url = 'https://api.themoviedb.org/3/genre/28/movies?api_key=b896e3605c38d8f6ffb3a181d5bb558d&language=en-US&include_adult=false&sort_by=created_at.asc'
+    const url = 'https://api.themoviedb.org/3/genre/28/movies?api_key=b896e3605c38d8f6ffb3a181d5bb558d&language=en-US&include_adult=false&sort_by=created_at.asc';
 
     const response = await fetchMovieData(url);
     const results = response.results;
@@ -27,8 +23,8 @@ class App extends Component {
   
   render() {
     const userLoggedIn = this.props.user.name ? 
-      <button className='log-out-button' onClick={this.props.userLoggedOut}>Log Out</button> : 
-      <NavLink className='log-in-button nav-btn' to='/login'>Log in</NavLink>
+      <button className='log-out-button' onClick={this.props.userLoggedOut}>Log Out</button> :
+      <NavLink className='log-in-button nav-btn' to='/login'>Log in</NavLink>;
     return (
       <div className="App">
         <header className="App-header">

@@ -36,19 +36,19 @@ describe('Reducers', () => {
         name: 'Cool Guy',
         email: 'coolguy@aol.com',
         password: 'secretlyuncool'
-      }
+      };
 
       let expected = {
         name: 'Cool Guy',
         email: 'coolguy@aol.com',
         password: 'secretlyuncool',
         favorites: []
-      }
+      };
 
       let actual = user(undefined, createUser(mockUser));
 
       expect(actual).toEqual(expected);
-    })
+    });
 
     it('should return an empty object when it receives the correct action', () => {
       let mockUser = {
@@ -56,7 +56,7 @@ describe('Reducers', () => {
         name: 'Cool Guy',
         email: 'coolguy@aol.com',
         password: 'secretlyuncool'
-      }
+      };
 
       let state = user(undefined, createUser(mockUser));
 
@@ -68,17 +68,17 @@ describe('Reducers', () => {
 
   describe('User Has Errored', () => {
     it('should return a default of false if there is no given state', () => {
-      let actual = userErrorReceived(undefined, {type: '@@INIT'})
+      let actual = userErrorReceived(undefined, {type: '@@INIT'});
     
-      let expected = {userHasErrored: false, error: ''}
+      let expected = {userHasErrored: false, error: ''};
 
       expect(actual).toEqual(expected);
     });
 
-    ('it should return a boolean', () => {
+    it('it should return an error object', () => {
       let actual = userErrorReceived(undefined, userHasErrored(true));
 
-      expected(actual).toEqual(true);
+      expect(actual).toEqual({ "error": undefined, "userHasErrored": true});
     });
   });
 

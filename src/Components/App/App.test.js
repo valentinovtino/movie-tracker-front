@@ -6,10 +6,10 @@ import { mockObj } from '../../mockData.js';
 describe('App', () => {
   let wrapper;
   let mockUserLoggedOut = jest.fn();
-  let mockStoreMovies = jest.fn()
+  let mockStoreMovies = jest.fn();
 
   beforeEach(() => {
-    wrapper = shallow(<App user={{}} storeMovies={mockStoreMovies} userLoggedOut={mockUserLoggedOut}/>, {disableLifecycleMethods: true})
+    wrapper = shallow(<App user={{}} storeMovies={mockStoreMovies} userLoggedOut={mockUserLoggedOut}/>, {disableLifecycleMethods: true});
   });
 
   it('matches snapshot', () => {
@@ -17,7 +17,7 @@ describe('App', () => {
   });
 
   it('should render Log Out button if there is a user', () => {
-    wrapper = shallow(<App user={{name: 'elvis'}} storeMovies={mockStoreMovies} userLoggedOut={mockUserLoggedOut}/>, {disableLifecycleMethods: true})
+    wrapper = shallow(<App user={{name: 'elvis'}} storeMovies={mockStoreMovies} userLoggedOut={mockUserLoggedOut}/>, {disableLifecycleMethods: true});
 
     expect(wrapper.find('.log-out-button').length).toEqual(1);
   });
@@ -27,7 +27,7 @@ describe('App', () => {
   });
 
   it('should call userLoggedOut callback when button is clicked', () => {
-    wrapper = shallow(<App user={{name: 'elvis'}} storeMovies={mockStoreMovies} userLoggedOut={mockUserLoggedOut}/>, {disableLifecycleMethods: true})
+    wrapper = shallow(<App user={{name: 'elvis'}} storeMovies={mockStoreMovies} userLoggedOut={mockUserLoggedOut}/>, {disableLifecycleMethods: true});
 
     wrapper.find('.log-out-button').simulate('click');
 
@@ -35,7 +35,7 @@ describe('App', () => {
   });
 
   it('should call storeMovies on componentDidMount', async ()=> {
-    window.fetch = jest.fn().mockImplementation(() => Promise.resolve({json: () => Promise.resolve(mockObj)}))
+    window.fetch = jest.fn().mockImplementation(() => Promise.resolve({json: () => Promise.resolve(mockObj)}));
 
     await wrapper.instance().componentDidMount();
 

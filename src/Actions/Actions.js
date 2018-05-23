@@ -1,5 +1,3 @@
-import { truncate } from "fs";
-
 export const getMovies = (movies) => ({
   type: 'GET_MOVIES',
   movies
@@ -17,7 +15,7 @@ export const createUser = ({ name, email, password, id, favorites }) => ({
 export const addUserFavorite = (movie) => ({
   type: 'ADD_USER_FAVORITE',
   movie
-})
+});
 
 export const removeUserFavorite = (movie_id) => ({
   type: 'REMOVE_USER_FAVORITE',
@@ -99,17 +97,17 @@ export const addFavorite = (movie, user_id) => {
         body: JSON.stringify(movieBody),
         headers: {
           'content-type': 'application/json'
-        },
+        }
       });
       if (!response.ok) {
         dispatch(userHasErrored(true, 'Please log in to save a favorite'));
-        return true
+        return true;
       }
       dispatch(addUserFavorite(movie));
-      return false
+      return false;
     } catch (error) {
       dispatch(userHasErrored(true, 'Something went wrong, sorry'));
-      return true
+      return true;
     }
   };
 };

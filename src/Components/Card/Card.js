@@ -4,17 +4,16 @@ import { Redirect } from 'react-router-dom';
 
 class Card extends Component {
   constructor(props) {
-    super(props)
+    super(props);
 
     this.state = {
       hasErrored: false
-    }
+    };
   }
   
-  handleFavorite = () => {  
-    console.log(this.props.userID)
+  handleFavorite = () => {
     if (!this.props.userID) {
-      this.setState({ hasErrored: true })
+      this.setState({ hasErrored: true });
     } else {
       this.props.addUserFavorite(this.props.movie, this.props.userID);
     } 

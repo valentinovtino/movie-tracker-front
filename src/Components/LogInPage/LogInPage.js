@@ -30,7 +30,7 @@ class LogInPage extends Component {
 
   handleSubmit = async (e) => {
     e.preventDefault();
-    let didError
+    let didError;
     if (this.state.formState === 'create-user') {
       didError = await this.props.postUser(this.state);
     } else {

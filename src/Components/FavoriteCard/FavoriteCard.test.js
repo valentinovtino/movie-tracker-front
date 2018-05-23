@@ -1,6 +1,6 @@
 import React from 'react';
 import { shallow, mount } from 'enzyme';
-import FavoriteCard from './FavoriteCard'
+import FavoriteCard from './FavoriteCard';
 
 describe('Card', () => {
   let wrapper;
@@ -10,16 +10,16 @@ describe('Card', () => {
     release_date: '2018-05-01',
     overview: 'This is a movie...',
     poster_path: '/asdlflkj.jpg'
-  }
+  };
 
   let mockAddUserFavorite = jest.fn();
 
   beforeEach(() => {
     wrapper = mount(<FavoriteCard 
-            movie={movie} 
-            key={movie.id} 
-            addUserFavorite={mockAddUserFavorite} 
-            userID={15} />)
+      movie={movie} 
+      key={movie.id} 
+      addUserFavorite={mockAddUserFavorite} 
+      userID={15} />);
   });
 
   it('matches snapshot', () => {
@@ -37,23 +37,23 @@ describe('Card', () => {
 
   it('should redirect user if hasErrored state is true', () => {
     wrapper = shallow(<FavoriteCard 
-            movie={movie} 
-            key={movie.id} 
-            addUserFavorite={mockAddUserFavorite} 
-            userID={15} />)
+      movie={movie} 
+      key={movie.id} 
+      addUserFavorite={mockAddUserFavorite} 
+      userID={15} />);
     
-    expect(wrapper.find('Redirect').length).toEqual(0)    
-    wrapper.setState({hasErrored: true})
+    expect(wrapper.find('Redirect').length).toEqual(0);    
+    wrapper.setState({hasErrored: true});
 
-    expect(wrapper.find('Redirect').length).toEqual(1)
+    expect(wrapper.find('Redirect').length).toEqual(1);
   });
 
   it('should set hasErrored state to true if a user does not exists', () => {
     wrapper = shallow(<FavoriteCard 
-            movie={movie} 
-            key={movie.id} 
-            addUserFavorite={mockAddUserFavorite} 
-            userID={null} />)
+      movie={movie} 
+      key={movie.id} 
+      addUserFavorite={mockAddUserFavorite} 
+      userID={null} />);
 
     wrapper.instance().handleFavorite();
 
@@ -67,9 +67,9 @@ describe('Card', () => {
       poster_path: "/asdlflkj.jpg",
       release_date: "2018-05-01",
       title: "Movie"
-    }
+    };
 
-    let mockUserID = 15
+    let mockUserID = 15;
     wrapper.instance().handleFavorite();
 
     expect(mockAddUserFavorite).toHaveBeenCalledWith(mockMovie, mockUserID);

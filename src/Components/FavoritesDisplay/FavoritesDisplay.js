@@ -1,6 +1,5 @@
 import React from 'react';
 import FavoriteCard from '../FavoriteCard/FavoriteCard';
-import { cleanData } from '../../apiCalls/helper';
 
 export const FavoritesDisplay = (props) => {
   let cards;
@@ -17,7 +16,6 @@ export const FavoritesDisplay = (props) => {
           />
         );
       });
-      console.log(cards)
       return props.favorites.length > 0 ?
         cards : <h3> You haven't added any favorites yet! </h3>;
     } else {
@@ -25,7 +23,7 @@ export const FavoritesDisplay = (props) => {
     }
   };
 
-  cards = determineDisplay()
+  cards = determineDisplay();
 
   return (
     <div className='Card-container'>

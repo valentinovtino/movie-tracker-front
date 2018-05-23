@@ -1,11 +1,11 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 import { FavoritesDisplay } from './FavoritesDisplay';
-import ReactDOM from 'react-dom'
+import ReactDOM from 'react-dom';
 
 describe('FAVORITES DISPLAY', () => {
   let wrapper;
-  let mockFaves = [{movie: 'Move'}]
+  let mockFaves = [{movie: 'Move'}];
 
   beforeEach(() => {
     wrapper = shallow(<FavoritesDisplay favorites={mockFaves} user_ID={null} />);
@@ -16,7 +16,7 @@ describe('FAVORITES DISPLAY', () => {
   });
 
   it('should render cards if favorites array has objects', () => {
-    expect(wrapper.find('FavoriteCard').length).toEqual(1)
+    expect(wrapper.find('FavoriteCard').length).toEqual(1);
   });
 
   it('should render h3 message element if there are no favorites', () => {
