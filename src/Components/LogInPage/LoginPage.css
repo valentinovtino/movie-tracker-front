@@ -1,8 +1,9 @@
 .input {
     border: none;
     font-size: small;
-    border-left: 6px solid red;
+    border-left: 2px solid red;
     margin-left: 5px; 
+    
 }
 
 .button {

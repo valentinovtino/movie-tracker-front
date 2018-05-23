@@ -32,7 +32,7 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <h1 className="App-title">Welcome to Movie-Tracker</h1>
+          <h1 className="App-title">MOVIE - TRACKER</h1>
         <Route exact path='/' component={CardHolderContainer} />
         <Route exact path='/login' component={LogInPageContainer} />
         <Route exact path='/favorites' component={FavoritesDisplayContainer} />
