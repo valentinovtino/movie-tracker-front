@@ -28,7 +28,7 @@ ShallowWrapper {
           <h1
                     className="App-title"
           >
-                    Welcome to Movie-Tracker
+                    MOVIE - TRACKER
           </h1>
           <Route
                     component={[Function]}
@@ -88,7 +88,7 @@ ShallowWrapper {
             <h1
               className="App-title"
 >
-              Welcome to Movie-Tracker
+              MOVIE - TRACKER
 </h1>,
             <Route
               component={[Function]}
@@ -115,11 +115,11 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "host",
             "props": Object {
-              "children": "Welcome to Movie-Tracker",
+              "children": "MOVIE - TRACKER",
               "className": "App-title",
             },
             "ref": null,
-            "rendered": "Welcome to Movie-Tracker",
+            "rendered": "MOVIE - TRACKER",
             "type": "h1",
           },
           Object {
@@ -263,7 +263,7 @@ ShallowWrapper {
             <h1
                         className="App-title"
             >
-                        Welcome to Movie-Tracker
+                        MOVIE - TRACKER
             </h1>
             <Route
                         component={[Function]}
@@ -323,7 +323,7 @@ ShallowWrapper {
               <h1
                 className="App-title"
 >
-                Welcome to Movie-Tracker
+                MOVIE - TRACKER
 </h1>,
               <Route
                 component={[Function]}
@@ -350,11 +350,11 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "host",
               "props": Object {
-                "children": "Welcome to Movie-Tracker",
+                "children": "MOVIE - TRACKER",
                 "className": "App-title",
               },
               "ref": null,
-              "rendered": "Welcome to Movie-Tracker",
+              "rendered": "MOVIE - TRACKER",
               "type": "h1",
             },
             Object {
