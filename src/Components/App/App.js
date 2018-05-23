@@ -2,9 +2,10 @@ import React, { Component } from 'react';
 import { fetchMovieData } from '../../apiCalls/api';
 import './App.css';
 import CardHolderContainer from '../../Containers/CardHolderContainer';
+import LogInPageContainer from '../../Containers/LogInPageContainer';
+import FavoritesDisplayContainer from '../../Containers/FavoritesDisplayContainer';
 import { NavLink, Route, Switch } from 'react-router-dom';
 import PropTypes from 'prop-types';
-import LogInPageContainer from '../../Containers/LogInPageContainer';
 
 class App extends Component {
   constructor(props) {
@@ -27,17 +28,20 @@ class App extends Component {
   render() {
     const userLoggedIn = this.props.user.name ? 
       <button className='log-out-button button' onClick={this.props.userLoggedOut}>Log Out</button> : 
-      <NavLink className='log-in-button' to='/login'>Log in</NavLink>
+      <NavLink className='log-in-button nav-btn' to='/login'>Log in</NavLink>
     return (
       <div className="App">
         <header className="App-header">
           <h1 className="App-title">Welcome to Movie-Tracker</h1>
-          <button onClick={this.handleClick} value='favorites'>favorites</button>
-          <NavLink to='/'>Home</NavLink>
-          {userLoggedIn}
-        </header>
         <Route exact path='/' component={CardHolderContainer} />
         <Route exact path='/login' component={LogInPageContainer} />
+        <Route exact path='/favorites' component={FavoritesDisplayContainer} />
+        </header>
+        <div className='nav-container'>
+          <NavLink  className='nav-btn' to='/'>Home</NavLink>
+          {userLoggedIn}
+          <NavLink className='log-in-button nav-btn' to='/favorites'>Your Favorites</NavLink>
+        </div>
       </div>
     );
 

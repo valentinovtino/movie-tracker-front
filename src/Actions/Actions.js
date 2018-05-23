@@ -47,7 +47,7 @@ export const postUser = (user) => {
         return true;
       }
       const id = await response.json();
-      dispatch(createUser({ ...user, id }));
+      await dispatch(createUser({ ...user, id }));
       dispatch(userHasErrored(false, ''));
       return false;
     } catch (error) {
@@ -92,7 +92,7 @@ export const addFavorite = (movie, user_id) => {
         release_date: movie.releaseData,
         vote_average: movie.averageRating,
         overview: movie.overview, 
-        user_id: user_id
+        user_id: user_id.id
       };
       const response = await fetch('http://localhost:3000/api/users/favorites/new', {
         method: 'POST',
@@ -106,6 +106,38 @@ export const addFavorite = (movie, user_id) => {
         return true
       }
       dispatch(addUserFavorite(movie));
+      return false
+    } catch (error) {
+      dispatch(userHasErrored(true, 'Something went wrong, sorry'));
+      return true
+    }
+  };
+};
+
+export const removeFavorite = (movie, user_id) => {
+  return async (dispatch) => {
+    try {
+      const movieBody = {
+        movie_id: movie.id,
+        title: movie.title,
+        poster_path: movie.posterPath,
+        release_date: movie.releaseData,
+        vote_average: movie.averageRating,
+        overview: movie.overview, 
+        user_id: user_id.id
+      };
+      const response = await fetch('http://localhost:3000/api/users/favorites/new', {
+        method: 'DELETE',
+        body: JSON.stringify(movieBody),
+        headers: {
+          'content-type': 'application/json'
+        },
+      });
+      if (!response.ok) {
+        dispatch(userHasErrored(true, 'Please log in to save a favorite'));
+        return true
+      }
+      dispatch(removeUserFavorite(movie));
       return false
     } catch (error) {
       dispatch(userHasErrored(true, 'Something went wrong, sorry'));

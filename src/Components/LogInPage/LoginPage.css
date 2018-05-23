@@ -1,0 +1,32 @@
+.input {
+    border: none;
+    font-size: small;
+    border-left: 6px solid red;
+    margin-left: 5px; 
+}
+
+.button {
+    border: 1px solid white;
+    color: white;
+    background-color: transparent;
+}
+
+.form-request {
+    width: 23%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+}
+
+.create-user {
+    margin-left: 10px;
+}
+
+.log-in {
+    height: 50%;
+}
+
+.form-container {
+    margin-top: 5px;
+}
+
