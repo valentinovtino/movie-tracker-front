@@ -19,9 +19,9 @@ export const addUserFavorite = (movie) => ({
   movie
 })
 
-export const removeUserFavorite = (movieID) => ({
+export const removeUserFavorite = (movie_id) => ({
   type: 'REMOVE_USER_FAVORITE',
-  movieID
+  movie_id
 })
 
 export const userLoggedOut = () => ({
@@ -124,7 +124,7 @@ export const removeFavorite = (movie, user_id) => {
         dispatch(userHasErrored(true, 'Please log in to save a favorite'));
         return true
       }
-      dispatch(removeUserFavorite(movie));
+      dispatch(removeUserFavorite(movie.movie_id));
       return false
     } catch (error) {
       dispatch(userHasErrored(true, 'Something went wrong, sorry'));
