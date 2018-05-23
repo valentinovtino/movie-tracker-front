@@ -16,7 +16,7 @@ describe('CardHolderContainer', () => {
     });
 
     it('calls dispatch of (addFavorite) action', () => {
-    const dispatch = jest.fn()
+    const dispatch = jest.fn();
 
     const mappedDispatch = mapDispatchToProps(dispatch);
 
