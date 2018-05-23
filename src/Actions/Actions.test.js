@@ -22,7 +22,7 @@ describe('Actions', () => {
         name: 'Cool Guy',
         email: 'coolguy@aol.com',
         password: 'secretlyuncool',
-        id: null,
+        id: null
       };
 
       let expected = {
@@ -49,7 +49,7 @@ describe('Actions', () => {
         posterPath: "/r70GGoZ5PqqokDDRnVfTN7PPDtJ.jpg",
         releaseData: "2018-03-30",
         title:  "Dirty Dead Con Men"
-      }
+      };
 
       let expected = {
         type: 'ADD_USER_FAVORITE',
@@ -61,7 +61,7 @@ describe('Actions', () => {
           releaseData: "2018-03-30",
           title:  "Dirty Dead Con Men"
         }
-      }
+      };
 
       let actual = actions.addUserFavorite(movie);
 
@@ -74,7 +74,7 @@ describe('Actions', () => {
       let expected = {
         type: 'REMOVE_USER_FAVORITE',
         movieID: 510819
-      }
+      };
 
       let actual = actions.removeUserFavorite(510819);
 
@@ -86,9 +86,9 @@ describe('Actions', () => {
     it('should return its type', () => {
       let actual = actions.userLoggedOut();
 
-      let expected = {type: 'USER_LOGGED_OUT'}
+      let expected = {type: 'USER_LOGGED_OUT'};
 
-      expect(actual).toEqual(expected)
+      expect(actual).toEqual(expected);
     });
   });
 
@@ -181,7 +181,7 @@ describe('Actions', () => {
           password: 'secretlyuncool',
           id: 2,
           favorites: []
-      }}
+        }};
 
       window.fetch = jest.fn().mockImplementation(() => 
         Promise.resolve({
@@ -248,15 +248,15 @@ describe('Actions', () => {
 
     beforeEach(() => {
       movie = {
-        id: 1234 ,
+        id: 1234,
         title: 'Movie',
         posterPath: '/abcdef.jpg',
         releaseData: "2018-04-25",
         averageRating: 5,
         overview: 'A movie...'
-      }
+      };
 
-      user_id = {id: 5}
+      user_id = {id: 5};
 
       movieBody = {
         movie_id: 1234,
@@ -266,7 +266,7 @@ describe('Actions', () => {
         vote_average: 5,
         overview: 'A movie...',
         user_id: 5
-      }
+      };
 
       window.fetch = jest.fn().mockImplementation(() => Promise.resolve({ ok: true }));
 

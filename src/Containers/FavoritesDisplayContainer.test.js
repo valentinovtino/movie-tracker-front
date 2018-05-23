@@ -1,4 +1,3 @@
-import { mockObj } from '../mockData';
 import {mapStateToProps} from './FavoritesDisplayContainer';
 
 describe('FAVORITES_DISPLAY_CONTAINER', () => {
@@ -8,7 +7,7 @@ describe('FAVORITES_DISPLAY_CONTAINER', () => {
       id: 15
     }};
 
-    const expected = {favorites: [{title: 'movie'}], userID: 15}
+    const expected = {favorites: [{title: 'movie'}], userID: 15};
 
     const mappedProps = mapStateToProps(mockState);
 

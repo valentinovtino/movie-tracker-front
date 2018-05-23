@@ -4,11 +4,11 @@ import { Redirect } from 'react-router-dom';
 
 class FavoriteCard extends Component {
   constructor(props) {
-    super(props)
+    super(props);
 
     this.state = {
       hasErrored: false
-    }
+    };
   }
 
   handleFavorite = () => {

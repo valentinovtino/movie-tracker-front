@@ -1,13 +1,13 @@
 import React from 'react';
 import { shallow, mount } from 'enzyme';
 import Card from './Card';
-import ReactDOM from 'react-dom'
+import ReactDOM from 'react-dom';
 
 describe('Card', () => {
   let wrapper;
   let mockMovie = {};
   let mockUserID;
-  let mockFunction = jest.fn()
+  let mockFunction = jest.fn();
 
   beforeEach(() => {
     wrapper = shallow(<Card addUserFavorite={mockFunction} movie={mockMovie} userID={mockUserID} />);
@@ -24,9 +24,9 @@ describe('Card', () => {
     const spy = spyOn(wrapper.instance(), 'handleFavorite');
 
     wrapper.instance().forceUpdate();
-    wrapper.find('button').simulate('click')
+    wrapper.find('button').simulate('click');
 
-    expect(spy).toHaveBeenCalled()
+    expect(spy).toHaveBeenCalled();
   });
 
   it('should set hasErrored state to true if handleFavorite is called and there is not a user', () => {
@@ -42,7 +42,7 @@ describe('Card', () => {
 
     wrapper.instance().handleFavorite();
 
-    expect(mockFunction).toHaveBeenCalled()
+    expect(mockFunction).toHaveBeenCalled();
   });
 
   it('should redirect to login page if hasErrored state is true', () => {

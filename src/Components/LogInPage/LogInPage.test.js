@@ -31,9 +31,9 @@ describe('LogInPage', () => {
         password: ''
       };
   
-      wrapper.instance().handleChange(mockEvent)
+      wrapper.instance().handleChange(mockEvent);
   
-      expect(wrapper.state()).toEqual(expectedState)
+      expect(wrapper.state()).toEqual(expectedState);
     });
   });
 
@@ -58,7 +58,7 @@ describe('LogInPage', () => {
 
   describe('HANDLE_SUBMIT', () => {
     let mockPostUser;
-    let mockFetchUser
+    let mockFetchUser;
     let wrapper;
 
     beforeEach(() => {
@@ -75,8 +75,8 @@ describe('LogInPage', () => {
     });
 
     it('should call postUser with the correct params if formState state is "create-user"', async () => {
-      let expected = wrapper.state()
-      expect(wrapper.state('formState')).toBe('create-user')
+      let expected = wrapper.state();
+      expect(wrapper.state('formState')).toBe('create-user');
 
       await wrapper.instance().handleSubmit({preventDefault: jest.fn()});
 
@@ -84,7 +84,7 @@ describe('LogInPage', () => {
     });
 
     it('should call fetchUser with the correct params if fomrState state is "log-in"', async () => {
-      let expected = {email: 'coolGuy@aol.com', password: 'secretlyNotCool'}
+      let expected = {email: 'coolGuy@aol.com', password: 'secretlyNotCool'};
       wrapper.setState({
         userLoggedIn: false,
         errorMessage: '',
@@ -96,7 +96,7 @@ describe('LogInPage', () => {
 
       await wrapper.instance().handleSubmit({preventDefault: jest.fn()});
 
-      expect(mockFetchUser).toHaveBeenCalledWith(expected)
+      expect(mockFetchUser).toHaveBeenCalledWith(expected);
     });
 
     it('should call handleSubmit on form submit', () => {
@@ -104,9 +104,9 @@ describe('LogInPage', () => {
       const spy = spyOn(wrapper.instance(), 'handleSubmit');
       wrapper.instance().forceUpdate();
 
-      wrapper.find('form').simulate('submit')
+      wrapper.find('form').simulate('submit');
 
-      expect(spy).toHaveBeenCalled()
+      expect(spy).toHaveBeenCalled();
     });
   });
 
@@ -114,22 +114,22 @@ describe('LogInPage', () => {
     expect(wrapper.find('Redirect').length).toBe(0);
 
     wrapper = shallow(<LogInPage userHasErrored={false, ''} postUser={jest.fn} fetchUser={jest.fn}/>);
-    wrapper.setState({userLoggedIn: true})
+    wrapper.setState({userLoggedIn: true});
 
     expect(wrapper.find('Redirect').length).toBe(1);
   });
 
   it('should render 3 inputs when Create Account button is clicked', () => {
 
-    wrapper.find('button.create-user').simulate('click')
+    wrapper.find('button.create-user').simulate('click');
 
-    expect(wrapper.find('input').length).toEqual(3)
+    expect(wrapper.find('input').length).toEqual(3);
   });
 
   it('should render 2 inputs when Log In button is clicked', () => {
 
-    wrapper.find('button.log-in').simulate('click')
+    wrapper.find('button.log-in').simulate('click');
 
-    expect(wrapper.find('input').length).toEqual(2)
+    expect(wrapper.find('input').length).toEqual(2);
   });
 });

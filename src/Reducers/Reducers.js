@@ -8,6 +8,7 @@ export const movies = (state = [], action) => {
 };
 
 export const user = (state = {}, action) => {
+  let newState;
   switch (action.type) {
     case 'CREATE_USER' :
       return {...state, 
@@ -20,7 +21,7 @@ export const user = (state = {}, action) => {
     case 'ADD_USER_FAVORITE' :
       return {...state, favorites: [...state.favorites, action.movie]};
     case 'REMOVE_USER_FAVORITE' :
-      const newState = {...state, favorites: state.favorites.filter(currentMovie => currentMovie.movie_id !== action.movie_id)};
+      newState = {...state, favorites: state.favorites.filter(currentMovie => currentMovie.movie_id !== action.movie_id)};
       return newState;
     case 'USER_LOGGED_OUT' :
       return {};
@@ -39,7 +40,7 @@ export const userErrorReceived = (state = {userHasErrored: false, error: ''}, ac
     default:
       return state;
   }
-}
+};
 
 
 
