@@ -18,12 +18,6 @@ class Card extends Component {
     } else {
       this.props.addUserFavorite(this.props.movie, this.props.userID);
     } 
-    // else {
-    //   const removeFav = this.props.user.favorites.filter(card => {
-    //     return card.title !== card.title;
-    //   });
-    //   this.setState({ favorites: removeFav });
-    // }
   };
 
   render () {
@@ -32,9 +26,7 @@ class Card extends Component {
         <Redirect to='/login' /> :
         <div></div>;
 
-      // const toggleFav = this.props.user.favorites ?
-      // <button>Delete</button> :
-      //<button>Favorites </button>
+    
     return (
       <div className='flip-container'>
         {errorRedirect}

@@ -65,7 +65,7 @@ class LogInPage extends Component {
           }
           <input className='input' type='text' name='email' onChange={this.handleChange} placeholder='Enter your email' value={this.state.email}/>
           <input className='input' type='password' name='password' onChange={this.handleChange} placeholder='Enter a password' value={this.state.password} />
-          <button className='button' type='submit'> Submit </button>
+          <button className='submit-btn' type='submit'> Submit </button>
           <p>{this.props.userHasErrored.error}</p>
           {loggedInRedirect}
         </form>

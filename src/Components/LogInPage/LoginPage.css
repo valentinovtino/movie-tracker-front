@@ -3,17 +3,48 @@
     font-size: small;
     border-left: 2px solid red;
     margin-left: 5px; 
-    
+    height: 21px;
+    width: 205px;
 }
 
 .button {
     border: 1px solid white;
+    font-size: large;
     color: white;
     background-color: transparent;
+    font-family: 'Hammersmith One', sans-serif;
+    padding: 4px;
+}
+
+.log-out-button {
+    font-size: large;
+    color: white;
+    background-color: transparent;
+    font-family: 'Hammersmith One', sans-serif;
+    padding: 4px;
+    border: none;
+    margin-left: 66px;
+    border-bottom: 1px solid white;
+}
+
+.log-out-button:hover {
+    color: red;
+}
+
+.submit-btn {
+    border: none;
+    font-size: large;
+    color: white;
+    background-color: transparent;
+    font-family: 'Hammersmith One', sans-serif;
+}
+
+.submit-btn:hover {
+    color: red
 }
 
 .form-request {
-    width: 23%;
+    width: 50%;
     display: flex;
     justify-content: space-evenly;
     margin: 0 auto;
@@ -21,13 +52,29 @@
 
 .create-user {
     margin-left: 10px;
+    height: 30px;
+    width: 150px;
+}
+
+.create-user:hover {
+    color: red
 }
 
 .log-in {
-    height: 50%;
+    height: 30px;
+    width: 150px;
+}
+
+.log-in:hover {
+    color: red
 }
 
 .form-container {
-    margin-top: 5px;
+    margin-top: 30px;
+}
+
+.form-container:hover {
+        color: red
+    
 }
 

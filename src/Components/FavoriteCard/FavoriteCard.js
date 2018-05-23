@@ -12,12 +12,6 @@ class FavoriteCard extends Component {
   }
 
   handleFavorite = () => {
-    // console.log(this.props)
-    // if (!this.props.user_ID) {
-    //   this.setState({ hasErrored: true })
-    // } else {
-    //   this.props.removeUserFavorite(this.props.movie, this.props.userID);
-    // }
     this.props.removeUserFavorite(this.props.movie, this.props.movie.user_id)
   };
 

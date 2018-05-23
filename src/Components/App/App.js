@@ -27,7 +27,7 @@ class App extends Component {
   
   render() {
     const userLoggedIn = this.props.user.name ? 
-      <button className='log-out-button button' onClick={this.props.userLoggedOut}>Log Out</button> : 
+      <button className='log-out-button' onClick={this.props.userLoggedOut}>Log Out</button> : 
       <NavLink className='log-in-button nav-btn' to='/login'>Log in</NavLink>
     return (
       <div className="App">
