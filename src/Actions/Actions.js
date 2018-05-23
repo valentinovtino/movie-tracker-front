@@ -86,7 +86,7 @@ export const addFavorite = (movie, user_id) => {
       const movieBody = {
         movie_id: movie.id,
         title: movie.title,
-        poster_path: movie.posterPath,
+        poster_path: movie.poster_path,
         release_date: movie.releaseData,
         vote_average: movie.averageRating,
         overview: movie.overview, 
