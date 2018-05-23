@@ -20,12 +20,10 @@ describe('App', () => {
     wrapper = shallow(<App user={{name: 'elvis'}} storeMovies={mockStoreMovies} userLoggedOut={mockUserLoggedOut}/>, {disableLifecycleMethods: true})
 
     expect(wrapper.find('.log-out-button').length).toEqual(1);
-    expect(wrapper.find('.log-in-button').length).toEqual(0);
   });
 
   it('should render Log In button if there is no user', () => {
-    expect(wrapper.find('.log-in-button').length).toEqual(1);
-    expect(wrapper.find('.log-out-button').length).toEqual(0);
+    expect(wrapper.find('.log-in-button').length).toEqual(2);
   });
 
   it('should call userLoggedOut callback when button is clicked', () => {
